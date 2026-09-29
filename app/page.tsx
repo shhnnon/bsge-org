@@ -1,72 +1,209 @@
-import Link from "next/link";
 import Image from "next/image";
-import { site, heroLinks, referenceFiles, areas, embedPdf } from "@/data/content";
+import Link from "next/link";
+import {
+  ArrowUpRight,
+  BookOpen,
+  ChevronDown,
+  FolderCheck,
+  FolderOpen,
+  UsersRound,
+} from "lucide-react";
+import {
+  site,
+  heroLinks,
+  referenceFiles,
+  areas,
+  embedPdf,
+  quickLinks,
+} from "@/data/content";
+
+const icons = {
+  book: BookOpen,
+  users: UsersRound,
+  folder: FolderOpen,
+  folderCheck: FolderCheck,
+};
 
 export default function Home() {
   return (
-    <main className="bg-white text-slate-900">
-      <section className="relative flex min-h-screen items-center justify-center overflow-hidden text-center text-white">
-        <video autoPlay loop muted playsInline className="absolute inset-0 h-full w-full object-cover">
+    <main className="site-shell">
+      <header className="site-header">
+        <div className="site-header-inner">
+          <Image
+            src="/logo.png"
+            alt="Batangas State University logo"
+            width={68}
+            height={68}
+            className="site-header-logo"
+            priority
+          />
+          <div>
+            <p className="site-header-title">{site.headerTitle}</p>
+            <p className="site-header-subtitle">BSGE - {site.headerSubtitle}</p>
+          </div>
+        </div>
+      </header>
+
+      <section className="hero">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="hero-media"
+          aria-hidden="true"
+        >
           <source src="/hero.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-black/60" />
-        <div className="relative z-10 flex flex-col items-center gap-3 px-6">
-          <Image src="/logo.png" alt={`${site.orgShort} logo`} width={140} height={140} priority />
-          <h1 className="text-3xl font-bold md:text-5xl">{site.university}</h1>
-          <p className="text-lg">{site.tagline}</p>
-          <p className="text-sm text-white/80">CICS - {site.campus}</p>
-          <p className="mt-2 text-sm text-white/80">{site.mottos.join(" · ")}</p>
-          <p className="mt-6 text-xl">{site.programLine}</p>
-          <h2 className="text-4xl font-bold md:text-6xl">{site.program}</h2>
-          <div className="mt-6 flex flex-wrap justify-center gap-3">
-            {heroLinks.map((l) => (
-              <Link key={l.label} href={l.href} className="rounded-full bg-red-700 px-6 py-2 font-medium hover:bg-red-800">
-                {l.label}
-              </Link>
+        <div className="hero-wash" />
+
+        <div className="hero-content">
+          <div className="hero-brand">
+            <Image
+              src="/logo.png"
+              alt={site.university + " logo"}
+              width={210}
+              height={210}
+              className="hero-logo"
+            />
+          </div>
+
+          <div className="hero-university">
+            <h1>{site.university}</h1>
+            <p className="hero-tagline">{site.tagline}</p>
+            <p className="hero-campus">BSGE - {site.campus}</p>
+          </div>
+
+          <div className="hero-mottos" aria-label="University mottos">
+            {site.mottos.map((motto) => (
+              <p key={motto}>{motto}</p>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-6 py-16">
-        <h2 className="text-2xl font-bold">Reference Files</h2>
-        <ul className="mt-4 divide-y border-y">
-          {referenceFiles.map((f) => (
-            <li key={f.label}>
-              <a href={f.href} target="_blank" rel="noreferrer" className="block py-3 hover:text-red-700">
-                {f.label}
-              </a>
-            </li>
+      <section className="program-section">
+        <div className="section-heading">
+          <p className="eyebrow">{site.programLine}</p>
+          <h2>{site.program}</h2>
+        </div>
+
+        <div className="quick-grid">
+          {quickLinks.map((item) => {
+            const Icon = icons[item.icon as keyof typeof icons];
+            const content = (
+              <>
+                <span className="quick-icon">
+                  <Icon size={24} strokeWidth={1.8} />
+                </span>
+                <h3>{item.title}</h3>
+                <p>{item.subtitle}</p>
+                {item.dropdown ? (
+                  <span className="quick-chevron">
+                    <ChevronDown size={14} />
+                  </span>
+                ) : null}
+              </>
+            );
+
+            return item.href ? (
+              <Link key={item.title} href={item.href} className="quick-card">
+                {content}
+              </Link>
+            ) : (
+              <div key={item.title} className="quick-card quick-card-static">
+                {content}
+                <div className="quick-dropdown">
+                  {referenceFiles.map((file) => (
+                    <a
+                      key={file.label}
+                      href={file.href}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {file.label}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      <div className="red-divider" />
+
+      <section className="areas-section">
+        <div className="section-heading areas-heading">
+          <p className="eyebrow">BSGE ORGANIZATION</p>
+          <h2>{site.orgShort} Program Areas</h2>
+          <p>
+            Explore the key areas of the Bachelor of Science in Geodetic
+            Engineering program and organization.
+          </p>
+        </div>
+
+        <div className="areas-grid">
+          {areas.map((area, index) => (
+            <Link
+              key={area.id}
+              href={`/area/${area.id}`}
+              className="area-card"
+            >
+              <span className="area-number">{index + 1}</span>
+              <h3>{area.title}</h3>
+              <p>{area.summary}</p>
+              <span className="read-more">
+                Read more <ArrowUpRight size={13} />
+              </span>
+            </Link>
           ))}
-        </ul>
-      </section>
+        </div>
 
-      <section className="bg-slate-50 px-6 py-16">
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-2xl font-bold">Explore {site.orgShort}</h2>
-          <div className="mt-6 grid gap-6 md:grid-cols-3">
-            {areas.map((a) => (
-              <Link key={a.id} href={`/area/${a.id}`} className="rounded-xl border bg-white p-6 transition hover:border-red-700 hover:shadow">
-                <h3 className="text-lg font-semibold">{a.title}</h3>
-                <p className="mt-2 text-sm text-slate-600">{a.summary}</p>
-                <span className="mt-4 inline-block text-sm font-medium text-red-700">Read more</span>
-              </Link>
-            ))}
+        <div className="university-card">
+          <div className="university-card-copy">
+            <Image
+              src="/logo.png"
+              alt=""
+              width={96}
+              height={96}
+              className="university-card-logo"
+            />
+            <h3>{site.university}</h3>
+            <strong>{site.tagline}</strong>
+            <p>
+              Welcome to the BSGE community at {site.campus}. Explore program
+              information, activities, resources, and organizational updates.
+            </p>
+          </div>
+
+          <div className="university-video">
+            <video controls playsInline preload="metadata">
+              <source src="/hero.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
+
+        {embedPdf ? (
+          <div className="embedded-document">
+            <iframe
+              src={embedPdf}
+              title="BSGE reference document"
+              className="h-[600px] w-full rounded-xl border-0"
+            />
+          </div>
+        ) : null}
       </section>
 
-      {embedPdf && (
-        <section className="mx-auto max-w-4xl px-6 py-16">
-          <iframe src={embedPdf} className="h-[600px] w-full rounded-lg border" />
-        </section>
-      )}
-
-      <footer className="bg-slate-900 px-6 py-10 text-center text-sm text-white/80">
-        <a href={site.universityUrl} className="font-semibold text-white">{site.university}</a>
-        <p className="mt-1">
-          For queries and assistance:{" "}
-          <a href={`mailto:${site.email}`} className="underline">{site.email}</a>
+      <footer className="site-footer">
+        <div>
+          <p className="footer-program">{site.programLine}</p>
+          <h2>{site.program}</h2>
+        </div>
+        <p>
+          <em>For queries and/or assistance:</em>
+          <br />
+          <a href={`mailto:${site.email}`}>{site.email}</a>
         </p>
       </footer>
     </main>
