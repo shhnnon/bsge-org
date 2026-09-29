@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --red: #d40000;
-  --red-dark: #b91c1c;
-  --ink: #172033;
-  --muted: #647084;
-  --soft: #fff7f7;
-  --border: #e7e7e7;
+  --green: #087f5b;
+  --green-dark: #056044;
+  --yellow: #f4b942;
+  --ink: #18332b;
+  --muted: #61746d;
+  --soft: #f4faf7;
+  --border: #dcebe4;
 }
 
 * { box-sizing: border-box; }
@@ -83,7 +84,10 @@ a { color: inherit; text-decoration: none; }
 
 .hero-media { object-fit: cover; }
 
-.hero-wash { background: rgba(255, 255, 255, 0.66); }
+.hero-wash {
+  background:
+    linear-gradient(115deg, rgba(255,255,255,.78), rgba(247,253,250,.62) 48%, rgba(255,214,116,.35));
+}
 
 .hero-content {
   position: relative;
@@ -116,7 +120,7 @@ a { color: inherit; text-decoration: none; }
 
 .hero-tagline {
   margin: 10px 0 0;
-  color: #e31b1b;
+  color: #087f5b;
   font-size: clamp(1.1rem, 2vw, 1.65rem);
   font-weight: 700;
 }
@@ -134,16 +138,33 @@ a { color: inherit; text-decoration: none; }
 
 .hero-mottos p {
   margin: 0 0 8px;
-  color: #e10b0b;
+  position: relative;
+  padding-left: 18px;
+  color: #087f5b;
   font-size: clamp(1.1rem, 2vw, 1.7rem);
   font-weight: 700;
   line-height: 1.15;
 }
+.hero-mottos p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .38em;
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  background: var(--yellow);
+  transform: rotate(45deg);
+}
 
 .program-section,
 .areas-section {
-  padding: 58px 24px;
-  background: var(--soft);
+  position: relative;
+  padding: 68px 24px;
+  background:
+    radial-gradient(circle at 8% 12%, rgba(244,185,66,.16), transparent 22rem),
+    radial-gradient(circle at 92% 88%, rgba(8,127,91,.12), transparent 24rem),
+    var(--soft);
 }
 
 .section-heading {
@@ -154,7 +175,7 @@ a { color: inherit; text-decoration: none; }
 
 .eyebrow {
   margin: 0 0 3px;
-  color: var(--red);
+  color: var(--green);
   font-size: 0.55rem;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -163,7 +184,7 @@ a { color: inherit; text-decoration: none; }
 
 .section-heading h2 {
   margin: 0;
-  color: #c90000;
+  color: #087f5b;
   font-size: clamp(1.35rem, 2.3vw, 1.8rem);
   line-height: 1.2;
 }
@@ -178,7 +199,7 @@ a { color: inherit; text-decoration: none; }
 
 .quick-card {
   position: relative;
-  min-height: 124px;
+  min-height: 138px;
   padding: 18px 20px;
   display: flex;
   flex-direction: column;
@@ -186,15 +207,27 @@ a { color: inherit; text-decoration: none; }
   justify-content: center;
   text-align: center;
   border: 1px solid var(--border);
-  border-radius: 9px;
-  background: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 22px 8px 22px 8px;
+  background: rgba(255,255,255,.96);
+  box-shadow: 0 10px 26px rgba(8, 76, 54, .08);
+  overflow: hidden;
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
+.quick-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+  height: 5px;
+  background: linear-gradient(90deg, var(--green), var(--yellow));
+  border-radius: 0 8px 0 0;
+}
+
 .quick-card:hover {
-  transform: translateY(-2px);
-  border-color: #f0b3b3;
+  transform: translateY(-5px);
+  border-color: #a8d9c5;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
 }
 
@@ -202,7 +235,7 @@ a { color: inherit; text-decoration: none; }
 
 .quick-icon {
   margin-bottom: 9px;
-  color: var(--red);
+  color: var(--green);
 }
 
 .quick-card h3 {
@@ -220,7 +253,7 @@ a { color: inherit; text-decoration: none; }
 
 .quick-chevron {
   margin-top: 2px;
-  color: var(--red);
+  color: var(--green);
 }
 
 .quick-dropdown {
@@ -249,13 +282,13 @@ a { color: inherit; text-decoration: none; }
 }
 
 .quick-dropdown a:hover {
-  color: var(--red);
-  background: #fff6f6;
+  color: var(--green);
+  background: #eef9f4;
 }
 
 .red-divider {
-  height: 30px;
-  background: #c73939;
+  height: 14px;
+  background: linear-gradient(90deg, var(--green-dark), var(--green), var(--yellow), var(--green));
 }
 
 .areas-section { padding-top: 34px; }
@@ -280,11 +313,12 @@ a { color: inherit; text-decoration: none; }
 
 .area-card {
   position: relative;
-  min-height: 156px;
-  padding: 17px 18px;
-  border-radius: 7px;
+  min-height: 172px;
+  padding: 20px 20px 18px;
+  border: 1px solid rgba(8,127,91,.10);
+  border-radius: 16px 5px 16px 5px;
   background: #fff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 8px 22px rgba(8, 76, 54, .08);
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
@@ -295,14 +329,15 @@ a { color: inherit; text-decoration: none; }
 
 .area-number {
   position: absolute;
-  top: 9px;
-  right: 10px;
-  width: 25px;
-  height: 25px;
+  top: 13px;
+  right: 13px;
+  min-width: 30px;
+  height: 30px;
+  padding: 0 7px;
   display: grid;
   place-items: center;
-  border-radius: 999px;
-  background: #ed0712;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--green), var(--green-dark));
   color: #fff;
   font-size: 0.68rem;
   font-weight: 700;
@@ -332,12 +367,13 @@ a { color: inherit; text-decoration: none; }
   display: inline-flex;
   align-items: center;
   gap: 2px;
-  color: var(--red);
+  color: var(--green);
   font-size: 0.61rem;
   font-weight: 600;
 }
 
 .university-card {
+  position: relative;
   width: min(100%, 1080px);
   margin: 28px auto 0;
   padding: 22px 28px;
@@ -345,9 +381,10 @@ a { color: inherit; text-decoration: none; }
   grid-template-columns: 1fr 0.72fr;
   gap: 38px;
   align-items: center;
-  border-radius: 9px;
-  background: #fff;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.11);
+  border: 1px solid rgba(8,127,91,.12);
+  border-radius: 28px 8px 28px 8px;
+  background: linear-gradient(135deg, #ffffff, #f4fbf8);
+  box-shadow: 0 12px 30px rgba(8, 76, 54, .10);
 }
 
 .university-card-logo {
@@ -358,7 +395,7 @@ a { color: inherit; text-decoration: none; }
 
 .university-card-copy h3 {
   margin: 7px 0 4px;
-  color: var(--red);
+  color: var(--green);
   font-size: 0.85rem;
 }
 
@@ -400,13 +437,13 @@ a { color: inherit; text-decoration: none; }
 }
 
 .site-footer {
-  min-height: 110px;
+  min-height: 125px;
   padding: 24px max(24px, calc((100% - 1080px) / 2));
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
-  background: #c73939;
+  background: linear-gradient(120deg, var(--green-dark), var(--green) 55%, #d9a52f);
   color: #fff;
 }
 
