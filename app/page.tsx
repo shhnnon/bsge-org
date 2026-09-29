@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowUpRight,
@@ -10,11 +9,10 @@ import {
 } from "lucide-react";
 import {
   site,
-  heroLinks,
+  quickLinks,
   referenceFiles,
   areas,
   embedPdf,
-  quickLinks,
 } from "@/data/content";
 
 const icons = {
@@ -29,49 +27,42 @@ export default function Home() {
     <main className="site-shell">
       <header className="site-header">
         <div className="site-header-inner">
-          <Image
-            src="/bsge-logo.webp"
+          <img
+            src="/favicon.ico"
             alt="Batangas State University logo"
-            width={68}
-            height={68}
             className="site-header-logo"
-            priority
           />
           <div>
-            <p className="site-header-title">{site.headerTitle}</p>
-            <p className="site-header-subtitle">BSGE - {site.headerSubtitle}</p>
+            <p className="site-header-title">BSGE</p>
+            <p className="site-header-subtitle">Geodetic Engineering - Alangilan Campus</p>
           </div>
         </div>
       </header>
 
       <section className="hero">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="hero-media"
-          aria-hidden="true"
-        >
-          <source src="/hero.mp4" type="video/mp4" />
-        </video>
-        <div className="hero-wash" />
+        <div className="hero-shape hero-shape-one" />
+        <div className="hero-shape hero-shape-two" />
+        <div className="hero-grid-pattern" />
 
         <div className="hero-content">
           <div className="hero-brand">
-            <Image
-              src="/bsge-logo.webp"
+            <img
+              src="/favicon.ico"
               alt={site.university + " logo"}
-              width={210}
-              height={210}
               className="hero-logo"
             />
           </div>
 
           <div className="hero-university">
+            <p className="hero-kicker">BACHELOR OF SCIENCE IN GEODETIC ENGINEERING</p>
             <h1>{site.university}</h1>
             <p className="hero-tagline">{site.tagline}</p>
-            <p className="hero-campus">BSGE - {site.campus}</p>
+            <p className="hero-campus">{site.campus} Campus</p>
+            <span className="hero-line" />
+            <p className="hero-intro">
+              Building future-ready geodetic engineers through innovation,
+              precision, and service.
+            </p>
           </div>
 
           <div className="hero-mottos" aria-label="University mottos">
@@ -145,11 +136,7 @@ export default function Home() {
 
         <div className="areas-grid">
           {areas.map((area, index) => (
-            <Link
-              key={area.id}
-              href={`/area/${area.id}`}
-              className="area-card"
-            >
+            <Link key={area.id} href={`/area/${area.id}`} className="area-card">
               <span className="area-number">{index + 1}</span>
               <h3>{area.title}</h3>
               <p>{area.summary}</p>
@@ -162,11 +149,9 @@ export default function Home() {
 
         <div className="university-card">
           <div className="university-card-copy">
-            <Image
-              src="/bsge-logo.webp"
+            <img
+              src="/favicon.ico"
               alt=""
-              width={96}
-              height={96}
               className="university-card-logo"
             />
             <h3>{site.university}</h3>
@@ -177,10 +162,9 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="university-video">
-            <video controls playsInline preload="metadata">
-              <source src="/hero.mp4" type="video/mp4" />
-            </video>
+          <div className="university-card-accent">
+            <span>BSGE</span>
+            <small>Alangilan Campus</small>
           </div>
         </div>
 
