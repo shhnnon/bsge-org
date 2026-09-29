@@ -54,7 +54,7 @@ export default function Home() {
             <p className="hero-institution">The National Engineering University</p>
             <p className="hero-campus">Alangilan Campus</p>
             <span className="hero-line" />
-            <h1>Bachelor of Science in Geodetic Engineering</h1>
+            <h1>Bachelor of Science<br />in Geodetic Engineering</h1>
           </div>
 
           <div className="hero-mottos" aria-label="University principles">
