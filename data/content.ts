@@ -1,8 +1,10 @@
 export const site = {
+     headerTitle: "Geodetic Engineering",
+   headerSubtitle: "Alangilan Campus",
   orgShort: "BSGE",
   university: "BATANGAS STATE UNIVERSITY",
   tagline: "The National Engineering University",
-  campus: "Mabini Campus",
+  campus: "Alangilan Campus",
   programLine: "Bachelor of Science in",
   program: "Geodetic Engineering", 
   mottos: ["Leading Innovation", "Transforming Lives", "Building The Nation"],
@@ -59,3 +61,10 @@ export const activities = [
 
 // Optional: paste a Google Drive PDF preview link (must end in /preview), or leave ""
 export const embedPdf = "";
+// The 4 cards. icon can be: book, users, folder, folderCheck
+export const quickLinks = [
+  { title: "Program of Activities", subtitle: "General Information", href: "/activity", icon: "book" },
+  { title: "Directory of Officers", subtitle: "General Information", href: "#", icon: "users" },
+  { title: "Reference Files", subtitle: "Resources", icon: "folder", dropdown: true },
+  { title: "Additional Documents", subtitle: "Provided Documents", href: "#", icon: "folderCheck" },
+];
