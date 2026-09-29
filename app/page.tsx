@@ -177,7 +177,8 @@ export default function Home() {
 
       <footer className="site-footer">
         <div className="footer-mark">
-          <span>Bachelor of Science<br />in Geodetic Engineering</span>
+          <span>Bachelor of Science in</span>
+          <strong>Geodetic Engineering</strong>
         </div>
         <div className="footer-contact">
           <span>FOR QUERIES AND/OR ASSISTANCE:</span>
