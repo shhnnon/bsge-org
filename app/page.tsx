@@ -40,35 +40,18 @@ export default function Home() {
       </header>
 
       <section className="hero">
-        <div className="hero-grid-pattern" />
-        <div className="hero-orbit hero-orbit-one" />
-        <div className="hero-orbit hero-orbit-two" />
-
         <div className="hero-content">
-          <div className="hero-brand">
+          <div className="hero-university">
             <img
               src="/bsge-logo.png"
               alt="BSGE logo"
               className="hero-logo"
             />
-          </div>
-
-          <div className="hero-university">
             <p className="hero-kicker">BATANGAS STATE UNIVERSITY</p>
-            <h1>Bachelor of Science in Geodetic Engineering</h1>
-            <p className="hero-tagline">{site.tagline}</p>
-            <p className="hero-campus">{site.campus}</p>
+            <p className="hero-institution">The National Engineering University</p>
+            <p className="hero-campus">Alangilan Campus</p>
             <span className="hero-line" />
-            <p className="hero-intro">
-              Precision, mapping, measurement, and innovation for the next
-              generation of geodetic engineers.
-            </p>
-          </div>
-
-          <div className="hero-mottos" aria-label="University mottos">
-            {site.mottos.map((motto) => (
-              <p key={motto}>{motto}</p>
-            ))}
+            <h1>Bachelor of Science in Geodetic Engineering</h1>
           </div>
         </div>
       </section>
@@ -185,14 +168,14 @@ export default function Home() {
 
       <footer className="site-footer">
         <div className="footer-mark">
-          <span>BSGE</span>
-          <small>Bachelor of Science in Geodetic Engineering</small>
+          <span>Bachelor of Science<br />in Geodetic Engineering</span>
         </div>
         <div className="footer-contact">
-          <span>FOR QUESTIONS &amp; ASSISTANCE</span>
-          <a href={`mailto:${site.email}`}>{site.email}</a>
+          <span>FOR QUERIES AND/OR ASSISTANCE:</span>
+          <a href="mailto:gepsc.alangilan@g.batstate-u.edu.ph">
+            gepsc.alangilan@g.batstate-u.edu.ph
+          </a>
         </div>
-        <p className="footer-campus">Batangas State University • Alangilan</p>
       </footer>
     </main>
   );
