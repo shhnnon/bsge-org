@@ -28,40 +28,40 @@ export default function Home() {
       <header className="site-header">
         <div className="site-header-inner">
           <img
-            src="/favicon.ico"
-            alt="Batangas State University logo"
+            src="/bsge-logo.png"
+            alt="BSGE Geodetic Engineering organization logo"
             className="site-header-logo"
           />
-          <div>
+          <div className="site-header-copy">
             <p className="site-header-title">BSGE</p>
-            <p className="site-header-subtitle">Geodetic Engineering - Alangilan Campus</p>
+            <p className="site-header-subtitle">Geodetic Engineering • Alangilan</p>
           </div>
         </div>
       </header>
 
       <section className="hero">
-        <div className="hero-shape hero-shape-one" />
-        <div className="hero-shape hero-shape-two" />
         <div className="hero-grid-pattern" />
+        <div className="hero-orbit hero-orbit-one" />
+        <div className="hero-orbit hero-orbit-two" />
 
         <div className="hero-content">
           <div className="hero-brand">
             <img
-              src="/favicon.ico"
-              alt={site.university + " logo"}
+              src="/bsge-logo.png"
+              alt="BSGE logo"
               className="hero-logo"
             />
           </div>
 
           <div className="hero-university">
-            <p className="hero-kicker">BACHELOR OF SCIENCE IN GEODETIC ENGINEERING</p>
-            <h1>{site.university}</h1>
+            <p className="hero-kicker">BATANGAS STATE UNIVERSITY</p>
+            <h1>Bachelor of Science in Geodetic Engineering</h1>
             <p className="hero-tagline">{site.tagline}</p>
-            <p className="hero-campus">{site.campus} Campus</p>
+            <p className="hero-campus">{site.campus}</p>
             <span className="hero-line" />
             <p className="hero-intro">
-              Building future-ready geodetic engineers through innovation,
-              precision, and service.
+              Precision, mapping, measurement, and innovation for the next
+              generation of geodetic engineers.
             </p>
           </div>
 
@@ -122,7 +122,9 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="red-divider" />
+      <div className="green-divider">
+        <span>BSGE • ALANGILAN • PRECISION &amp; INNOVATION</span>
+      </div>
 
       <section className="areas-section">
         <div className="section-heading areas-heading">
@@ -137,7 +139,7 @@ export default function Home() {
         <div className="areas-grid">
           {areas.map((area, index) => (
             <Link key={area.id} href={`/area/${area.id}`} className="area-card">
-              <span className="area-number">{index + 1}</span>
+              <span className="area-number">{String(index + 1).padStart(2, "0")}</span>
               <h3>{area.title}</h3>
               <p>{area.summary}</p>
               <span className="read-more">
@@ -150,21 +152,23 @@ export default function Home() {
         <div className="university-card">
           <div className="university-card-copy">
             <img
-              src="/favicon.ico"
+              src="/bsge-logo.png"
               alt=""
               className="university-card-logo"
             />
-            <h3>{site.university}</h3>
-            <strong>{site.tagline}</strong>
-            <p>
-              Welcome to the BSGE community at {site.campus}. Explore program
-              information, activities, resources, and organizational updates.
-            </p>
+            <div>
+              <h3>{site.university}</h3>
+              <strong>{site.tagline}</strong>
+              <p>
+                Welcome to the BSGE community at {site.campus}. Explore program
+                information, activities, resources, and organizational updates.
+              </p>
+            </div>
           </div>
 
           <div className="university-card-accent">
-            <span>BSGE</span>
-            <small>Alangilan Campus</small>
+            <span>GEO</span>
+            <small>Measure • Map • Understand</small>
           </div>
         </div>
 
@@ -180,15 +184,15 @@ export default function Home() {
       </section>
 
       <footer className="site-footer">
-        <div>
-          <p className="footer-program">{site.programLine}</p>
-          <h2>{site.program}</h2>
+        <div className="footer-mark">
+          <span>BSGE</span>
+          <small>Bachelor of Science in Geodetic Engineering</small>
         </div>
-        <p>
-          <em>For queries and/or assistance:</em>
-          <br />
+        <div className="footer-contact">
+          <span>FOR QUESTIONS &amp; ASSISTANCE</span>
           <a href={`mailto:${site.email}`}>{site.email}</a>
-        </p>
+        </div>
+        <p className="footer-campus">Batangas State University • Alangilan</p>
       </footer>
     </main>
   );
