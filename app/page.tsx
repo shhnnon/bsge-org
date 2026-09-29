@@ -28,30 +28,39 @@ export default function Home() {
       <header className="site-header">
         <div className="site-header-inner">
           <img
-            src="/bsge-logo.png"
-            alt="BSGE Geodetic Engineering organization logo"
+            src="/batstateu.svg"
+            alt="Batangas State University logo"
             className="site-header-logo"
           />
           <div className="site-header-copy">
-            <p className="site-header-title">BSGE</p>
-            <p className="site-header-subtitle">Geodetic Engineering • Alangilan</p>
+            <p className="site-header-title">Geodetic Engineering</p>
+            <p className="site-header-subtitle">BSGE - Alangilan Campus</p>
           </div>
         </div>
       </header>
 
       <section className="hero">
         <div className="hero-content">
-          <div className="hero-university">
+          <div className="hero-logo-side">
             <img
-              src="/bsge-logo.png"
-              alt="BSGE logo"
+              src="/gep-batstateu-sc.svg"
+              alt="Geodetic Engineers of the Philippines - Batangas State University Student Chapter logo"
               className="hero-logo"
             />
+          </div>
+
+          <div className="hero-center">
             <p className="hero-kicker">BATANGAS STATE UNIVERSITY</p>
             <p className="hero-institution">The National Engineering University</p>
             <p className="hero-campus">Alangilan Campus</p>
             <span className="hero-line" />
             <h1>Bachelor of Science in Geodetic Engineering</h1>
+          </div>
+
+          <div className="hero-mottos" aria-label="University principles">
+            <p>Leading Innovation</p>
+            <p>Transforming Lives</p>
+            <p>Building The Nation</p>
           </div>
         </div>
       </section>
@@ -135,8 +144,8 @@ export default function Home() {
         <div className="university-card">
           <div className="university-card-copy">
             <img
-              src="/bsge-logo.png"
-              alt=""
+              src="/batstateu.svg"
+              alt="Batangas State University"
               className="university-card-logo"
             />
             <div>
