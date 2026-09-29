@@ -30,7 +30,7 @@ export default function Home() {
       <header className="site-header">
         <div className="site-header-inner">
           <Image
-            src="/logo.png"
+            src="/bsge-logo.webp"
             alt="Batangas State University logo"
             width={68}
             height={68}
@@ -60,7 +60,7 @@ export default function Home() {
         <div className="hero-content">
           <div className="hero-brand">
             <Image
-              src="/logo.png"
+              src="/bsge-logo.webp"
               alt={site.university + " logo"}
               width={210}
               height={210}
@@ -163,7 +163,7 @@ export default function Home() {
         <div className="university-card">
           <div className="university-card-copy">
             <Image
-              src="/logo.png"
+              src="/bsge-logo.webp"
               alt=""
               width={96}
               height={96}
