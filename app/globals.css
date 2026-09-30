@@ -422,29 +422,23 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.6;
 }
 
-.university-card-accent {
+.university-card-video {
+  position: relative;
+  width: 100%;
   min-height: 175px;
-  display: grid;
-  place-items: center;
-  align-content: center;
+  overflow: hidden;
   border-radius: 22px;
-  background: linear-gradient(135deg,var(--green-dark),var(--green),#a9822d);
-  color: #fff;
+  background: #0b2f25;
+  box-shadow: 0 8px 20px rgba(8,76,54,.12);
+  aspect-ratio: 16 / 9;
 }
 
-.university-card-accent span {
-  font-size: 3.4rem;
-  font-weight: 900;
-  letter-spacing: .08em;
-}
-
-.university-card-accent small {
-  margin-top: 6px;
-  color: #ffe6a0;
-  font-size: .72rem;
-  font-weight: 700;
-  letter-spacing: .08em;
-  text-transform: uppercase;
+.university-card-video iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 175px;
+  display: block;
+  border: 0;
 }
 
 .embedded-document {
@@ -515,7 +509,8 @@ a { color: inherit; text-decoration: none; }
   .university-card { grid-template-columns: 1fr; gap: 22px; padding: 24px; }
   .university-card-copy { align-items: flex-start; }
   .university-card-logo { width: 76px; height: 76px; }
-  .university-card-accent { min-height: 145px; }
+  .university-card-video { min-height: 145px; }
+  .university-card-video iframe { min-height: 145px; }
   .site-footer { min-height: 0; padding: 24px 20px 22px; }
   .footer-contact a { overflow-wrap: anywhere; }
 }
