@@ -84,7 +84,7 @@ export default async function Area({
                               allow="autoplay"
                             />
                             <a
-                              href={resource.href.replace("/preview", "/view")}
+                              href={(resource.href ?? "").replace("/preview", "/view")}
                               target="_blank"
                               rel="noopener noreferrer"
                             >
