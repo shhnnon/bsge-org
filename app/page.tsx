@@ -116,7 +116,7 @@ export default function Home() {
 
       <div className="green-divider" aria-hidden="true" />
 
-      <section className="areas-section">
+      <section id="areas" className="areas-section">
         <div className="section-heading areas-heading">
           <p className="eyebrow">BSGE ORGANIZATION</p>
           <h2>{site.orgShort} Program Areas</h2>
