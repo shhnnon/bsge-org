@@ -3,6 +3,14 @@ import { ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import { notFound } from "next/navigation";
 import { areas } from "@/data/content";
 
+const defaultParameters = [
+  { letter: "A", title: "Program Inputs and Processes" },
+  { letter: "B", title: "Implementation" },
+  { letter: "C", title: "Outcomes" },
+  { letter: "D", title: "Quality Assurance and Improvement" },
+  { letter: "E", title: "Monitoring and Evaluation" },
+];
+
 export function generateStaticParams() {
   return areas.map((a) => ({ id: String(a.id) }));
 }
@@ -18,6 +26,16 @@ export default async function Area({
   if (!area) notFound();
 
   const next = areas.find((a) => a.id === area.id + 1);
+  const parameters = "parameters" in area && area.parameters
+    ? area.parameters
+    : defaultParameters.map((parameter) => ({
+        ...parameter,
+        items: [
+          "System. Inputs and Processes",
+          "Implementation",
+          "Outcomes",
+        ],
+      }));
 
   return (
     <main className="area-page">
@@ -97,41 +115,39 @@ export default async function Area({
           </aside>
         </div>
 
-        {"parameters" in area && area.parameters ? (
-          <section className="aaccup-parameters" aria-labelledby="aaccup-parameters-title">
-            <div className="aaccup-parameters-heading">
-              <div>
-                <span className="aaccup-eyebrow">AACCUP-ALIGNED STRUCTURE</span>
-                <h2 id="aaccup-parameters-title">Parameters</h2>
-              </div>
-              <p>Organized by parameter, with the three assessment components shown in the reference layout.</p>
+        <section className="aaccup-parameters" aria-labelledby="aaccup-parameters-title">
+          <div className="aaccup-parameters-heading">
+            <div>
+              <span className="aaccup-eyebrow">AACCUP-ALIGNED STRUCTURE</span>
+              <h2 id="aaccup-parameters-title">Parameters</h2>
             </div>
+            <p>Each program area follows the same parameter-card presentation for easier accreditation document navigation.</p>
+          </div>
 
-            <div className="parameter-grid">
-              {area.parameters.map((parameter) => (
-                <article key={parameter.letter} className="parameter-card">
-                  <div className="parameter-title">
-                    <span className="parameter-letter">PARAMETER {parameter.letter}</span>
-                    <h3>{parameter.title}</h3>
-                  </div>
+          <div className="parameter-grid">
+            {parameters.map((parameter) => (
+              <article key={parameter.letter} className="parameter-card">
+                <div className="parameter-title">
+                  <span className="parameter-letter">PARAMETER {parameter.letter}</span>
+                  <h3>{parameter.title}</h3>
+                </div>
 
-                  <ol className="parameter-items">
-                    {parameter.items.map((item, index) => {
-                      const [label, description] = item.split(". ", 2);
-                      return (
-                        <li key={item}>
-                          <span>{index + 1}.</span>
-                          <strong>{label}</strong>
-                          <em>{description}</em>
-                        </li>
-                      );
-                    })}
-                  </ol>
-                </article>
-              ))}
-            </div>
-          </section>
-        ) : null}
+                <ol className="parameter-items">
+                  {parameter.items.map((item, index) => {
+                    const [label, description] = item.split(". ", 2);
+                    return (
+                      <li key={item}>
+                        <span>{index + 1}.</span>
+                        <strong>{label}</strong>
+                        <em>{description}</em>
+                      </li>
+                    );
+                  })}
+                </ol>
+              </article>
+            ))}
+          </div>
+        </section>
 
         <div className="area-highlight">
           <div>
