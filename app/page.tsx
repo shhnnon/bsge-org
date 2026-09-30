@@ -123,9 +123,14 @@ export default function Home() {
               <p>Welcome to the BSGE community at {site.campus}. Explore program information, activities, resources, and organizational updates.</p>
             </div>
           </div>
-          <div className="university-card-accent">
-            <span>GEO</span>
-            <small>Measure • Map • Understand</small>
+          <div className="university-card-video">
+            <iframe
+              src="https://www.youtube.com/embed/Pb61NjXrJCg"
+              title="Batangas State University video"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
           </div>
         </div>
 
