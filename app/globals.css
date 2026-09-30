@@ -1048,6 +1048,7 @@ a { color: inherit; text-decoration: none; }
 
 .area-hero-copy {
   min-width: 0;
+  padding-left: 28px;
 }
 
 .area-kicker {
@@ -1289,6 +1290,10 @@ a { color: inherit; text-decoration: none; }
 
   .area-hero h1 {
     font-size: 1.55rem;
+  }
+
+  .area-hero-copy {
+    padding-left: 0;
   }
 
   .area-hero-copy > p:last-child {
