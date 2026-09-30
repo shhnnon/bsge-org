@@ -1486,7 +1486,7 @@ a { color: inherit; text-decoration: none; }
   width: auto;
   height: auto;
   border-radius: 0;
-  background: url("/GEP.jpeg") center center / cover no-repeat;
+  background: url("/GEP-hero.jpg") center center / cover no-repeat;
   opacity: .7;
   z-index: 0;
 }
