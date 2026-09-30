@@ -2304,3 +2304,11 @@ a { color: inherit; text-decoration: none; }
     height: 430px;
   }
 }
+
+
+/* Laptop-only document width refinement */
+@media (min-width: 821px) and (max-width: 1440px) {
+  .area-resource-page .resource-detail-preview {
+    width: min(740px, 100%);
+  }
+}
