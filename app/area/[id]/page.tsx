@@ -117,7 +117,6 @@ export default async function Area({
         <section className="aaccup-parameters" aria-labelledby="aaccup-parameters-title">
           <div className="aaccup-parameters-heading">
             <div>
-              <span className="aaccup-eyebrow">AACCUP-ALIGNED STRUCTURE</span>
               <h2 id="aaccup-parameters-title">Parameters</h2>
             </div>
             <p>Each program area follows the same parameter-card presentation for easier accreditation document navigation.</p>
