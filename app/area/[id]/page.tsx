@@ -70,16 +70,6 @@ export default async function Area({
       </section>
 
       <section className="area-content">
-        <div className="area-section-label">AREA OVERVIEW</div>
-
-        <div className="area-main-grid">
-          <article className="area-intro-card">
-            <span className="area-accent" />
-            <h2>{area.title}</h2>
-            <p>{area.body}</p>
-          </article>
-        </div>
-
         {area.id === 7 && "parameters" in area && area.parameters ? (
           <section className="library-blocks" aria-label="Library documents">
             <div className="library-block-grid">
@@ -134,12 +124,6 @@ export default async function Area({
           </section>
         ) : (
           <section className="aaccup-parameters" aria-labelledby="aaccup-parameters-title">
-            <div className="aaccup-parameters-heading">
-              <div>
-                <h2 id="aaccup-parameters-title">Parameters</h2>
-              </div>
-            </div>
-
             <div className="parameter-grid">
               {parameters.map((parameter) => (
                 <article key={parameter.letter} className="parameter-card">
