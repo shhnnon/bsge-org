@@ -64,7 +64,6 @@ export default async function Area({
           </div>
 
           <div className="area-hero-copy">
-            <p className="area-kicker">BSGE PROGRAM AREA</p>
             <h1>{area.title}</h1>
             <p>{area.summary}</p>
           </div>
