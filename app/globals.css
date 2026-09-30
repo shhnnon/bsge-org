@@ -358,8 +358,14 @@ a { color: inherit; text-decoration: none; }
   margin: 0;
   color: #26372f;
   font-size: .82rem;
+  font-weight: 800;
   line-height: 1.45;
   text-transform: uppercase;
+  transition: color .18s ease;
+}
+
+.area-card:hover h3 {
+  color: var(--green);
 }
 
 .area-card p {
