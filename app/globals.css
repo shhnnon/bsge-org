@@ -1385,3 +1385,59 @@ a { color: inherit; text-decoration: none; }
     justify-content: center;
   }
 }
+
+
+/* Homepage Reference Files click dropdown */
+.quick-reference-card {
+  overflow: visible;
+  cursor: pointer;
+}
+
+.quick-reference-card summary {
+  width: 100%;
+  min-height: 132px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+}
+
+.quick-reference-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.quick-reference-card summary::marker {
+  display: none;
+}
+
+.quick-reference-card[open] {
+  z-index: 20;
+}
+
+.quick-reference-card[open] .quick-chevron svg {
+  transform: rotate(180deg);
+}
+
+.quick-reference-card .quick-dropdown {
+  position: static;
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(8,76,54,.08);
+}
+
+.quick-reference-card .quick-dropdown a,
+.quick-reference-card .quick-dropdown-disabled {
+  border-radius: 7px;
+}
+
+.quick-reference-card .quick-dropdown a:hover {
+  background: #eef9f4;
+}
