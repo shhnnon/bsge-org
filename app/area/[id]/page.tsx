@@ -119,7 +119,6 @@ export default async function Area({
             <div>
               <h2 id="aaccup-parameters-title">Parameters</h2>
             </div>
-            <p>Each program area follows the same parameter-card presentation for easier accreditation document navigation.</p>
           </div>
 
           <div className="parameter-grid">
