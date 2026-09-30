@@ -25,10 +25,6 @@ export const referenceFiles = [
     href: "https://drive.google.com/file/d/1acFKPUKn3IfuKTrsrn7_KSB8xb589uy3/view?usp=drive_link",
   },
   {
-    label: "Certificate of Program Compliance",
-    href: null,
-  },
-  {
     label: "CMO 89 s2017. Policies, Standards, and Guidelines for BSGE",
     href: "https://drive.google.com/file/d/1Rfb4pU66pdkHTuA-iDAap6tG46dthJ8_/view?usp=drive_link",
   },
@@ -220,8 +216,6 @@ export const activities = [
 export const embedPdf = "";
 // The 4 cards. icon can be: book, users, folder, folderCheck
 export const quickLinks = [
-  { title: "Program of Activities", subtitle: "General Information", href: "/activity", icon: "book" },
   { title: "Directory of Accreditation Task Force", subtitle: "General Information", href: "https://docs.google.com/document/d/1xlQVlIEjbr59DykfKZv19DgTEbjna4-E/edit?usp=drive_link&ouid=105820422174942162354&rtpof=true&sd=true", icon: "users" },
   { title: "Reference Files", subtitle: "Resources", icon: "folder", dropdown: true },
-  { title: "AACCUP Additional Documents", subtitle: "Provided Documents per Areas", href: "#", icon: "folderCheck" },
 ];
