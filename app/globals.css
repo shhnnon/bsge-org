@@ -311,8 +311,8 @@ a { color: inherit; text-decoration: none; }
 
 .area-card {
   position: relative;
-  min-height: 205px;
-  padding: 26px;
+  min-height: 235px;
+  padding: 30px;
   border: 1px solid rgba(8,127,91,.1);
   border-radius: 20px 7px 20px 7px;
   background: #fff;
@@ -359,7 +359,7 @@ a { color: inherit; text-decoration: none; }
   max-width: calc(100% - 38px);
   margin: 0;
   color: #26372f;
-  font-size: .82rem;
+  font-size: .94rem;
   font-weight: 800;
   line-height: 1.45;
   text-transform: uppercase;
@@ -371,9 +371,9 @@ a { color: inherit; text-decoration: none; }
 }
 
 .area-card p {
-  margin: 12px 0 14px;
+  margin: 14px 0 16px;
   color: #6d7873;
-  font-size: .7rem;
+  font-size: .78rem;
   line-height: 1.55;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -384,16 +384,16 @@ a { color: inherit; text-decoration: none; }
 .read-more {
   display: inline-flex;
   align-items: center;
-  gap: 3px;
+  gap: 4px;
   color: var(--green);
-  font-size: .7rem;
+  font-size: .76rem;
   font-weight: 800;
 }
 
 .university-card {
-  width: min(100%, 1080px);
-  margin: 34px auto 0;
-  padding: 30px 32px;
+  width: min(100%, 1160px);
+  margin: 42px auto 0;
+  padding: 38px 40px;
   display: grid;
   grid-template-columns: 1fr .52fr;
   gap: 38px;
@@ -413,8 +413,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .university-card-logo {
-  width: 96px;
-  height: 96px;
+  width: 112px;
+  height: 112px;
   object-fit: contain;
   flex: 0 0 auto;
   transition: transform .2s ease;
@@ -424,21 +424,21 @@ a { color: inherit; text-decoration: none; }
   transform: scale(1.18);
 }
 
-.university-card-copy h3 { margin: 0 0 2px; color: var(--red); font-size: 1.25rem; font-weight: 900; line-height: 1.15; }
-.university-card-copy strong { color: #34433d; font-size: .9rem; font-weight: 700; line-height: 1.2; }
+.university-card-copy h3 { margin: 0 0 3px; color: var(--red); font-size: 1.5rem; font-weight: 900; line-height: 1.15; }
+.university-card-copy strong { color: #34433d; font-size: 1.05rem; font-weight: 700; line-height: 1.2; }
 
 .university-card-copy p {
-  max-width: 560px;
-  margin: 11px 0 0;
+  max-width: 600px;
+  margin: 13px 0 0;
   color: #6b7771;
-  font-size: .7rem;
+  font-size: .8rem;
   line-height: 1.6;
 }
 
 .university-card-video {
   position: relative;
   width: 100%;
-  min-height: 175px;
+  min-height: 205px;
   overflow: hidden;
   border-radius: 22px;
   background: #0b2f25;
@@ -449,7 +449,7 @@ a { color: inherit; text-decoration: none; }
 .university-card-video iframe {
   width: 100%;
   height: 100%;
-  min-height: 175px;
+  min-height: 205px;
   display: block;
   border: 0;
 }
@@ -515,15 +515,18 @@ a { color: inherit; text-decoration: none; }
   .hero-mottos p { margin: 0; font-size: .95rem; }
   .program-section, .areas-section { padding: 48px 16px; }
   .quick-grid, .areas-grid { grid-template-columns: 1fr; }
-  .quick-card { min-height: 150px; padding: 24px; }
+  .quick-card { min-height: 170px; padding: 26px; }
   .quick-card h3 { font-size: .95rem; }
   .quick-card p { font-size: .72rem; }
   .green-divider { min-height: 40px; padding: 0 12px; text-align: center; font-size: .48rem; }
-  .university-card { grid-template-columns: 1fr; gap: 22px; padding: 24px; }
+  .university-card { grid-template-columns: 1fr; gap: 22px; padding: 28px; }
   .university-card-copy { align-items: flex-start; }
-  .university-card-logo { width: 76px; height: 76px; }
-  .university-card-video { min-height: 145px; }
-  .university-card-video iframe { min-height: 145px; }
+  .university-card-logo { width: 84px; height: 84px; }
+  .university-card-copy h3 { font-size: 1.25rem; }
+  .university-card-copy strong { font-size: .95rem; }
+  .university-card-copy p { font-size: .76rem; }
+  .university-card-video { min-height: 175px; }
+  .university-card-video iframe { min-height: 175px; }
   .site-footer { min-height: 0; padding: 24px 20px 22px; }
   .footer-contact a { overflow-wrap: anywhere; }
 }
