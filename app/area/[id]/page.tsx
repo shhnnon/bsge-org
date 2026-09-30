@@ -66,21 +66,6 @@ export default async function Area({
           <div className="area-hero-copy">
             <h1>{area.title}</h1>
           </div>
-
-          <aside className="area-hero-action">
-            <span className="area-action-label">AREA {area.id} OF {areas.length}</span>
-            <h2>Area Files</h2>
-            <p>Access the documents and resources for this program area.</p>
-            <a
-              href={area.driveUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="area-drive-button"
-            >
-              Open Google Drive
-              <ExternalLink size={16} />
-            </a>
-          </aside>
         </div>
       </section>
 
