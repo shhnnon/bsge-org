@@ -34,7 +34,7 @@ export default function Home() {
           />
           <div className="site-header-copy">
             <p className="site-header-title">Geodetic Engineering</p>
-            <p className="site-header-subtitle">BSGE - Alangilan Campus</p>
+            <p className="site-header-subtitle">COE - Alangilan Campus</p>
           </div>
         </div>
       </header>
