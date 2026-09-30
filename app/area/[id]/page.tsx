@@ -31,7 +31,7 @@ export default async function Area({
     : defaultParameters.map((parameter) => ({
         ...parameter,
         items: [
-          "System. Inputs and Processes",
+          "SYSTEM. Inputs and Processes",
           "Implementation",
           "Outcomes",
         ],
@@ -133,16 +133,12 @@ export default async function Area({
                 </div>
 
                 <ol className="parameter-items">
-                  {parameter.items.map((item, index) => {
-                    const [label, description] = item.split(". ", 2);
-                    return (
-                      <li key={item}>
-                        <span>{index + 1}.</span>
-                        <strong>{label}</strong>
-                        <em>{description}</em>
-                      </li>
-                    );
-                  })}
+                  {parameter.items.map((item, index) => (
+                    <li key={item}>
+                      <span>{index + 1}.</span>
+                      <strong>{item}</strong>
+                    </li>
+                  ))}
                 </ol>
               </article>
             ))}
