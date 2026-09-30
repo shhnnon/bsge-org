@@ -2031,3 +2031,5 @@ a { color: inherit; text-decoration: none; }
 .library-nested-items { padding: 0 12px 8px 48px; background: #fbfdfc; }
 .library-nested-link { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 8px; border-top: 1px solid #e5eee9; color: #52635b; font-size: .72rem; line-height: 1.45; text-decoration: none; }
 .library-nested-link:hover { color: var(--green-dark); background: #eef8f3; }
+
+.library-nested-group{padding:0 10px 12px;background:#fbfdfc}.library-subitem-parent{border-top:0;background:#f4faf7;font-weight:700;color:var(--green-dark)}.library-nested-items{display:grid;gap:8px;padding:8px 6px 4px 34px}.library-nested-link{display:grid;grid-template-columns:minmax(0,1fr) 20px;align-items:center;gap:8px;min-height:46px;padding:9px 12px;border:1px solid #dceae3;border-radius:10px;background:#fff;color:#46564f;text-decoration:none;font-size:.72rem;line-height:1.4;box-shadow:0 4px 12px rgba(8,76,54,.04)}.library-nested-link:hover{background:#eef8f3;color:var(--green-dark);box-shadow:0 8px 18px rgba(8,76,54,.09)}
