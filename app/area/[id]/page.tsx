@@ -3,14 +3,6 @@ import { ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
 import { notFound } from "next/navigation";
 import { areas } from "@/data/content";
 
-const defaultParameters = [
-  { letter: "A", title: "Program Inputs and Processes" },
-  { letter: "B", title: "Implementation" },
-  { letter: "C", title: "Outcomes" },
-  { letter: "D", title: "Quality Assurance and Improvement" },
-  { letter: "E", title: "Monitoring and Evaluation" },
-];
-
 export function generateStaticParams() {
   return areas.map((a) => ({ id: String(a.id) }));
 }
@@ -26,17 +18,6 @@ export default async function Area({
   if (!area) notFound();
 
   const next = areas.find((a) => a.id === area.id + 1);
-  const parameters = "parameters" in area && area.parameters
-    ? area.parameters
-    : defaultParameters.map((parameter) => ({
-        ...parameter,
-        items: [
-          "SYSTEM. Inputs and Processes",
-          "Implementation",
-          "Outcomes",
-        ],
-      }));
-
   return (
     <main className="area-page">
       <header className="area-page-header">
@@ -122,10 +103,10 @@ export default async function Area({
               ))}
             </div>
           </section>
-        ) : (
+        ) : area.id === 4 && "parameters" in area && area.parameters ? (
           <section className="aaccup-parameters" aria-labelledby="aaccup-parameters-title">
             <div className="parameter-grid">
-              {parameters.map((parameter) => (
+              {area.parameters.map((parameter) => (
                 <article key={parameter.letter} className="parameter-card">
                   <div className="parameter-title">
                     <span className="parameter-letter">PARAMETER {parameter.letter}</span>
@@ -175,7 +156,7 @@ export default async function Area({
               ))}
             </div>
           </section>
-        )}
+        ) : null
 
       </section>
 
