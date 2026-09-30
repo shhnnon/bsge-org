@@ -104,6 +104,46 @@ export default async function Area({
               ))}
             </div>
           </section>
+        ) : "parameters" in area && area.parameters ? (
+          <section className="library-blocks" aria-label="Area documents">
+            <div className="library-block-grid">
+              {area.parameters.map((parameter) => (
+                <details key={parameter.letter} className="library-block">
+                  <summary>
+                    <span className="library-block-letter">{parameter.letter}</span>
+                    <span className="library-block-title">{parameter.title}</span>
+                    <span className="library-block-chevron" aria-hidden="true">⌄</span>
+                  </summary>
+                  <div className="library-subitems">
+                    {parameter.items.map((item, index) => {
+                      const resource = typeof item === "string" ? null : item;
+                      const label = typeof item === "string" ? item : item.label;
+                      return resource ? (
+                        <details key={label} className="library-subitem">
+                          <summary>
+                            <span className="library-subitem-number">{index + 1}.</span>
+                            <span>{label}</span>
+                            <span className="library-subitem-chevron" aria-hidden="true">⌄</span>
+                          </summary>
+                          <div className="library-pdf-preview">
+                            <iframe src={resource.href} title={label} loading="lazy" allow="autoplay" />
+                            <a href={resource.href.replace("/preview", "/view")} target="_blank" rel="noopener noreferrer">
+                              Open document in Google Drive
+                            </a>
+                          </div>
+                        </details>
+                      ) : (
+                        <div key={label} className="library-subitem library-subitem-static">
+                          <span className="library-subitem-number">{index + 1}.</span>
+                          <span>{label}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </section>
         ) : null}
       </section>
 
