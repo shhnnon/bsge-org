@@ -54,6 +54,33 @@ export const areas = [
     summary: "Student-related information, services, and resources.",
     body: "This area contains student-related information and supporting documents.",
     driveUrl: "https://drive.google.com/drive/folders/1QA2LVU5bwNSQ2jnRm7_2KHhZ--Sux1kY?usp=drive_link",
+    parameters: [
+      {
+        letter: "A",
+        title: "Student Services Program (SSP)",
+        items: ["System. Inputs and Processes", "Implementation", "Outcomes"],
+      },
+      {
+        letter: "B",
+        title: "Student Welfare",
+        items: ["System. Inputs and Processes", "Implementation", "Outcomes"],
+      },
+      {
+        letter: "C",
+        title: "Student Development",
+        items: ["System. Inputs and Processes", "Implementation", "Outcomes"],
+      },
+      {
+        letter: "D",
+        title: "Institutional Student Programs and Services",
+        items: ["System. Inputs and Processes", "Implementation", "Outcomes"],
+      },
+      {
+        letter: "E",
+        title: "Research, Monitoring and Evaluation",
+        items: ["System. Inputs and Processes", "Implementation", "Outcomes"],
+      },
+    ],
   },
   {
     id: 5,
