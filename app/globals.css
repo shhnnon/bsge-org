@@ -139,6 +139,7 @@ a { color: inherit; text-decoration: none; }
   text-stroke: .2px #087f5b;
   font-size: clamp(1.35rem, 2.15vw, 1.9rem);
   font-weight: 900;
+  text-transform: uppercase;
   line-height: 1.08;
   letter-spacing: -.025em;
   white-space: nowrap;
