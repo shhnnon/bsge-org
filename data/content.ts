@@ -20,9 +20,22 @@ export const heroLinks = [
 
 // Links to Google Drive files, docs, etc.
 export const referenceFiles = [
-  { label: "Curriculum", href: "#" },
-  { label: "Constitution and By-Laws", href: "#" },
-  { label: "Membership Form", href: "#" },
+  {
+    label: "Curriculum",
+    href: "https://drive.google.com/file/d/1acFKPUKn3IfuKTrsrn7_KSB8xb589uy3/view?usp=drive_link",
+  },
+  {
+    label: "Certificate of Program Compliance",
+    href: null,
+  },
+  {
+    label: "CMO 25 s2015. Policies, Standards and Guidelines for BSIT",
+    href: "https://drive.google.com/file/d/1Rfb4pU66pdkHTuA-iDAap6tG46dthJ8_/view?usp=drive_link",
+  },
+  {
+    label: "AACCUP Technical Review Board Action (PSV)",
+    href: "https://docs.google.com/document/d/1xlQVlIEjbr59DykfKZv19DgTEbjna4-E/edit",
+  },
 ];
 
 // Each item becomes a card on the home page and its own page at /area/[id]
