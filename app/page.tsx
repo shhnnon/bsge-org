@@ -81,9 +81,17 @@ export default function Home() {
               <div key={item.title} className="quick-card quick-card-static">
                 {content}
                 <div className="quick-dropdown">
-                  {referenceFiles.map((file) => (
-                    <a key={file.label} href={file.href} target="_blank" rel="noreferrer">{file.label}</a>
-                  ))}
+                  {referenceFiles.map((file) =>
+                    file.href ? (
+                      <a key={file.label} href={file.href} target="_blank" rel="noopener noreferrer">
+                        {file.label}
+                      </a>
+                    ) : (
+                      <span key={file.label} className="quick-dropdown-disabled">
+                        {file.label}
+                      </span>
+                    ),
+                  )}
                 </div>
               </div>
             );
