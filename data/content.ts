@@ -115,6 +115,77 @@ export const areas = [
     summary: "Library resources and information supporting the BSGE program.",
     body: "This area contains library-related information and supporting resources.",
     driveUrl: "https://drive.google.com/drive/folders/19PNbMSPon6HPU9j-gGM27aCwWbYoijOl?usp=drive_link",
+    parameters: [
+      {
+        letter: "A",
+        title: "Administration",
+        items: [
+          { label: "A.1 Organizational Structure of the Library", href: "https://drive.google.com/file/d/1AGJ6MMMtwFWyYrNLK31RA2jvQhC6V5VW/preview" },
+          { label: "A.2 Profile and Functions of the Head Librarian", href: "https://drive.google.com/file/d/1IczvReDE5kSlOg7lG6BOaOo2uHZ2CQxa/preview" },
+          { label: "A.3 Composition of the Library Advisory Committee, including their functions", href: "https://drive.google.com/file/d/1jmaS4ymZ18-nIJkrfQIjEb5FjMQQOTcC/preview" },
+        ],
+      },
+      {
+        letter: "B",
+        title: "Staff-Personnel",
+        items: [
+          { label: "B.1 Profile of the Library staff-personnel", href: "https://drive.google.com/file/d/1x9Rhg8_JptcPJ8CG11eLwVhNjKOdSmu4/preview" },
+          { label: "B.2 Evidence of compliance on adequacy of library personnel", href: "https://drive.google.com/file/d/19lE-_cN2mU3TD3ljRKAn1Wq8e-6AucRm/preview" },
+          { label: "B.3 Library Staff Development Plan", href: "https://drive.google.com/file/d/18AAAu_c1sIV8PnUfRFoJ9SHwO42-9Acr/preview" },
+          { label: "B.4 Policies on library personnel compensation, privileges and fringe benefits", href: "https://drive.google.com/file/d/16eU0OfwsIeukeetKP3NpCrzLDjQRRzoT/preview" },
+        ],
+      },
+      {
+        letter: "C",
+        title: "Collection, Development, Organization and Preservation",
+        items: [
+          { label: "C.1 Policies on Collection Development", href: "https://drive.google.com/file/d/16nN3ysizaOcmICdpkNxDLRZirFroGlRT/preview" },
+          { label: "C.2 Inventory of core collections", href: "https://drive.google.com/file/d/1kOAbfjGJbTX3ygT4_LhcwzYnwARDvqI6/preview" },
+          { label: "C.3 Evidence on the provision for non-print, digital and electronic resources", href: "https://drive.google.com/file/d/176_vpU3bOE4x7pFO-99NY7hJ1lsnVa-R/preview" },
+          { label: "C.4 List of research books and materials", href: "https://drive.google.com/file/d/1X46RYgxdP2F-cQllwIk6HY52ZsCaQloE/preview" },
+          { label: "C.5 Inventory of Filipiniana collections", href: "https://drive.google.com/file/d/1tCNAcDEornmu23M9Kw12nbE0mkivbYJH/preview" },
+          { label: "C.6 Evidence of an accepted and standard classification system", href: "https://drive.google.com/file/d/1KVNrrncNVkE9zU2R119OkoCLlLorShib/preview" },
+          { label: "C.7 Policies on preservation, care and upkeep of library resources", href: "https://drive.google.com/file/d/1K5SJuhgVWPpBSqoX_RdBzT_bEgSG3KL2/preview" },
+          { label: "C.8 Evidence that library resources are provided", href: "https://drive.google.com/file/d/1yy0Sus6KYvU5Y1gSV5CE5ZW4INCZQx1S/preview" },
+        ],
+      },
+      {
+        letter: "D",
+        title: "Services and Utilization",
+        items: [
+          { label: "D.1 Schedule of library hours posted conspicuously", href: "https://drive.google.com/file/d/1F8MZffMU7liH-n1yAdwaV5arAHs5Ur5m/preview" },
+          { label: "D.2 Library rules and regulations posted conspicuously", href: "https://drive.google.com/file/d/17fYL9QTd65KYmuzj5a3WPkS9rPAYu7Yt/preview" },
+          { label: "D.3 Display board where list of new book arrivals and other relevant information are posted", href: "https://drive.google.com/file/d/1v0CAzQTxL-PTrqi4JvkAfTna0WS9OsDD/preview" },
+          { label: "D.4 Evidence on the existence of an integrated library system", href: "https://drive.google.com/file/d/1MYRJ0ADwOcbDISQbqyFiI-eM4CsDLKKv/preview" },
+          { label: "D.5 Summarized statistical data on library resources utilization", href: "https://drive.google.com/file/d/13WgJhMVZr6nkyaHEIG-7JraEEBQTngL_/preview" },
+        ],
+      },
+      {
+        letter: "E",
+        title: "Physical Set-up and Facilities",
+        items: [
+          { label: "E.1 Library floor plan showing the location of the different offices", href: "https://drive.google.com/file/d/1ZA2gaCD3lZu3bPVvLf55b5CpyaEKqDBE/preview" },
+          { label: "E.2 Description of lighting, ventilation, safety and security conditions", href: "https://drive.google.com/file/d/1wYe3Lu2Seg4B3KOvp20WXVAJPF3078A7/preview" },
+          { label: "E.3 Inventory of library, furniture, and other physical amenities", href: "https://drive.google.com/file/d/1OeEAGt1LRuo3wHSl477gT9oWUEXL9AZx/preview" },
+        ],
+      },
+      {
+        letter: "F",
+        title: "Library Budget",
+        items: [
+          { label: "F.1 General budgetary allocation for the library", href: "https://drive.google.com/file/d/1EZFr0RK2Hjg7dmGlsyOelx7IkKvVpJUS/preview" },
+          { label: "F.2 Evidence of the Head Librarian's participation in budget preparation", href: "https://drive.google.com/file/d/1DYx9fXe4N7sAJF85hO-T00Fu-PqlAPen/preview" },
+          { label: "F.3 Evidence that library fees are utilized for library purposes", href: "https://drive.google.com/file/d/1qiaAL7vVWmGhdlKhoxarb4OfcAaRfeRj/preview" },
+        ],
+      },
+      {
+        letter: "G",
+        title: "Linkages",
+        items: [
+          { label: "G.1 List of linkages established for exchange of materials, funding and technical assistance", href: "https://drive.google.com/file/d/1fVyKNRTiLniQKP3cElmoCLy7pfAuTp40/preview" },
+        ],
+      },
+    ],
   },
   {
     id: 8,
