@@ -404,13 +404,24 @@ a { color: inherit; text-decoration: none; }
   box-shadow: 0 14px 34px rgba(8,76,54,.1);
 }
 
-.university-card-copy { display: flex; align-items: center; gap: 20px; }
+.university-card-copy {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: inherit;
+  cursor: pointer;
+}
 
 .university-card-logo {
   width: 96px;
   height: 96px;
   object-fit: contain;
   flex: 0 0 auto;
+  transition: transform .2s ease;
+}
+
+.university-card-copy:hover .university-card-logo {
+  transform: scale(1.18);
 }
 
 .university-card-copy h3 { margin: 0 0 2px; color: var(--red); font-size: 1.25rem; font-weight: 900; line-height: 1.15; }
