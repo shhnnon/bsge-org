@@ -459,13 +459,13 @@ a { color: inherit; text-decoration: none; }
 }
 
 .site-footer {
-  min-height: 250px;
-  padding: 58px 24px 52px;
+  min-height: 0;
+  padding: 30px 24px 26px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 12px;
   text-align: center;
   background: #064c3b;
   color: #fff;
@@ -474,36 +474,36 @@ a { color: inherit; text-decoration: none; }
 .footer-mark span {
   display: block;
   color: #fff;
-  font-size: clamp(.9rem, 1.8vw, 1.15rem);
+  font-size: clamp(.82rem, 1.5vw, 1rem);
   font-weight: 400;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 .footer-mark strong {
   display: block;
   color: #fff;
-  font-size: clamp(1.15rem, 2.4vw, 1.55rem);
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.15;
 }
 
 .footer-contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 7px;
+  gap: 5px;
 }
 
 .footer-contact span {
   color: #f4b942;
-  font-size: .62rem;
+  font-size: .58rem;
   font-weight: 800;
   letter-spacing: .08em;
 }
 
 .footer-contact a {
   color: rgba(255,255,255,.88);
-  font-size: .78rem;
+  font-size: .72rem;
 }
 
 @media (max-width: 980px) {
@@ -638,8 +638,8 @@ a { color: inherit; text-decoration: none; }
   }
 
   .site-footer {
-    min-height: 220px;
-    padding: 46px 20px 40px;
+    min-height: 0;
+    padding: 24px 20px 22px;
   }
 
   .footer-contact a {
