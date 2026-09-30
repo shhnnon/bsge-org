@@ -413,8 +413,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .university-card-logo {
-  width: 78px;
-  height: 78px;
+  width: 58px;
+  height: 58px;
   object-fit: contain;
   flex: 0 0 auto;
   transition: transform .2s ease;
@@ -1023,7 +1023,7 @@ a { color: inherit; text-decoration: none; }
   min-height: 145px;
   padding: 18px 24px;
   display: grid;
-  grid-template-columns: 90px minmax(0, 1fr) 245px;
+  grid-template-columns: 68px minmax(0, 1fr) 245px;
   align-items: center;
   gap: 20px;
 }
@@ -1041,7 +1041,7 @@ a { color: inherit; text-decoration: none; }
 
 .area-hero-number span {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   font-weight: 900;
   line-height: 1;
 }
