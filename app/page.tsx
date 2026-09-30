@@ -114,10 +114,6 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="green-divider">
-        <span>BSGE • ALANGILAN • PRECISION &amp; INNOVATION</span>
-      </div>
-
       <section className="areas-section">
         <div className="section-heading areas-heading">
           <p className="eyebrow">BSGE ORGANIZATION</p>
