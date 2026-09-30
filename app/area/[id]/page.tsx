@@ -78,7 +78,7 @@ export default async function Area({
 
                           <div className="library-pdf-preview">
                             <iframe
-                              src={resource.href}
+                              src={resource.href ?? ""}
                               title={label}
                               loading="lazy"
                               allow="autoplay"
@@ -126,8 +126,8 @@ export default async function Area({
                             <span className="library-subitem-chevron" aria-hidden="true">⌄</span>
                           </summary>
                           <div className="library-pdf-preview">
-                            <iframe src={resource.href} title={label} loading="lazy" allow="autoplay" />
-                            <a href={resource.href.replace("/preview", "/view")} target="_blank" rel="noopener noreferrer">
+                            <iframe src={resource.href ?? ""} title={label} loading="lazy" allow="autoplay" />
+                            <a href={(resource.href ?? "").replace("/preview", "/view")} target="_blank" rel="noopener noreferrer">
                               Open document in Google Drive
                             </a>
                           </div>
