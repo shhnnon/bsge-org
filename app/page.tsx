@@ -108,7 +108,7 @@ export default function Home() {
             <Link key={area.id} href={`/area/${area.id}`} className="area-card">
               <span className="area-number">{String(index + 1).padStart(2, "0")}</span>
               <h3>{area.title}</h3>
-              <p>{area.summary}</p>
+              <p className="area-description">{area.summary}</p>
               <span className="read-more">Read more <ArrowUpRight size={13} /></span>
             </Link>
           ))}
