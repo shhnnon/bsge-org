@@ -27,7 +27,7 @@ export default function Home() {
     <main className="site-shell">
       <header className="site-header">
         <div className="site-header-inner">
-          <img src="/batstateu.svg" alt="Batangas State University logo" className="site-header-logo" />
+          <img src="/gep-batstateu-sc.svg" alt="Geodetic Engineers of the Philippines BatStateU Student Chapter logo" className="site-header-logo" />
           <div className="site-header-copy">
             <p className="site-header-title">Geodetic Engineering</p>
             <p className="site-header-subtitle">COE - Alangilan Campus</p>
@@ -38,31 +38,15 @@ export default function Home() {
       <section className="hero">
         <div className="hero-content">
           <div className="hero-logo-side">
-            <img src="/batstateu.svg" alt="Batangas State University logo" className="hero-logo" />
+            <img src="/gep-batstateu-sc.svg" alt="Geodetic Engineers of the Philippines BatStateU Student Chapter logo" className="hero-logo" />
           </div>
-
           <div className="hero-center">
-            <p className="hero-kicker">BATANGAS STATE UNIVERSITY</p>
-            <p className="hero-institution">The National Engineering University</p>
-            <p className="hero-campus">Alangilan Campus</p>
-            <span className="hero-line" />
-            <h1>Bachelor of Science<br />in Geodetic Engineering</h1>
-          </div>
-
-          <div className="hero-mottos" aria-label="University principles">
-            <p>Leading Innovation</p>
-            <p>Transforming Lives</p>
-            <p>Building The Nation</p>
+            <h1>Bachelor of Science in Geodetic Engineering</h1>
           </div>
         </div>
       </section>
 
       <section className="program-section">
-        <div className="section-heading">
-          <p className="eyebrow">{site.programLine}</p>
-          <h2>{site.program}</h2>
-        </div>
-
         <div className="quick-grid">
           {quickLinks.map((item) => {
             const Icon = icons[item.icon as keyof typeof icons];
