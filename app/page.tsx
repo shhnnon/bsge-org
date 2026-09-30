@@ -38,7 +38,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-content">
           <div className="hero-logo-side">
-            <img src="/gep-batstateu-sc.svg" alt="Geodetic Engineers of the Philippines - Batangas State University Student Chapter logo" className="hero-logo" />
+            <img src="/batstateu.svg" alt="Batangas State University logo" className="hero-logo" />
           </div>
 
           <div className="hero-center">
