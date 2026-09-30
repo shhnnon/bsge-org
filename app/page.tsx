@@ -42,6 +42,7 @@ export default function Home() {
           </div>
           <div className="hero-center">
             <h1>Bachelor of Science in Geodetic Engineering</h1>
+            <p className="hero-chapter">Geodetic Engineers of the Philippines BatStateU - Student Chapter</p>
           </div>
         </div>
       </section>
