@@ -58,27 +58,27 @@ export const areas = [
       {
         letter: "A",
         title: "Student Services Program (SSP)",
-        items: ["System. Inputs and Processes", "Implementation", "Outcomes"],
+        items: ["SYSTEM. Inputs and Processes", "Implementation", "Outcomes"],
       },
       {
         letter: "B",
         title: "Student Welfare",
-        items: ["System. Inputs and Processes", "Implementation", "Outcomes"],
+        items: ["SYSTEM. Inputs and Processes", "Implementation", "Outcomes"],
       },
       {
         letter: "C",
         title: "Student Development",
-        items: ["System. Inputs and Processes", "Implementation", "Outcomes"],
+        items: ["SYSTEM. Inputs and Processes", "Implementation", "Outcomes"],
       },
       {
         letter: "D",
         title: "Institutional Student Programs and Services",
-        items: ["System. Inputs and Processes", "Implementation", "Outcomes"],
+        items: ["SYSTEM. Inputs and Processes", "Implementation", "Outcomes"],
       },
       {
         letter: "E",
         title: "Research, Monitoring and Evaluation",
-        items: ["System. Inputs and Processes", "Implementation", "Outcomes"],
+        items: ["SYSTEM. Inputs and Processes", "Implementation", "Outcomes"],
       },
     ],
   },
