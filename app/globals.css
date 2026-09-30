@@ -1022,16 +1022,15 @@ a { color: inherit; text-decoration: none; }
 .area-hero-inner {
   min-height: 145px;
   padding: 18px 24px;
-  display: grid;
-  grid-template-columns: 76px minmax(0, 1fr) 245px;
+  display: flex;
   align-items: center;
-  column-gap: 28px;
-  row-gap: 14px;
+  gap: 32px;
 }
 
 .area-hero-number {
-  width: 68px;
-  height: 68px;
+  width: 60px;
+  height: 60px;
+  flex: 0 0 60px;
   display: grid;
   place-items: center;
   border: 1px solid rgba(255,255,255,.28);
@@ -1042,14 +1041,15 @@ a { color: inherit; text-decoration: none; }
 
 .area-hero-number span {
   color: #fff;
-  font-size: 1.65rem;
+  font-size: 1.5rem;
   font-weight: 900;
   line-height: 1;
 }
 
 .area-hero-copy {
   min-width: 0;
-  padding-left: 0;
+  flex: 1 1 auto;
+  padding: 0 8px;
 }
 
 .area-kicker {
@@ -1076,6 +1076,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .area-hero-action {
+  width: 245px;
+  flex: 0 0 245px;
   padding: 17px 18px;
   border: 1px solid rgba(255,255,255,.24);
   border-radius: 15px 6px 15px 6px;
@@ -1265,12 +1267,17 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 820px) {
   .area-hero-inner {
-    grid-template-columns: 76px minmax(0, 1fr);
-    column-gap: 22px;
+    flex-wrap: wrap;
+    gap: 18px 24px;
+  }
+
+  .area-hero-copy {
+    flex: 1 1 calc(100% - 90px);
   }
 
   .area-hero-action {
-    grid-column: 1 / -1;
+    width: 100%;
+    flex: 1 1 100%;
   }
 }
 
@@ -1278,17 +1285,20 @@ a { color: inherit; text-decoration: none; }
   .area-hero-inner {
     min-height: 0;
     padding: 18px 20px 20px;
-    grid-template-columns: 1fr;
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
   }
 
   .area-hero-number {
-    width: 68px;
-    height: 68px;
+    width: 58px;
+    height: 58px;
+    flex-basis: 58px;
   }
 
   .area-hero-number span {
-    font-size: 1.65rem;
+    font-size: 1.45rem;
   }
 
   .area-hero h1 {
@@ -1296,7 +1306,9 @@ a { color: inherit; text-decoration: none; }
   }
 
   .area-hero-copy {
-    padding-left: 0;
+    width: 100%;
+    flex: none;
+    padding: 0;
   }
 
   .area-hero-copy > p:last-child {
@@ -1304,8 +1316,8 @@ a { color: inherit; text-decoration: none; }
   }
 
   .area-hero-action {
-    grid-column: auto;
     width: 100%;
+    flex: none;
   }
 
   .area-content {
