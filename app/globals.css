@@ -233,6 +233,16 @@ a { color: inherit; text-decoration: none; }
   transition: transform .18s ease, box-shadow .18s ease;
 }
 
+.quick-card-static {
+  overflow: visible;
+  z-index: 1;
+}
+
+.quick-card-static:hover,
+.quick-card-static:focus-within {
+  z-index: 20;
+}
+
 .quick-card::after {
   content: "";
   position: absolute;
@@ -256,7 +266,7 @@ a { color: inherit; text-decoration: none; }
 .quick-dropdown {
   display: none;
   position: absolute;
-  z-index: 5;
+  z-index: 50;
   left: 14px; right: 14px; top: calc(100% + 7px);
   padding: 8px;
   border: 1px solid var(--border);
@@ -576,7 +586,6 @@ a { color: inherit; text-decoration: none; }
 }
 
 @keyframes loading-spin { to { transform: rotate(360deg); } }
-
 
 /* Program area detail pages */
 .area-page {
@@ -1023,7 +1032,6 @@ a { color: inherit; text-decoration: none; }
     justify-self: end;
   }
 }
-
 
 /* Refined area-page composition */
 .area-page {
