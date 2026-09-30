@@ -97,6 +97,42 @@ export default async function Area({
           </aside>
         </div>
 
+        {"parameters" in area && area.parameters ? (
+          <section className="aaccup-parameters" aria-labelledby="aaccup-parameters-title">
+            <div className="aaccup-parameters-heading">
+              <div>
+                <span className="aaccup-eyebrow">AACCUP-ALIGNED STRUCTURE</span>
+                <h2 id="aaccup-parameters-title">Parameters</h2>
+              </div>
+              <p>Organized by parameter, with the three assessment components shown in the reference layout.</p>
+            </div>
+
+            <div className="parameter-grid">
+              {area.parameters.map((parameter) => (
+                <article key={parameter.letter} className="parameter-card">
+                  <div className="parameter-title">
+                    <span className="parameter-letter">PARAMETER {parameter.letter}</span>
+                    <h3>{parameter.title}</h3>
+                  </div>
+
+                  <ol className="parameter-items">
+                    {parameter.items.map((item, index) => {
+                      const [label, description] = item.split(". ", 2);
+                      return (
+                        <li key={item}>
+                          <span>{index + 1}.</span>
+                          <strong>{label}</strong>
+                          <em>{description}</em>
+                        </li>
+                      );
+                    })}
+                  </ol>
+                </article>
+              ))}
+            </div>
+          </section>
+        ) : null}
+
         <div className="area-highlight">
           <div>
             <span className="area-highlight-number">{String(area.id).padStart(2, "0")}</span>
