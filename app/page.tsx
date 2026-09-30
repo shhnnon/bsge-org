@@ -126,7 +126,7 @@ export default function Home() {
             <div>
               <h3>{site.university}</h3>
               <strong>{site.tagline}</strong>
-              <p>Welcome to the BSGE community at {site.campus}. Explore program information, activities, resources, and organizational updates.</p>
+              <p>Welcome to Batangas State University Alangilan Campus! Home to the National Engineering University’s pioneers, innovators, and future industry leaders.</p>
             </div>
           </a>
           <div className="university-card-video">
