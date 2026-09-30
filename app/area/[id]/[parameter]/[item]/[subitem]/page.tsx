@@ -89,6 +89,7 @@ export default async function NestedAreaResource({
 
       <nav className="area-pagination" aria-label="Area navigation">
         <Link href={`/area/${area.id}`} className="area-back"><ArrowLeft size={17} />Back to Area {area.id}</Link>
+        <div className="area-page-number"><span>{child.label.match(/^([A-Z]\.\d+[a-z]?)/)?.[1] ?? `${parameter.letter}.${itemIndex}`}</span></div>
       </nav>
 
       <footer className="site-footer">
