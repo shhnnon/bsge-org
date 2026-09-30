@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@import "tailwindcss";
+
 :root {
   --green: #087f5b;
   --green-dark: #064c3b;
@@ -411,7 +413,7 @@ a { color: inherit; text-decoration: none; }
   flex: 0 0 auto;
 }
 
-.university-card-copy h3 { margin: 0 0 5px; color: var(--green); font-size: 1rem; }
+.university-card-copy h3 { margin: 0 0 5px; color: var(--red); font-size: 1rem; }
 .university-card-copy strong { color: #34433d; font-size: .7rem; }
 
 .university-card-copy p {
