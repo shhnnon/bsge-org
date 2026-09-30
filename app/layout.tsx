@@ -13,9 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BSGE - Geodetic Engineering | Alangilan Campus",
+  title: "BSGE",
   description:
     "Bachelor of Science in Geodetic Engineering - Batangas State University, Alangilan Campus.",
+  icons: {
+    icon: "/gep-batstateu-sc.svg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
