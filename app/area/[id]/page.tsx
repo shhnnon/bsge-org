@@ -52,8 +52,8 @@ export default async function Area({
       </section>
 
       <section className="area-content">
-        {area.id === 7 && "parameters" in area && area.parameters ? (
-          <section className="library-blocks" aria-label="Library documents">
+        {"parameters" in area && area.parameters ? (
+          <section className="library-blocks" aria-label={area.id === 7 ? "Library documents" : "Area documents"}>
             <div className="library-block-grid">
               {area.parameters.map((parameter) => (
                 <details key={parameter.letter} className="library-block">
@@ -65,60 +65,9 @@ export default async function Area({
 
                   <div className="library-subitems">
                     {parameter.items.map((item, index) => {
-                      const resource = typeof item === "string" ? null : item;
                       const label = typeof item === "string" ? item : item.label;
                       const children = typeof item === "string" ? [] : (item.children ?? []);
 
-                      return resource ? (
-                        <details key={label} className="library-subitem">
-                          <summary>
-                            <span className="library-subitem-number">{index + 1}.</span>
-                            <span>{label}</span>
-                            <span className="library-subitem-chevron" aria-hidden="true">⌄</span>
-                          </summary>
-
-                          <div className="library-pdf-preview">
-                            <iframe
-                              src={resource.href ?? ""}
-                              title={label}
-                              loading="lazy"
-                              allow="autoplay"
-                            />
-                            <a
-                              href={(resource.href ?? "").replace("/preview", "/view")}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              Open document in Google Drive
-                            </a>
-                          </div>
-                        </details>
-                      ) : (
-                        <div key={label} className="library-subitem library-subitem-static">
-                          <span className="library-subitem-number">{index + 1}.</span>
-                          <span>{label}</span>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </details>
-              ))}
-            </div>
-          </section>
-        ) : "parameters" in area && area.parameters ? (
-          <section className="library-blocks" aria-label="Area documents">
-            <div className="library-block-grid">
-              {area.parameters.map((parameter) => (
-                <details key={parameter.letter} className="library-block">
-                  <summary>
-                    <span className="library-block-letter">{parameter.letter}</span>
-                    <span className="library-block-title">{parameter.title}</span>
-                    <span className="library-block-chevron" aria-hidden="true">⌄</span>
-                  </summary>
-                  <div className="library-subitems">
-                    {parameter.items.map((item, index) => {
-                      const label = typeof item === "string" ? item : item.label;
-                      const children = typeof item === "string" ? [] : (item.children ?? []);
                       return children.length ? (
                         <details key={label} className="library-subitem library-nested-subitem">
                           <summary className="library-subitem-summary">
