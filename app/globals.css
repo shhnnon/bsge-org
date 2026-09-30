@@ -413,8 +413,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .university-card-logo {
-  width: 112px;
-  height: 112px;
+  width: 78px;
+  height: 78px;
   object-fit: contain;
   flex: 0 0 auto;
   transition: transform .2s ease;
@@ -1020,12 +1020,12 @@ a { color: inherit; text-decoration: none; }
 }
 
 .area-hero-inner {
-  min-height: 170px;
-  padding: 24px 24px;
+  min-height: 145px;
+  padding: 18px 24px;
   display: grid;
-  grid-template-columns: 130px minmax(0, 1fr) 310px;
+  grid-template-columns: 90px minmax(0, 1fr) 245px;
   align-items: center;
-  gap: 28px;
+  gap: 20px;
 }
 
 .area-hero-number {
@@ -1041,7 +1041,7 @@ a { color: inherit; text-decoration: none; }
 
 .area-hero-number span {
   color: #fff;
-  font-size: 3.6rem;
+  font-size: 2.5rem;
   font-weight: 900;
   line-height: 1;
 }
@@ -1059,23 +1059,23 @@ a { color: inherit; text-decoration: none; }
 }
 
 .area-hero h1 {
-  max-width: 720px;
-  font-size: clamp(1.65rem, 2.8vw, 2.2rem);
+  max-width: 600px;
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
   line-height: 1.12;
 }
 
 .area-hero-copy > p:last-child {
   max-width: 680px;
-  margin: 13px 0 0;
+  margin: 8px 0 0;
   color: rgba(255,255,255,.84);
-  font-size: .95rem;
+  font-size: .8rem;
   line-height: 1.55;
 }
 
 .area-hero-action {
-  padding: 24px 25px;
+  padding: 17px 18px;
   border: 1px solid rgba(255,255,255,.24);
-  border-radius: 20px 7px 20px 7px;
+  border-radius: 15px 6px 15px 6px;
   background: rgba(255,255,255,.1);
   backdrop-filter: blur(6px);
 }
@@ -1090,19 +1090,19 @@ a { color: inherit; text-decoration: none; }
 .area-hero-action h2 {
   margin: 7px 0 4px;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.05rem;
 }
 
 .area-hero-action p {
-  margin: 0 0 17px;
+  margin: 0 0 11px;
   color: rgba(255,255,255,.76);
-  font-size: .74rem;
+  font-size: .66rem;
   line-height: 1.5;
 }
 
 .area-drive-button {
   width: 100%;
-  min-height: 42px;
+  min-height: 34px;
   border: 1px solid rgba(255,255,255,.2);
   background: #fff;
   color: var(--green-dark);
@@ -1273,9 +1273,9 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 620px) {
   .area-hero-inner {
     min-height: 0;
-    padding: 22px 20px 24px;
+    padding: 18px 20px 20px;
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 10px;
   }
 
   .area-hero-number {
