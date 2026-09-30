@@ -52,9 +52,6 @@ export default async function AreaResource({
   const href = typeof item === "string" ? undefined : item.href;
   const next = areas.find((a) => a.id === area.id + 1);
   const preview = previewUrl(href);
-  const codeMatch = label.match(/^([A-Z]\.\d+[a-z]?\.?)/);
-  const displayCode = codeMatch?.[1] ?? `${parameter.letter}.${itemIndex}`;
-  const displayTitle = codeMatch ? label.slice(codeMatch[0].length).trim() : label;
 
   return (
     <main className="area-page area-resource-page">
@@ -81,10 +78,10 @@ export default async function AreaResource({
       <section className="area-hero area-resource-hero">
         <div className="area-hero-inner">
           <div className="area-hero-number">
-            <span>{displayCode}</span>
+            <span>{parameter.letter}</span>
           </div>
           <div className="area-hero-copy">
-            <h1>{displayTitle}</h1>
+            <h1>{label}</h1>
           </div>
         </div>
       </section>
@@ -124,8 +121,8 @@ export default async function AreaResource({
         </Link>
 
         <div className="area-page-number">
-          <span>{displayCode}</span>
-          <strong aria-hidden="true">•</strong>
+          <span>{parameter.letter}</span>
+          <strong>{itemIndex}</strong>
         </div>
 
         {next ? (
