@@ -114,12 +114,43 @@ export default async function Area({
                 </div>
 
                 <ol className="parameter-items">
-                  {parameter.items.map((item, index) => (
-                    <li key={item}>
-                      <span>{index + 1}.</span>
-                      <strong>{item}</strong>
-                    </li>
-                  ))}
+                  {parameter.items.map((item, index) => {
+                    const resource = typeof item === "string" ? null : item;
+                    const label = typeof item === "string" ? item : item.label;
+
+                    return resource ? (
+                      <li key={label} className="parameter-resource">
+                        <details>
+                          <summary>
+                            <span className="parameter-item-number">{index + 1}.</span>
+                            <strong>{label}</strong>
+                            <span className="parameter-item-chevron" aria-hidden="true">⌄</span>
+                          </summary>
+                          <div className="parameter-resource-preview">
+                            <iframe
+                              src={resource.href}
+                              title={label}
+                              loading="lazy"
+                              allow="autoplay"
+                            />
+                            <a
+                              href={resource.href.replace("/preview", "/view")}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="parameter-resource-open"
+                            >
+                              Open document in Google Drive
+                            </a>
+                          </div>
+                        </details>
+                      </li>
+                    ) : (
+                      <li key={label}>
+                        <span>{index + 1}.</span>
+                        <strong>{label}</strong>
+                      </li>
+                    );
+                  })}
                 </ol>
               </article>
             ))}
