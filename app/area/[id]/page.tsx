@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { notFound } from "next/navigation";
 import { areas } from "@/data/content";
 
@@ -18,6 +18,7 @@ export default async function Area({
   if (!area) notFound();
 
   const next = areas.find((a) => a.id === area.id + 1);
+
   return (
     <main className="area-page">
       <header className="area-page-header">
@@ -103,61 +104,7 @@ export default async function Area({
               ))}
             </div>
           </section>
-        ) : area.id === 4 && "parameters" in area && area.parameters ? (
-          <section className="aaccup-parameters" aria-labelledby="aaccup-parameters-title">
-            <div className="parameter-grid">
-              {area.parameters.map((parameter) => (
-                <article key={parameter.letter} className="parameter-card">
-                  <div className="parameter-title">
-                    <span className="parameter-letter">PARAMETER {parameter.letter}</span>
-                    <h3>{parameter.title}</h3>
-                  </div>
-
-                  <ol className="parameter-items">
-                    {parameter.items.map((item, index) => {
-                      const resource = typeof item === "string" ? null : item;
-                      const label = typeof item === "string" ? item : item.label;
-
-                      return resource ? (
-                        <li key={label} className="parameter-resource">
-                          <details>
-                            <summary>
-                              <span className="parameter-item-number">{index + 1}.</span>
-                              <strong>{label}</strong>
-                              <span className="parameter-item-chevron" aria-hidden="true">⌄</span>
-                            </summary>
-                            <div className="parameter-resource-preview">
-                              <iframe
-                                src={resource.href}
-                                title={label}
-                                loading="lazy"
-                                allow="autoplay"
-                              />
-                              <a
-                                href={resource.href.replace("/preview", "/view")}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="parameter-resource-open"
-                              >
-                                Open document in Google Drive
-                              </a>
-                            </div>
-                          </details>
-                        </li>
-                      ) : (
-                        <li key={label}>
-                          <span>{index + 1}.</span>
-                          <strong>{label}</strong>
-                        </li>
-                      );
-                    })}
-                  </ol>
-                </article>
-              ))}
-            </div>
-          </section>
-        ) : null
-
+        ) : null}
       </section>
 
       <nav className="area-pagination" aria-label="Area navigation">
