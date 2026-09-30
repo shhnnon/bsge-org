@@ -1504,9 +1504,9 @@ a { color: inherit; text-decoration: none; }
 .hero-content {
   position: relative;
   z-index: 2;
-  grid-template-columns: 155px minmax(0, 1fr);
-  gap: 28px;
-  padding: 72px 30px;
+  grid-template-columns: 225px minmax(0, 1fr);
+  gap: 34px;
+  padding: 64px 30px;
 }
 
 .hero-logo-side {
@@ -1516,8 +1516,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero-logo {
-  width: 145px;
-  height: 145px;
+  width: 215px;
+  height: 215px;
   object-fit: contain;
   filter: drop-shadow(0 8px 18px rgba(0, 0, 0, .28));
 }
@@ -1531,7 +1531,7 @@ a { color: inherit; text-decoration: none; }
   max-width: none;
   margin: 0;
   color: #fff;
-  font-size: clamp(1.65rem, 2.8vw, 2.45rem);
+  font-size: clamp(1.35rem, 2.15vw, 1.9rem);
   font-weight: 900;
   line-height: 1.08;
   letter-spacing: -.025em;
@@ -1540,9 +1540,9 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero-chapter {
-  margin: 9px 0 0;
+  margin: 10px 0 0;
   color: #f9d878;
-  font-size: clamp(.72rem, 1.15vw, .92rem);
+  font-size: clamp(.9rem, 1.35vw, 1.08rem);
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: .01em;
@@ -1565,8 +1565,8 @@ a { color: inherit; text-decoration: none; }
   }
 
   .hero-logo {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
   }
 
   .hero-center {
@@ -1574,12 +1574,12 @@ a { color: inherit; text-decoration: none; }
   }
 
   .hero-center h1 {
-    font-size: 1.72rem;
+    font-size: 1.45rem;
     white-space: normal;
   }
 
   .hero-chapter {
-    font-size: .72rem;
+    font-size: .9rem;
     white-space: normal;
     line-height: 1.35;
   }
