@@ -124,21 +124,21 @@ a { color: inherit; text-decoration: none; }
 .hero-kicker {
   margin: 0;
   color: #fff;
-  font-size: clamp(1.65rem, 3.2vw, 2.45rem);
-  font-weight: 800;
-  line-height: 1.1;
+  font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+  font-weight: 900;
+  line-height: 1.08;
   letter-spacing: -.025em;
 }
 
 .hero-institution {
-  margin: 9px 0 0;
+  margin: 3px 0 0;
   color: #ffe3a0;
-  font-size: clamp(.95rem, 1.8vw, 1.3rem);
+  font-size: clamp(1.05rem, 2vw, 1.42rem);
   font-weight: 700;
 }
 
 .hero-campus {
-  margin: 7px 0 0;
+  margin: 4px 0 0;
   color: rgba(255, 255, 255, .84);
   font-size: .92rem;
 }
