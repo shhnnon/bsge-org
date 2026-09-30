@@ -315,12 +315,29 @@ a { color: inherit; text-decoration: none; }
   border-radius: 20px 7px 20px 7px;
   background: #fff;
   box-shadow: 0 10px 25px rgba(8,76,54,.08);
+  overflow: hidden;
   transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.area-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  border-radius: 0 999px 999px 0;
+  background: var(--green);
+  transition: width .2s ease;
 }
 
 .area-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 17px 33px rgba(8,76,54,.12);
+}
+
+.area-card:hover::after {
+  width: 100%;
 }
 
 .area-number {
