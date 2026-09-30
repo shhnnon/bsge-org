@@ -41,47 +41,80 @@ export default async function Area({
 
       <section className="area-hero">
         <div className="area-hero-inner">
-          <div>
-            <p className="area-kicker">AREA {area.id} <span>|</span> BSGE PROGRAM AREA</p>
+          <div className="area-hero-number">
+            <span>{String(area.id).padStart(2, "0")}</span>
+          </div>
+
+          <div className="area-hero-copy">
+            <p className="area-kicker">BSGE PROGRAM AREA</p>
             <h1>{area.title}</h1>
             <p>{area.summary}</p>
           </div>
-          <div className="area-counter">
-            <span>Area</span>
-            <strong>{area.id}</strong>
-            <small>of {areas.length}</small>
-          </div>
+
+          <aside className="area-hero-action">
+            <span className="area-action-label">AREA {area.id} OF {areas.length}</span>
+            <h2>Area Files</h2>
+            <p>Access the documents and resources for this program area.</p>
+            <a
+              href={area.driveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="area-drive-button"
+            >
+              Open Google Drive
+              <ExternalLink size={16} />
+            </a>
+          </aside>
         </div>
       </section>
 
       <section className="area-content">
+        <div className="area-section-label">AREA OVERVIEW</div>
+
         <div className="area-main-grid">
           <article className="area-intro-card">
             <span className="area-accent" />
+            <h2>{area.title}</h2>
             <p>{area.body}</p>
           </article>
 
           <aside className="area-drive-card">
             <div className="area-drive-icon" aria-hidden="true">
-              <ExternalLink size={22} />
+              <ExternalLink size={21} />
             </div>
-            <p className="area-drive-label">ACCESS AREA FILES</p>
-            <h2>Google Drive</h2>
-            <p>Open the folder containing the documents and resources for this program area.</p>
-            <a href={area.driveUrl} target="_blank" rel="noopener noreferrer" className="area-drive-button">
-              Open Area {area.id} Files
-              <ExternalLink size={16} />
+            <span className="area-drive-label">DOCUMENTS & RESOURCES</span>
+            <h2>Google Drive Folder</h2>
+            <p>All files for Area {area.id} are organized in the linked Drive folder.</p>
+            <a
+              href={area.driveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="area-drive-link"
+            >
+              View Area {area.id} files
+              <ArrowRight size={15} />
             </a>
           </aside>
         </div>
 
-        <div className="area-resource-card">
+        <div className="area-highlight">
           <div>
-            <span className="area-resource-label">BSGE • ALANGILAN</span>
-            <h2>{area.title}</h2>
-            <p>Use the Google Drive folder above to access the complete collection of documents for this area.</p>
+            <span className="area-highlight-number">{String(area.id).padStart(2, "0")}</span>
+            <div>
+              <span className="area-highlight-label">BSGE • ALANGILAN CAMPUS</span>
+              <h2>Program Area {area.id}</h2>
+              <p>{area.summary}</p>
+            </div>
           </div>
-          <div className="area-resource-number">{String(area.id).padStart(2, "0")}</div>
+          <a
+            href={area.driveUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="area-highlight-button"
+          >
+            Access files
+            <ExternalLink size={15} />
+          </a>
         </div>
       </section>
 
