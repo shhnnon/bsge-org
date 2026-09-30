@@ -2022,3 +2022,12 @@ a { color: inherit; text-decoration: none; }
   .resource-detail-preview { padding: 8px; }
   .resource-detail-preview iframe { height: 650px; min-height: 0; border-radius: 10px; }
 }
+
+
+/* Nested area subtopics */
+.library-nested-subitem { display: block; }
+.library-subitem-summary { list-style: none; }
+.library-subitem-summary::-webkit-details-marker { display: none; }
+.library-nested-items { padding: 0 12px 8px 48px; background: #fbfdfc; }
+.library-nested-link { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 8px; border-top: 1px solid #e5eee9; color: #52635b; font-size: .72rem; line-height: 1.45; text-decoration: none; }
+.library-nested-link:hover { color: var(--green-dark); background: #eef8f3; }
