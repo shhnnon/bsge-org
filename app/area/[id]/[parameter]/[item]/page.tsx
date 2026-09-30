@@ -19,7 +19,7 @@ function previewUrl(href?: string) {
 export function generateStaticParams() {
   return areas.flatMap((area) => {
     const parameters = getParameters(area);
-    if (!parameters || area.id === 7) return [];
+    if (!parameters) return [];
 
     return parameters.flatMap((parameter) =>
       parameter.items.map((_, index) => ({
@@ -41,7 +41,7 @@ export default async function AreaResource({
   if (!area) notFound();
 
   const parameters = getParameters(area);
-  if (!parameters || area.id === 7) notFound();
+  if (!parameters) notFound();
 
   const parameter = parameters.find((entry) => entry.letter.toLowerCase() === parameterLetter.toLowerCase());
   const index = Number(itemIndex) - 1;
