@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { notFound } from "next/navigation";
 import { areas } from "@/data/content";
 
-type ParameterItem = string | { label: string; href?: string; children?: { label: string; href?: string }[] };
+type ParameterItem = string | { label: string; href?: string; text?: string; children?: { label: string; href?: string }[] };
 type Parameter = { letter: string; title: string; items: ParameterItem[] };
 
 function getParameters(area: (typeof areas)[number]): Parameter[] | null {
@@ -50,6 +50,7 @@ export default async function AreaResource({
 
   const label = typeof item === "string" ? item : item.label;
   const href = typeof item === "string" ? undefined : item.href;
+  const text = typeof item === "string" ? undefined : item.text;
   const next = areas.find((a) => a.id === area.id + 1);
   const preview = previewUrl(href);
 
@@ -89,7 +90,11 @@ export default async function AreaResource({
       <section className="area-resource-detail">
 
 
-        {preview ? (
+        {text ? (
+          <div className="resource-text-block">
+            <p>{text}</p>
+          </div>
+        ) : preview ? (
           <div className="resource-detail-preview">
             <iframe
               src={preview}
