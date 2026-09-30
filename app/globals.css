@@ -2037,3 +2037,167 @@ a { color: inherit; text-decoration: none; }
 
 .resource-text-block{padding:28px 30px;border:1px solid #dbe9e2;border-radius:18px 7px 18px 7px;background:#f7faf8;box-shadow:0 14px 32px rgba(8,76,54,.08);color:#111;font-size:.9rem;line-height:1.8}.resource-text-block p{margin:0;white-space:pre-line}
 @media(max-width:620px){.resource-text-block{padding:22px 20px;font-size:.82rem}}
+
+
+/* Mobile-first sizing refinements */
+@media (max-width: 620px) {
+  .site-header-inner {
+    min-height: 60px;
+    padding: 7px 16px;
+    gap: 10px;
+  }
+
+  .site-header-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .site-header-title {
+    font-size: 1.02rem;
+    line-height: 1.15;
+  }
+
+  .site-header-subtitle {
+    font-size: .58rem;
+  }
+
+  .program-section,
+  .areas-section {
+    padding: 42px 16px;
+  }
+
+  .areas-section {
+    padding-top: 44px;
+  }
+
+  .section-heading {
+    width: 100%;
+    margin: 0 auto 28px;
+  }
+
+  .eyebrow {
+    margin-bottom: 8px;
+    font-size: .64rem;
+    letter-spacing: .09em;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.55rem, 7vw, 2rem);
+    line-height: 1.15;
+  }
+
+  .areas-heading > p:last-child {
+    max-width: 360px;
+    margin-top: 10px;
+    font-size: .76rem;
+    line-height: 1.55;
+  }
+
+  .areas-grid {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .area-card {
+    min-height: 0;
+    padding: 25px 24px 24px;
+    border-radius: 20px 8px 20px 8px;
+  }
+
+  .area-number {
+    top: 16px;
+    right: 16px;
+    min-width: 42px;
+    height: 42px;
+    padding: 0 9px;
+    border-radius: 50%;
+    font-size: .78rem;
+    box-shadow: 0 8px 18px rgba(8,76,54,.14);
+  }
+
+  .area-card h3 {
+    max-width: calc(100% - 52px);
+    padding-right: 2px;
+    font-size: .98rem;
+    line-height: 1.3;
+  }
+
+  .area-card p,
+  .area-card .area-description {
+    margin: 12px 0 14px;
+    min-height: 0;
+    font-size: .76rem;
+    line-height: 1.55;
+  }
+
+  .read-more {
+    font-size: .74rem;
+  }
+
+  .quick-grid {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .quick-card {
+    min-height: 145px;
+    padding: 22px 20px;
+    border-radius: 22px 9px 22px 9px;
+  }
+
+  .quick-card h3 {
+    font-size: .92rem;
+  }
+
+  .quick-card p {
+    font-size: .7rem;
+  }
+
+  .university-card {
+    width: 100%;
+    margin-top: 28px;
+    padding: 26px 22px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    border-radius: 24px 9px 24px 9px;
+  }
+
+  .university-card-copy {
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .university-card-logo {
+    width: 48px;
+    height: 48px;
+  }
+
+  .university-card-copy h3 {
+    font-size: 1.2rem;
+  }
+
+  .university-card-copy strong {
+    font-size: .9rem;
+  }
+
+  .university-card-copy p {
+    font-size: .72rem;
+    line-height: 1.55;
+  }
+
+  .university-card-video {
+    min-height: 0;
+    border-radius: 16px;
+  }
+
+  .university-card-video iframe {
+    min-height: 0;
+  }
+
+  .embedded-document {
+    margin-top: 22px;
+    border-radius: 10px;
+  }
+}
