@@ -78,55 +78,33 @@ export default async function Area({
             <h2>{area.title}</h2>
             <p>{area.body}</p>
           </article>
-
-          <aside className="area-drive-card">
-            <div className="area-drive-icon" aria-hidden="true">
-              <ExternalLink size={21} />
-            </div>
-            <span className="area-drive-label">DOCUMENTS & RESOURCES</span>
-            <h2>Google Drive Folder</h2>
-            <p>All files for Area {area.id} are organized in the linked Drive folder.</p>
-            <a
-              href={area.driveUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="area-drive-link"
-            >
-              View Area {area.id} files
-              <ArrowRight size={15} />
-            </a>
-          </aside>
         </div>
 
-        <section className="aaccup-parameters" aria-labelledby="aaccup-parameters-title">
-          <div className="aaccup-parameters-heading">
-            <div>
-              <h2 id="aaccup-parameters-title">Parameters</h2>
-            </div>
-          </div>
+        {area.id === 7 && "parameters" in area && area.parameters ? (
+          <section className="library-blocks" aria-label="Library documents">
+            <div className="library-block-grid">
+              {area.parameters.map((parameter) => (
+                <details key={parameter.letter} className="library-block">
+                  <summary>
+                    <span className="library-block-letter">{parameter.letter}</span>
+                    <span className="library-block-title">{parameter.title}</span>
+                    <span className="library-block-chevron" aria-hidden="true">⌄</span>
+                  </summary>
 
-          <div className="parameter-grid">
-            {parameters.map((parameter) => (
-              <article key={parameter.letter} className="parameter-card">
-                <div className="parameter-title">
-                  <span className="parameter-letter">PARAMETER {parameter.letter}</span>
-                  <h3>{parameter.title}</h3>
-                </div>
+                  <div className="library-subitems">
+                    {parameter.items.map((item, index) => {
+                      const resource = typeof item === "string" ? null : item;
+                      const label = typeof item === "string" ? item : item.label;
 
-                <ol className="parameter-items">
-                  {parameter.items.map((item, index) => {
-                    const resource = typeof item === "string" ? null : item;
-                    const label = typeof item === "string" ? item : item.label;
-
-                    return resource ? (
-                      <li key={label} className="parameter-resource">
-                        <details>
+                      return resource ? (
+                        <details key={label} className="library-subitem">
                           <summary>
-                            <span className="parameter-item-number">{index + 1}.</span>
-                            <strong>{label}</strong>
-                            <span className="parameter-item-chevron" aria-hidden="true">⌄</span>
+                            <span className="library-subitem-number">{index + 1}.</span>
+                            <span>{label}</span>
+                            <span className="library-subitem-chevron" aria-hidden="true">⌄</span>
                           </summary>
-                          <div className="parameter-resource-preview">
+
+                          <div className="library-pdf-preview">
                             <iframe
                               src={resource.href}
                               title={label}
@@ -137,45 +115,84 @@ export default async function Area({
                               href={resource.href.replace("/preview", "/view")}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="parameter-resource-open"
                             >
                               Open document in Google Drive
                             </a>
                           </div>
                         </details>
-                      </li>
-                    ) : (
-                      <li key={label}>
-                        <span>{index + 1}.</span>
-                        <strong>{label}</strong>
-                      </li>
-                    );
-                  })}
-                </ol>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <div className="area-highlight">
-          <div>
-            <span className="area-highlight-number">{String(area.id).padStart(2, "0")}</span>
-            <div>
-              <span className="area-highlight-label">BSGE • ALANGILAN CAMPUS</span>
-              <h2>Program Area {area.id}</h2>
-              <p>{area.summary}</p>
+                      ) : (
+                        <div key={label} className="library-subitem library-subitem-static">
+                          <span className="library-subitem-number">{index + 1}.</span>
+                          <span>{label}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </details>
+              ))}
             </div>
-          </div>
-          <a
-            href={area.driveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="area-highlight-button"
-          >
-            Access files
-            <ExternalLink size={15} />
-          </a>
-        </div>
+          </section>
+        ) : (
+          <section className="aaccup-parameters" aria-labelledby="aaccup-parameters-title">
+            <div className="aaccup-parameters-heading">
+              <div>
+                <h2 id="aaccup-parameters-title">Parameters</h2>
+              </div>
+            </div>
+
+            <div className="parameter-grid">
+              {parameters.map((parameter) => (
+                <article key={parameter.letter} className="parameter-card">
+                  <div className="parameter-title">
+                    <span className="parameter-letter">PARAMETER {parameter.letter}</span>
+                    <h3>{parameter.title}</h3>
+                  </div>
+
+                  <ol className="parameter-items">
+                    {parameter.items.map((item, index) => {
+                      const resource = typeof item === "string" ? null : item;
+                      const label = typeof item === "string" ? item : item.label;
+
+                      return resource ? (
+                        <li key={label} className="parameter-resource">
+                          <details>
+                            <summary>
+                              <span className="parameter-item-number">{index + 1}.</span>
+                              <strong>{label}</strong>
+                              <span className="parameter-item-chevron" aria-hidden="true">⌄</span>
+                            </summary>
+                            <div className="parameter-resource-preview">
+                              <iframe
+                                src={resource.href}
+                                title={label}
+                                loading="lazy"
+                                allow="autoplay"
+                              />
+                              <a
+                                href={resource.href.replace("/preview", "/view")}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="parameter-resource-open"
+                              >
+                                Open document in Google Drive
+                              </a>
+                            </div>
+                          </details>
+                        </li>
+                      ) : (
+                        <li key={label}>
+                          <span>{index + 1}.</span>
+                          <strong>{label}</strong>
+                        </li>
+                      );
+                    })}
+                  </ol>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
       </section>
 
       <nav className="area-pagination" aria-label="Area navigation">
