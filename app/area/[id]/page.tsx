@@ -118,6 +118,7 @@ export default async function Area({
                   <div className="library-subitems">
                     {parameter.items.map((item, index) => {
                       const label = typeof item === "string" ? item : item.label;
+                      const children = typeof item === "string" ? [] : (item.children ?? []);
                       return children.length ? (
                         <details key={label} className="library-subitem library-nested-subitem">
                           <summary className="library-subitem-summary">
