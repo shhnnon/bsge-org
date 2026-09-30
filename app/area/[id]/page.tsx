@@ -65,7 +65,6 @@ export default async function Area({
 
           <div className="area-hero-copy">
             <h1>{area.title}</h1>
-            <p>{area.summary}</p>
           </div>
 
           <aside className="area-hero-action">
