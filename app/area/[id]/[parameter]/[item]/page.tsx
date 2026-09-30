@@ -121,7 +121,7 @@ export default async function AreaResource({
         </Link>
 
         <div className="area-page-number">
-          <span>{parameter.letter}.{itemIndex}</span>
+          <span>{label}</span>
         </div>
 
         {next ? (
