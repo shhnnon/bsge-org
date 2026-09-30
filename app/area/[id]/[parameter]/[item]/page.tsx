@@ -72,7 +72,7 @@ export default async function AreaResource({
         <span>/</span>
         <Link href={`/area/${area.id}`}>Area {area.id}</Link>
         <span>/</span>
-        <strong>{parameter.title}</strong>
+        <strong>{label}</strong>
       </nav>
 
       <section className="area-hero area-resource-hero">
@@ -81,18 +81,13 @@ export default async function AreaResource({
             <span>{parameter.letter}</span>
           </div>
           <div className="area-hero-copy">
-            <p className="area-kicker">Area {area.id} · {parameter.letter}</p>
-            <h1>{parameter.title}</h1>
+            <h1>{label}</h1>
           </div>
         </div>
       </section>
 
       <section className="area-resource-detail">
-        <div className="resource-detail-heading">
-          <span className="resource-detail-caption">{parameter.letter}. {parameter.title}</span>
-          <h2>{label}</h2>
-          <p>Document {itemIndex} under {parameter.letter}. {parameter.title}</p>
-        </div>
+
 
         {preview ? (
           <div className="resource-detail-preview">
