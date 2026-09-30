@@ -11,7 +11,7 @@
 }
 
 .aaccup-eyebrow {
-  color: #e21f26;
+  color: #087f5b;
   font-size: .68rem;
   font-weight: 900;
   letter-spacing: .12em;
@@ -50,12 +50,12 @@
 
 .parameter-title {
   padding-left: 15px;
-  border-left: 4px solid #e21f26;
+  border-left: 4px solid #087f5b;
 }
 
 .parameter-letter {
   display: block;
-  color: #e21f26;
+  color: #087f5b;
   font-size: 1rem;
   font-weight: 900;
   line-height: 1.1;
@@ -91,7 +91,7 @@
 }
 
 .parameter-items li > span {
-  color: #e21f26;
+  color: #087f5b;
   font-weight: 900;
 }
 
