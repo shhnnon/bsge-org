@@ -115,14 +115,20 @@ export default function Home() {
         </div>
 
         <div className="university-card">
-          <div className="university-card-copy">
+          <a
+            href="https://batstateu.edu.ph/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="university-card-copy"
+            aria-label="Visit Batangas State University website"
+          >
             <img src="/batstateu.svg" alt="Batangas State University" className="university-card-logo" />
             <div>
               <h3>{site.university}</h3>
               <strong>{site.tagline}</strong>
               <p>Welcome to the BSGE community at {site.campus}. Explore program information, activities, resources, and organizational updates.</p>
             </div>
-          </div>
+          </a>
           <div className="university-card-video">
             <iframe
               src="https://www.youtube.com/embed/Pb61NjXrJCg"
