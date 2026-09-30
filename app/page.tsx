@@ -75,25 +75,31 @@ export default function Home() {
               </>
             );
 
+            if (item.title === "Reference Files") {
+              return (
+                <details key={item.title} className="quick-card quick-reference-card">
+                  <summary>{content}</summary>
+                  <div className="quick-dropdown">
+                    {referenceFiles.map((file) =>
+                      file.href ? (
+                        <a key={file.label} href={file.href} target="_blank" rel="noopener noreferrer">
+                          {file.label}
+                        </a>
+                      ) : (
+                        <span key={file.label} className="quick-dropdown-disabled">
+                          {file.label}
+                        </span>
+                      ),
+                    )}
+                  </div>
+                </details>
+              );
+            }
+
             return item.href ? (
               <Link key={item.title} href={item.href} className="quick-card">{content}</Link>
             ) : (
-              <div key={item.title} className="quick-card quick-card-static">
-                {content}
-                <div className="quick-dropdown">
-                  {referenceFiles.map((file) =>
-                    file.href ? (
-                      <a key={file.label} href={file.href} target="_blank" rel="noopener noreferrer">
-                        {file.label}
-                      </a>
-                    ) : (
-                      <span key={file.label} className="quick-dropdown-disabled">
-                        {file.label}
-                      </span>
-                    ),
-                  )}
-                </div>
-              </div>
+              <div key={item.title} className="quick-card quick-card-static">{content}</div>
             );
           })}
         </div>
