@@ -141,6 +141,17 @@ export default async function Area({
           </Link>
         )}
       </nav>
+
+      <footer className="site-footer">
+        <div className="footer-mark">
+          <span>Bachelor of Science in</span>
+          <strong>Geodetic Engineering</strong>
+        </div>
+        <div className="footer-contact">
+          <span>FOR QUERIES AND/OR ASSISTANCE:</span>
+          <a href="mailto:gepsc.alangilan@g.batstate-u.edu.ph">gepsc.alangilan@g.batstate-u.edu.ph</a>
+        </div>
+      </footer>
     </main>
   );
 }
