@@ -67,6 +67,7 @@ export default async function Area({
                     {parameter.items.map((item, index) => {
                       const resource = typeof item === "string" ? null : item;
                       const label = typeof item === "string" ? item : item.label;
+                      const children = typeof item === "string" ? [] : (item.children ?? []);
 
                       return resource ? (
                         <details key={label} className="library-subitem">
@@ -117,7 +118,27 @@ export default async function Area({
                   <div className="library-subitems">
                     {parameter.items.map((item, index) => {
                       const label = typeof item === "string" ? item : item.label;
-                      return (
+                      return children.length ? (
+                        <details key={label} className="library-subitem library-nested-subitem">
+                          <summary className="library-subitem-summary">
+                            <span className="library-subitem-number">{index + 1}.</span>
+                            <span>{label}</span>
+                            <span className="library-subitem-chevron" aria-hidden="true">⌄</span>
+                          </summary>
+                          <div className="library-nested-items">
+                            {children.map((child, childIndex) => (
+                              <Link
+                                key={child.label}
+                                href={`/area/${area.id}/${parameter.letter}/${index + 1}/${childIndex + 1}`}
+                                className="library-nested-link"
+                              >
+                                <span>{child.label}</span>
+                                <span aria-hidden="true">›</span>
+                              </Link>
+                            ))}
+                          </div>
+                        </details>
+                      ) : (
                         <Link
                           key={label}
                           href={`/area/${area.id}/${parameter.letter}/${index + 1}`}
