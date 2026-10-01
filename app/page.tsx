@@ -35,7 +35,23 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="hero" aria-label="Batangas State University Alangilan Campus" />
+      <section className="hero" aria-label="Batangas State University Alangilan Campus">
+        <div className="hero-institutional">
+          <div className="hero-institutional-left">
+            <img src="/batstateu.svg" alt="Batangas State University seal" className="hero-institutional-logo" />
+            <div className="hero-institutional-copy">
+              <div className="hero-university-name">BATANGAS STATE UNIVERSITY</div>
+              <div className="hero-university-tagline">The National Engineering University</div>
+              <div className="hero-campus">Alangilan Campus</div>
+            </div>
+          </div>
+          <div className="hero-institutional-motto">
+            <div>Leading Innovation</div>
+            <div>Transforming Lives</div>
+            <div>Building The Nation</div>
+          </div>
+        </div>
+      </section>
 
       <section className="program-section">
         <div className="bsge-intro">
