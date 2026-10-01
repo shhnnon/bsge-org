@@ -86,7 +86,7 @@ a { color: inherit; text-decoration: none; }
   width: auto;
   height: auto;
   border-radius: 0;
-  background: url("/bsu.svg") center center / cover no-repeat;
+  background: url("/bsu.svg") center center / cover no-repeat, url("/gepsc-background.svg") center center / cover no-repeat;
   opacity: 1;
   z-index: 0;
 }
