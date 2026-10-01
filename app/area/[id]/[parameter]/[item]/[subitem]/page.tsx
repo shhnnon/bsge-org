@@ -57,7 +57,7 @@ export default async function NestedAreaResource({
     <main className="area-page area-resource-page">
       <header className="area-page-header">
         <Link href="/" className="area-brand">
-          <img src="/gep-batstateu-sc.svg" alt="Geodetic Engineers of the Philippines BatStateU Student Chapter logo" className="area-brand-logo" />
+          <img src="/batstateu.svg" alt="Batangas State University logo" className="area-brand-logo" />
           <span><strong>Geodetic Engineering</strong><small>COE - Alangilan Campus</small></span>
         </Link>
       </header>
