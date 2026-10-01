@@ -74,7 +74,15 @@ export default async function NestedAreaResource({
         <div className="resource-detail-heading">
           <h2>{child.label}</h2>
         </div>
-        {preview ? (
+        {grandchild.images?.length ? (
+          <div className="resource-detail-gallery" aria-label="Photo Documentation">
+            {grandchild.images.map((src, index) => (
+              <figure key={src} className="resource-detail-gallery-item">
+                <img src={src} alt={`Photo Documentation ${index + 1}`} loading={index === 0 ? "eager" : "lazy"} />
+              </figure>
+            ))}
+          </div>
+        ) : preview ? (
           <div className="resource-detail-preview">
             <iframe src={preview} title={child.label} loading="eager" allow="autoplay" />
             <a href={child.href} target="_blank" rel="noopener noreferrer" className="resource-detail-open">Open document in Google Drive</a>
