@@ -19,7 +19,7 @@ function getParameters(area: (typeof areas)[number]): Parameter[] | null {
 
 function previewUrl(href?: string) {
   if (!href) return "";
-  return href.replace(/\/\/view(?=\?|$)/, "/preview").replace(/\/\/edit(?=\?|$)/, "/preview");
+  return href.replace(/\/view(?=\?|$)/, "/preview").replace(/\/edit(?=\?|$)/, "/preview");
 }
 
 export function generateStaticParams() {
