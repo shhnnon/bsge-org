@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 import { areas } from "@/data/content";
 
-type Child = { label: string; href?: string };
+type Child = { label: string; href?: string; note?: string };
 type ParameterItem = string | { label: string; href?: string; children?: Child[] };
 type Parameter = { letter: string; title: string; items: ParameterItem[] };
 
@@ -78,6 +78,7 @@ export default async function NestedAreaResource({
           <div className="resource-detail-preview">
             <iframe src={preview} title={child.label} loading="eager" allow="autoplay" />
             <a href={child.href} target="_blank" rel="noopener noreferrer" className="resource-detail-open">Open document in Google Drive</a>
+            {child.note ? <p className="resource-detail-note">{child.note}</p> : null}
           </div>
         ) : (
           <div className="resource-detail-empty">
