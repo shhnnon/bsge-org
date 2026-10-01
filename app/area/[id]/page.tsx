@@ -71,12 +71,24 @@ export default async function Area({
                         const children = typeof current === "string" ? [] : (current.children ?? []);
 
                         if (!children.length) {
-                          const href = `/area/${area.id}/${parameter.letter}/${path.join("/")}`;
-                          return (
-                            <Link key={href} href={href} className={depth === 0 ? "library-subitem-link" : "library-nested-link"}>
+                          const href = typeof current === "string" ? undefined : current.href;
+                          const resourceHref = `/area/${area.id}/${parameter.letter}/${path.join("/")}`;
+                          const className = depth === 0 ? "library-subitem-link" : "library-nested-link";
+                          const content = (
+                            <>
                               {depth === 0 ? <span className="library-subitem-number">{path[0]}.</span> : null}
                               <span>{label}</span>
-                              <span aria-hidden="true">›</span>
+                              {depth === 0 || href ? <span aria-hidden="true">›</span> : null}
+                            </>
+                          );
+
+                          if (depth > 0 && !href) {
+                            return <div key={resourceHref} className={`${className} library-nested-link-static`}>{content}</div>;
+                          }
+
+                          return (
+                            <Link key={resourceHref} href={depth === 0 ? resourceHref : resourceHref} className={className}>
+                              {content}
                             </Link>
                           );
                         }
