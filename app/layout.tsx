@@ -18,7 +18,9 @@ export const metadata: Metadata = {
   description:
     "Bachelor of Science in Geodetic Engineering - Batangas State University, Alangilan Campus.",
   icons: {
-    icon: "/batstateu.svg",
+    icon: "/batstateu.svg?v=2",
+    shortcut: "/batstateu.svg?v=2",
+    apple: "/batstateu.svg?v=2",
   },
 };
 
