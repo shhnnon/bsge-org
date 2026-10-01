@@ -4,7 +4,7 @@ export default function Loading() {
       <div className="loading-logo-wrap">
         <span className="loading-spinner" aria-hidden="true" />
         <img
-          src="/gep-batstateu-sc.svg"
+          src="/batstateu.svg"
           alt="BSGE"
           className="loading-logo"
         />
