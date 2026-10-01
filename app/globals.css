@@ -76,7 +76,7 @@ a { color: inherit; text-decoration: none; }
   content: "";
   position: absolute;
   inset: 0;
-  background: url("/bsus.png") center center / cover no-repeat;
+  background:\n    url("/bsus.png") center center / cover no-repeat,\n    url("/gepsc-background.svg") center center / cover no-repeat;
   z-index: 0;
 }
 
