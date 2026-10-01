@@ -27,7 +27,7 @@ export default function Home() {
     <main className="site-shell">
       <header className="site-header">
         <div className="site-header-inner">
-          <img src="/gep-batstateu-sc.svg" alt="Geodetic Engineers of the Philippines BatStateU Student Chapter logo" className="site-header-logo" />
+          <img src="/batstateu.svg" alt="Batangas State University logo" className="site-header-logo" />
           <div className="site-header-copy">
             <p className="site-header-title">Geodetic Engineering</p>
             <p className="site-header-subtitle">COE - Alangilan Campus</p>
@@ -38,11 +38,10 @@ export default function Home() {
       <section className="hero">
         <div className="hero-content">
           <div className="hero-logo-side">
-            <img src="/gep-batstateu-sc.svg" alt="Geodetic Engineers of the Philippines BatStateU Student Chapter logo" className="hero-logo" />
+            <img src="/batstateu.svg" alt="Batangas State University logo" className="hero-logo" />
           </div>
           <div className="hero-center">
             <h1>Bachelor of Science in Geodetic Engineering</h1>
-            <p className="hero-chapter">Geodetic Engineers of the Philippines BatStateU - Student Chapter</p>
             <p className="hero-description">
               The <strong>Bachelor of Science in Geodetic Engineering (BSGE)</strong> at <strong>Batangas State University – The National Engineering University (Alangilan Campus)</strong> is a premier undergraduate program housed under the College of Engineering. Tailored to train future leaders in geospatial science, the curriculum combines rigorous engineering fundamentals with advanced surveying, spatial analysis, and location technology. Students gain hands-on expertise in establishing geodetic control networks, land surveying, Geographic Information Systems (GIS), photogrammetry, remote sensing, and satellite-based positioning systems. Rooted in the engineering hub of BatStateU Alangilan, the BSGE program equips graduates to play a vital role in national development, addressing critical challenges in land administration, infrastructure development, urban planning, hydrographic surveying, and disaster risk management.
             </p>
