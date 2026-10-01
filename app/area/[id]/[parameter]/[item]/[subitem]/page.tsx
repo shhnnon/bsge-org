@@ -66,7 +66,7 @@ export default async function NestedAreaResource({
         <Link href="/">Home</Link><span>/</span>
         <Link href="/#areas">Areas</Link><span>/</span>
         <Link href={`/area/${area.id}`}>Area {area.id}</Link><span>/</span>
-        <Link href={`/area/${area.id}/${parameter.letter}/${itemIndex}`}>{parent && typeof parent !== "string" ? parent.label : parameter.title}</Link><span>/</span>
+        <Link href={`/area/${area.id}`}>{parent && typeof parent !== "string" ? parent.label : parameter.title}</Link><span>/</span>
         <strong>{child.label}</strong>
       </nav>
 
