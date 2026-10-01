@@ -68,19 +68,15 @@ a { color: inherit; text-decoration: none; }
 .hero {
   position: relative;
   min-height: 500px;
-  display: flex;
-  align-items: center;
   overflow: hidden;
-  background: #f5f5f5;
+  background: #f4f4f4;
 }
 
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background:
-    url("/bsus.png") center center / cover no-repeat,
-    url("/gepsc-background.svg") center center / cover no-repeat;
+  background: url("/bsus.png") center center / cover no-repeat;
   z-index: 0;
 }
 
@@ -88,82 +84,19 @@ a { color: inherit; text-decoration: none; }
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255,255,255,.08);
+  background: rgba(255, 255, 255, .28);
   z-index: 1;
 }
 
-.hero-content {
-  position: relative;
-  z-index: 2;
-  width: min(1180px, 100%);
-  margin: 0 auto;
-  grid-template-columns: 260px minmax(0, 1fr);
-  gap: 34px;
-  padding: 64px 30px;
-  display: grid;
-  align-items: center;
-}
-
-.hero-logo-side {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-logo {
-  width: 250px;
-  height: 250px;
-  object-fit: contain;
-  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, .28));
-}
-
-.hero-center {
-  text-align: left;
-  color: #fff;
-}
-
-.hero-center h1 {
-  max-width: none;
-  margin: 0;
-  color: #fff;
-  -webkit-text-stroke: 0;
-  text-stroke: 0;
-  font-size: clamp(1.6rem, 2.8vw, 2.35rem);
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 1.08;
-  letter-spacing: -.025em;
-  white-space: nowrap;
-  text-shadow: 0 3px 18px rgba(0, 0, 0, .35);
-}
-
-.hero-chapter {
-  margin: 10px 0 0;
-  color: #fff;\n  -webkit-text-stroke: 0;
-  text-stroke: 0;
-  font-size: clamp(.9rem, 1.35vw, 1.08rem);
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: .01em;
-  white-space: nowrap;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, .28);
-}
-
-.hero-description {
-  max-width: 760px;
-  margin: 22px 0 0;
-  padding-left: 0;
-  color: #000;\n  font-size: .68rem;
-  font-weight: 400;
-  line-height: 1.7;
-  letter-spacing: .005em;
-  text-align: justify;
-  text-justify: inter-word;
-  text-shadow: none;
-}
-
+.hero-content,
+.hero-logo-side,
+.hero-logo,
+.hero-center,
+.hero-center h1,
+.hero-chapter,
+.hero-description,
 .hero-description strong {
-  color: #000;\n  font-weight: 800;
+  display: none;
 }
 
 @media (max-width: 980px) {
@@ -264,7 +197,7 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 620px) {
   .hero {
-    min-height: 245px;
+    min-height: 260px;
   }
 
   .bsge-intro {
