@@ -163,23 +163,34 @@ a { color: inherit; text-decoration: none; }
 }
 
 .bsge-intro {
-  width: min(100%, 980px);
-  margin: 0 auto 34px;
+  width: min(100%, 1040px);
+  margin: 0 auto 42px;
+  text-align: center;
+}
+
+.bsge-kicker {
+  margin: 0 0 18px;
+  color: #d90812;
+  font-size: clamp(1rem, 2vw, 1.65rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: .02em;
   text-align: center;
 }
 
 .bsge-intro h1 {
   margin: 0;
-  color: var(--green);
-  font-size: clamp(1.8rem, 4vw, 3rem);
-  font-weight: 900;
-  line-height: 1.1;
-  letter-spacing: -.025em;
+  color: #c9000b;
+  font-size: clamp(3rem, 6.4vw, 5.25rem);
+  font-weight: 800;
+  line-height: .98;
+  letter-spacing: -.035em;
+  text-align: center;
 }
 
-.bsge-intro p {
+.bsge-intro > p:not(.bsge-kicker) {
   max-width: 900px;
-  margin: 18px auto 0;
+  margin: 28px auto 0;
   color: #111;
   font-size: clamp(.78rem, 1.05vw, .9rem);
   line-height: 1.7;
@@ -260,8 +271,14 @@ a { color: inherit; text-decoration: none; }
     margin-bottom: 28px;
   }
 
+  .bsge-kicker {
+    margin-bottom: 10px;
+    font-size: .9rem;
+  }
+
   .bsge-intro h1 {
-    font-size: 1.65rem;
+    font-size: 2.7rem;
+    line-height: 1;
   }
 
   .bsge-intro p {
@@ -277,7 +294,7 @@ a { color: inherit; text-decoration: none; }
 .program-section,
 .areas-section {
   position: relative;
-  padding: 70px 24px;
+  padding: 78px 24px;
   background:
     radial-gradient(circle at 5% 10%, rgba(244,185,66,.14), transparent 22rem),
     radial-gradient(circle at 95% 85%, rgba(8,127,91,.10), transparent 24rem),
