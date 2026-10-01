@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 import { areas } from "@/data/content";
 
-type Child = { label: string; href?: string; note?: string };
+type Child = { label: string; href?: string; note?: string; images?: string[] };
 type ParameterItem = string | { label: string; href?: string; children?: Child[] };
 type Parameter = { letter: string; title: string; items: ParameterItem[] };
 
@@ -74,9 +74,9 @@ export default async function NestedAreaResource({
         <div className="resource-detail-heading">
           <h2>{child.label}</h2>
         </div>
-        {grandchild.images?.length ? (
+        {child.images?.length ? (
           <div className="resource-detail-gallery" aria-label="Photo Documentation">
-            {grandchild.images.map((src, index) => (
+            {child.images.map((src: string, index: number) => (
               <figure key={src} className="resource-detail-gallery-item">
                 <img src={src} alt={`Photo Documentation ${index + 1}`} loading={index === 0 ? "eager" : "lazy"} />
               </figure>
