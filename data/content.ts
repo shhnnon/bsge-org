@@ -293,14 +293,22 @@ export const areas = [
           {
             label: "B.1 Educational profile and functions of the academic administration",
             children: [
-              { label: "B.1.1. Dean or Director" },
-              { label: "College of Engineering Functional Chart" },
-              { label: "College of Engineering Organizational Structure" },
-              { label: "Curriculum Vitae of College Dean" },
-              { label: "B.1.2 Department Chair or his/her equivalent" },
-              { label: "Local Designees in the College of Engineering", href: "https://drive.google.com/file/d/1iWK53iALcEqTs3Az2InIP6GqxNpNkdq8/preview", note: "Effective First Semester AY 2026 - 2027" },
-              { label: "Department Chairperson" },
-              { label: "Program Chairperson" },
+              {
+                label: "B.1.1. Dean or Director",
+                children: [
+                  { label: "College of Engineering Functional Chart" },
+                  { label: "College of Engineering Organizational Structure" },
+                  { label: "Curriculum Vitae of College Dean" },
+                ],
+              },
+              {
+                label: "B.1.2 Department Chair or his/her equivalent",
+                children: [
+                  { label: "Local Designees in the College of Engineering", href: "https://drive.google.com/file/d/1iWK53iALcEqTs3Az2InIP6GqxNpNkdq8/preview", note: "Effective First Semester AY 2026 - 2027" },
+                  { label: "Department Chairperson" },
+                  { label: "Program Chairperson" },
+                ],
+              },
             ],
           },
           {
