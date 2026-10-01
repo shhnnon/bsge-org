@@ -49,6 +49,7 @@ export default async function NestedAreaResource({
   const parent = parameter?.items[Number(itemIndex) - 1];
   const children = typeof parent === "string" ? undefined : parent?.children;
   const child = children?.[Number(subitemIndex) - 1];
+  const images = child?.images ?? [];
   if (!parameter || !child) notFound();
 
   const preview = previewUrl(child.href);
@@ -74,9 +75,9 @@ export default async function NestedAreaResource({
         <div className="resource-detail-heading">
           <h2>{child.label}</h2>
         </div>
-        {child.images?.length ? (
+        {images.length ? (
           <div className="resource-detail-gallery" aria-label="Photo Documentation">
-            {child.images.map((src: string, index: number) => (
+            {images.map((src: string, index: number) => (
               <figure key={src} className="resource-detail-gallery-item">
                 <img src={src} alt={`Photo Documentation ${index + 1}`} loading={index === 0 ? "eager" : "lazy"} />
               </figure>
