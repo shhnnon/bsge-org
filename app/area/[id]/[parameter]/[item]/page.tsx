@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { areas } from "@/data/content";
 
 type ParameterItem = string | { label: string; href?: string; text?: string; children?: { label: string; href?: string }[] };
@@ -47,6 +47,12 @@ export default async function AreaResource({
   const index = Number(itemIndex) - 1;
   const item = parameter?.items[index];
   if (!parameter || !item) notFound();
+
+  // Parent items that contain subtopics are dropdown containers, not document pages.
+  // If a direct URL is opened for one of them, return to the Area page instead of showing a no-document warning.
+  if (typeof item !== "string" && item.children?.length) {
+    redirect(`/area/${area.id}`);
+  }
 
   const label = typeof item === "string" ? item : item.label;
   const href = typeof item === "string" ? undefined : item.href;
