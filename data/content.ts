@@ -228,7 +228,7 @@ export const areas = [
               { label: "OVCRDES Organizational Structure 2026", href: "https://drive.google.com/file/d/1Wp9sWdeH24RjqBPXtX96fFKlA0WAVp7z/preview" },
               { label: "VCAA - Curriculum Vitae", href: "https://drive.google.com/file/d/1IPaX-LaRSwQivchPmSOA6JncCg0dPO8G/preview" },
               { label: "VCAF - Curriculum Vitae", href: "https://drive.google.com/file/d/1iFvjz6EWkt-ENv8SMYZR_FkhEmDmqT6J/preview" },
-              { label: "VCDEA - Curriculum Vitae", href: "https://drive.google.com/file/d/1fQrvidz8vO9njGmXjCDPWt0J7P1USKB/preview" },
+              { label: "VCDEA - Curriculum Vitae", href: "https://drive.google.com/file/d/1fQrvidz8vO9njGmXjCDPWt0J1P7USKB/preview" },
               { label: "VCRDES - Curriculum Vitae", href: "https://drive.google.com/file/d/1sCdA4g0Cg9SokSOLJ6xwN8hz3AlTJC-z/preview" },
             ],
           },
