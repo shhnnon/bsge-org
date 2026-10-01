@@ -208,7 +208,182 @@ export const areas = [
     summary: "University governance providing program oversight, policy direction, and institutional quality assurance.",
     body: "University governance providing program oversight, policy direction, and institutional quality assurance.",
     driveUrl: "https://drive.google.com/drive/folders/1A3hrsecFq5JmXUVFxuuXWg4aphSMdav-?usp=drive_link",
-  },
+    parameters: [
+      {
+        letter: "A",
+        title: "Organization",
+        items: [
+          {
+            label: "A.1 Organizational Chart of the Institution displayed at the Administration Office",
+            children: [
+              { label: "University Administrative Officials FY 2026", href: "https://drive.google.com/file/d/1nB4t_JxCo2wxALGqRhQZVoYBTwUEiWBk/preview" },
+              { label: "Alangilan Campus Admin Officials", href: "https://drive.google.com/file/d/1JQ1oDXsithCfwFQ7PoBDBbrUsbI1zIy6/preview" },
+              { label: "Alangilan Campus Organizational Chart", href: "https://drive.google.com/file/d/19BMHEOvhMj3ZR0SPkGoSctWuxaHOgBHA/preview" },
+              { label: "Curriculum Vitae of University President/Chancellor", href: "https://drive.google.com/file/d/1CakXMhumHcPBMHv6G1MrEdwmPifH500h/preview" },
+              { label: "Assumption of Office of the Chancellor", href: "https://drive.google.com/file/d/1iaU_ygKNUxLVzMWf-ReXWKE4KynBH0UC/preview" },
+              { label: "Office of Chancellor Organizational Chart", href: "https://drive.google.com/file/d/11QMkgUARqw7IyTsUORYo67KR4If9CJS5/preview" },
+              { label: "OVCAA-Organizational Chart 2026", href: "https://drive.google.com/file/d/10Xu22sI2_1-_H2BDMis0vaQnds9XwJ7f/preview" },
+              { label: "OVCAF-Organizational Chart 2026", href: "https://drive.google.com/file/d/10n6UWWlgYR1jwhPyn8sRWBgBTAS6q5D2/preview" },
+              { label: "OVCDEA-Organizational Chart 2026", href: "https://drive.google.com/file/d/1VHKqg4ff2w5QVSlhKQ7BRs-zqBrRm1hO/preview" },
+              { label: "OVCRDES Organizational Structure 2026", href: "https://drive.google.com/file/d/1Wp9sWdeH24RjqBPXtX96fFKlA0WAVp7z/preview" },
+              { label: "VCAA - Curriculum Vitae", href: "https://drive.google.com/file/d/1IPaX-LaRSwQivchPmSOA6JncCg0dPO8G/preview" },
+              { label: "VCAF - Curriculum Vitae", href: "https://drive.google.com/file/d/1iFvjz6EWkt-ENv8SMYZR_FkhEmDmqT6J/preview" },
+              { label: "VCDEA - Curriculum Vitae", href: "https://drive.google.com/file/d/1fQrvidz8vO9njGmXjCDPWt0J7P1USKB/preview" },
+              { label: "VCRDES - Curriculum Vitae", href: "https://drive.google.com/file/d/1sCdA4g0Cg9SokSOLJ6xwN8hz3AlTJC-z/preview" },
+            ],
+          },
+          {
+            label: "A.2 Copy of the Board Resolution approving the organizational structure and other relevant resolutions.",
+            children: [
+              { label: "BoR Res No. 172, S. 2020", href: "https://drive.google.com/file/d/1F_uw4cZKQsanpHaPhntlpNZ5vbeQmoLC/preview" },
+              { label: "Assumption of Office of the University of Chancellor", href: "https://drive.google.com/file/d/1eE_bVp1wpUpAUeNa89EdDUcF7Tzf8QAG/preview" },
+            ],
+          },
+          {
+            label: "A.3 Functional Chart",
+            children: [
+              { label: "Office of the Chancellor", href: "https://drive.google.com/file/d/1hcMJ8EN0joHHoctChsL23tE5Lczt-khx/preview" },
+              { label: "Office of Vice Chancellor for Academic Affairs", href: "https://drive.google.com/file/d/1FXqObbw3_vKNOLeT70m9c55kUM6xBK25/preview" },
+              { label: "Office of Vice Chancellor for Administration and Finance", href: "https://drive.google.com/file/d/1Pb-OkSuoh29LyqT9XWmzv8vFqHcA95VI/preview" },
+              { label: "Office of Vice Chancellor for Development and External Affairs", href: "https://drive.google.com/file/d/1v0HmcEXo1GFGJ5QMLIks0sN2GI7ysRVm/preview" },
+              { label: "Office of Vice Chancellor for Research and Extension Services", href: "https://drive.google.com/file/d/1ewrjdfjxDDVYXMsaCfNiQTFDheJx0sZh/preview" },
+            ],
+          },
+          {
+            label: "A.4 Composition of the Administrative Council, including its powers and functions",
+            children: [
+              { label: "Administrative Council (University Code)", href: "https://drive.google.com/file/d/1A1N_kz5Dsj7Thzrt4dgcdQ1H2sq4r7Mq/preview" },
+              { label: "Admin Council", href: "https://drive.google.com/file/d/1N3t9QWOlY4-5LC_Fat2mP1DRusGpFC-R/preview", note: "Notice of Meeting September 2026" },
+              { label: "List of Administrative Officials", href: "https://drive.google.com/file/d/1zfR-NzmhJIFBbmuocoMThkk-1Rrim2Fz/preview" },
+            ],
+          },
+          {
+            label: "A.5 Composition of the Academic Council including its powers and functions.",
+            children: [
+              { label: "Composition of the Academic Council (University Code)", href: "https://drive.google.com/file/d/1cQq8OM2KUTP_nWlU4wKKPB_8NIDv_wDd/preview" },
+              { label: "Academic Council Members January 2019", href: "https://drive.google.com/file/d/1Pjb-kGd77QTdVjbWmas1HD3iSEpiFXRu/preview" },
+              { label: "Academic Council Members August 2019", href: "https://drive.google.com/file/d/1aPRwLKsbSDNdnk4J6nh-84BOPAESh9qX/preview" },
+              { label: "Academic Council", href: "https://drive.google.com/file/d/11p0OZeuDkbmIQPd3yX4EwTAHVanpAkLG/preview", note: "Notice of Meeting - October 2025" },
+              { label: "Academic Council", href: "https://drive.google.com/file/d/1u7TzsMf02sojToXWJDybYuRy8yvPQavQ/preview", note: "Notice of Meeting - September 2026" },
+            ],
+          },
+          { label: "A.6 College/University Code", children: [{ label: "College/University Code", href: "https://drive.google.com/file/d/1MLaKzN4s4uORJ7_ejfjW-d2pcWNWKjRs/preview" }] },
+          { label: "A.7 System of communication flow", children: [{ label: "System of communication flow", href: "https://drive.google.com/file/d/1P8A9OMf1MGfWQK7QLENqaNKxALX4KiLL/preview" }] },
+          {
+            label: "A.8 Administrative/Operational Manual",
+            children: [
+              { label: "Manual of Delegation and Delineation of Authority", href: "https://drive.google.com/file/d/1P8A9OMf1MGfWQK7QLENqaNKxALX4KiLL/preview" },
+              { label: "BatStateU Citizen's Charter", href: "https://drive.google.com/file/d/1w5iWK_eyKwXBOkQMtH4IpLA0y0fk-R6L/preview", note: "2019 - 1st Edition" },
+              { label: "BatStateU Five-Year Development Plan", href: "https://drive.google.com/file/d/1DOG_qQD-4Yj84jbPiQQQHPfo3J-wLjH_/preview", note: "(2023 - 2027)" },
+              { label: "Faculty Development Program", href: "https://drive.google.com/file/d/1oPqaA2UC0T9xRAMKvVLihzyUwTvMw0zw/preview" },
+              { label: "BatStateU Strategic Plan", href: "https://drive.google.com/file/d/13v_1vTnjEwoYhKXyPFM97FGUqdY0ftjl/preview", note: "2019 - 2029" },
+              { label: "Sports Development Manual", href: "https://drive.google.com/file/d/1RpG_8yX0rZTRYLYptaMg7erxT_-6TBqp/preview", note: "2025" },
+              { label: "BatStateU QMS Manual Rev. 02", href: "https://drive.google.com/file/d/1dZcJqEKxQpBS4_METeB0pO10amBi_a-h/preview" },
+              { label: "BatStateU Citizen's Charter 2025", href: "https://drive.google.com/file/d/1owyeE6Pl-fEelXqb6i42hqq32gJd1uPi/preview" },
+              { label: "Culture and Arts Manual", href: "https://drive.google.com/file/d/1k0xuuwn7SlAgPG35t7tlQwuk40uu4BiZ/preview" },
+            ],
+          },
+          { label: "A.9 Qualification Standards for Administrative Personnel", children: [{ label: "Human Resource Development Plan", href: "https://drive.google.com/file/d/129PuKNEOvI5pmqYMmvniGEa-Sj7ojdcN/preview", note: "FY 2026-2030" }] },
+        ],
+      },
+      {
+        letter: "B",
+        title: "Academic Administration",
+        items: [
+          {
+            label: "B.1 Educational profile and functions of the academic administration",
+            children: [
+              { label: "B.1.1. Dean or Director" },
+              { label: "College of Engineering Functional Chart" },
+              { label: "College of Engineering Organizational Structure" },
+              { label: "Curriculum Vitae of College Dean" },
+              { label: "B.1.2 Department Chair or his/her equivalent" },
+              { label: "Local Designees in the College of Engineering", href: "https://drive.google.com/file/d/1iWK53iALcEqTs3Az2InIP6GqxNpNkdq8/preview", note: "Effective First Semester AY 2026 - 2027" },
+              { label: "Department Chairperson" },
+              { label: "Program Chairperson" },
+            ],
+          },
+          {
+            label: "B.1 Educational profile of Vice Chancellors",
+            children: [
+              { label: "Vice Chancellor for Academic Affairs", href: "https://drive.google.com/file/d/11yAwtMGOcdznN3RVU7HCC5eUMT6letmp/preview", note: "Dr. Elisa D. Gutierrez" },
+              { label: "Organizational Chart of the Office of the VCAA", href: "https://drive.google.com/file/d/14jJVOgDJU3eOhv0bNKpuA69llZ1yVK78/preview" },
+              { label: "Vice Chancellor, Administration and Finance", href: "https://drive.google.com/file/d/1h7RAMagwPNkIIaaf2ZFAt7H5Bonmvfo4/preview", note: "Dr. Myrna A. Coliat" },
+              { label: "Vice Chancellor, Development and External Affairs", href: "https://drive.google.com/file/d/14KJsMrPpQm67x3vOxZ1EuHbrKK96qnNX/preview", note: "Dr. Alex I. Magboo" },
+              { label: "Vice Chancellor, Research, Development and Extension Services", href: "https://drive.google.com/file/d/1epqBGddiWEqsm69fPRcxWEKCtxoDr0tZ/preview", note: "Engr. Albertson D. Amante" },
+            ],
+          },
+          {
+            label: "B.2 Evidence of participatory administration in the College/institution",
+            children: [
+              { label: "Budget Planning 2026 for Program of Receipts and Expenditures", href: "https://drive.google.com/file/d/10lhWbUzhvvB5IqvPVNr6u7fNQqFqcm_/preview" },
+              { label: "OUP Memorandum Order No. 399 s.2026", href: "https://drive.google.com/file/d/1fgkRFVZfsFM3vaNDF2eWA9nFLg6sthsb/preview" },
+            ],
+          },
+          {
+            label: "B.3 Dean's Supervisory Program",
+            children: [
+              { label: "CoE Governance and Supervisory Plan", href: "https://drive.google.com/file/d/1_7Y8sEKUDbvulZgwf9gnNoc3bUuxHxPL/preview", note: "AY 2026-2027" },
+              { label: "Associate Dean's Supervisory Program", href: "https://drive.google.com/file/d/1k2BWI2wqDPsPvflsAJrrBYzHAo01rmyd/preview", note: "AY 2020-2021" },
+            ],
+          },
+        ],
+      },
+      {
+        letter: "C",
+        title: "Student Administration",
+        items: [
+          {
+            label: "C.1 Policies and Guidelines",
+            children: [
+              { label: "Student Handbook", href: "https://drive.google.com/file/d/1gUp8spS55_BGccWJeAuzUGKQbv5_siyR/preview" },
+              { label: "Review of Student Handbook", href: "https://drive.google.com/file/d/1XPSciqGs8zHM8LhfBPdltaIn9a6N9-Z_/preview" },
+              { label: "Student Organizations and Activities Manual", href: "https://drive.google.com/file/d/1TLzxpz-Lhvklew4uo6-FLnXN6gwk8CWF/preview" },
+              { label: "Office of Guidance and Counseling Manual", href: "https://drive.google.com/file/d/1Keizwt1b9017cbRKEZpbsjpZ7OUL1yNQ/preview" },
+              { label: "Student Housing and Residential Services Manual", href: "https://drive.google.com/file/d/1rC4o8-WFT-PzwkYk1hcaFOdPH-p8d3h2/preview" },
+            ],
+          },
+          {
+            label: "C.2 Evidence of Student Participation",
+            children: [
+              { label: "Budget Presentation and Deliberation 2024", href: "https://drive.google.com/file/d/11hEkhiHSADwPZzrTVQQHl9w_ADpUtYGt/preview" },
+              { label: "Kapihan with the President", href: "https://drive.google.com/file/d/1bvl4qNptsQRQw8zOriJqzgjtrSlcncrE/preview", note: "Consultative Process" },
+              { label: "Kapihan with the President", href: "https://drive.google.com/file/d/1kngvCu2sy2tWz-S0lAc4vWtEiZWgZnBs/preview", note: "Memorandum Order No. 399, s. 2026" },
+            ],
+          },
+          {
+            label: "C.3 Evidence of Good Working Relationship",
+            children: [
+              { label: "Program for the University-wide Charter Day", href: "https://drive.google.com/file/d/1axG9wzLXMXefl3MOTCOXWtV7MHgnHu04/preview", note: "Memorandum Order No. 414, s. 2025" },
+              { label: "Participation in the University Charter Day Celebration", href: "https://drive.google.com/file/d/1UlDDOcW8SnjLq1nq8N8ypgpnWKLrxRpA/preview", note: "Memorandum Order No. 498, s. 2026" },
+            ],
+          },
+        ],
+      },
+      {
+        letter: "D",
+        title: "Financial Management",
+        items: [
+          {
+            label: "D.1 Qualification of the Head of the FMO, Including his/her functions",
+            children: [
+              { label: "Functional Chart", href: "https://drive.google.com/file/d/1Pb-OkSuoh29LyqT9XWmzv8vFqHcA95VI/preview" },
+              { label: "Vice Chancellor, Administration and Finance", href: "https://drive.google.com/file/d/1h7RAMagwPNkIIaaf2ZFAt7H5Bonmvfo4/preview" },
+              { label: "Organizational Chart", href: "https://drive.google.com/file/d/1sAzFdqrrs22-A6D-7JfTkOrOVlZXsQW7/preview", note: "Office of the Vice Chancellor for Administration and Finance" },
+            ],
+          },
+          {
+            label: "D.2 Guidelines in budget preparation",
+            children: [
+              { label: "Notice of Preparation of Budget Proposal for FY 2027", href: "https://drive.google.com/file/d/1xKDwzG0u5rThaEjLGhiWpODUxIyz3Pad/preview", note: "Advisory No. 03, Series of 2026" },
+              { label: "Financial Management Manual", href: "https://drive.google.com/file/d/1sTCkpNfJ1tScgTMqzBMhAa8rmOr2xMRJ/preview" },
+              { label: "Guidelines and Procedures in the Preparation and Submission of the Programs of Receipts and Expenditures", href: "https://drive.google.com/file/d/1Kdgwk7Zv0_IEjXBQ5fFQ-08BfJoOo7ZX/preview", note: "OUP Memorandum Order No. 610, s. 2025" },
+            ],
+          },
+        ],
+      },
+    ],
+  }
 ];
 
 // Shown at /activity
