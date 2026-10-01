@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { notFound } from "next/navigation";
 import { areas } from "@/data/content";
@@ -65,40 +66,36 @@ export default async function Area({
 
                   <div className="library-subitems">
                     {parameter.items.map((item, index) => {
-                      const label = typeof item === "string" ? item : item.label;
-                      const children = typeof item === "string" ? [] : (item.children ?? []);
+                      const renderItem = (current: any, path: number[], depth: number): ReactNode => {
+                        const label = typeof current === "string" ? current : current.label;
+                        const children = typeof current === "string" ? [] : (current.children ?? []);
 
-                      return children.length ? (
-                        <details key={label} className="library-subitem library-nested-subitem">
-                          <summary className="library-subitem-summary">
-                            <span className="library-subitem-number">{index + 1}.</span>
-                            <span>{label}</span>
-                            <span className="library-subitem-chevron" aria-hidden="true">⌄</span>
-                          </summary>
-                          <div className="library-nested-items">
-                            {children.map((child, childIndex) => (
-                              <Link
-                                key={child.label}
-                                href={`/area/${area.id}/${parameter.letter}/${index + 1}/${childIndex + 1}`}
-                                className="library-nested-link"
-                              >
-                                <span>{child.label}</span>
-                                <span aria-hidden="true">›</span>
-                              </Link>
-                            ))}
-                          </div>
-                        </details>
-                      ) : (
-                        <Link
-                          key={label}
-                          href={`/area/${area.id}/${parameter.letter}/${index + 1}`}
-                          className="library-subitem-link"
-                        >
-                          <span className="library-subitem-number">{index + 1}.</span>
-                          <span>{label}</span>
-                          <span className="library-subitem-chevron" aria-hidden="true">›</span>
-                        </Link>
-                      );
+                        if (!children.length) {
+                          const href = `/area/${area.id}/${parameter.letter}/${path.join("/")}`;
+                          return (
+                            <Link key={href} href={href} className={depth === 0 ? "library-subitem-link" : "library-nested-link"}>
+                              {depth === 0 ? <span className="library-subitem-number">{path[0]}.</span> : null}
+                              <span>{label}</span>
+                              <span aria-hidden="true">›</span>
+                            </Link>
+                          );
+                        }
+
+                        return (
+                          <details key={path.join("-")} className={depth === 0 ? "library-subitem library-nested-subitem" : "library-nested-subitem library-nested-subitem-deep"}>
+                            <summary className="library-subitem-summary">
+                              {depth === 0 ? <span className="library-subitem-number">{path[0]}.</span> : null}
+                              <span>{label}</span>
+                              <span className="library-subitem-chevron" aria-hidden="true">⌄</span>
+                            </summary>
+                            <div className={depth === 0 ? "library-nested-items" : "library-nested-items library-nested-items-deep"}>
+                              {children.map((child: any, childIndex: number) => renderItem(child, [...path, childIndex + 1], depth + 1))}
+                            </div>
+                          </details>
+                        );
+                      };
+
+                      return renderItem(item, [index + 1], 0);
                     })}
                   </div>
                 </details>
