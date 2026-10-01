@@ -35,21 +35,13 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="hero">
-        <div className="hero-content">
-          <div className="hero-logo-side">
-            <img src="/batstateu.svg" alt="Batangas State University logo" className="hero-logo" />
-          </div>
-          <div className="hero-center">
-            <h1>Bachelor of Science in Geodetic Engineering</h1>
-            <p className="hero-description">
-              The <strong>Bachelor of Science in Geodetic Engineering (BSGE)</strong> at <strong>Batangas State University – The National Engineering University (Alangilan Campus)</strong> is a premier undergraduate program housed under the College of Engineering. Tailored to train future leaders in geospatial science, the curriculum combines rigorous engineering fundamentals with advanced surveying, spatial analysis, and location technology. Students gain hands-on expertise in establishing geodetic control networks, land surveying, Geographic Information Systems (GIS), photogrammetry, remote sensing, and satellite-based positioning systems. Rooted in the engineering hub of BatStateU Alangilan, the BSGE program equips graduates to play a vital role in national development, addressing critical challenges in land administration, infrastructure development, urban planning, hydrographic surveying, and disaster risk management.
-            </p>
-          </div>
-        </div>
-      </section>
+      <section className="hero" aria-label="Batangas State University Alangilan Campus" />
 
       <section className="program-section">
+        <div className="bsge-intro">
+          <h1>Bachelor of Science in Geodetic Engineering</h1>
+          <p>The <strong>Bachelor of Science in Geodetic Engineering (BSGE)</strong> at <strong>Batangas State University – The National Engineering University (Alangilan Campus)</strong> is a premier undergraduate program housed under the College of Engineering. Tailored to train future leaders in geospatial science, the curriculum combines rigorous engineering fundamentals with advanced surveying, spatial analysis, and location technology. Students gain hands-on expertise in establishing geodetic control networks, land surveying, Geographic Information Systems (GIS), photogrammetry, remote sensing, and satellite-based positioning systems. Rooted in the engineering hub of BatStateU Alangilan, the BSGE program equips graduates to play a vital role in national development, addressing critical challenges in land administration, infrastructure development, urban planning, hydrographic surveying, and disaster risk management.</p>
+        </div>
         <div className="quick-grid">
           {quickLinks.map((item) => {
             const Icon = icons[item.icon as keyof typeof icons];
