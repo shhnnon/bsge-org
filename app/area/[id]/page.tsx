@@ -72,6 +72,7 @@ export default async function Area({
 
                         if (!children.length) {
                           const href = typeof current === "string" ? undefined : current.href;
+                          const hasImages = typeof current !== "string" && Array.isArray(current.images) && current.images.length > 0;
                           const resourceHref = `/area/${area.id}/${parameter.letter}/${path.join("/")}`;
                           const className = depth === 0 ? "library-subitem-link" : "library-nested-link";
                           const content = (
@@ -82,7 +83,7 @@ export default async function Area({
                             </>
                           );
 
-                          if (depth > 0 && !href) {
+                          if (depth > 0 && !href && !hasImages) {
                             return <div key={resourceHref} className={`${className} library-nested-link-static`}>{content}</div>;
                           }
 
