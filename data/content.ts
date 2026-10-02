@@ -400,6 +400,7 @@ export const areas = [
               "https://drive.google.com/file/d/182p5t5Z9-hYxks4fmjuQeSck0xNlhwLi/preview",
               "https://drive.google.com/file/d/1SYe7BWPE0MSKlqh-9wVkr5zyEHFiPiV6/preview",
               "https://drive.google.com/file/d/1gac7SvvDF2nBDstBUGafzjIF-Y09T1bf/preview",
+              "https://drive.google.com/file/d/11JivnpVlxPIRPtbK3TxKd6kbVON9oPtW/preview",
               "https://drive.google.com/file/d/11JivnpVlxPIRPtbK3TxKd6kbVON9oPtW/preview"
             ],
               texts: ["Inventory Report as of August 2026", "Inventory Report as of December 2026", "Inventory Report as of February 2026", "Inventory Report as of January 2026", "Inventory Report as of July 2026", "Inventory Report as of June 2026", "Inventory Report as of May 2026", "Inventory Report as of May 2026", "Inventory Report as of September 2026"],
@@ -571,8 +572,8 @@ export const areas = [
         letter: "E",
         title: "Supply Management",
         items: [
-          { label: "E.1 Composition of the Supply Management Office", href: "https://drive.google.com/file/d/1yTynU6PM-sio6hgI8cfPFsarwHSDH7_7/preview" },
-          { label: "E.2 Description of the system of supply management", href: "https://drive.google.com/file/d/1HTnb0HK0xSbknLTH1SxGGwGAc5OV0QCc/preview" },
+          { label: "E.1 Composition of the Supply Management Office", href: "https://drive.google.com/file/d/1yTynU6PM-sio6hgI8cfPFsarwHSDH7_7/preview", text: "Property and Supply Office" },
+          { label: "E.2 Description of the system of supply management", href: "https://drive.google.com/file/d/1HTnb0HK0xSbknLTH1SxGGwGAc5OV0QCc/preview", text: "Work Instruction - Supply Management Process" },
           {
             label: "E.3 Composition and function of the Bids and Awards Committee.",
             hrefs: [
@@ -582,8 +583,6 @@ export const areas = [
               "https://drive.google.com/file/d/1nLvmvjfImvS01GCtH66cU9ilHeMFZHEi/preview"
             ],
               texts: ["Vice Chancellor, Development and External Affairs", "Minutes of Meeting, December 26, 2025", "Minutes of Meeting, January 03, 2025", "Bids and Awards Committee Office"],
-              texts: ["Work Instruction - Supply Management Process"],
-              texts: ["Property and Supply Office"],
           },
           {
             label: "E.4 Evidence of Compliance to RA 9184 (Procurement of equipment, supplies and materials)",
@@ -592,16 +591,15 @@ export const areas = [
               { label: "Sample Bidding Documents.pdf" },
             ],
           },
-          { label: "E.5 File copies of annual inventories of serviceable and non serviceable equipment", href: "https://drive.google.com/file/d/1fSs1FgGCvtZUUn2FAmHiOk0KGk8IFyOZ/preview" },
+          { label: "E.5 File copies of annual inventories of serviceable and non serviceable equipment", href: "https://drive.google.com/file/d/1fSs1FgGCvtZUUn2FAmHiOk0KGk8IFyOZ/preview", text: "Report on Physical Count of Property, Plant and Equipment of December 31, 2025" },
         ],
-              texts: ["Report on Physical Count of Property, Plant and Equipment of December 31, 2025"],
       },
       {
         letter: "F",
         title: "Records Management",
         items: [
-          { label: "F.1 Composition of the Records Management Office, their qualification and functions", href: "https://drive.google.com/file/d/1uGGsZaI2iJfgjwIz5JoI_rtar3Ous-rr/preview" },
-          { label: "F.2 Description of the records management in the institution", href: "https://drive.google.com/file/d/1H4ELRlOHmgKNwYeO13jHKLxXP6HgL5GE/preview" },
+          { label: "F.1 Composition of the Records Management Office, their qualification and functions", href: "https://drive.google.com/file/d/1uGGsZaI2iJfgjwIz5JoI_rtar3Ous-rr/preview", text: "Records Management Office" },
+          { label: "F.2 Description of the records management in the institution", href: "https://drive.google.com/file/d/1H4ELRlOHmgKNwYeO13jHKLxXP6HgL5GE/preview", text: "Resolution No. 58, S. 2024 Records and Archives Management Policy" },
           {
             label: "F.3 Description of the system of maintaining the confidentiality and security of official records",
             hrefs: [
@@ -611,8 +609,6 @@ export const areas = [
               "https://drive.google.com/file/d/18ML5sVq5_spHc8I9GvlQlAG9mMwLKIHS/preview"
             ],
               texts: ["Request for Documents Slip", "Freedom of Information Request Form", "Data Privacy Manual", "Freedom of Information Manual"],
-              texts: ["Resolution No. 58, S. 2024 Records and Archives Management Policy"],
-              texts: ["Records Management Office"],
           },
           { label: "F.4 Updated records/files identified under Administration.", href: "https://drive.google.com/file/d/18S1cCDABCveMoCynKRKJqjV0zFjgboFh/preview" },
         ],
@@ -621,7 +617,7 @@ export const areas = [
         letter: "G",
         title: "Institutional Planning and Development",
         items: [
-          { label: "G.1. Composition of the Planning Unit, including their functions.", href: "https://drive.google.com/file/d/1y5PpB77oi9naY37jBJdPePOGg863vZm9/preview" },
+          { label: "G.1. Composition of the Planning Unit, including their functions.", href: "https://drive.google.com/file/d/1y5PpB77oi9naY37jBJdPePOGg863vZm9/preview", text: "Planning Development Office" },
           {
             label: "G.2. Copy of Development Plan",
             hrefs: [
@@ -632,7 +628,6 @@ export const areas = [
               "https://drive.google.com/file/d/15s3hiGu2LTJU-VTiUjO7ylG0b-S6fTAZ/preview"
             ],
               texts: ["BoR Reso No. 087 s2019", "Energy Conservation Program", "Faculty Development Plan 2019-2029", "The Five Year Development Plan 2023-2027", "The Five Year Engineering Development Program"],
-              texts: ["Planning Development Office"],
           },
           {
             label: "G.3. Evidence of participatory financial management",
