@@ -100,10 +100,12 @@ export default async function AreaResource({
 
 
         {text ? (
-          <div className="resource-text-block">
+          <div className="resource-text-label">
             <p>{text}</p>
           </div>
-        ) : previews.length ? (
+        ) : null}
+
+        {previews.length ? (
           <div className="resource-detail-preview-stack">
             {previews.map((preview, index) => (
               <div className="resource-detail-preview" key={preview}>
