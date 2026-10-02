@@ -401,7 +401,7 @@ export const areas = [
               "https://drive.google.com/file/d/1SYe7BWPE0MSKlqh-9wVkr5zyEHFiPiV6/preview",
               "https://drive.google.com/file/d/1gac7SvvDF2nBDstBUGafzjIF-Y09T1bf/preview",
               "https://drive.google.com/file/d/11JivnpVlxPIRPtbK3TxKd6kbVON9oPtW/preview"
-            ],
+            ],\n              texts: ["Inventory Report as of August 2026", "Inventory Report as of December 2026", "Inventory Report as of February 2026", "Inventory Report as of January 2026", "Inventory Report as of July 2026", "Inventory Report as of June 2026", "Inventory Report as of May 2026", "Inventory Report as of May 2026", "Inventory Report as of September 2026"],
           },
           { label: "B.3. List of fabricated equipment with patent (state patent number), if any." },
         ],
@@ -466,7 +466,7 @@ export const areas = [
               "https://drive.google.com/file/d/1ZN61WdtuotpDAfrT2rd98fcN5LdXIxNz/preview",
               "https://drive.google.com/file/d/1BKQsAKAUHbiHDBGpUhxQJezx_Dwh4Ept/preview",
               "https://drive.google.com/file/d/1VBzABHCmMUcVksRO8N0aqZzY426OtYHN/preview"
-            ],
+            ],\n              texts: ["New Curriculum", "Technical Paper", "Technical Paper", "GE 421 - Technical Paper Guidelines"],
           },
         ],
       },
@@ -497,7 +497,7 @@ export const areas = [
               {
                 label: "B.1.2 Department Chair or his/her equivalent",
                 children: [
-                  { label: "Engr. Vivian D. Guda", href: "https://drive.google.com/file/d/1-6_65PzloFeCwHKQ-wlJxhcKf4MvMGIi/preview" },
+                  { label: "Engr. Vivian D. Guda", text: "Engr. Vivian D. Guda", href: "https://drive.google.com/file/d/1-6_65PzloFeCwHKQ-wlJxhcKf4MvMGIi/preview" },
                   { label: "Department Chairperson", href: "https://drive.google.com/file/d/1Q2BRKyaoOC9Zi_7jO62n3Tk6n3pajtkd/preview" },
                 ],
               },
@@ -509,7 +509,7 @@ export const areas = [
               "https://drive.google.com/file/d/1S5xOtkS6O77k6g6WuFaRESfGEgRI0htc/preview",
               "https://drive.google.com/file/d/18rKwIwdL08PeqcHYsa4D0AxgjCZalPve/preview",
               "https://drive.google.com/file/d/1WYRRu_gEE7n-1IXf7KqvdJWvMy5lfryA/preview"
-            ],
+            ],\n              texts: ["Budget Planning 2026", "Curriculum Revision with Administration and Faculty.", "OUP Memo Order No. 399 s2026"],
           },
           {
             label: "B.3 Dean’s Supervisory Program",
@@ -522,7 +522,7 @@ export const areas = [
               { label: "CoE Local Designees_Second SemesterAY 23-24" },
               { label: "CoE_Local Designation_First Semester 2026-2027" },
               { label: "COE-Local Designation_Second Semester A.Y 2025-2026" },
-            ],
+            ],\n              texts: ["CoE Governance and Supervisory Plan", "CoE Local Designation - First Semester 2024-2025", "CoELocal Designation- First Semester 2025-2026", "CoE Local Designation - Second Semester 2024-2025", "CoE Local Designees, First Semester AY 23-24"],
           },
         ],
       },
@@ -539,14 +539,14 @@ export const areas = [
               "https://drive.google.com/file/d/1KE4Px5RCuzfP7N8vihCti1JGO-Nph2IN/preview",
               "https://drive.google.com/file/d/1qAmpUUhGCfAuS78kJFRj67OiSnD6BNr8/preview",
               "https://drive.google.com/file/d/1fZ6QJKPEfvkaLwx5paZVncTv4NN7AM4I/preview"
-            ],
+            ],\n              texts: ["Budget Deliberation", "Budget Planning", "Budget Presentation and Deliberation 2024"],
           },
           {
             label: "D.4 Statement of Budget Priorities",
             hrefs: [
               "https://drive.google.com/file/d/1lLm6qRGpDTW_siT9R5Ufq2an8Y6IY2Xz/preview",
               "https://drive.google.com/file/d/1l8Rk4AIGHVsl9SwHrNGCJ0BoP2QEWuS1/preview"
-            ],
+            ],\n              texts: ["Detailed Program Receipts and Expenditures FY 2026", "Statement of Budget Priorities"],
           },
           {
             label: "D.5 Plantilla of Administrative Personnel",
@@ -556,7 +556,7 @@ export const areas = [
               "https://drive.google.com/file/d/1KtI5BHp6X1seAVNpASMopIryaUFLIq_p/preview",
               "https://drive.google.com/file/d/1Zbbl-ZN4c9zDpYrNUIeeeVPshuVyUlaR/preview",
               "https://drive.google.com/file/d/1Ef1-gxL2YxX70j3X3SUa-0VFAskZBnV9/preview"
-            ],
+            ],\n              texts: ["Alangilan Summary of Filled and Unfilled Positions", "Manpower Analysis 2025", "Approval of Staffing Request ROSSS Phase I", "Approval of Staffing Request ROSSS Phase II", "Plantilla for Administrative Personnel"],
           },
         ],
       },
@@ -573,7 +573,7 @@ export const areas = [
               "https://drive.google.com/file/d/1bRGf7bnADgIftBuCdzpl8RYH7CNZPJQa/preview",
               "https://drive.google.com/file/d/11DTVW1qEgkMWMkIKkUEgShyz8rrTVPx0/preview",
               "https://drive.google.com/file/d/1nLvmvjfImvS01GCtH66cU9ilHeMFZHEi/preview"
-            ],
+            ],\n              texts: ["Vice Chancellor, Development and External Affairs", "Minutes of Meeting, December 26, 2025", "Minutes of Meeting, January 03, 2025", "Bids and Awards Committee Office"],\n              texts: ["Work Instruction - Supply Management Process"],\n              texts: ["Property and Supply Office"],
           },
           {
             label: "E.4 Evidence of Compliance to RA 9184 (Procurement of equipment, supplies and materials)",
@@ -583,7 +583,7 @@ export const areas = [
             ],
           },
           { label: "E.5 File copies of annual inventories of serviceable and non serviceable equipment", href: "https://drive.google.com/file/d/1fSs1FgGCvtZUUn2FAmHiOk0KGk8IFyOZ/preview" },
-        ],
+        ],\n              texts: ["Report on Physical Count of Property, Plant and Equipment of December 31, 2025"],
       },
       {
         letter: "F",
@@ -598,7 +598,7 @@ export const areas = [
               "https://drive.google.com/file/d/1sHx4HpEkyTjZnBj-qSany9mF25vGvwTn/preview",
               "https://drive.google.com/file/d/1kOD4zEaMFcMZUoAQZSqN0iXZ-6zooKr4/preview",
               "https://drive.google.com/file/d/18ML5sVq5_spHc8I9GvlQlAG9mMwLKIHS/preview"
-            ],
+            ],\n              texts: ["Request for Documents Slip", "Freedom of Information Request Form", "Data Privacy Manual", "Freedom of Information Manual"],\n              texts: ["Resolution No. 58, S. 2024 Records and Archives Management Policy"],\n              texts: ["Records Management Office"],
           },
           { label: "F.4 Updated records/files identified under Administration.", href: "https://drive.google.com/file/d/18S1cCDABCveMoCynKRKJqjV0zFjgboFh/preview" },
         ],
@@ -616,14 +616,14 @@ export const areas = [
               "https://drive.google.com/file/d/1nLp9ZMIdE7uoxeKk29wBdUe6fSlUVX8i/preview",
               "https://drive.google.com/file/d/1hpK5osLGkhloakYUZWX9amOwtrTFGcje/preview",
               "https://drive.google.com/file/d/15s3hiGu2LTJU-VTiUjO7ylG0b-S6fTAZ/preview"
-            ],
+            ],\n              texts: ["BoR Reso No. 087 s2019", "Energy Conservation Program", "Faculty Development Plan 2019-2029", "The Five Year Development Plan 2023-2027", "The Five Year Engineering Development Program"],\n              texts: ["Planning Development Office"],
           },
           {
             label: "G.3. Evidence of participatory financial management",
             hrefs: [
               "https://drive.google.com/file/d/1kW8mOKWBJaxFXtNxJs_KPvUnaKS4D2Zz/preview",
               "https://drive.google.com/file/d/1kKvXdbqvSzwEin1Y_299BGmeVRmtuggC/preview"
-            ],
+            ],\n              texts: ["Financial Management Manual", "Annual Planning and Budget Conference"],
           },
           {
             label: "G.4 Description of inter-office sharing of resources (facilities and equipment)",
@@ -632,14 +632,14 @@ export const areas = [
               "https://drive.google.com/file/d/1Y2wuHPaARW2glhh7ySAJPCUNu3UvjhBO/preview",
               "https://drive.google.com/file/d/1G2RNN2jCWkNzaPK30RbVyTTFn7-CjOj6/preview",
               "https://drive.google.com/file/d/1sWrKw53yAgmdXyHE_FSfjUPeBFdmOwwo/preview"
-            ],
+            ],\n              texts: ["Sample of Approved Request of Using Different Facilities", "Laboratory Schedule 2026", "Request for the Use of University Facility", "Request for Use of Official Vehicle"],
           },
           {
             label: "G.5 Personnel Performance Evaluation Instrument",
             hrefs: [
               "https://drive.google.com/file/d/1-ZM7Mt-scSvTNx2aBC-oUa0VZ3D2vsMW/preview",
               "https://drive.google.com/file/d/1uwpKJxhNzH-UHvm_4Un8jAcnDhynO2_-/preview"
-            ],
+            ],\n              texts: ["Revised SPMS Guidelines and Procedures", "Performance Ratings Report FY 2024"],
           },
           {
             label: "G.6 Personnel Evaluation Results",
@@ -647,7 +647,7 @@ export const areas = [
               "https://drive.google.com/file/d/18j_yabq1RF1_Cp6dOlKX3KqAuTC2NuQE/preview",
               "https://drive.google.com/file/d/1odocOiGQqJKQKeO8DEWv80S7Jxxq8IFc/preview",
               "https://drive.google.com/file/d/1n2c_izAKFNGuc8sQSJe6yrpIgaAcaB0D/preview"
-            ],
+            ],\n              texts: ["Performance Report 2025", "Performance Ratings Report FY 2025", "Individual Performance Commitment and Review"],
           },
           { label: "G.7. Annual Reports", href: "https://drive.google.com/file/d/15DAbON5ETAI6i5leAMkYhYTmCiSEpOl8/view?usp=sharing" },
         ],
