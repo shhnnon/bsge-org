@@ -361,9 +361,116 @@ export const areas = [
   {
     id: 9,
     title: "Laboratories",
-    summary: "Dedicated technical environments equipped with modern instrumentation, simulation tools, and specialized software for hands-on instruction. Advanced facilities cultivate applied learning, technical mastery, and experimental analysis.",
-    body: "Dedicated technical environments equipped with modern instrumentation, simulation tools, and specialized software for hands-on instruction. Advanced facilities cultivate applied learning, technical mastery, and experimental analysis.",
+    summary: "Dedicated technical environments equipped with modern instrumentation, simulation tools, and specialized software for hands-on instruction.",
+    body: "Dedicated technical environments equipped with modern instrumentation, simulation tools, and specialized software for hands-on instruction.",
     driveUrl: "https://drive.google.com/drive/folders/1PoQRhWvGIlUyWGvki_wpejqyBFX0BMFq?usp=drive_link",
+    parameters: [
+      {
+        letter: "A",
+        title: "Laboratories/Shops/Facilities",
+        items: [
+          { label: "A.1. Building plan showing the location of laboratory rooms/shops used by the program under survey.", href: "https://drive.google.com/drive/folders/1mxzyy3mofj62wbAmKU9gdH-DxQ1r67Pt?usp=drive_link" },
+          { label: "A.2. Copy of the laboratory layout.", href: "https://drive.google.com/drive/folders/1-idZGDmMMf0kEzL4ABsoLE0G_GtAGQiF?usp=drive_link" },
+          { label: "A.3. Inventory of available equipment, gadgets, and fixtures in every laboratory.", href: "https://drive.google.com/drive/folders/1DkCQ_JJNipyyJm7Ezb5JbRVJ5GSsXEGH?usp=drive_link" },
+          { label: "A.4. Laboratory Manuals.", href: "https://drive.google.com/drive/folders/14DhWl9CnBZbw-FpmaY8nPQL2h9ZjjeBc?usp=drive_link" },
+          { label: "A.5. First-aid Kit and Antidote Charts displayed conspicuously.", href: "https://drive.google.com/drive/folders/15RrdOoxULeDPY88QVN0ud_jN60NsPvkr?usp=drive_link" },
+          { label: "A.6. List of safety and precautionary measures being implemented.", href: "https://drive.google.com/drive/folders/1x23BBjRY6cqKCZNiayNfVk-o0PYHFsu9?usp=drive_link" },
+          { label: "A.7. Evidence of training conducted on the proper use of laboratories.", href: "https://drive.google.com/drive/folders/1Ww-4axPBuGnuLbCbsA1Gfrdho-pwlMgq?usp=drive_link" },
+          { label: "A.8. Inventory of usable computer units and other equipment.", href: "https://drive.google.com/drive/folders/11i-Oq2P1s_orL4-ISNdiQKaJvnDXC440?usp=drive_link" },
+          { label: "A.9. Guidelines in the use of computer laboratories.", href: "https://drive.google.com/drive/folders/1SCVKzYJ9CFBwCeZ6in3LVd88GC2sFT5x?usp=drive_link" },
+          { label: "A.10. PDF of the designated computer technician/s.", href: "https://drive.google.com/drive/folders/1cbV_IkTGdDrBs8HqloGkxgAHwKITI38X?usp=drive_link" },
+          { label: "A.11. Inventory of equipment, fixtures, apparatuses, supplies and materials.", href: "https://drive.google.com/drive/folders/1kdRQfb_B6R7HP4EokuKm7ebLRfFSW4R6?usp=drive_link" },
+          { label: "A.12. Availability of a stockroom.", href: "https://drive.google.com/drive/folders/1MY6RATgSzDATxeUGV8fyHm6YOnPFSnr8?usp=drive_link" },
+          { label: "A.13. Evidence on the availability of gas, water and electricity for practicum purposes.", href: "https://drive.google.com/drive/folders/1gWMbj-v4ZYeB5fJXfOXMBK6sTVLsGf99?usp=drive_link" },
+          { label: "A.14. Guidelines in the use of equipment and apparatuses.", href: "https://drive.google.com/drive/folders/1Kv6DjE6Zu8zE9WkZLUV23XmhO5dSMG42?usp=drive_link" },
+        ],
+      },
+      {
+        letter: "B",
+        title: "Equipment and Supplies",
+        items: [
+          { label: "B.1. Inventory of available equipment, apparatuses, supplies and materials." },
+          {
+            label: "B.2. List of fabricated tools and apparatuses, including relevant information.",
+            hrefs: [
+              "https://drive.google.com/file/d/18XE9L3ILrwqgsBAyc22qXGb_IjuhZk12/preview",
+              "https://drive.google.com/file/d/1-e8E2_W4Vfe0IcvlWNVbzXnexqj01duX/preview",
+              "https://drive.google.com/file/d/1U3hUzxz8s-LizdUF47KySLu3NCoKAq5R/preview",
+              "https://drive.google.com/file/d/1WfbKnxZ5-SueMA89_oWBXXuW3I-UaEXo/preview",
+              "https://drive.google.com/file/d/182p5t5Z9-hYxks4fmjuQeSck0xNlhwLi/preview",
+              "https://drive.google.com/file/d/1SYe7BWPE0MSKlqh-9wVkr5zyEHFiPiV6/preview",
+              "https://drive.google.com/file/d/1gac7SvvDF2nBDstBUGafzjIF-Y09T1bf/preview",
+              "https://drive.google.com/file/d/11JivnpVlxPIRPtbK3TxKd6kbVON9oPtW/preview"
+            ],
+          },
+          { label: "B.3. List of fabricated equipment with patent (state patent number), if any." },
+        ],
+      },
+      {
+        letter: "C",
+        title: "Maintenance",
+        items: [
+          { label: "C.1. Description of a system on:" },
+          {
+            label: "C.2. Composition of the Maintenance and Repair Unit.",
+            hrefs: [
+              "https://drive.google.com/file/d/1ZUV11lp9d4wcOUPeoJK7uXDlEKTa1a8L/preview",
+              "https://drive.google.com/file/d/1WuKXqlW3_jvQJOBofCBjO0YBuz9UvWNo/preview",
+              "https://drive.google.com/file/d/1vG7cxUo8qab3s9ZoEgymDhB5qmknB9f-/preview",
+              "https://drive.google.com/file/d/12_ba0RHQNyT_Odxy4BKt0rKxebBv_bVD/preview",
+              "https://drive.google.com/file/d/14aHJYPnygRtssHZCTXCRecfpiWRM7vtp/preview",
+              "https://drive.google.com/file/d/1YlJ4cnrl--qcxj7NElYa1iiNqQ30EwQt/preview",
+              "https://drive.google.com/file/d/1767on2mE6AK9sx536LIXiLfg0U12Yvlt/preview",
+              "https://drive.google.com/file/d/1M3OWjWkRjhYbZfu8pFCvfH47omN_-Vz8/preview",
+              "https://drive.google.com/file/d/1oDWVl58mPPPENPc4_ZDLV1lp3jr7UO-2/preview",
+              "https://drive.google.com/file/d/1efkvcEwPztj4_76f_3ZejbGOoYBqL0mq/preview",
+              "https://drive.google.com/file/d/1KK-fn4P2HFiQHIryuVLbCDUCJsWUnS9F/preview",
+              "https://drive.google.com/file/d/1TTmYekbm5LZBhDGjygdYoxpDB9J_F1QR/preview",
+              "https://drive.google.com/file/d/1NWMYjQGx9nxFnfOqawGb5ALqGIy2ptAE/preview",
+              "https://drive.google.com/file/d/1Q_G9u2OC-zZVCiN2RMpfLrX7r1zJDpul/preview",
+              "https://drive.google.com/file/d/1-gp1cQbKCJPD5uxuf2UXZUju1QcmcFFI/preview",
+              "https://drive.google.com/file/d/1vUlzXv5Adb4PYLkrMnpWGOUt5EeC7NSc/preview",
+              "https://drive.google.com/file/d/1F7-t38Rj-mAjTmbGi2brAFCOm_SqNTLl/preview",
+              "https://drive.google.com/file/d/16-EaXFbF9EqvYm12pqZanBng_cqgzn1L/preview",
+              "https://drive.google.com/file/d/16xUvRxkdg79jeQLNNKSfWXz43YhrgfP5/preview",
+              "https://drive.google.com/file/d/1JNHfVhE6YnEu99mME_No5IS9RPpu665L/preview",
+              "https://drive.google.com/file/d/1BH8glN11OWIqJfc1Rvi2HFf7PQ6W8axW/preview",
+              "https://drive.google.com/file/d/1QC9G8kcTzuDL6_QwqW7zkCAlLOobRDMD/preview",
+              "https://drive.google.com/file/d/1rG6UqMvA9kavONyLm0WvPKfC-AI9z0ES/preview",
+              "https://drive.google.com/file/d/1x7qifsKMxpBmdPLR-tnQbs7n291mD5x9/preview",
+              "https://drive.google.com/file/d/1X7Zo1n4eBzHBbkkMVfGFj2Yxx0hptdkT/preview",
+              "https://drive.google.com/file/d/1gQRcRsx5p64_4zSicQVgBV9hI7cvl8si/preview",
+              "https://drive.google.com/file/d/1cuFXO23qyutpB5f8TxE3epkA7UNLf7N9/preview",
+              "https://drive.google.com/file/d/1gGqiiaa-qTLzCO8WitP42DONnf6bqYy_/preview",
+              "https://drive.google.com/file/d/1FHqe_fBjTCIp_gOi2arFd0ik3b1xDxZJ/preview"
+            ],
+          },
+          {
+            label: "C.3. PDF of the maintenance personnel.",
+            hrefs: [
+              "https://drive.google.com/file/d/1t0bnIcseb_ZjJgCm8EZFGPI340FKvdSB/preview",
+              "https://drive.google.com/file/d/1c2ojcJdsuiOe689MOux1nH2VFcuHM6By/preview",
+              "https://drive.google.com/file/d/1HlNgkx4SajdGiqMixUqCCPElHH4HJgDZ/preview"
+            ],
+          },
+        ],
+      },
+      {
+        letter: "D",
+        title: "Special Provisions",
+        items: [
+          {
+            label: "D.1. Evidence of compliance on the requirements and operation of laboratories, if applicable.",
+            hrefs: [
+              "https://drive.google.com/file/d/1_0K5B3NAh1oK1NcCVoFsiVkIg8U4cXiQ/preview",
+              "https://drive.google.com/file/d/1ZN61WdtuotpDAfrT2rd98fcN5LdXIxNz/preview",
+              "https://drive.google.com/file/d/1BKQsAKAUHbiHDBGpUhxQJezx_Dwh4Ept/preview",
+              "https://drive.google.com/file/d/1VBzABHCmMUcVksRO8N0aqZzY426OtYHN/preview"
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     id: 10,
@@ -372,83 +479,6 @@ export const areas = [
     body: "University governance providing program oversight, policy direction, and institutional quality assurance.",
     driveUrl: "https://drive.google.com/drive/folders/1A3hrsecFq5JmXUVFxuuXWg4aphSMdav-?usp=drive_link",
     parameters: [
-      {
-        letter: "A",
-        title: "Organization",
-        items: [
-          {
-            label: "A.1 Organizational Chart of the Institution displayed at the Administration Office",
-            children: [
-              { label: "University Administrative Officials FY 2026", href: "https://drive.google.com/file/d/1nB4t_JxCo2wxALGqRhQZVoYBTwUEiWBk/preview" },
-              { label: "Alangilan Campus Admin Officials", href: "https://drive.google.com/file/d/1JQ1oDXsithCfwFQ7PoBDBbrUsbI1zIy6/preview" },
-              { label: "Alangilan Campus Organizational Chart", href: "https://drive.google.com/file/d/19BMHEOvhMj3ZR0SPkGoSctWuxaHOgBHA/preview" },
-              { label: "Curriculum Vitae of University President/Chancellor", href: "https://drive.google.com/file/d/1CakXMhumHcPBMHv6G1MrEdwmPifH500h/preview" },
-              { label: "Assumption of Office of the Chancellor", href: "https://drive.google.com/file/d/1iaU_ygKNUxLVzMWf-ReXWKE4KynBH0UC/preview" },
-              { label: "Office of Chancellor Organizational Chart", href: "https://drive.google.com/file/d/11QMkgUARqw7IyTsUORYo67KR4If9CJS5/preview" },
-              { label: "OVCAA-Organizational Chart 2026", href: "https://drive.google.com/file/d/10Xu22sI2_1-_H2BDMis0vaQnds9XwJ7f/preview" },
-              { label: "OVCAF-Organizational Chart 2026", href: "https://drive.google.com/file/d/10n6UWWlgYR1jwhPyn8sRWBgBTAS6q5D2/preview" },
-              { label: "OVCDEA-Organizational Chart 2026", href: "https://drive.google.com/file/d/1VHKqg4ff2w5QVSlhKQ7BRs-zqBrRm1hO/preview" },
-              { label: "OVCRDES Organizational Structure 2026", href: "https://drive.google.com/file/d/1Wp9sWdeH24RjqBPXtX96fFKlA0WAVp7z/preview" },
-              { label: "VCAA - Curriculum Vitae", href: "https://drive.google.com/file/d/1IPaX-LaRSwQivchPmSOA6JncCg0dPO8G/preview" },
-              { label: "VCAF - Curriculum Vitae", href: "https://drive.google.com/file/d/1iFvjz6EWkt-ENv8SMYZR_FkhEmDmqT6J/preview" },
-              { label: "VCDEA - Curriculum Vitae", href: "https://drive.google.com/file/d/1fQrvidz8vO9njGmXjCDPWt0J1P7USKB/preview" },
-              { label: "VCRDES - Curriculum Vitae", href: "https://drive.google.com/file/d/1sCdA4g0Cg9SokSOLJ6xwN8hz3AlTJC-z/preview" },
-            ],
-          },
-          {
-            label: "A.2 Copy of the Board Resolution approving the organizational structure and other relevant resolutions.",
-            children: [
-              { label: "BoR Res No. 172, S. 2020", href: "https://drive.google.com/file/d/1F_uw4cZKQsanpHaPhntlpNZ5vbeQmoLC/preview" },
-              { label: "Assumption of Office of the University of Chancellor", href: "https://drive.google.com/file/d/1eE_bVp1wpUpAUeNa89EdDUcF7Tzf8QAG/preview" },
-            ],
-          },
-          {
-            label: "A.3 Functional Chart",
-            children: [
-              { label: "Office of the Chancellor", href: "https://drive.google.com/file/d/1hcMJ8EN0joHHoctChsL23tE5Lczt-khx/preview" },
-              { label: "Office of Vice Chancellor for Academic Affairs", href: "https://drive.google.com/file/d/1FXqObbw3_vKNOLeT70m9c55kUM6xBK25/preview" },
-              { label: "Office of Vice Chancellor for Administration and Finance", href: "https://drive.google.com/file/d/1Pb-OkSuoh29LyqT9XWmzv8vFqHcA95VI/preview" },
-              { label: "Office of Vice Chancellor for Development and External Affairs", href: "https://drive.google.com/file/d/1v0HmcEXo1GFGJ5QMLIks0sN2GI7ysRVm/preview" },
-              { label: "Office of Vice Chancellor for Research and Extension Services", href: "https://drive.google.com/file/d/1ewrjdfjxDDVYXMsaCfNiQTFDheJx0sZh/preview" },
-            ],
-          },
-          {
-            label: "A.4 Composition of the Administrative Council, including its powers and functions",
-            children: [
-              { label: "Administrative Council (University Code)", href: "https://drive.google.com/file/d/1A1N_kz5Dsj7Thzrt4dgcdQ1H2sq4r7Mq/preview" },
-              { label: "Admin Council", href: "https://drive.google.com/file/d/1N3t9QWOlY4-5LC_Fat2mP1DRusGpFC-R/preview", note: "Notice of Meeting September 2026" },
-              { label: "List of Administrative Officials", href: "https://drive.google.com/file/d/1zfR-NzmhJIFBbmuocoMThkk-1Rrim2Fz/preview" },
-            ],
-          },
-          {
-            label: "A.5 Composition of the Academic Council including its powers and functions.",
-            children: [
-              { label: "Composition of the Academic Council (University Code)", href: "https://drive.google.com/file/d/1cQq8OM2KUTP_nWlU4wKKPB_8NIDv_wDd/preview" },
-              { label: "Academic Council Members January 2019", href: "https://drive.google.com/file/d/1Pjb-kGd77QTdVjbWmas1HD3iSEpiFXRu/preview" },
-              { label: "Academic Council Members August 2019", href: "https://drive.google.com/file/d/1aPRwLKsbSDNdnk4J6nh-84BOPAESh9qX/preview" },
-              { label: "Academic Council", href: "https://drive.google.com/file/d/11p0OZeuDkbmIQPd3yX4EwTAHVanpAkLG/preview", note: "Notice of Meeting - October 2025" },
-              { label: "Academic Council", href: "https://drive.google.com/file/d/1u7TzsMf02sojToXWJDybYuRy8yvPQavQ/preview", note: "Notice of Meeting - September 2026" },
-            ],
-          },
-          { label: "A.6 College/University Code", children: [{ label: "College/University Code", href: "https://drive.google.com/file/d/1MLaKzN4s4uORJ7_ejfjW-d2pcWNWKjRs/preview" }] },
-          { label: "A.7 System of communication flow", children: [{ label: "System of communication flow", href: "https://drive.google.com/file/d/1P8A9OMf1MGfWQK7QLENqaNKxALX4KiLL/preview" }] },
-          {
-            label: "A.8 Administrative/Operational Manual",
-            children: [
-              { label: "Manual of Delegation and Delineation of Authority", href: "https://drive.google.com/file/d/1P8A9OMf1MGfWQK7QLENqaNKxALX4KiLL/preview" },
-              { label: "BatStateU Citizen's Charter", href: "https://drive.google.com/file/d/1w5iWK_eyKwXBOkQMtH4IpLA0y0fk-R6L/preview", note: "2019 - 1st Edition" },
-              { label: "BatStateU Five-Year Development Plan", href: "https://drive.google.com/file/d/1DOG_qQD-4Yj84jbPiQQQHPfo3J-wLjH_/preview", note: "(2023 - 2027)" },
-              { label: "Faculty Development Program", href: "https://drive.google.com/file/d/1oPqaA2UC0T9xRAMKvVLihzyUwTvMw0zw/preview" },
-              { label: "BatStateU Strategic Plan", href: "https://drive.google.com/file/d/13v_1vTnjEwoYhKXyPFM97FGUqdY0ftjl/preview", note: "2019 - 2029" },
-              { label: "Sports Development Manual", href: "https://drive.google.com/file/d/1RpG_8yX0rZTRYLYptaMg7erxT_-6TBqp/preview", note: "2025" },
-              { label: "BatStateU QMS Manual Rev. 02", href: "https://drive.google.com/file/d/1dZcJqEKxQpBS4_METeB0pO10amBi_a-h/preview" },
-              { label: "BatStateU Citizen's Charter 2025", href: "https://drive.google.com/file/d/1owyeE6Pl-fEelXqb6i42hqq32gJd1uPi/preview" },
-              { label: "Culture and Arts Manual", href: "https://drive.google.com/file/d/1k0xuuwn7SlAgPG35t7tlQwuk40uu4BiZ/preview" },
-            ],
-          },
-          { label: "A.9 Qualification Standards for Administrative Personnel", children: [{ label: "Human Resource Development Plan", href: "https://drive.google.com/file/d/129PuKNEOvI5pmqYMmvniGEa-Sj7ojdcN/preview", note: "FY 2026-2030" }] },
-        ],
-      },
       {
         letter: "B",
         title: "Academic Administration",
@@ -459,103 +489,158 @@ export const areas = [
               {
                 label: "B.1.1. Dean or Director",
                 children: [
-                  { label: "College of Engineering Functional Chart" },
-                  { label: "College of Engineering Organizational Structure" },
-                  { label: "Curriculum Vitae of College Dean" },
+                  { label: "Associate Dean, Donnalyn Cabaces", href: "https://drive.google.com/file/d/1mtAl72HZYb-NNBZpvMpn0nr6tYMaehMO/preview" },
+                  { label: "Associate Dean, John Kevin De Castro", href: "https://drive.google.com/file/d/1R6tyZVxMASGK6Yi4dYX_ZGVye9Nmva2E/preview" },
+                  { label: "Dean, Dr. Cristina Amor Rosales", href: "https://drive.google.com/file/d/1LShCvJd5Xcx1GkgbyVVtlu0Wz8q-lwZW/preview" },
                 ],
               },
               {
                 label: "B.1.2 Department Chair or his/her equivalent",
                 children: [
-                  { label: "Local Designees in the College of Engineering", href: "https://drive.google.com/file/d/1iWK53iALcEqTs3Az2InIP6GqxNpNkdq8/preview", note: "Effective First Semester AY 2026 - 2027" },
-                  { label: "Department Chairperson" },
-                  { label: "Program Chairperson" },
+                  { label: "Engr. Vivian D. Guda", href: "https://drive.google.com/file/d/1-6_65PzloFeCwHKQ-wlJxhcKf4MvMGIi/preview" },
+                  { label: "Department Chairperson", href: "https://drive.google.com/file/d/1Q2BRKyaoOC9Zi_7jO62n3Tk6n3pajtkd/preview" },
                 ],
               },
             ],
           },
           {
-            label: "B.1 Educational profile of Vice Chancellors",
-            children: [
-              { label: "Vice Chancellor for Academic Affairs", href: "https://drive.google.com/file/d/11yAwtMGOcdznN3RVU7HCC5eUMT6letmp/preview", note: "Dr. Elisa D. Gutierrez" },
-              { label: "Organizational Chart of the Office of the VCAA", href: "https://drive.google.com/file/d/14jJVOgDJU3eOhv0bNKpuA69llZ1yVK78/preview" },
-              { label: "Vice Chancellor, Administration and Finance", href: "https://drive.google.com/file/d/1h7RAMagwPNkIIaaf2ZFAt7H5Bonmvfo4/preview", note: "Dr. Myrna A. Coliat" },
-              { label: "Vice Chancellor, Development and External Affairs", href: "https://drive.google.com/file/d/14KJsMrPpQm67x3vOxZ1EuHbrKK96qnNX/preview", note: "Dr. Alex I. Magboo" },
-              { label: "Vice Chancellor, Research, Development and Extension Services", href: "https://drive.google.com/file/d/1epqBGddiWEqsm69fPRcxWEKCtxoDr0tZ/preview", note: "Engr. Albertson D. Amante" },
+            label: "B.2 Evidence of participatory administration in the College/Institute",
+            hrefs: [
+              "https://drive.google.com/file/d/1S5xOtkS6O77k6g6WuFaRESfGEgRI0htc/preview",
+              "https://drive.google.com/file/d/18rKwIwdL08PeqcHYsa4D0AxgjCZalPve/preview",
+              "https://drive.google.com/file/d/1WYRRu_gEE7n-1IXf7KqvdJWvMy5lfryA/preview"
             ],
           },
           {
-            label: "B.2 Evidence of participatory administration in the College/institution",
-            children: [
-              { label: "Budget Planning 2026 for Program of Receipts and Expenditures", href: "https://drive.google.com/file/d/10lhWbUzhvvB5IqvPVNr6u7fNQqFqcm_/preview" },
-              { label: "OUP Memorandum Order No. 399 s.2026", href: "https://drive.google.com/file/d/1fgkRFVZfsFM3vaNDF2eWA9nFLg6sthsb/preview" },
+            label: "B.3 Dean’s Supervisory Program",
+            hrefs: [
+              "https://drive.google.com/file/d/1XPwTuRJPd3eT7KYNdWdGNIk2VxsJVvL8/preview",
+              "https://drive.google.com/file/d/1E55dals3Q2vhUk_Igqbm4pcWRK6Oprtc/preview",
+              "https://drive.google.com/file/d/12HaLpf3twruuBzfCmo7kvjxAoUZASvM9/preview",
+              "https://drive.google.com/file/d/1ut1Pw_PpWG6gUhnvVuiMtyUTqncHo6hU/preview",
+              "https://drive.google.com/file/d/1Hj9dN0OWVuT1qzHxIqEEoHjV2N8BAA-8/preview"
+            ],
+          },
+          { label: "B.3 Additional local designation files (source lists these without a Drive link)." },
+          {
+            label: "D.3 Evidence of participation of the academic unit in budget allocation",
+            hrefs: [
+              "https://drive.google.com/file/d/1v_fR25RlJeLhIQNwE0TJrh56hVER-SFc/preview",
+              "https://drive.google.com/file/d/1S6-LU0KH_yRNRE5S7DaFhdbxkTIRFrz5/preview",
+              "https://drive.google.com/file/d/1KE4Px5RCuzfP7N8vihCti1JGO-Nph2IN/preview",
+              "https://drive.google.com/file/d/1KE4Px5RCuzfP7N8vihCti1JGO-Nph2IN/preview",
+              "https://drive.google.com/file/d/1qAmpUUhGCfAuS78kJFRj67OiSnD6BNr8/preview",
+              "https://drive.google.com/file/d/1fZ6QJKPEfvkaLwx5paZVncTv4NN7AM4I/preview"
             ],
           },
           {
-            label: "B.3 Dean's Supervisory Program",
-            children: [
-              { label: "CoE Governance and Supervisory Plan", href: "https://drive.google.com/file/d/1_7Y8sEKUDbvulZgwf9gnNoc3bUuxHxPL/preview", note: "AY 2026-2027" },
-              { label: "Associate Dean's Supervisory Program", href: "https://drive.google.com/file/d/1k2BWI2wqDPsPvflsAJrrBYzHAo01rmyd/preview", note: "AY 2020-2021" },
+            label: "D.4 Statement of Budget Priorities",
+            hrefs: [
+              "https://drive.google.com/file/d/1lLm6qRGpDTW_siT9R5Ufq2an8Y6IY2Xz/preview",
+              "https://drive.google.com/file/d/1l8Rk4AIGHVsl9SwHrNGCJ0BoP2QEWuS1/preview"
+            ],
+          },
+          {
+            label: "D.5 Plantilla of Administrative Personnel",
+            hrefs: [
+              "https://drive.google.com/file/d/1zOYzJkIkm5qU9U3ClWDeieXxlBbMtf5t/preview",
+              "https://drive.google.com/file/d/1tvjGfmtAFJeIMLSe0j4uapIvRqVEztue/preview",
+              "https://drive.google.com/file/d/1KtI5BHp6X1seAVNpASMopIryaUFLIq_p/preview",
+              "https://drive.google.com/file/d/1Zbbl-ZN4c9zDpYrNUIeeeVPshuVyUlaR/preview",
+              "https://drive.google.com/file/d/1Ef1-gxL2YxX70j3X3SUa-0VFAskZBnV9/preview"
             ],
           },
         ],
       },
       {
-        letter: "C",
-        title: "Student Administration",
+        letter: "E",
+        title: "Supply Management",
         items: [
+          { label: "E.1 Composition of the Supply Management Office", href: "https://drive.google.com/file/d/1yTynU6PM-sio6hgI8cfPFsarwHSDH7_7/preview" },
+          { label: "E.2 Description of the system of supply management", href: "https://drive.google.com/file/d/1HTnb0HK0xSbknLTH1SxGGwGAc5OV0QCc/preview" },
           {
-            label: "C.1 Policies and Guidelines",
-            children: [
-              { label: "Student Handbook", href: "https://drive.google.com/file/d/1gUp8spS55_BGccWJeAuzUGKQbv5_siyR/preview" },
-              { label: "Review of Student Handbook", href: "https://drive.google.com/file/d/1XPSciqGs8zHM8LhfBPdltaIn9a6N9-Z_/preview" },
-              { label: "Student Organizations and Activities Manual", href: "https://drive.google.com/file/d/1TLzxpz-Lhvklew4uo6-FLnXN6gwk8CWF/preview" },
-              { label: "Office of Guidance and Counseling Manual", href: "https://drive.google.com/file/d/1Keizwt1b9017cbRKEZpbsjpZ7OUL1yNQ/preview" },
-              { label: "Student Housing and Residential Services Manual", href: "https://drive.google.com/file/d/1rC4o8-WFT-PzwkYk1hcaFOdPH-p8d3h2/preview" },
+            label: "E.3 Composition and function of the Bids and Awards Committee.",
+            hrefs: [
+              "https://drive.google.com/file/d/15RVlCvCbhpCdunAjwCrIOWdY8oLI5Ubh/preview",
+              "https://drive.google.com/file/d/1bRGf7bnADgIftBuCdzpl8RYH7CNZPJQa/preview",
+              "https://drive.google.com/file/d/11DTVW1qEgkMWMkIKkUEgShyz8rrTVPx0/preview",
+              "https://drive.google.com/file/d/1nLvmvjfImvS01GCtH66cU9ilHeMFZHEi/preview"
             ],
           },
-          {
-            label: "C.2 Evidence of Student Participation",
-            children: [
-              { label: "Budget Presentation and Deliberation 2024", href: "https://drive.google.com/file/d/11hEkhiHSADwPZzrTVQQHl9w_ADpUtYGt/preview" },
-              { label: "Kapihan with the President", href: "https://drive.google.com/file/d/1bvl4qNptsQRQw8zOriJqzgjtrSlcncrE/preview", note: "Consultative Process" },
-              { label: "Kapihan with the President", href: "https://drive.google.com/file/d/1kngvCu2sy2tWz-S0lAc4vWtEiZWgZnBs/preview", note: "Memorandum Order No. 399, s. 2026" },
-            ],
-          },
-          {
-            label: "C.3 Evidence of Good Working Relationship",
-            children: [
-              { label: "Program for the University-wide Charter Day", href: "https://drive.google.com/file/d/1axG9wzLXMXefl3MOTCOXWtV7MHgnHu04/preview", note: "Memorandum Order No. 414, s. 2025" },
-              { label: "Participation in the University Charter Day Celebration", href: "https://drive.google.com/file/d/1UlDDOcW8SnjLq1nq8N8ypgpnWKLrxRpA/preview", note: "Memorandum Order No. 498, s. 2026" },
-            ],
-          },
+          { label: "E.4 Evidence of Compliance to RA 9184 (Procurement of equipment, supplies and materials)", href: "https://drive.google.com/file/d/1M0M99fLmqmWjrkKCeQqAAqEJsfcwul65/preview" },
+          { label: "E.4 Additional Sample Bidding Documents.pdf (source lists a filename without a Drive link)." },
+          { label: "E.5 File copies of annual inventories of serviceable and non serviceable equipment", href: "https://drive.google.com/file/d/1fSs1FgGCvtZUUn2FAmHiOk0KGk8IFyOZ/preview" },
         ],
       },
       {
-        letter: "D",
-        title: "Financial Management",
+        letter: "F",
+        title: "Records Management",
         items: [
+          { label: "F.1 Composition of the Records Management Office, their qualification and functions", href: "https://drive.google.com/file/d/1uGGsZaI2iJfgjwIz5JoI_rtar3Ous-rr/preview" },
+          { label: "F.2 Description of the records management in the institution", href: "https://drive.google.com/file/d/1H4ELRlOHmgKNwYeO13jHKLxXP6HgL5GE/preview" },
           {
-            label: "D.1 Qualification of the Head of the FMO, Including his/her functions",
-            children: [
-              { label: "Functional Chart", href: "https://drive.google.com/file/d/1Pb-OkSuoh29LyqT9XWmzv8vFqHcA95VI/preview" },
-              { label: "Vice Chancellor, Administration and Finance", href: "https://drive.google.com/file/d/1h7RAMagwPNkIIaaf2ZFAt7H5Bonmvfo4/preview" },
-              { label: "Organizational Chart", href: "https://drive.google.com/file/d/1sAzFdqrrs22-A6D-7JfTkOrOVlZXsQW7/preview", note: "Office of the Vice Chancellor for Administration and Finance" },
+            label: "F.3 Description of the system of maintaining the confidentiality and security of official records",
+            hrefs: [
+              "https://drive.google.com/file/d/1LurQzlG2be4iWfQpgKyV5tvUV3-gFRNn/preview",
+              "https://drive.google.com/file/d/1sHx4HpEkyTjZnBj-qSany9mF25vGvwTn/preview",
+              "https://drive.google.com/file/d/1kOD4zEaMFcMZUoAQZSqN0iXZ-6zooKr4/preview",
+              "https://drive.google.com/file/d/18ML5sVq5_spHc8I9GvlQlAG9mMwLKIHS/preview"
+            ],
+          },
+          { label: "F.4 Updated records/files identified under Administration.", href: "https://drive.google.com/file/d/18S1cCDABCveMoCynKRKJqjV0zFjgboFh/preview" },
+        ],
+      },
+      {
+        letter: "G",
+        title: "Institutional Planning and Development",
+        items: [
+          { label: "G.1. Composition of the Planning Unit, including their functions.", href: "https://drive.google.com/file/d/1y5PpB77oi9naY37jBJdPePOGg863vZm9/preview" },
+          {
+            label: "G.2. Copy of Development Plan",
+            hrefs: [
+              "https://drive.google.com/file/d/1AHZzkjTgXCpR7WwzGdmtKWtYceGE0OaS/preview",
+              "https://drive.google.com/file/d/1MJyKoTiShJbq-catVNEUpUFAXqlrcZrn/preview",
+              "https://drive.google.com/file/d/1nLp9ZMIdE7uoxeKk29wBdUe6fSlUVX8i/preview",
+              "https://drive.google.com/file/d/1hpK5osLGkhloakYUZWX9amOwtrTFGcje/preview",
+              "https://drive.google.com/file/d/15s3hiGu2LTJU-VTiUjO7ylG0b-S6fTAZ/preview"
             ],
           },
           {
-            label: "D.2 Guidelines in budget preparation",
-            children: [
-              { label: "Notice of Preparation of Budget Proposal for FY 2027", href: "https://drive.google.com/file/d/1xKDwzG0u5rThaEjLGhiWpODUxIyz3Pad/preview", note: "Advisory No. 03, Series of 2026" },
-              { label: "Financial Management Manual", href: "https://drive.google.com/file/d/1sTCkpNfJ1tScgTMqzBMhAa8rmOr2xMRJ/preview" },
-              { label: "Guidelines and Procedures in the Preparation and Submission of the Programs of Receipts and Expenditures", href: "https://drive.google.com/file/d/1Kdgwk7Zv0_IEjXBQ5fFQ-08BfJoOo7ZX/preview", note: "OUP Memorandum Order No. 610, s. 2025" },
+            label: "G.3. Evidence of participatory financial management",
+            hrefs: [
+              "https://drive.google.com/file/d/1kW8mOKWBJaxFXtNxJs_KPvUnaKS4D2Zz/preview",
+              "https://drive.google.com/file/d/1kKvXdbqvSzwEin1Y_299BGmeVRmtuggC/preview"
             ],
           },
+          {
+            label: "G.4 Description of inter-office sharing of resources (facilities and equipment)",
+            hrefs: [
+              "https://drive.google.com/file/d/1vvw5h-66Sn3HJWkqVvanBEBk_w2TSYFb/preview",
+              "https://drive.google.com/file/d/1Y2wuHPaARW2glhh7ySAJPCUNu3UvjhBO/preview",
+              "https://drive.google.com/file/d/1G2RNN2jCWkNzaPK30RbVyTTFn7-CjOj6/preview",
+              "https://drive.google.com/file/d/1sWrKw53yAgmdXyHE_FSfjUPeBFdmOwwo/preview"
+            ],
+          },
+          {
+            label: "G.5 Personnel Performance Evaluation Instrument",
+            hrefs: [
+              "https://drive.google.com/file/d/1-ZM7Mt-scSvTNx2aBC-oUa0VZ3D2vsMW/preview",
+              "https://drive.google.com/file/d/1uwpKJxhNzH-UHvm_4Un8jAcnDhynO2_-/preview"
+            ],
+          },
+          {
+            label: "G.6 Personnel Evaluation Results",
+            hrefs: [
+              "https://drive.google.com/file/d/18j_yabq1RF1_Cp6dOlKX3KqAuTC2NuQE/preview",
+              "https://drive.google.com/file/d/1odocOiGQqJKQKeO8DEWv80S7Jxxq8IFc/preview",
+              "https://drive.google.com/file/d/1n2c_izAKFNGuc8sQSJe6yrpIgaAcaB0D/preview"
+            ],
+          },
+          { label: "G.7. Annual Reports", href: "https://drive.google.com/file/d/15DAbON5ETAI6i5leAMkYhYTmCiSEpOl8/view?usp=sharing" },
         ],
       },
     ],
-  }
-];
+  }];
 
 // Shown at /activity
 export const activities = [
