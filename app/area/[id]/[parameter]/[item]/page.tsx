@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { notFound, redirect } from "next/navigation";
 import { areas } from "@/data/content";
 
-type ParameterItem = string | { label: string; href?: string; text?: string; children?: { label: string; href?: string }[] };
+type ParameterItem = string | { label: string; href?: string; hrefs?: string[]; text?: string; children?: { label: string; href?: string; hrefs?: string[]; }[] };
 type Parameter = { letter: string; title: string; items: ParameterItem[] };
 
 function getParameters(area: (typeof areas)[number]): Parameter[] | null {
@@ -48,17 +48,20 @@ export default async function AreaResource({
   const item = parameter?.items[index];
   if (!parameter || !item) notFound();
 
-  // Parent items that contain subtopics are dropdown containers, not document pages.
-  // If a direct URL is opened for one of them, return to the Area page instead of showing a no-document warning.
-  if (typeof item !== "string" && item.children?.length) {
+  const label = typeof item === "string" ? item : item.label;
+  const directChild = typeof item !== "string" && item.children?.length === 1 ? item.children[0] : undefined;
+
+  // Parent items with multiple distinct subtopics remain dropdown containers.
+  // A single document child (including a child with multiple Drive links) opens directly.
+  if (typeof item !== "string" && item.children?.length && !directChild) {
     redirect(`/area/${area.id}`);
   }
 
-  const label = typeof item === "string" ? item : item.label;
-  const href = typeof item === "string" ? undefined : item.href;
+  const href = typeof item === "string" ? undefined : (item.href ?? directChild?.href);
+  const hrefs = typeof item === "string" ? undefined : (item.hrefs ?? directChild?.hrefs);
   const text = typeof item === "string" ? undefined : item.text;
   const next = areas.find((a) => a.id === area.id + 1);
-  const preview = previewUrl(href);
+  const previews = (hrefs?.length ? hrefs : href ? [href] : []).map(previewUrl);
 
   return (
     <main className="area-page area-resource-page">
@@ -100,22 +103,26 @@ export default async function AreaResource({
           <div className="resource-text-block">
             <p>{text}</p>
           </div>
-        ) : preview ? (
-          <div className="resource-detail-preview">
-            <iframe
-              src={preview}
-              title={label}
-              loading="eager"
-              allow="autoplay"
-            />
-            <a
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="resource-detail-open"
-            >
-              Open document in Google Drive
-            </a>
+        ) : previews.length ? (
+          <div className="resource-detail-preview-stack">
+            {previews.map((preview, index) => (
+              <div className="resource-detail-preview" key={preview}>
+                <iframe
+                  src={preview}
+                  title={label + " " + (index + 1)}
+                  loading={index === 0 ? "eager" : "lazy"}
+                  allow="autoplay"
+                />
+                <a
+                  href={hrefs?.[index] ?? href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="resource-detail-open"
+                >
+                  Open document in Google Drive
+                </a>
+              </div>
+            ))}
           </div>
         ) : (
           <div className="resource-detail-empty">
