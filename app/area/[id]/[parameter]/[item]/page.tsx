@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { notFound, redirect } from "next/navigation";
 import { areas } from "@/data/content";
 
-type ParameterItem = string | { label: string; href?: string; hrefs?: string[]; text?: string; children?: { label: string; href?: string; hrefs?: string[]; }[] };
+type ParameterItem = string | { label: string; href?: string; hrefs?: string[]; text?: string; texts?: string[]; children?: { label: string; href?: string; hrefs?: string[]; text?: string; }[] };
 type Parameter = { letter: string; title: string; items: ParameterItem[] };
 
 function getParameters(area: (typeof areas)[number]): Parameter[] | null {
@@ -60,6 +60,7 @@ export default async function AreaResource({
   const href = typeof item === "string" ? undefined : (item.href ?? directChild?.href);
   const hrefs = typeof item === "string" ? undefined : (item.hrefs ?? directChild?.hrefs);
   const text = typeof item === "string" ? undefined : item.text;
+  const texts = typeof item === "string" ? undefined : item.texts;
   const next = areas.find((a) => a.id === area.id + 1);
   const previews = (hrefs?.length ? hrefs : href ? [href] : []).map(previewUrl);
 
@@ -109,6 +110,11 @@ export default async function AreaResource({
           <div className="resource-detail-preview-stack">
             {previews.map((preview, index) => (
               <div className="resource-detail-preview" key={preview}>
+                {(texts?.[index] || (index === 0 && text)) ? (
+                  <div className="resource-preview-text">
+                    <p>{texts?.[index] ?? text}</p>
+                  </div>
+                ) : null}
                 <iframe
                   src={preview}
                   title={label + " " + (index + 1)}
