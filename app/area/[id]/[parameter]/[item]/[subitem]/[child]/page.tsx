@@ -6,6 +6,7 @@ import { areas } from "@/data/content";
 type Child = {
   label: string;
   href?: string;
+  hrefs?: string[];
   note?: string;
   children?: Child[];
 };
@@ -66,7 +67,7 @@ export default async function DeepNestedAreaResource({
 
   if (!parameter || !nestedParent || !grandchild) notFound();
 
-  const preview = previewUrl(grandchild.href);
+  const previews = (grandchild.hrefs?.length ? grandchild.hrefs : grandchild.href ? [grandchild.href] : []).map(previewUrl);
 
   return (
     <main className="area-page area-resource-page">
@@ -90,10 +91,14 @@ export default async function DeepNestedAreaResource({
           <h2>{grandchild.label}</h2>
         </div>
 
-        {preview ? (
-          <div className="resource-detail-preview">
-            <iframe src={preview} title={grandchild.label} loading="eager" allow="autoplay" />
-            <a href={grandchild.href} target="_blank" rel="noopener noreferrer" className="resource-detail-open">Open document in Google Drive</a>
+        {previews.length ? (
+          <div className="resource-detail-preview-stack">
+            {previews.map((preview, index) => (
+              <div className="resource-detail-preview" key={preview}>
+                <iframe src={preview} title={grandchild.label + " " + (index + 1)} loading={index === 0 ? "eager" : "lazy"} allow="autoplay" />
+                <a href={grandchild.hrefs?.[index] ?? grandchild.href} target="_blank" rel="noopener noreferrer" className="resource-detail-open">Open document in Google Drive</a>
+              </div>
+            ))}
             {grandchild.note ? <p className="resource-detail-note">{grandchild.note}</p> : null}
           </div>
         ) : (
