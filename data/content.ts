@@ -69,28 +69,191 @@ export const areas = [
     parameters: [
       {
         letter: "A",
-        title: "Student Services Program (SSP)",
-        items: ["SYSTEM. Inputs and Processes", "Implementation", "Outcomes"],
+        title: "Student Services Program",
+        items: [
+          {
+            label: "A.1. A copy of the objectives of the SSP.",
+            children: [
+              { label: "Google Drive documents", href: "https://drive.google.com/file/d/1PNMtCsQD34QE4mRzK4KTdR88V21sSGxi/preview" },
+            ],
+          },
+          {
+            label: "A.2. Organizational Chart of the SSP.",
+            children: [
+              { label: "Google Drive document", href: "https://drive.google.com/file/d/1JRSeCAslsvkSlrIW70SemOkvVo_ONbPt/preview" },
+            ],
+          },
+          {
+            label: "A.3. Functional Chart of the SSP.",
+            children: [
+              {
+                label: "Google Drive documents",
+                hrefs: [
+                  "https://drive.google.com/file/d/1Z3iRyEF_5MlKga6tpYNc9sWlg94zh0jx/preview",
+                  "https://drive.google.com/file/d/1lIAA_fkkAsQGob5C82lkqkteO6SFb3YV/preview",
+                ],
+              },
+            ],
+          },
+          {
+            label: "A.4. Profile of the SSP Staff.",
+            children: [
+              {
+                label: "Google Drive documents",
+                hrefs: [
+                  "https://drive.google.com/file/d/1K4fA9yBJ113-Wbkdx1ltfQ0h2LBcRP_u/preview",
+                  "https://drive.google.com/file/d/1sVQSwbGI6N4FHKJ9SH1AShBA43UHUKvD/preview",
+                  "https://drive.google.com/file/d/1RoznZjqFzEU_5AcaMqBfqzVT7srGY-25/preview",
+                  "https://drive.google.com/file/d/1SXBdWRI0ULK7jYmimHU9Dw8wL4isHMDH/preview",
+                  "https://drive.google.com/file/d/1ikW9bwoB6V-T-mojBKjwRBIDcjJRhAMA/preview",
+                  "https://drive.google.com/file/d/1TG-Yp-U4YBmCqZm0CsDcjTA8-mcB3Rw3/preview",
+                  "https://drive.google.com/file/d/1Bau1jo4HIj69RIuym1ro5oHCyLVHPbd2/preview",
+                ],
+              },
+            ],
+          },
+          {
+            label: "A.5. Copy of the SSP Master Plan.",
+            children: [
+              {
+                label: "Google Drive documents",
+                hrefs: [
+                  "https://drive.google.com/file/d/15xxrJ5MxuB8QIbGtOyGeig4EoiSstzYI/preview",
+                  "https://drive.google.com/file/d/1WxU209Wf5fkNM8OaGUak33Xj--iQ-nkm/preview",
+                  "https://drive.google.com/file/d/1SEdCOPL55WHSEzsMkayrThWaRkB_FQXD/preview",
+                  "https://drive.google.com/file/d/1gvl9xPP-RnVCYmPJDOFbsX4hmnlWp8sO/preview",
+                ],
+              },
+            ],
+          },
+          {
+            label: "A.6. Evaluation program to assess the effectiveness of the SSP.",
+            children: [
+              { label: "Google Drive document", href: "https://drive.google.com/file/d/1VKaFUEgFWGdPKrr_cDcWuzk1ZkwiWa8Y/preview" },
+            ],
+          },
+          {
+            label: "A.7. Inventory of physical facilities, equipment, supplies and materials for the SSP.",
+            children: [
+              { label: "Google Drive document", href: "https://drive.google.com/file/d/1aXTvTSUmXpXym8VpKKsxAprGUhjqdtgl/preview" },
+            ],
+          },
+        ],
       },
       {
         letter: "B",
-        title: "Student Welfare",
-        items: ["SYSTEM. Inputs and Processes", "Implementation", "Outcomes"],
+        title: "Admission and Retention",
+        items: [
+          {
+            label: "B.1. Bulletin of Information",
+            children: [
+              { label: "(1) Shifting and Transferring Policy", href: "https://drive.google.com/file/d/1be1srwbPPt9AC7ljMsCwT4x7S6l5OkDR/preview" },
+              {
+                label: "(2) Admission Policy",
+                hrefs: [
+                  "https://drive.google.com/file/d/1wp9UpmbOCLixZVAphMvd-oTVA9cXaBvw/preview",
+                  "https://drive.google.com/file/d/1DWu4ux8XQwbYcCpijAmEZX3q3j1Ij9QL/preview",
+                  "https://drive.google.com/file/d/1xFAx6D2c1IlOID_-d6-ST2ytWc1kc3mE/preview",
+                  "https://drive.google.com/file/d/1Wh-xW7KfXJsbf48z7g8-_vxnXnOrn-wT/preview",
+                  "https://drive.google.com/file/d/10S7dIN9T1K2OkGKVmJ7uZLCuD1Y-niYw/preview",
+                  "https://drive.google.com/file/d/1AhlNGSRM982tzahXYwTlB5O16uj_W6AP/preview",
+                  "https://drive.google.com/file/d/1ag-JwzMpERVNfvI_VpIP0_NaAQKU6Iw2/preview",
+                  "https://drive.google.com/file/d/1WCmYZUOXFF7FJCkE2bbCcgFCnnE5VGaq/preview",
+                  "https://drive.google.com/file/d/1dCyQMHy02oPykHRveUBn3GCbKh-rBbG2/preview",
+                  "https://drive.google.com/file/d/1dlUn4GZQG1aabuAkaYdKF2cztyv3-N3a/preview",
+                ],
+              },
+            ],
+          },
+          {
+            label: "B.2. Student Handbook",
+            children: [
+              {
+                label: "Google Drive documents",
+                hrefs: [
+                  "https://drive.google.com/file/d/1iCk6CYGGqd-2J3oifDBg5WOz1-f1VjTq/preview",
+                  "https://drive.google.com/file/d/1zVKRyM6g9SG7T51Z5mHsAVxN35_L_kHN/preview",
+                  "https://drive.google.com/file/d/1yIqRy6CL9IkHqHmcXrCqyvxXmDD4tWJ5/preview",
+                ],
+              },
+            ],
+          },
+          {
+            label: "B.3. Data on student admission (enrollment trends, drop-out rate, transferees, course shifters, etc.)",
+            children: [
+              { label: "Google Drive folder", href: "https://drive.google.com/drive/folders/19kOsCA698kEhq4uC5cbme2tGnub8wsUW?usp=drive_link" },
+            ],
+          },
+        ],
       },
       {
         letter: "C",
-        title: "Student Development",
-        items: ["SYSTEM. Inputs and Processes", "Implementation", "Outcomes"],
+        title: "Guidance Program",
+        items: [
+          { label: "C.1. Profile of the Guidance and Counseling Head", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/14WHVsSx9nw1x9IYHPTu80xhob-89fYZD?usp=drive_link" }] },
+          { label: "C.2. Updated Student Profiles", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1LXz9-EVxBqyy3t-ieOGBEzVuSdaWWyg8?usp=drive_link" }] },
+          { label: "C.3. Policies on the confidentiality of student records", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1xSDoxRW9uJA-RsF0lzavp11UNg2HltsW?usp=drive_link" }] },
+          { label: "C.4. A copy of the Testing program.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1ukDe714mfl4UTD6k2GmlujCTUBUlwhI7?usp=drive_link" }] },
+          { label: "C.5. List of tests and evaluative tools used in Guidance and Counseling services.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1hqFWd65HAbGGTlMQwXSK4vI0VZUYMnrr?usp=drive_link" }] },
+          { label: "C.6. List of students who availed of the counseling service.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1ZBmJATJX72L9ltyUnf95kghqlghwyovY?usp=drive_link" }] },
+          { label: "C.7. Sample counseling referral form.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1_78PwxOA8O6rGfqH3tWN17ze3SRAw4PB?usp=drive_link" }] },
+          { label: "C.8. List of prospective employers of graduates of a particular program.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1Zm-yQ6_aZEW7sp5wT1YA2I1Zo58CBoZp?usp=drive_link" }] },
+          { label: "C.9. Sample letters of employers inviting graduates of a particular program to apply.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/18P621GlvtuGEv5DO0eGFt48ga2aCUgaO?usp=drive_link" }] },
+          { label: "C.10. Alumni Directory and officers of the Alumni Association.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/11uYa-aMRuVEgAhwKeURP1cnNyChBRbOa?usp=drive_link" }] },
+          { label: "C.11. Linkages established with industries and prospective employers.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1SulFzAW0pQm-8e5JpJsnMu4q0qoJsDKB?usp=drive_link" }] },
+          { label: "C.12. Copy of the instrument to evaluate the guidance program.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/19nHpZLRry7CSJmJzSkwBL0OsLQ6f7B-t?usp=drive_link" }] },
+        ],
       },
       {
         letter: "D",
-        title: "Institutional Student Programs and Services",
-        items: ["SYSTEM. Inputs and Processes", "Implementation", "Outcomes"],
+        title: "Other Student Services",
+        items: [
+          { label: "D.1. Copies of the Health Services Program.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1iWRK60QLWFB34-5gaNp2hWrV6zsiAGO6?usp=drive_link" }] },
+          { label: "D.2. Profile of the Medical/Dental Staff.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1nRMEFuJX54ibvNfWA-wRJ1fIWxPdXqjx?usp=drive_link" }] },
+          { label: "D.3. Records of students who availed of Medical/Dental services.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1etpoGmODR3gXwoeQgUKwCh208N8BL8T_?usp=drive_link" }] },
+          "Food Services",
+          { label: "D.4. Copy of sanitary permit for canteen operation.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1hbdcmmG68PMnHVwk4litwyrILqYxmG4A?usp=drive_link" }] },
+          { label: "D.5. Health certificates of the canteen staff and food handlers.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1d5lUiDgO1B5z1Sl9uo1butYAoleTp9-m?usp=drive_link" }] },
+          "Sports Development Program",
+          { label: "D.6. Policies on the selection of athletes.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1ilJpMW1w4jHqelMsci_EhQhHJ755LyXD?usp=drive_link" }] },
+          { label: "D.7. Budget allocation for sports development.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1eDt9vhYLc4OrMVNTvLhnrezsCln1zW_9?usp=drive_link" }] },
+          { label: "D.8. Inventory of facilities, equipment, supplies and materials provided to the Sports Services Unit.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1ZMPLnM-EJV7or7zBSY5zo0w1y6FQaY7s?usp=drive_link" }] },
+          { label: "D.9. Evidence of monitoring and evaluation of sports activities.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/11xSI7UEaBNCZ1A6w3FMNruXKBVprnARx?usp=drive_link" }] },
+          { label: "D.10. Policies governing student publication.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1iR3CTUyIz_SRZds9aCAQMKEOi5e_z99H?usp=drive_link" }] },
+          { label: "D.11. Composition of the Editorial Board, including advisers.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1QvC29Jhby5K2USLsBfTey4iQmmP0rnC6?usp=drive_link" }] },
+          { label: "D.12. Copies of the school paper published.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1DSAaUV8I8Gt28fHQ5DD52pwZJxN1RG6I?usp=drive_link" }] },
+          { label: "D.13. Profile of the school paper's advisers.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1XHvbioAqIEILTWb1CJGSODlnkJU9c0qu?usp=drive_link" }] },
+          { label: "D.14. Inventory of facilities, equipment, supplies and materials for the Student Publication Unit.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1zUjgliHcL7TRQn_oBmgmJ5hFvUDNfhLy?usp=drive_link" }] },
+          "Socio-Cultural Development Program",
+          { label: "D.15. A copy of the Socio-Cultural Development Program.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1CUL6s_IeSs_VIaBp-087kmYIY_IOO7uM?usp=drive_link" }] },
+          { label: "D.16. Schedule of socio-cultural activities regularly conducted.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1-Flvi1bmNJ1IGUa0_mt8wn69yvcpQZrD?usp=drive_link" }] },
+          { label: "D.17. Copy of the financial assistance program (scholarship, grant-in-aid, student loans, attendance to seminars, etc.)", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1_ZmoZ3bZ0z8MjiEsZP5xqZe4Vh0Va6iH?usp=drive_link" }] },
+          { label: "D.18. List of incentives and privileges to varsity athletes and members of cultural groups.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1_ZmoZ3bZ0z8MjiEsZP5xqZe4Vh0Va6iH?usp=drive_link" }] },
+          "Housing Services (Optional)",
+          { label: "D.19. Policies on the operation of Student Dormitories.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1bvzok9B3_W49bs5C0DzFb2OZkE9hiK2a?usp=drive_link" }] },
+          { label: "D.20. Profile of the Dormitory Head and Staff.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/13yi4AJlMi1eoVYxbHrHjqEQ6X4fRtDp8?usp=drive_link" }] },
+          { label: "D.21. Copy of Dormitory rules and regulations.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1xukukgJL3qzRoflwPDol_cJ3_JsEu_4H?usp=drive_link" }] },
+          { label: "D.22. Report on the monitoring and evaluation of private boarding houses.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1fTAhV_zypeUlrLe8SBWkn3KqRHmibcOi?usp=drive_link" }] },
+        ],
       },
       {
         letter: "E",
-        title: "Research, Monitoring and Evaluation",
-        items: ["SYSTEM. Inputs and Processes", "Implementation", "Outcomes"],
+        title: "Scholarship/Grants",
+        items: [
+          { label: "E.1. Copy of the Institutional Scholarship Program containing:", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1fmTXe2wym2EFfJ71UIMmZbPu-VUctuD1?usp=drive_link" }] },
+          { label: "E.2. Copy of the orientation program for scholars and grantees.", children: [{ label: "Google Drive document", href: "https://drive.google.com/file/d/1PYhN18wlveyeO9Vwftxep3qBT_bIRx3o/preview" }] },
+        ],
+      },
+      {
+        letter: "F",
+        title: "Co-curricular and Extra-curricular Activities",
+        items: [
+          { label: "F.1. List of recognized student organizations, including their advisers.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1r0OvDWA2AvqdVOFnnpWPgygh0uz-BE0r?usp=drive_link" }] },
+          { label: "F.2. Sample Constitution and By-Laws of student organizations.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1IbdMvgtmvmkFqMSpK6oOPOwjBd6WdbpG?usp=drive_link" }] },
+          { label: "F.3. List of co-curricular and extra-curricular activities including relevant information.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1DIpdeep3KjpJgJHobFORGZWYkJf_ogW6?usp=drive_link" }] },
+          { label: "F.4. A system of incentives, awards/recognition for outstanding achievement in co-curricular and extra-curricular activities.", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1jqgRHuss-7aBatdFxbmPUWiETX-jq4eR?usp=drive_link" }] },
+          { label: "F.5. Sample Accomplishment Reports of recognized student organization", children: [{ label: "Google Drive folder", href: "https://drive.google.com/drive/folders/1dt-UR63Xhrje34w_R9H2_jWC7REb8FUC?usp=drive_link" }] },
+        ],
       },
     ],
   },
