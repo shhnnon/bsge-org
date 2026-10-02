@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 import { areas } from "@/data/content";
 
-type Child = { label: string; href?: string; hrefs?: string[]; note?: string; images?: string[] };
+type Child = { label: string; href?: string; hrefs?: string[]; text?: string; note?: string; images?: string[] };
 type ParameterItem = string | { label: string; href?: string; children?: Child[] };
 type Parameter = { letter: string; title: string; items: ParameterItem[] };
 
@@ -87,6 +87,7 @@ export default async function NestedAreaResource({
           <div className="resource-detail-preview-stack">
             {previews.map((preview, index) => (
               <div className="resource-detail-preview" key={preview}>
+                {child.text ? <div className="resource-preview-text"><p>{child.text}</p></div> : null}
                 <iframe src={preview} title={child.label + " " + (index + 1)} loading={index === 0 ? "eager" : "lazy"} allow="autoplay" />
                 <a href={child.hrefs?.[index] ?? child.href} target="_blank" rel="noopener noreferrer" className="resource-detail-open">Open document in Google Drive</a>
               </div>
