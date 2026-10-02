@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 import { areas } from "@/data/content";
 
-type Child = { label: string; href?: string; note?: string; images?: string[] };
+type Child = { label: string; href?: string; hrefs?: string[]; note?: string; images?: string[] };
 type ParameterItem = string | { label: string; href?: string; children?: Child[] };
 type Parameter = { letter: string; title: string; items: ParameterItem[] };
 
@@ -52,7 +52,7 @@ export default async function NestedAreaResource({
   const images = child?.images ?? [];
   if (!parameter || !child) notFound();
 
-  const preview = previewUrl(child.href);
+  const previews = (child.hrefs?.length ? child.hrefs : child.href ? [child.href] : []).map(previewUrl);
 
   return (
     <main className="area-page area-resource-page">
@@ -83,10 +83,14 @@ export default async function NestedAreaResource({
               </figure>
             ))}
           </div>
-        ) : preview ? (
-          <div className="resource-detail-preview">
-            <iframe src={preview} title={child.label} loading="eager" allow="autoplay" />
-            <a href={child.href} target="_blank" rel="noopener noreferrer" className="resource-detail-open">Open document in Google Drive</a>
+        ) : previews.length ? (
+          <div className="resource-detail-preview-stack">
+            {previews.map((preview, index) => (
+              <div className="resource-detail-preview" key={preview}>
+                <iframe src={preview} title={child.label + " " + (index + 1)} loading={index === 0 ? "eager" : "lazy"} allow="autoplay" />
+                <a href={child.hrefs?.[index] ?? child.href} target="_blank" rel="noopener noreferrer" className="resource-detail-open">Open document in Google Drive</a>
+              </div>
+            ))}
             {child.note ? <p className="resource-detail-note">{child.note}</p> : null}
           </div>
         ) : (
