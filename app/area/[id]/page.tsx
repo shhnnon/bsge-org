@@ -70,7 +70,12 @@ export default async function Area({
                         const label = typeof current === "string" ? current : current.label;
                         const children = typeof current === "string" ? [] : (current.children ?? []);
 
-                        if (!children.length) {
+                        const directDocumentChild =
+                          children.length === 1 &&
+                          typeof children[0] !== "string" &&
+                          (children[0].href || children[0].hrefs || children[0].images);
+
+                        if (!children.length || directDocumentChild) {
                           const documentSource = directDocumentChild ? children[0] : current;
                           const href = typeof documentSource === "string" ? undefined : documentSource.href;
                           const hasImages = typeof documentSource !== "string" && Array.isArray(documentSource.images) && documentSource.images.length > 0;
