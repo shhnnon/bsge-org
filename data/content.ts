@@ -513,15 +513,23 @@ export const areas = [
           },
           {
             label: "B.3 Dean’s Supervisory Program",
-            hrefs: [
-              "https://drive.google.com/file/d/1XPwTuRJPd3eT7KYNdWdGNIk2VxsJVvL8/preview",
-              "https://drive.google.com/file/d/1E55dals3Q2vhUk_Igqbm4pcWRK6Oprtc/preview",
-              "https://drive.google.com/file/d/12HaLpf3twruuBzfCmo7kvjxAoUZASvM9/preview",
-              "https://drive.google.com/file/d/1ut1Pw_PpWG6gUhnvVuiMtyUTqncHo6hU/preview",
-              "https://drive.google.com/file/d/1Hj9dN0OWVuT1qzHxIqEEoHjV2N8BAA-8/preview"
+            children: [
+              { label: "CoE Governance and Supervisory Plan", href: "https://drive.google.com/file/d/1XPwTuRJPd3eT7KYNdWdGNIk2VxsJVvL8/preview" },
+              { label: "CoE Local Designation - First Semester 2024-2025", href: "https://drive.google.com/file/d/1E55dals3Q2vhUk_Igqbm4pcWRK6Oprtc/preview" },
+              { label: "CoELocal Designation- First Semester 2025-2026", href: "https://drive.google.com/file/d/12HaLpf3twruuBzfCmo7kvjxAoUZASvM9/preview" },
+              { label: "CoE Local Designation - Second Semester 2024-2025", href: "https://drive.google.com/file/d/1ut1Pw_PpWG6gUhnvVuiMtyUTqncHo6hU/preview" },
+              { label: "CoE Local Designees, First Semester AY 23-24", href: "https://drive.google.com/file/d/1Hj9dN0OWVuT1qzHxIqEEoHjV2N8BAA-8/preview" },
+              { label: "CoE Local Designees_Second SemesterAY 23-24" },
+              { label: "CoE_Local Designation_First Semester 2026-2027" },
+              { label: "COE-Local Designation_Second Semester A.Y 2025-2026" },
             ],
           },
-          { label: "B.3 Additional local designation files (source lists these without a Drive link)." },
+        ],
+      },
+      {
+        letter: "D",
+        title: "Financial Management",
+        items: [
           {
             label: "D.3 Evidence of participation of the academic unit in budget allocation",
             hrefs: [
@@ -567,8 +575,13 @@ export const areas = [
               "https://drive.google.com/file/d/1nLvmvjfImvS01GCtH66cU9ilHeMFZHEi/preview"
             ],
           },
-          { label: "E.4 Evidence of Compliance to RA 9184 (Procurement of equipment, supplies and materials)", href: "https://drive.google.com/file/d/1M0M99fLmqmWjrkKCeQqAAqEJsfcwul65/preview" },
-          { label: "E.4 Additional Sample Bidding Documents.pdf (source lists a filename without a Drive link)." },
+          {
+            label: "E.4 Evidence of Compliance to RA 9184 (Procurement of equipment, supplies and materials)",
+            children: [
+              { label: "List of Attachments to the Disbursement Voucher", href: "https://drive.google.com/file/d/1M0M99fLmqmWjrkKCeQqAAqEJsfcwul65/preview" },
+              { label: "Sample Bidding Documents.pdf" },
+            ],
+          },
           { label: "E.5 File copies of annual inventories of serviceable and non serviceable equipment", href: "https://drive.google.com/file/d/1fSs1FgGCvtZUUn2FAmHiOk0KGk8IFyOZ/preview" },
         ],
       },
