@@ -71,19 +71,21 @@ export default async function Area({
                         const children = typeof current === "string" ? [] : (current.children ?? []);
 
                         if (!children.length) {
-                          const href = typeof current === "string" ? undefined : current.href;
-                          const hasImages = typeof current !== "string" && Array.isArray(current.images) && current.images.length > 0;
+                          const documentSource = directDocumentChild ? children[0] : current;
+                          const href = typeof documentSource === "string" ? undefined : documentSource.href;
+                          const hasImages = typeof documentSource !== "string" && Array.isArray(documentSource.images) && documentSource.images.length > 0;
+                          const hasHrefs = typeof documentSource !== "string" && Array.isArray(documentSource.hrefs) && documentSource.hrefs.length > 0;
                           const resourceHref = `/area/${area.id}/${parameter.letter}/${path.join("/")}`;
                           const className = depth === 0 ? "library-subitem-link" : "library-nested-link";
                           const content = (
                             <>
                               {depth === 0 ? <span className="library-subitem-number">{path[0]}.</span> : null}
                               <span>{label}</span>
-                              {depth === 0 || href ? <span aria-hidden="true">›</span> : null}
+                              {depth === 0 || href || hasHrefs ? <span aria-hidden="true">›</span> : null}
                             </>
                           );
 
-                          if (depth > 0 && !href && !hasImages) {
+                          if (depth > 0 && !href && !hasHrefs && !hasImages) {
                             return <div key={resourceHref} className={`${className} library-nested-link-static`}>{content}</div>;
                           }
 
