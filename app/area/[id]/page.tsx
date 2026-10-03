@@ -27,7 +27,7 @@ export default async function Area({
           <img src="/batstateu.svg" alt="Batangas State University logo" className="area-brand-logo" />
           <span>
             <strong>Geodetic Engineering</strong>
-            <small>COE - Alangilan Campus</small>
+            <small>Department of Civil Engineering - Alangilan Campus</small>
           </span>
         </Link>
       </header>
@@ -148,6 +148,32 @@ export default async function Area({
           </Link>
         )}
       </nav>
+
+      <section className="university-card area-university-card" aria-label="Batangas State University">
+        <a
+          href="https://batstateu.edu.ph/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="university-card-copy"
+          aria-label="Visit Batangas State University website"
+        >
+          <img src="/batstateu.svg" alt="Batangas State University" className="university-card-logo" />
+          <div>
+            <h3>BATANGAS STATE UNIVERSITY</h3>
+            <strong>The National Engineering University</strong>
+            <p>Welcome to Batangas State University Alangilan Campus! Home to the National Engineering University’s pioneers, innovators, and future industry leaders.</p>
+          </div>
+        </a>
+        <div className="university-card-video">
+          <iframe
+            src="https://www.youtube.com/embed/Pb61NjXrJCg"
+            title="Batangas State University video"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+      </section>
 
       <footer className="site-footer">
         <div className="footer-mark">
