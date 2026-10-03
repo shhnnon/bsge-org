@@ -63,9 +63,9 @@ export const areas = [
           {
             "label": "A.4 Statement of the Program Objectives",
             "hrefs": [
-              "https://drive.google.com/file/d/11WbmjaT41uFHRmZClfO5_xenlNyEGCj1/view?usp=sharingBS",
-              "https://drive.google.com/file/d/1m7z7RHltghkJQ9BBlKZvnv4c5QVPEiEm/view?usp=sharingBS",
-              "https://drive.google.com/file/d/1_9JE1O7R8XT0C5Kj-NhM8VycIexmEmKJ/view?usp=sharingBS-Geodetic-Engineering-Curriculum-NEW-wLAB.pdf",
+              "https://drive.google.com/file/d/11WbmjaT41uFHRmZClfO5_xenlNyEGCj1/view?usp=sharing",
+              "https://drive.google.com/file/d/1m7z7RHltghkJQ9BBlKZvnv4c5QVPEiEm/view?usp=sharing",
+              "https://drive.google.com/file/d/1_9JE1O7R8XT0C5Kj-NhM8VycIexmEmKJ/view?usp=sharing",
               "https://drive.google.com/file/d/1LkE8N2wSt5WhaL8OBg3UL8V3bbd1L5rp/view?usp=sharing"
             ]
           },
@@ -79,42 +79,47 @@ export const areas = [
             "children": [
               {
                 "label": "A.6a New VMGO - PO Memo No. 447 s. 2019",
-                "href": "https://drive.google.com/file/d/1CENwheqdctIA73Yr4Jfm6xKJ8ZgSgqoq/preview",
+                "href": "https://drive.google.com/file/d/1u45OjNB-BlPcKU8FK-wxy03UhBSwsv-w/view?usp=sharing",
                 "text": "A.6a New VMGO - PO Memo No. 447 s. 2019"
               },
               {
                 "label": "A.6b BOR Res 087 s 2019 (From Strat Plan 2019-2029)",
-                "href": "https://drive.google.com/file/d/1mkWxpGxpcydm2NXW0pjmvknLTCoEU0Dx/preview",
+                "href": "https://drive.google.com/file/d/1u45OjNB-BlPcKU8FK-wxy03UhBSwsv-w/view?usp=sharing",
                 "text": "A.6b BOR Res 087 s 2019 (From Strat Plan 2019-2029)"
               },
               {
-                "label": "A.6c Certificate of Approved VMGO 2014-2018",
-                "href": "https://drive.google.com/file/d/1L6iCcJixxXcDCXt0hZLdElWY8A5YbiGJ/preview",
-                "text": "A.6c Certificate of Approved VMGO 2014-2018"
+                "label": "A.6c Certificate of Approved VMGO 2014- 2018 (1).pdf",
+                "href": "https://drive.google.com/file/d/1UmM-jP_seWl8legWRtp1fHwOtHch9b31/view?usp=sharing",
+                "text": "A.6c Certificate of Approved VMGO 2014- 2018 (1).pdf"
+              },
+              {
+                "label": "A.6c Certificate of Approved VMGO 2014- 2018.pdf",
+                "href": "https://drive.google.com/file/d/1CW4qL-j_Vq_7V8Qm7c_7dlPQucf7yJNQ/view?usp=sharing",
+                "text": "A.6c Certificate of Approved VMGO 2014- 2018.pdf"
               },
               {
                 "label": "A.6d BOR Approving the Adoption of the Filipino Translation VMGO (for old VMGO)",
-                "href": "https://drive.google.com/file/d/1rKNDnNfhQ91nnjqJLjrbmTl9URtQTzmN/preview",
+                "href": "https://drive.google.com/file/d/115sG5csYCcPCnr4ByMoZDV7USSjdU2yy/view?usp=sharing",
                 "text": "A.6d BOR Approving the Adoption of the Filipino Translation VMGO (for old VMGO)"
               },
               {
                 "label": "A.6e MEMO Adoption of VMGO (For old VMGO)",
-                "href": "https://drive.google.com/file/d/1yfx7kEK7xLmr9KO48j5As0G_92ifdXsx/preview",
+                "href": "https://drive.google.com/file/d/1csbY9RYfDdHwChKObGEo0UwHAHIsbQY6/view?usp=sharing",
                 "text": "A.6e MEMO Adoption of VMGO (For old VMGO)"
               },
               {
                 "label": "A.6f Documents VMGO Filipino Translation (for OLD VMGO)",
-                "href": "https://drive.google.com/file/d/1LLXbfJHBnc2FDQweqA8HSiBAzz2Julr5/preview",
+                "href": "https://drive.google.com/file/d/1s5XZd5MvSk9E58nklIKaknFVcATvUPzB/view?usp=sharing",
                 "text": "A.6f Documents VMGO Filipino Translation (for OLD VMGO)"
               }
             ],
             "hrefs": [
-              "https://drive.google.com/file/d/1u45OjNB-BlPcKU8FK-wxy03UhBSwsv-w/view?usp=sharingA.6b",
-              "https://drive.google.com/file/d/1u45OjNB-BlPcKU8FK-wxy03UhBSwsv-w/view?usp=sharingA.6c",
-              "https://drive.google.com/file/d/1UmM-jP_seWl8legWRtp1fHwOtHch9b31/view?usp=sharingA.6c",
-              "https://drive.google.com/file/d/1CW4qL-j_Vq_7V8Qm7c_7dlPQucf7yJNQ/view?usp=sharingA.6d",
-              "https://drive.google.com/file/d/115sG5csYCcPCnr4ByMoZDV7USSjdU2yy/view?usp=sharingA.6e",
-              "https://drive.google.com/file/d/1csbY9RYfDdHwChKObGEo0UwHAHIsbQY6/view?usp=sharingA.6f",
+              "https://drive.google.com/file/d/1u45OjNB-BlPcKU8FK-wxy03UhBSwsv-w/view?usp=sharing",
+              "https://drive.google.com/file/d/1u45OjNB-BlPcKU8FK-wxy03UhBSwsv-w/view?usp=sharing",
+              "https://drive.google.com/file/d/1UmM-jP_seWl8legWRtp1fHwOtHch9b31/view?usp=sharing",
+              "https://drive.google.com/file/d/1CW4qL-j_Vq_7V8Qm7c_7dlPQucf7yJNQ/view?usp=sharing",
+              "https://drive.google.com/file/d/115sG5csYCcPCnr4ByMoZDV7USSjdU2yy/view?usp=sharing",
+              "https://drive.google.com/file/d/1csbY9RYfDdHwChKObGEo0UwHAHIsbQY6/view?usp=sharing",
               "https://drive.google.com/file/d/1s5XZd5MvSk9E58nklIKaknFVcATvUPzB/view?usp=sharing"
             ]
           },
@@ -127,23 +132,26 @@ export const areas = [
             "label": "A.8 Attendance Record of Stakeholder-Participants",
             "children": [
               {
-                "label": "VMGO Attendance",
-                "href": "https://drive.google.com/file/d/1-1ofW7SQIi__qRQDA_ycL6AI_OIRAC6m/preview",
-                "text": "VMGO Attendance"
+                "label": "VMGO as discussed to stakeholders 1.png",
+                "href": "https://drive.google.com/file/d/1_A5LNvp1nKWaSIohGVOfKSa0ZTqgxQbd/view?usp=sharing"
               },
               {
-                "label": "Photo Documentation",
-                "images": [
-                  "/1.svg",
-                  "/2.svg",
-                  "/3.svg"
-                ]
+                "label": "VMGO as discussed to stakeholders 2.png",
+                "href": "https://drive.google.com/file/d/1C8vT_xV54Roxc0-HQXP8YVDI8Ag9dlQU/view?usp=sharing"
+              },
+              {
+                "label": "VMGO as discussed to stakeholders 3.png",
+                "href": "https://drive.google.com/file/d/1maAVIdyPF8t_JDctHFg-vsXa3oFMo2Os/view?usp=sharing"
+              },
+              {
+                "label": "VMGO Attendance.pdf",
+                "href": "https://drive.google.com/file/d/1z4jg6Y7lYSfGeosuHq_9_VcWykNg9puh/view?usp=sharing"
               }
             ],
             "hrefs": [
-              "https://drive.google.com/file/d/1_A5LNvp1nKWaSIohGVOfKSa0ZTqgxQbd/view?usp=sharingVMGO",
-              "https://drive.google.com/file/d/1C8vT_xV54Roxc0-HQXP8YVDI8Ag9dlQU/view?usp=sharingVMGO",
-              "https://drive.google.com/file/d/1maAVIdyPF8t_JDctHFg-vsXa3oFMo2Os/view?usp=sharingVMGO",
+              "https://drive.google.com/file/d/1_A5LNvp1nKWaSIohGVOfKSa0ZTqgxQbd/view?usp=sharing",
+              "https://drive.google.com/file/d/1C8vT_xV54Roxc0-HQXP8YVDI8Ag9dlQU/view?usp=sharing",
+              "https://drive.google.com/file/d/1maAVIdyPF8t_JDctHFg-vsXa3oFMo2Os/view?usp=sharing",
               "https://drive.google.com/file/d/1z4jg6Y7lYSfGeosuHq_9_VcWykNg9puh/view?usp=sharing"
             ]
           },
@@ -212,14 +220,14 @@ export const areas = [
             "label": "A.2. The Faculty's Personal Data Sheet",
             "text": "A.2. The Faculty's Personal Data Sheet",
             "hrefs": [
-              "https://docs.google.com/spreadsheets/d/15PYYfQyd2xkdIJGX_lCFS1BG8YDgAeb0/edit?usp=sharing&ouid=105820422174942162354&rtpof=true&sd=true",
-              "https://docs.google.com/spreadsheets/d/1iI7v5KIjVb01bvskf_R8vOAoovmtmDea/edit?usp=sharing&ouid=105820422174942162354&rtpof=true&sd=true",
-              "https://docs.google.com/spreadsheets/d/1g8yQfHvdEHMo8PoDmeAGpqKnY6qGY5Lu/edit?usp=sharing&ouid=105820422174942162354&rtpof=true&sd=true"
+              "https://docs.google.com/spreadsheets/d/15PYYfQyd2xkdIJGX_lCFS1BG8YDgAeb0/edit?usp=sharing",
+              "https://docs.google.com/spreadsheets/d/1iI7v5KIjVb01bvskf_R8vOAoovmtmDea/edit?usp=sharing",
+              "https://docs.google.com/spreadsheets/d/1g8yQfHvdEHMo8PoDmeAGpqKnY6qGY5Lu/edit?usp=sharing"
             ]
           },
           {
             "label": "A.3. Profile of the faculty according to:",
-            "href": "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing&ouid=105820422174942162354&rtpof=true&sd=true",
+            "href": "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing",
             "text": "A.3. Profile of the faculty according to:"
           },
           {
@@ -244,7 +252,7 @@ export const areas = [
             "label": "B.2. Criteria used in the selection process.",
             "hrefs": [
               "https://drive.google.com/file/d/1kBXmQ1UgAvBoakdygs5d7vc1C4ybYJ7q/view?usp=drive_link",
-              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing&ouid=105820422174942162354&rtpof=true&sd=true",
+              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing",
               "https://drive.google.com/file/d/15NWw7iSG_87EXaRlSZ4VAVdWC8Ivqi07/view?usp=sharing",
               "https://drive.google.com/file/d/1S72BWiqRRrK7YoQssmLc-vjDgGFM_cMu/view?usp=drive_link"
             ]
@@ -256,7 +264,7 @@ export const areas = [
           {
             "label": "B.4. Evidence/s of the selection process showing the names of applicants.",
             "hrefs": [
-              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing&ouid=105820422174942162354&rtpof=true&sd=true",
+              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing",
               "https://docs.google.com/spreadsheets/d/1G1a3TK22YlZBxCU5S4ZlJP3OQPKMfm0qYZAv6sVtwqA/edit?usp=sharing"
             ]
           },
@@ -296,7 +304,7 @@ export const areas = [
           {
             "label": "C.4. Report on faculty-student ratio.",
             "hrefs": [
-              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing&ouid=105820422174942162354&rtpof=true&sd=true",
+              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing",
               "https://docs.google.com/spreadsheets/d/1G1a3TK22YlZBxCU5S4ZlJP3OQPKMfm0qYZAv6sVtwqA/edit?usp=sharing",
               "https://docs.google.com/spreadsheets/d/1IdGUVauCXeozGtjjZbVqiE4WdbjCLvp9ZQvBG0UFgjY/edit?usp=sharing"
             ]
@@ -360,7 +368,7 @@ export const areas = [
             "label": "F.2. Samples of instructional materials developed and produced by the faculty (workbook, manual, module, ICT materials etc.)",
             "hrefs": [
               "https://drive.google.com/file/d/130X7ydTXGJzScEuzGRFVskzg6YlFlbvR/view?usp=sharing",
-              "https://docs.google.com/document/d/1c-yQNPPLU11t6ZFnwhE7-0ZYeYsxJz1-/edit?usp=sharing&ouid=105820422174942162354&rtpof=true&sd=true",
+              "https://docs.google.com/document/d/1c-yQNPPLU11t6ZFnwhE7-0ZYeYsxJz1-/edit?usp=sharing",
               "https://drive.google.com/file/d/1lDTaS7cnDSakOK28VTakHZvsZCP2nYmI/view?usp=sharing"
             ]
           },
