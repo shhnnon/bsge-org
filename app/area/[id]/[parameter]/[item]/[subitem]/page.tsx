@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 import { areas } from "@/data/content";
 
-type Child = { label: string; href?: string; hrefs?: string[]; text?: string; note?: string; images?: string[] };
+type Child = { label: string; href?: string; hrefs?: string[]; text?: string; texts?: string[]; note?: string; images?: string[] };
 type ParameterItem = string | { label: string; href?: string; children?: Child[] };
 type Parameter = { letter: string; title: string; items: ParameterItem[] };
 
