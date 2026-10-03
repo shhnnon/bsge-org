@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { notFound, redirect } from "next/navigation";
 import { areas } from "@/data/content";
 
-type ParameterItem = string | { label: string; href?: string; hrefs?: string[]; text?: string; texts?: string[]; texts?: string[]; texts?: string[]; children?: { label: string; href?: string; hrefs?: string[]; text?: string; texts?: string[]; }[] };
+type ParameterItem = string | { label: string; href?: string; hrefs?: string[]; text?: string; texts?: string[]; children?: { label: string; href?: string; hrefs?: string[]; text?: string; texts?: string[]; }[] };
 type Parameter = { letter: string; title: string; items: ParameterItem[] };
 
 function getParameters(area: (typeof areas)[number]): Parameter[] | null {
