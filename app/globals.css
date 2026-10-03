@@ -2550,3 +2550,19 @@ a { color: inherit; text-decoration: none; }
     font-size: .74rem;
   }
 }
+
+/* Center source-provided indented/document text above each Google Drive preview. */
+.resource-preview-text,
+.resource-text-label {
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 0 6px;
+  text-align: center;
+}
+
+.resource-preview-text p,
+.resource-text-label p {
+  margin: 0;
+  white-space: pre-line;
+  text-align: center;
+}
