@@ -1309,19 +1309,24 @@ export const areas = [
         "title": "Priorities and Relevance",
         "items": [
           {
-            "label": "A.1. Copy of the Institutional Research Agenda"
+            "label": "A.1. Copy of the Institutional Research Agenda",
+            "href": "https://drive.google.com/drive/folders/1OpWxantasjgXux9HxqthLqHp3z9LqBHW?usp=drive_link"
           },
           {
-            "label": "A.2. Structure of the Research and Development Unit, including the profile of the Research Head"
+            "label": "A.2. Structure of the Research and Development Unit, including the profile of the Research Head",
+            "href": "https://drive.google.com/drive/folders/1ApnrOmP7GoUTmunw1UH5plHnEdAfcffI?usp=drive_link"
           },
           {
-            "label": "A.3. A copy of the research program of the program under survey"
+            "label": "A.3. A copy of the research program of the program under survey",
+            "href": "https://drive.google.com/drive/folders/1TK35CL3Ie70b_ZtoCuDcMuP3nt_0tmlg?usp=drive_link"
           },
           {
-            "label": "A.4. Evidence of participation of different stakeholders in the formulation of the research agenda"
+            "label": "A.4. Evidence of participation of different stakeholders in the formulation of the research agenda",
+            "href": "https://drive.google.com/drive/folders/10De5XoBKOdLWAHiy8nGwCBhEjIHdZz8M?usp=drive_link"
           },
           {
-            "label": "A.5. Abstracts of researches conducted"
+            "label": "A.5. Abstracts of researches conducted",
+            "href": "https://drive.google.com/drive/folders/1dU9ZHH91nm15FinU9xnHdvkuzliLwFOr?usp=drive_link"
           }
         ]
       },
@@ -1330,13 +1335,16 @@ export const areas = [
         "title": "Funding and other Resources",
         "items": [
           {
-            "label": "B.1. Copy of the budget allocation for research"
+            "label": "B.1. Copy of the budget allocation for research",
+            "href": "https://drive.google.com/drive/folders/1LrIN9_Uh4heURfqkZBD9TyP-W93mNHwL?usp=drive_link"
           },
           {
-            "label": "B.2. List of linkages/networking with research funding agencies"
+            "label": "B.2. List of linkages/networking with research funding agencies",
+            "href": "https://drive.google.com/drive/folders/1kx_UHyqEtjD8d1eQ34xnaTwASo7YVQKy?usp=drive_link"
           },
           {
-            "label": "B.3. Inventory of research facilities, equipment and amenities"
+            "label": "B.3. Inventory of research facilities, equipment and amenities",
+            "href": "https://drive.google.com/drive/folders/1tX3iPa8OH1X1hyhWCBtQNpTWyhUvLiKs?usp=drive_link"
           },
           {
             "label": "B.4. Profile of the research personnel/staff"
@@ -1357,16 +1365,20 @@ export const areas = [
         "title": "Implementation, Monitoring, Evaluation and Utilization of Research Results/Outputs",
         "items": [
           {
-            "label": "C.1. Copy of the Research Manual"
+            "label": "C.1. Copy of the Research Manual",
+            "href": "https://drive.google.com/drive/folders/1o4ClnbG0e7O7_n4OqDO-g2L-4aNgi9OF?usp=drive_link"
           },
           {
-            "label": "C.2. Summary of faculty researches conducted"
+            "label": "C.2. Summary of faculty researches conducted",
+            "href": "https://drive.google.com/drive/folders/1G4sr1r4d68KDJMb7KPVcIDheGpKwqig2?usp=drive_link"
           },
           {
-            "label": "C.3. List of in-service training conducted to enhance faculty research capabilities"
+            "label": "C.3. List of in-service training conducted to enhance faculty research capabilities",
+            "href": "https://drive.google.com/drive/folders/17g2RPuA3Bo9uKe-xiyqlM8A1Sd07pKGQ?usp=drive_link"
           },
           {
-            "label": "C.4. Report on in-house reviews conducted"
+            "label": "C.4. Report on in-house reviews conducted",
+            "href": "https://drive.google.com/drive/folders/1AqOZAp9xcN0KuMI9Ntf1TfVoJorx9AkM?usp=drive_link"
           },
           {
             "label": "C.5. Evidence/s that research results have been utilized"
@@ -1708,7 +1720,190 @@ export const areas = [
     "title": "Facilities",
     "summary": "Well-maintained institutional infrastructure, lecture halls, and learning environments designed to support academic instruction and collaborative scholarly activity.",
     "body": "Well-maintained institutional infrastructure, lecture halls, and learning environments designed to support academic instruction and collaborative scholarly activity.",
-    "driveUrl": "https://drive.google.com/drive/folders/1eBDhM91N_t4ml9HkoepwRQEe4SHWhu65?usp=drive_link"
+    "driveUrl": "https://drive.google.com/drive/folders/1eBDhM91N_t4ml9HkoepwRQEe4SHWhu65?usp=drive_link",
+    "parameters": [
+      {
+        "letter": "A",
+        "title": "Site",
+        "items": [
+          {
+            "label": "A.1. Site Development Plan/Physical Plant Map displayed prominently in the campus.",
+            "href": "https://drive.google.com/drive/folders/1C7UiA9u_DEWfjVFbsp3Ub0K7zPZFksDv?usp=drive_link"
+          },
+          {
+            "label": "A.2. Evidence of land ownership.",
+            "href": "https://drive.google.com/drive/folders/143q2dj0v-mWaouVA8mLMYGBnhYYzfI2Q?usp=drive_link"
+          },
+          {
+            "label": "A.3. Vicinity Map",
+            "href": "https://drive.google.com/drive/folders/1A0cqjy0533J2w5349RA3sXOPaKVZ3AkP?usp=drive_link"
+          }
+        ]
+      },
+      {
+        "letter": "B",
+        "title": "Campus",
+        "items": [
+          {
+            "label": "B.1. A copy of the Campus Development Plan",
+            "href": "https://drive.google.com/drive/folders/1G6UAaRq8NxUjwrJEtYaslXmAXS3M8Neg?usp=drive_link"
+          },
+          {
+            "label": "B.2. Description of a mechanism to ensure the following:",
+            "href": "https://drive.google.com/drive/folders/1HA5ZOhKnnnYi7fiTus7jka2lrl_SN19u?usp=drive_link"
+          },
+          {
+            "label": "B.2. 1.** Traffic safety in and out of the campus;",
+            "href": "https://drive.google.com/drive/folders/1HA5ZOhKnnnYi7fiTus7jka2lrl_SN19u?usp=drive_link"
+          },
+          {
+            "label": "B.2. 2.** Waste management;",
+            "href": "https://drive.google.com/drive/folders/1Hysax3fN7vPfYK6JT_11Wj5E9om2MaSx?usp=drive_link"
+          },
+          {
+            "label": "B.2. 3.** Maintenance, repair and upkeep of property;",
+            "href": "https://drive.google.com/drive/folders/1ND-MDkJvsw8LiCbuMpHg5R5N66E7aCbJ?usp=drive_link"
+          },
+          {
+            "label": "B.2. 4.** Cleanliness and orderliness in the campus; and",
+            "href": "https://drive.google.com/drive/folders/1UuSjc8cBk1N7gDNg5sjxqQPocTeSveNd?usp=drive_link"
+          },
+          {
+            "label": "B.2. 5.** Security of the academic community inside the campus.",
+            "href": "https://drive.google.com/drive/folders/1hEnQpTsfO6kyB0dAhpoFuhLxDyFImAzy?usp=drive_link"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "title": "Buildings",
+        "items": [
+          {
+            "label": "C.1. Approved building plan, showing the location of the different buildings in the campus.",
+            "href": "https://drive.google.com/drive/folders/1oTb5LjXMfkMlklMC6S1NvX6aZOil7lFB?usp=drive_link"
+          },
+          {
+            "label": "C.2. Evidence that electrical lines are safely installed and periodically checked.",
+            "href": "https://drive.google.com/drive/folders/1qd0Z0PuyIc2MZlLuXgwBq9gJK-NmpmMd?usp=drive_link"
+          },
+          {
+            "label": "C.3. Schedule of water potability testing and pest control inspection.",
+            "href": "https://drive.google.com/drive/folders/159EvTxuuCo9__1EMB1JMPy46DG6gnX7M?usp=drive_link"
+          },
+          {
+            "label": "C.4. PDF of the janitorial staff, including work schedule.",
+            "href": "https://drive.google.com/drive/folders/19iHYUs0ynErTpg-cwyjdbD46N3k2U-5v?usp=drive_link"
+          }
+        ]
+      },
+      {
+        "letter": "D",
+        "title": "Classrooms",
+        "items": [
+          {
+            "label": "D.1. Number of classrooms utilized by the program under survey.",
+            "href": "https://drive.google.com/drive/folders/1FuM_CwBUkNrYpQcJvhb1L7iCHGqiEpQh?usp=drive_link"
+          },
+          {
+            "label": "D.2. Sample of photographs of material resources inside the classrooms.",
+            "href": "https://drive.google.com/drive/folders/1GlJcR0Jg-sohmkgcQL4CEIh_8Nf1fnMQ?usp=drive_link"
+          }
+        ]
+      },
+      {
+        "letter": "E",
+        "title": "Offices, Function Rooms, and Staff Rooms",
+        "items": [
+          {
+            "label": "E.1. Photographs of offices and function rooms."
+          },
+          {
+            "label": "E.2. Inventory of equipment, amenities and supplies in function rooms and offices."
+          },
+          {
+            "label": "E.3. Availability of toilets and storeroom, where needed."
+          },
+          {
+            "label": "E.4. List and description of function rooms (administrative office, faculty room, faculty lounge, music room, conference hall, multi-media room, etc.)"
+          },
+          {
+            "label": "E.5. File copies of approved requests for the use of the function rooms."
+          }
+        ]
+      },
+      {
+        "letter": "F",
+        "title": "Assembly and Athletic Facilities",
+        "items": [
+          {
+            "label": "F.1. Lay-out of the Sports Center."
+          },
+          {
+            "label": "F.2. Inventory of sports facilities."
+          },
+          {
+            "label": "F.3. List of Assembly Halls."
+          },
+          {
+            "label": "F.4. Copy of rules and regulations in the use of assembly halls and sports/athletic facilities."
+          }
+        ]
+      },
+      {
+        "letter": "G",
+        "title": "Medical and Dental Clinic",
+        "items": [
+          {
+            "label": "G.1. Floor plan of the Medical and Dental Clinic."
+          },
+          {
+            "label": "G.2. Qualification of the medical and dental staff."
+          },
+          {
+            "label": "G.3. Inventory of equipment, supplies and other material resources."
+          }
+        ]
+      },
+      {
+        "letter": "H",
+        "title": "Students Center",
+        "items": [
+          {
+            "label": "H.1. Floor Plan of the Student Center showing the location of different offices."
+          },
+          {
+            "label": "H.2. Inventory of equipment, furniture and amenities at the SC."
+          }
+        ]
+      },
+      {
+        "letter": "I",
+        "title": "Food Services/Canteen",
+        "items": [
+          {
+            "label": "I.1. Copy of the Permit to Operate conspicuously displayed."
+          },
+          {
+            "label": "I.2. Display board where the food/menu for the day, including prices, is posted."
+          },
+          {
+            "label": "I.3. Health Certificates of Canteen Staff and food handlers."
+          },
+          {
+            "label": "I.4. Inventory of equipment and furniture."
+          }
+        ]
+      },
+      {
+        "letter": "J",
+        "title": "Accreditation Center",
+        "items": [
+          {
+            "label": "J.1. Inventory of equipment, furniture and amenities."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 9,
