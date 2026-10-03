@@ -87,6 +87,7 @@ export default async function NestedAreaResource({
           <div className="resource-detail-preview-stack">
             {previews.map((preview, index) => (
               <div className="resource-detail-preview" key={preview}>
+                {child.texts?.[index] ? <div className="resource-preview-text">{child.texts[index]}</div> : null}
                 {child.text ? <div className="resource-preview-text"><p>{child.text}</p></div> : null}
                 <iframe src={preview} title={child.label + " " + (index + 1)} loading={index === 0 ? "eager" : "lazy"} allow="autoplay" />
                 <a href={child.hrefs?.[index] ?? child.href} target="_blank" rel="noopener noreferrer" className="resource-detail-open">Open document in Google Drive</a>
