@@ -59,9 +59,8 @@ export default async function AreaResource({
 
   const href = typeof item === "string" ? undefined : (item.href ?? directChild?.href);
   const hrefs = typeof item === "string" ? undefined : (item.hrefs ?? directChild?.hrefs);
-  const text = typeof item === "string" ? undefined : item.text;
-  const texts = typeof item === "string" ? undefined : item.texts;
-  const texts = typeof item === "string" ? undefined : item.texts;
+  const text = typeof item === "string" ? undefined : (item.text ?? directChild?.text);
+  const texts = typeof item === "string" ? undefined : (item.texts ?? directChild?.texts);
   const next = areas.find((a) => a.id === area.id + 1);
   const previews = (hrefs?.length ? hrefs : href ? [href] : []).map(previewUrl);
 
