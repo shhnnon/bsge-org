@@ -2227,6 +2227,53 @@ export const areas = [
         ]
       },
       {
+        {
+          "letter": "C",
+          "title": "Student Administration",
+          "items": [
+            {
+              "label": "C.1 Policies and Guidelines",
+              "hrefs": [
+                "https://drive.google.com/file/d/1gUp8spS55_BGccWJeAuzUGKQbv5_siyR/preview",
+                "https://drive.google.com/file/d/1XPSciqGs8zHM8LhfBPdltaIn9a6N9-Z_/preview",
+                "https://drive.google.com/file/d/1TLzxpz-Lhvklew4uo6-FLnXN6gwk8CWF/preview",
+                "https://drive.google.com/file/d/1Keizwt1b9017cbRKEZpbsjpZ7OUL1yNQ/preview",
+                "https://drive.google.com/file/d/1rC4o8-WFT-PzwkYk1hcaFOdPH-p8d3h2/preview"
+              ],
+              "texts": [
+                "Student Handbook",
+                "Review of Student Handbook",
+                "Student Organizations and Activities Manual",
+                "Office of Guidance and Counseling Manual",
+                "Student Housing and Residential Services Manual"
+              ]
+            },
+            {
+              "label": "C.2 Evidence of Student Participation",
+              "hrefs": [
+                "https://drive.google.com/file/d/11hEkhiHSADwPZzrTVQQHl9w_ADpUtYGt/preview",
+                "https://drive.google.com/file/d/1bvl4qNptsQRQw8zOriJqzgjtrSlcncrE/preview",
+                "https://drive.google.com/file/d/1kngvCu2sy2tWz-S0lAc4vWtEiZWgZnBs/preview"
+              ],
+              "texts": [
+                "Budget Presentation and Deliberation 2024",
+                "Consultative Process",
+                "Memorandum Order No. 399, s. 2026"
+              ]
+            },
+            {
+              "label": "C.3 Evidence of Good Working Relationship",
+              "hrefs": [
+                "https://drive.google.com/file/d/1axG9wzLXMXefl3MOTCOXWtV7MHgnHu04/preview",
+                "https://drive.google.com/file/d/1UlDDOcW8SnjLq1nq8N8ypgpnWKLrxRpA/preview"
+              ],
+              "texts": [
+                "Memorandum Order No. 414, s. 2025",
+                "Memorandum Order No. 498, s. 2026"
+              ]
+            }
+          ]
+        },
         "letter": "D",
         "title": "Financial Management",
         "items": [
