@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { notFound, redirect } from "next/navigation";
 import { areas } from "@/data/content";
 
-type ParameterItem = string | { label: string; href?: string; hrefs?: string[]; text?: string; texts?: string[]; texts?: string[]; children?: { label: string; href?: string; hrefs?: string[]; text?: string; texts?: string[]; }[] };
+type ParameterItem = string | { label: string; href?: string; hrefs?: string[]; text?: string; texts?: string[]; texts?: string[]; texts?: string[]; children?: { label: string; href?: string; hrefs?: string[]; text?: string; texts?: string[]; }[] };
 type Parameter = { letter: string; title: string; items: ParameterItem[] };
 
 function getParameters(area: (typeof areas)[number]): Parameter[] | null {
@@ -101,15 +101,14 @@ export default async function AreaResource({
 
 
         {text ? (
-          <div className="resource-text-label">
-            <p>{text}</p>
-          </div>
+          <div className="resource-text-label"><p>{text}</p></div>
         ) : null}
 
         {previews.length ? (
           <div className="resource-detail-preview-stack">
             {previews.map((preview, index) => (
               <div className="resource-detail-preview" key={preview}>
+                {texts?.[index] ? <div className="resource-preview-text">{texts[index]}</div> : null}
                 {(texts?.[index] || (index === 0 && text)) ? (
                   <div className="resource-preview-text">
                     <p>{texts?.[index] ?? text}</p>
