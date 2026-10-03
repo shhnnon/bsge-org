@@ -8,7 +8,7 @@ type Child = {
   href?: string;
   hrefs?: string[];
   text?: string;
-  note?: string;
+  note?: string; texts?: string[];
   text?: string;
   texts?: string[];
   children?: Child[];
@@ -98,6 +98,7 @@ export default async function DeepNestedAreaResource({
           <div className="resource-detail-preview-stack">
             {previews.map((preview, index) => (
               <div className="resource-detail-preview" key={preview}>
+                {grandchild.texts?.[index] ? <div className="resource-preview-text">{grandchild.texts[index]}</div> : null}
                 {grandchild.text ? <div className="resource-preview-text"><p>{grandchild.text}</p></div> : null}
                 <iframe src={preview} title={grandchild.label + " " + (index + 1)} loading={index === 0 ? "eager" : "lazy"} allow="autoplay" />
                 <a href={grandchild.hrefs?.[index] ?? grandchild.href} target="_blank" rel="noopener noreferrer" className="resource-detail-open">Open document in Google Drive</a>
