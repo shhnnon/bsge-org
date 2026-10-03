@@ -132,6 +132,7 @@ export default async function AreaResource({
             <p>The item is listed on the BSGE area page, but no Google Drive or document hyperlink was provided for it.</p>
           </div>
         )}
+      </section>
 
       <nav className="area-pagination" aria-label="Area navigation">
         <Link href={`/area/${area.id}`} className="area-back">
