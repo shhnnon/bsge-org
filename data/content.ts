@@ -2227,9 +2227,8 @@ export const areas = [
         ]
       },
       {
-        {
-          "letter": "C",
-          "title": "Student Administration",
+        "letter": "C",
+        "title": "Student Administration",
           "items": [
             {
               "label": "C.1 Policies and Guidelines",
@@ -2273,7 +2272,9 @@ export const areas = [
               ]
             }
           ]
-        },
+        }
+      },
+      {
         "letter": "D",
         "title": "Financial Management",
         "items": [
