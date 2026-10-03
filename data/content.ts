@@ -2171,38 +2171,19 @@ export const areas = [
         "items": [
           {
             "label": "B.1 Educational profile and functions of the academic administration",
-            "children": [
-              {
-                "label": "B.1.1. Dean or Director",
-                "children": [
-                  {
-                    "label": "Associate Dean, Donnalyn Cabaces",
-                    "href": "https://drive.google.com/file/d/1mtAl72HZYb-NNBZpvMpn0nr6tYMaehMO/preview"
-                  },
-                  {
-                    "label": "Associate Dean, John Kevin De Castro",
-                    "href": "https://drive.google.com/file/d/1R6tyZVxMASGK6Yi4dYX_ZGVye9Nmva2E/preview"
-                  },
-                  {
-                    "label": "Dean, Dr. Cristina Amor Rosales",
-                    "href": "https://drive.google.com/file/d/1LShCvJd5Xcx1GkgbyVVtlu0Wz8q-lwZW/preview"
-                  }
-                ]
-              },
-              {
-                "label": "B.1.2 Department Chair or his/her equivalent",
-                "children": [
-                  {
-                    "label": "Engr. Vivian D. Guda",
-                    "text": "Engr. Vivian D. Guda",
-                    "href": "https://drive.google.com/file/d/1-6_65PzloFeCwHKQ-wlJxhcKf4MvMGIi/preview"
-                  },
-                  {
-                    "label": "Department Chairperson",
-                    "href": "https://drive.google.com/file/d/1Q2BRKyaoOC9Zi_7jO62n3Tk6n3pajtkd/preview"
-                  }
-                ]
-              }
+            "hrefs": [
+              "https://drive.google.com/file/d/1mtAl72HZYb-NNBZpvMpn0nr6tYMaehMO/preview",
+              "https://drive.google.com/file/d/1R6tyZVxMASGK6Yi4dYX_ZGVye9Nmva2E/preview",
+              "https://drive.google.com/file/d/1LShCvJd5Xcx1GkgbyVVtlu0Wz8q-lwZW/preview",
+              "https://drive.google.com/file/d/1-6_65PzloFeCwHKQ-wlJxhcKf4MvMGIi/preview",
+              "https://drive.google.com/file/d/1Q2BRKyaoOC9Zi_7jO62n3Tk6n3pajtkd/preview"
+            ],
+            "texts": [
+              "Associate Dean, Donnalyn Cabaces",
+              "Associate Dean, John Kevin De Castro",
+              "Dean, Dr. Cristina Amor Rosales",
+              "Engr. Vivian D. Guda",
+              ""
             ]
           },
           {
@@ -2217,6 +2198,9 @@ export const areas = [
               "Curriculum Revision with Administration and Faculty.",
               "OUP Memo Order No. 399 s2026"
             ]
+          },
+          {
+            "label": "OUP Memo Order No. 418, S.2022- Preparation of FYDP.pdf"
           },
           {
             "label": "B.3 Dean’s Supervisory Program",
