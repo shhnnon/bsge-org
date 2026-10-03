@@ -2202,48 +2202,25 @@ export const areas = [
           },
           {
             "label": "B.3 Dean’s Supervisory Program",
-            "children": [
-              {
-                "label": "CoE Governance and Supervisory Plan",
-                "text": "CoE Governance and Supervisory Plan",
-                "href": "https://drive.google.com/file/d/1XPwTuRJPd3eT7KYNdWdGNIk2VxsJVvL8/preview"
-              },
-              {
-                "label": "CoE Local Designation - First Semester 2024-2025",
-                "text": "CoE Local Designation - First Semester 2024-2025",
-                "href": "https://drive.google.com/file/d/1E55dals3Q2vhUk_Igqbm4pcWRK6Oprtc/preview"
-              },
-              {
-                "label": "CoELocal Designation- First Semester 2025-2026",
-                "text": "CoELocal Designation- First Semester 2025-2026",
-                "href": "https://drive.google.com/file/d/12HaLpf3twruuBzfCmo7kvjxAoUZASvM9/preview"
-              },
-              {
-                "label": "CoE Local Designation - Second Semester 2024-2025",
-                "text": "CoE Local Designation - Second Semester 2024-2025",
-                "href": "https://drive.google.com/file/d/1ut1Pw_PpWG6gUhnvVuiMtyUTqncHo6hU/preview"
-              },
-              {
-                "label": "CoE Local Designees, First Semester AY 23-24",
-                "text": "CoE Local Designees, First Semester AY 23-24",
-                "href": "https://drive.google.com/file/d/1Hj9dN0OWVuT1qzHxIqEEoHjV2N8BAA-8/preview"
-              },
-              {
-                "label": "CoE Local Designees_Second SemesterAY 23-24"
-              },
-              {
-                "label": "CoE_Local Designation_First Semester 2026-2027"
-              },
-              {
-                "label": "COE-Local Designation_Second Semester A.Y 2025-2026"
-              }
+            "hrefs": [
+              "https://drive.google.com/file/d/1XPwTuRJPd3eT7KYNdWdGNIk2VxsJVvL8/view?usp=drive_link",
+              "https://drive.google.com/file/d/1E55dals3Q2vhUk_Igqbm4pcWRK6Oprtc/view?usp=drive_link",
+              "https://drive.google.com/file/d/12HaLpf3twruuBzfCmo7kvjxAoUZASvM9/view?usp=drive_link",
+              "https://drive.google.com/file/d/1ut1Pw_PpWG6gUhnvVuiMtyUTqncHo6hU/view?usp=drive_link",
+              "https://drive.google.com/file/d/1Hj9dN0OWVuT1qzHxIqEEoHjV2N8BAA-8/view?usp=drive_link",
+              "https://drive.google.com/open?id=1zjHMMrO23leabexMHhIyRw2wwsnXfjfm&usp=drive_copy",
+              "https://drive.google.com/open?id=1zieWln_zhkA7hxhxH7jJXyPn0haqK3Hy&usp=drive_copy",
+              "https://drive.google.com/open?id=15VnN9y25A0pdNcx8qA3EpI6NtLZLgY9z&usp=drive_copy"
             ],
             "texts": [
               "CoE Governance and Supervisory Plan",
               "CoE Local Designation - First Semester 2024-2025",
               "CoELocal Designation- First Semester 2025-2026",
               "CoE Local Designation - Second Semester 2024-2025",
-              "CoE Local Designees, First Semester AY 23-24"
+              "CoE Local Designees, First Semester AY 23-24",
+              "CoE Local Designees, Second Semester AY 2023-2024",
+              "CoE Local Designation Second Semester AY 2025-2026",
+              "CoE Local Designation First Semester AY 2026-2027"
             ]
           }
         ]
