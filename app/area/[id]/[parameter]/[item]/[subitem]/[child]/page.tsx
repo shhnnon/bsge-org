@@ -8,8 +8,7 @@ type Child = {
   href?: string;
   hrefs?: string[];
   text?: string;
-  note?: string; texts?: string[];
-  text?: string;
+  note?: string;
   texts?: string[];
   children?: Child[];
 };
