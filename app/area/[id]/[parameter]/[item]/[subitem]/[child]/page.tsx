@@ -9,6 +9,8 @@ type Child = {
   hrefs?: string[];
   text?: string;
   note?: string;
+  text?: string;
+  texts?: string[];
   children?: Child[];
 };
 type ParameterItem = string | { label: string; href?: string; text?: string; note?: string; children?: Child[] };
