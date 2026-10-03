@@ -374,6 +374,10 @@ export const areas = [
             "hrefs": [
               "https://drive.google.com/file/d/19UiwMaE0wCorgYBNhJCf9-MRzbWR2HPN/view?usp=sharing",
               "https://drive.google.com/file/d/1dz_7FqYP41_wXWn-APGeboFisOw_L1g-/view?usp=sharing"
+            ],
+            "texts": [
+              "Merit Promotion and Selection Board",
+              "Certification"
             ]
           },
           {
