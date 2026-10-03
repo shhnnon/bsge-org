@@ -2272,8 +2272,7 @@ export const areas = [
               ]
             }
           ]
-        }
-      },
+        },
       {
         "letter": "D",
         "title": "Financial Management",
