@@ -2148,6 +2148,24 @@ export const areas = [
     "driveUrl": "https://drive.google.com/drive/folders/1A3hrsecFq5JmXUVFxuuXWg4aphSMdav-?usp=drive_link",
     "parameters": [
       {
+        "letter": "A",
+        "title": "Organization",
+        "items": [
+          {
+            "label": "A.1 Organizational Structure of the Library",
+            "href": "https://drive.google.com/file/d/1AGJ6MMMtwFWyYrNLK31RA2jvQhC6V5VW/view?usp=sharing"
+          },
+          {
+            "label": "A.2 Profile and Functions of the Head Librarian",
+            "href": "https://drive.google.com/file/d/1IczvReDE5kSlOg7lG6BOaOo2uHZ2CQxa/view?usp=sharing"
+          },
+          {
+            "label": "A.3 Composition of the Library Advisory Committee, including their functions",
+            "href": "https://drive.google.com/file/d/1jmaS4ymZ18-nIJkrfQIjEb5FjMQQOTcC/view?usp=sharing"
+          }
+        ]
+      },
+      {
         "letter": "B",
         "title": "Academic Administration",
         "items": [
