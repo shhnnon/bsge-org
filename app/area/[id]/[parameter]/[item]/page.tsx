@@ -98,17 +98,10 @@ export default async function AreaResource({
       </section>
 
       <section className="area-resource-detail">
-
-
-        {text ? (
-          <div className="resource-text-label"><p>{text}</p></div>
-        ) : null}
-
         {previews.length ? (
           <div className="resource-detail-preview-stack">
             {previews.map((preview, index) => (
               <div className="resource-detail-preview" key={preview}>
-                {texts?.[index] ? <div className="resource-preview-text">{texts[index]}</div> : null}
                 {(texts?.[index] || (index === 0 && text)) ? (
                   <div className="resource-preview-text">
                     <p>{texts?.[index] ?? text}</p>
@@ -131,13 +124,14 @@ export default async function AreaResource({
               </div>
             ))}
           </div>
+        ) : text ? (
+          <div className="resource-text-label"><p>{text}</p></div>
         ) : (
           <div className="resource-detail-empty">
             <strong>No document link is attached to this item yet.</strong>
             <p>The item is listed on the BSGE area page, but no Google Drive or document hyperlink was provided for it.</p>
           </div>
-        )}
-      </section>
+        )
 
       <nav className="area-pagination" aria-label="Area navigation">
         <Link href={`/area/${area.id}`} className="area-back">
