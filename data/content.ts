@@ -281,6 +281,12 @@ export const areas = [
               "https://drive.google.com/file/d/1S72BWiqRRrK7YoQssmLc-vjDgGFM_cMu/view?usp=drive_link",
               "https://drive.google.com/file/d/1Q6wcegM3DBkbGWjEIrnAQtiQs0CBpo7X/view?usp=sharing",
               "https://drive.google.com/file/d/1IdXgS2HV8x_lr5-lPe6fQ6dnKayqPkdu/view?usp=sharing"
+            ],
+            "texts": [
+              "BoR Reso No. 20 s2020 - Merit Promotion and Selection Board",
+              "Work Instruction",
+              "Merit System for Faculty",
+              "Faculty Development Implementation Plan"
             ]
           },
           {
@@ -290,6 +296,12 @@ export const areas = [
               "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing",
               "https://drive.google.com/file/d/15NWw7iSG_87EXaRlSZ4VAVdWC8Ivqi07/view?usp=sharing",
               "https://drive.google.com/file/d/1S72BWiqRRrK7YoQssmLc-vjDgGFM_cMu/view?usp=drive_link"
+            ],
+            "texts": [
+              "BoR Reso No. 20 s2020 - Merit Promotion and Selection Board",
+              "AY 2026 - 2027",
+              "Faculty Selection Board",
+              "Work Instruction"
             ]
           },
           {
