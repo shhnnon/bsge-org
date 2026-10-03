@@ -49,10 +49,24 @@ export const areas = [
         "items": [
           {
             "label": "A.1. Vision Statement",
+            "hrefs": [
+              "https://drive.google.com/file/d/1wyQ6w-yW8sJlZa6642JFvXx9LCG049PT/view?usp=sharing",
+              "https://drive.google.com/file/d/1oH55ObbUVK2X34XKPtyMetj7IoZP1cmS/view?usp=sharing",
+              "https://drive.google.com/file/d/1tFGx7380TXW-32bnL944_JrZZxsH96ze/view?usp=sharing",
+              "https://drive.google.com/file/d/1Y0T9CUxN54VvLJfoEcv6-ACD45HPvxip/view?usp=sharing",
+              "https://drive.google.com/file/d/19Qi8BYp0jush8TOtxCf5G2fw7pfhthzM/view?usp=sharing"
+            ],
             "text": "A premier national university that develops leaders in global knowledge economy."
           },
           {
             "label": "A.2. Mission Statement",
+            "hrefs": [
+              "https://drive.google.com/file/d/1ARoyggiCJgLo7YCzCHqEXJ-2NAx_Wu2t/view?usp=sharing",
+              "https://drive.google.com/file/d/15zrFHoR2ZDlaM9Yxuq-O2w1yA7R5rgV1/view?usp=sharing",
+              "https://drive.google.com/file/d/1LO8sm_mG-zMM5I_tmHcx7IoFqV17pj-Q/view?usp=sharing",
+              "https://drive.google.com/file/d/16_a425kZcmOEzf-udyj-cv1A83KfV4Hw/view?usp=sharing",
+              "https://drive.google.com/file/d/1HXkirUga885XoQz8SoO9VRp80cfZgOCz/view?usp=sharing"
+            ],
             "text": "A university committed to producing leaders by providing a 21st century learning environment through innovations in education, multidisciplinary research, and community and industry partnerships in order to nurture the spirit of nationhood, propel the national economy, and engage the world for sustainable development"
           },
           {
@@ -167,11 +181,20 @@ export const areas = [
         "title": "Dissemination and Acceptability",
         "items": [
           {
-            "label": "B.1 Display boards on which the VMGO are posted"
+            "label": "B.1 Display boards on which the VMGO are posted",
+            "hrefs": [
+              "https://drive.google.com/file/d/1ZdBJ6ULJj5TwHr3YqQSaqSi__GYDAyY0/view?usp=drive_link",
+              "https://drive.google.com/file/d/1_2FQqFuK2gxn-v0ugxmfTL8ulIW1_poW/view?usp=sharing"
+            ]
           },
           {
             "label": "B.2 Samples of dissemination materials (brochures, leaflets, flyers, etc)",
-            "href": "https://drive.google.com/file/d/13tNCXGVuE3N281HXvDfmV_hyTwsk4ka-/view?usp=sharing"
+            "hrefs": [
+              "https://drive.google.com/file/d/13tNCXGVuE3N281HXvDfmV_hyTwsk4ka-/view?usp=sharing",
+              "https://drive.google.com/file/d/10vJf0qMSdj7NCWRNKiKB9cdUDDK9VpJm/view?usp=sharing",
+              "https://drive.google.com/file/d/1CCufur5cHgtAgv7FkCflA80FyU4pgzbE/view?usp=sharing",
+              "https://drive.google.com/file/d/1788TxZx898XiUm0-nk2KuipMoMMrBMc8/view?usp=sharing"
+            ]
           },
           {
             "label": "B.3. Evidence-s of awareness and acceptability of the VMGO",
@@ -185,14 +208,26 @@ export const areas = [
         "items": [
           {
             "label": "C.1 Evidences of congruence between educational practices-activities and the VMGO.",
-            "href": "https://drive.google.com/file/d/1ai2o23_L6JSQe_fW4eT2rYKstPNCEutY/view?usp=sharing"
+            "hrefs": [
+              "https://drive.google.com/file/d/1ai2o23_L6JSQe_fW4eT2rYKstPNCEutY/view?usp=sharing",
+              "https://drive.google.com/file/d/1fZ5ZWa4lvRrVZ5bK6283ThsgGbd1324D/view?usp=sharing",
+              "https://drive.google.com/file/d/1W8VEgjS4BD0j8ofgit6KK0M2rNQ0t3rh/view?usp=sharing",
+              "https://drive.google.com/file/d/136mGDh8nQrFGd50MdiTsEff9afXnJeKa/view?usp=sharing"
+            ]
           },
           {
             "label": "C.2 Awards-citations received by the program under survey"
           },
           {
             "label": "C.3 List of linkages, consortia and networking",
-            "href": "https://drive.google.com/file/d/1T5yXf6BwhTzkWG9iWqmM5Fq9mik8d2sj/view?usp=sharing"
+            "hrefs": [
+              "https://drive.google.com/file/d/1T5yXf6BwhTzkWG9iWqmM5Fq9mik8d2sj/view?usp=sharing",
+              "https://drive.google.com/file/d/1JdOWttqPw0LGtGEad4tHKTxvj2T9B_PZ/view?usp=sharing",
+              "https://drive.google.com/file/d/1RFES5dVMyUn6A2OhtEqhuO_onkhbStMr/view?usp=sharing",
+              "https://drive.google.com/file/d/1hVYEF5Q4xiVlaaW1tpEYTebBYM3DRseF/view?usp=sharing",
+              "https://drive.google.com/file/d/1WtkVKHtVJ7buB6_ChPOZpVr9bF3xyWNU/view?usp=sharing",
+              "https://drive.google.com/file/d/1kq5Fr7TeyA5NHZ3UP3j4D6GYLFoHbi7N/view?usp=sharing"
+            ]
           },
           {
             "label": "C.4 Data on employability of graduates"
