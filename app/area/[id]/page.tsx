@@ -124,32 +124,6 @@ export default async function Area({
           </section>
         ) : null}
 
-      <section className="university-card area-university-card" aria-label="Batangas State University">
-        <a
-          href="https://batstateu.edu.ph/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="university-card-copy"
-          aria-label="Visit Batangas State University website"
-        >
-          <img src="/batstateu.svg" alt="Batangas State University" className="university-card-logo" />
-          <div>
-            <h3>BATANGAS STATE UNIVERSITY</h3>
-            <strong>The National Engineering University</strong>
-            <p>Welcome to Batangas State University Alangilan Campus! Home to the National Engineering University’s pioneers, innovators, and future industry leaders.</p>
-          </div>
-        </a>
-        <div className="university-card-video">
-          <iframe
-            src="https://www.youtube.com/embed/Pb61NjXrJCg"
-            title="Batangas State University video"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          />
-        </div>
-      </section>
-
       </section>
 
       <nav className="area-pagination" aria-label="Area navigation">
