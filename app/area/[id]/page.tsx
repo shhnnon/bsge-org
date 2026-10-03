@@ -123,31 +123,6 @@ export default async function Area({
             </div>
           </section>
         ) : null}
-      </section>
-
-      <nav className="area-pagination" aria-label="Area navigation">
-        <Link href="/" className="area-back">
-          <ArrowLeft size={17} />
-          Back to Areas
-        </Link>
-
-        <div className="area-page-number">
-          <span>Area</span>
-          <strong>{area.id} / {areas.length}</strong>
-        </div>
-
-        {next ? (
-          <Link href={`/area/${next.id}`} className="area-next">
-            Area {next.id}
-            <ArrowRight size={17} />
-          </Link>
-        ) : (
-          <Link href="/area/1" className="area-next">
-            Area 1
-            <ArrowRight size={17} />
-          </Link>
-        )}
-      </nav>
 
       <section className="university-card area-university-card" aria-label="Batangas State University">
         <a
@@ -174,6 +149,33 @@ export default async function Area({
           />
         </div>
       </section>
+
+      </section>
+
+      <nav className="area-pagination" aria-label="Area navigation">
+        <Link href="/" className="area-back">
+          <ArrowLeft size={17} />
+          Back to Areas
+        </Link>
+
+        <div className="area-page-number">
+          <span>Area</span>
+          <strong>{area.id} / {areas.length}</strong>
+        </div>
+
+        {next ? (
+          <Link href={`/area/${next.id}`} className="area-next">
+            Area {next.id}
+            <ArrowRight size={17} />
+          </Link>
+        ) : (
+          <Link href="/area/1" className="area-next">
+            Area 1
+            <ArrowRight size={17} />
+          </Link>
+        )}
+      </nav>
+
 
       <footer className="site-footer">
         <div className="footer-mark">
