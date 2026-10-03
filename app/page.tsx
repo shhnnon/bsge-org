@@ -30,7 +30,7 @@ export default function Home() {
           <img src="/batstateu.svg" alt="Batangas State University logo" className="site-header-logo" />
           <div className="site-header-copy">
             <p className="site-header-title">Geodetic Engineering</p>
-            <p className="site-header-subtitle">COE - Alangilan Campus</p>
+            <p className="site-header-subtitle">Department of Civil Engineering - Alangilan Campus</p>
           </div>
         </div>
       </header>
