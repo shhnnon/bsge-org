@@ -2278,6 +2278,32 @@ export const areas = [
         "title": "Financial Management",
         "items": [
           {
+            "label": "D.1 Qualification of the Head of the FMO, Including his/her functions",
+            "hrefs": [
+              "https://drive.google.com/file/d/1Pb-OkSuoh29LyqT9XWmzv8vFqHcA95VI/view?usp=sharing",
+              "https://drive.google.com/file/d/1h7RAMagwPNkIIaaf2ZFAt7H5Bonmvfo4/preview",
+              "https://drive.google.com/file/d/1sAzFdqrrs22-A6D-7JfTkOrOVlZXsQW7/preview"
+            ],
+            "texts": [
+              "Functional Chart",
+              "Vice Chancellor, Administration and Finance",
+              "Office of the Vice Chancellor for Administration and Finance"
+            ]
+          },
+          {
+            "label": "D.2 Guidelines in budget preparation",
+            "hrefs": [
+              "https://drive.google.com/file/d/1xKDwzG0u5rThaEjLGhiWpODUxIyz3Pad/preview",
+              "https://drive.google.com/file/d/1sTCkpNfJ1tScgTMqzBMhAa8rmOr2xMRJ/preview",
+              "https://drive.google.com/file/d/1Kdgwk7Zv0_IEjXBQ5fFQ-08BfJoOo7ZX/preview"
+            ],
+            "texts": [
+              "Advisory No. 03, Series of 2026",
+              "Financial Management Manual",
+              "OUP Memorandum Order No. 610, s. 2025"
+            ]
+          },
+          {
             "label": "D.3 Evidence of participation of the academic unit in budget allocation",
             "hrefs": [
               "https://drive.google.com/file/d/1v_fR25RlJeLhIQNwE0TJrh56hVER-SFc/preview",
