@@ -82,13 +82,15 @@ export default async function Area({
 
                         if (inlineChildren) {
                           return (
-                            <div key={path.join("-")} className="library-subitem library-subitem-inline">
-                              <div className="library-subitem-static">
+                            <div key={path.join("-")} className="library-a8-inline">
+                              <div className="library-a8-title">
                                 <span className="library-subitem-number">{path[0]}.</span>
                                 <span>{label}</span>
                               </div>
-                              <div className="library-inline-items">
-                                {children.map((child: any, childIndex: number) => renderItem(child, [...path, childIndex + 1], depth + 1))}
+                              <div className="library-a8-documents">
+                                {children.map((child: any, childIndex: number) =>
+                                  renderItem(child, [...path, childIndex + 1], depth + 1)
+                                )}
                               </div>
                             </div>
                           );
