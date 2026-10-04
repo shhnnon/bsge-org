@@ -2927,3 +2927,32 @@ a { color: inherit; text-decoration: none; }
     border-radius: 14px;
   }
 }
+
+
+/* Keep Area 8 A.8 evidence visible directly inside the item instead of a nested dropdown. */
+.area-page .library-subitem-inline {
+  display: block;
+}
+
+.area-page .library-subitem-inline > .library-subitem-static {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  cursor: default;
+}
+
+.area-page .library-inline-items {
+  display: grid;
+  gap: 10px;
+  padding: 10px 0 2px 42px;
+}
+
+.area-page .library-inline-items .library-nested-link {
+  width: 100%;
+}
+
+@media (max-width: 620px) {
+  .area-page .library-inline-items {
+    padding-left: 30px;
+    gap: 8px;
+  }
+}
