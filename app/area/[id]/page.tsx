@@ -75,6 +75,25 @@ export default async function Area({
                           typeof children[0] !== "string" &&
                           (children[0].href || children[0].hrefs || children[0].images);
 
+                        const inlineChildren =
+                          depth === 0 &&
+                          label === "A.8 Attendance Record of Stakeholder-Participants" &&
+                          children.length > 0;
+
+                        if (inlineChildren) {
+                          return (
+                            <div key={path.join("-")} className="library-subitem library-subitem-inline">
+                              <div className="library-subitem-static">
+                                <span className="library-subitem-number">{path[0]}.</span>
+                                <span>{label}</span>
+                              </div>
+                              <div className="library-inline-items">
+                                {children.map((child: any, childIndex: number) => renderItem(child, [...path, childIndex + 1], depth + 1))}
+                              </div>
+                            </div>
+                          );
+                        }
+
                         if (!children.length || directDocumentChild) {
                           const documentSource = directDocumentChild ? children[0] : current;
                           const href = typeof documentSource === "string" ? undefined : documentSource.href;
