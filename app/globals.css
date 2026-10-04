@@ -2929,52 +2929,53 @@ a { color: inherit; text-decoration: none; }
 }
 
 
-/* Area 8 A.8: keep all evidence permanently inside the A.8 item. */
-.area-page .library-subitem-inline {
+/* Area 8 A.8: one permanent item containing its title and every document. */
+.area-page .library-a8-inline {
   display: block;
   margin: 0;
-  border: 1px solid #e5e5e5;
-  border-radius: 14px;
-  overflow: hidden;
+  border-top: 1px solid #e5e5e5;
   background: #fff;
 }
 
-.area-page .library-subitem-inline > .library-subitem-static {
-  min-height: 64px;
-  padding: 15px 18px;
-  border: 0;
-  border-bottom: 1px solid #e5e5e5;
-  background: #fff;
-  color: var(--green-dark);
-  font-weight: 800;
-  cursor: default;
-}
-
-.area-page .library-inline-items {
+.area-page .library-a8-title {
+  min-height: 58px;
+  padding: 13px 14px;
   display: grid;
-  gap: 10px;
-  padding: 12px 18px 14px 52px;
+  grid-template-columns: 30px minmax(0, 1fr);
+  align-items: center;
+  gap: 7px;
+  color: var(--green-dark);
+  font-size: .76rem;
+  line-height: 1.45;
+  font-weight: 800;
+}
+
+.area-page .library-a8-documents {
+  display: grid;
+  gap: 8px;
+  padding: 0 14px 14px 48px;
   background: #fff;
 }
 
-.area-page .library-inline-items .library-nested-link {
+.area-page .library-a8-documents .library-nested-link {
   width: 100%;
   margin: 0;
 }
 
-/* A.8 is not a <details> and therefore has no expand/collapse control. */
-.area-page .library-subitem-inline .library-subitem-chevron {
+/* A.8 is a normal container, never a <details>, so there is no dropdown. */
+.area-page .library-a8-inline .library-subitem-chevron {
   display: none;
 }
 
 @media (max-width: 620px) {
-  .area-page .library-subitem-inline > .library-subitem-static {
-    min-height: 56px;
-    padding: 13px 14px;
+  .area-page .library-a8-title {
+    min-height: 52px;
+    padding: 12px 11px;
+    grid-template-columns: 27px minmax(0, 1fr);
   }
 
-  .area-page .library-inline-items {
-    padding: 10px 10px 12px 30px;
-    gap: 8px;
+  .area-page .library-a8-documents {
+    padding: 0 8px 10px 38px;
+    gap: 7px;
   }
 }
