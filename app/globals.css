@@ -3018,9 +3018,7 @@ a { color: inherit; text-decoration: none; }
   .area-page .library-a8-pdf iframe {
     height: 440px;
   }
-}import "tailwindcss";
-
-@import "tailwindcss";
+}
 
 :root {
   --green: #e21f26;
