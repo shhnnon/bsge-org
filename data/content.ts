@@ -144,24 +144,6 @@ export const areas = [
           },
           {
             "label": "A.8 Attendance Record of Stakeholder-Participants",
-            "children": [
-              {
-                "label": "VMGO as discussed to stakeholders 1.png",
-                "href": "https://drive.google.com/file/d/1_A5LNvp1nKWaSIohGVOfKSa0ZTqgxQbd/view?usp=sharing"
-              },
-              {
-                "label": "VMGO as discussed to stakeholders 2.png",
-                "href": "https://drive.google.com/file/d/1C8vT_xV54Roxc0-HQXP8YVDI8Ag9dlQU/view?usp=sharing"
-              },
-              {
-                "label": "VMGO as discussed to stakeholders 3.png",
-                "href": "https://drive.google.com/file/d/1maAVIdyPF8t_JDctHFg-vsXa3oFMo2Os/view?usp=sharing"
-              },
-              {
-                "label": "VMGO Attendance.pdf",
-                "href": "https://drive.google.com/file/d/1z4jg6Y7lYSfGeosuHq_9_VcWykNg9puh/view?usp=sharing"
-              }
-            ],
             "hrefs": [
               "https://drive.google.com/file/d/1_A5LNvp1nKWaSIohGVOfKSa0ZTqgxQbd/view?usp=sharing",
               "https://drive.google.com/file/d/1C8vT_xV54Roxc0-HQXP8YVDI8Ag9dlQU/view?usp=sharing",
