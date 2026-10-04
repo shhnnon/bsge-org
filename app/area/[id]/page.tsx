@@ -88,9 +88,64 @@ export default async function Area({
                                 <span>{label}</span>
                               </div>
                               <div className="library-a8-documents">
-                                {children.map((child: any, childIndex: number) =>
-                                  renderItem(child, [...path, childIndex + 1], depth + 1)
-                                )}
+                                {children.map((child: any, childIndex: number) => {
+                                  const childHref = typeof child === "string" ? undefined : child.href;
+                                  const childLabel = typeof child === "string" ? child : child.label;
+                                  const driveId = childHref?.match(/\/d\/([^/]+)/)?.[1] ?? null;
+                                  const isPng = /\.png$/i.test(childLabel);
+                                  const isPdf = /\.pdf$/i.test(childLabel);
+
+                                  if (!driveId) {
+                                    return (
+                                      <div key={childIndex} className="library-a8-document-label">
+                                        {childLabel}
+                                      </div>
+                                    );
+                                  }
+
+                                  if (isPng) {
+                                    return (
+                                      <a
+                                        key={childIndex}
+                                        href={childHref}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="library-a8-image-link"
+                                      >
+                                        <img
+                                          src={"https://drive.google.com/uc?export=view&id=" + driveId}
+                                          alt={childLabel}
+                                          loading={childIndex === 0 ? "eager" : "lazy"}
+                                        />
+                                      </a>
+                                    );
+                                  }
+
+                                  if (isPdf) {
+                                    return (
+                                      <div key={childIndex} className="library-a8-pdf">
+                                        <iframe
+                                          src={"https://drive.google.com/file/d/" + driveId + "/preview"}
+                                          title={childLabel}
+                                          loading="lazy"
+                                          allow="autoplay"
+                                        />
+                                      </div>
+                                    );
+                                  }
+
+                                  return (
+                                    <a
+                                      key={childIndex}
+                                      href={childHref}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="library-a8-document-label"
+                                    >
+                                      {childLabel}
+                                    </a>
+                                  );
+                                })}
                               </div>
                             </div>
                           );
