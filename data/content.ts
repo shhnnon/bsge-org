@@ -2009,20 +2009,34 @@ export const areas = [  {
           },
           {
             "label": "B.2.2. Description of a mechanism to ensure the waste management",
-            "hrefs": ["https://drive.google.com/open?id=1Re9i1mn46KhPdBZRLs-DdyrefUeW_EiL&usp=drive_copy"],
-                "texts": ["EMU & SDO Advisory No. 2 - GUIDELINES FOR WASTE MANAGEMENT"],
             "hrefs": [
               "https://drive.google.com/open?id=1oOAsUFWNZMHO4-1685oT4lsvPpmm6ONJ&usp=drive_copy",
               "https://drive.google.com/open?id=1c5ZdFOMy3_w3erB5WMjSNdgKInHPQRez&usp=drive_copy",
-              "https://drive.google.com/open?id=1Cjdogvl0JTIVxrHfGOv-v5GyeKnNFc8L&usp=drive_copy"
+              "https://drive.google.com/open?id=1Cjdogvl0JTIVxrHfGOv-v5GyeKnNFc8L&usp=drive_copy",
+              "https://drive.google.com/open?id=1Re9i1mn46KhPdBZRLs-DdyrefUeW_EiL&usp=drive_copy"
+            ],
+            "texts": [
+              "",
+              "",
+              "",
+              "EMU & SDO Advisory No. 2 - GUIDELINES FOR WASTE MANAGEMENT"
             ]
           },
           {
             "label": "B.2.3. Description of a mechanism to ensure the maintenance, repair and upkeep of property",
-            "hrefs": ["https://drive.google.com/open?id=10xbpD6pTH_scn0UyRhO0v9DR8SVkymwO&usp=drive_copy", "https://drive.google.com/open?id=1NrwHMzuB7Vvn_EuLtsEyFLd_vFT2jast&usp=drive_copy", "https://drive.google.com/open?id=1vtKv_o51vI7bVtIqTlLONt8lDERhPH04&usp=drive_copy", "https://drive.google.com/open?id=1oHuxxZga8yppRpzFcD0RRjy2KT0FL4SP&usp=drive_copy"],
-                "texts": ["Preventive Maintenance Checklist", "Work Request for Corrective Maintenance and Repair", "PFMO ORG CHART UPDATED 2026", "Signatories for Preventive Maintenance Plan"],
             "hrefs": [
-              "https://drive.google.com/open?id=1m5jWY5KkjAxzHh07SDr3xOKnqIBHjV_O&usp=drive_copy"
+              "https://drive.google.com/open?id=1m5jWY5KkjAxzHh07SDr3xOKnqIBHjV_O&usp=drive_copy",
+              "https://drive.google.com/open?id=10xbpD6pTH_scn0UyRhO0v9DR8SVkymwO&usp=drive_copy",
+              "https://drive.google.com/open?id=1NrwHMzuB7Vvn_EuLtsEyFLd_vFT2jast&usp=drive_copy",
+              "https://drive.google.com/open?id=1vtKv_o51vI7bVtIqTlLONt8lDERhPH04&usp=drive_copy",
+              "https://drive.google.com/open?id=1oHuxxZga8yppRpzFcD0RRjy2KT0FL4SP&usp=drive_copy"
+            ],
+            "texts": [
+              "",
+              "Preventive Maintenance Checklist",
+              "Work Request for Corrective Maintenance and Repair",
+              "PFMO ORG CHART UPDATED 2026",
+              "Signatories for Preventive Maintenance Plan"
             ]
           },
           {
