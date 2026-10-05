@@ -22,6 +22,21 @@ function getParameters(area: (typeof areas)[number]): Parameter[] | null {
 
 function previewUrl(href?: string) {
   if (!href) return "";
+
+  try {
+    const url = new URL(href);
+    if (url.hostname === "drive.google.com") {
+      const fileMatch = url.pathname.match(/^\/file\/d\/([^/]+)/);
+      const id = fileMatch?.[1] ?? url.searchParams.get("id");
+
+      if (id) {
+        return "https://drive.google.com/file/d/" + id + "/preview";
+      }
+    }
+  } catch {
+    // Keep non-URL links unchanged.
+  }
+
   return href.replace(/\/view(?=\?|$)/, "/preview").replace(/\/edit(?=\?|$)/, "/preview");
 }
 
