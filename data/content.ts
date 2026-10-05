@@ -2280,59 +2280,156 @@ export const areas = [  {
         "items": [
           {
             "label": "A.1. Building plan showing the location of laboratory rooms/shops used by the program under survey.",
-            "href": "https://drive.google.com/drive/folders/1mxzyy3mofj62wbAmKU9gdH-DxQ1r67Pt?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=16AUKWOaNs7Byfr74loewfmHTeeDWwmSK&usp=drive_copy",
+              "https://drive.google.com/open?id=1hBRX09uiXAdQNyH7-PYUattCZS7Gv2iq&usp=drive_copy",
+              "https://drive.google.com/open?id=18r5r7wGywjc8l-CAzIR7TQZDQZvKgGui&usp=drive_copy"
+            ],
+            "texts": [
+              "Building Plans of RGR Building",
+              "First-floor plan showing the locations of Laboratory Rooms",
+              "Photos of Laboratory Rooms"
+            ]
           },
           {
             "label": "A.2. Copy of the laboratory layout.",
-            "href": "https://drive.google.com/drive/folders/1-idZGDmMMf0kEzL4ABsoLE0G_GtAGQiF?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1VNdCkl4qMS6eKoCjQYjboEsmE-C5bTcN&usp=drive_copy",
+              "https://drive.google.com/open?id=1CVkuudnzZJnxrhiTOcrFLUm0BTf6yBF8&usp=drive_copy"
+            ]
           },
           {
-            "label": "A.3. Inventory of available equipment, gadgets, and fixtures in every laboratory.",
-            "href": "https://drive.google.com/drive/folders/1DkCQ_JJNipyyJm7Ezb5JbRVJ5GSsXEGH?usp=drive_link"
+            "label": "A.3. Inventory of available equipment, gadgets, fixtures in every laboratory.",
+            "hrefs": [
+              "https://drive.google.com/open?id=119SZid0sihNRm3mRYg7mgO3glOwfV4_P&usp=drive_copy",
+              "https://drive.google.com/open?id=1e_hRyA87Y0qu1lzE-GKal15WJmV8Nn3d&usp=drive_copy"
+            ]
           },
           {
             "label": "A.4. Laboratory Manuals.",
-            "href": "https://drive.google.com/drive/folders/14DhWl9CnBZbw-FpmaY8nPQL2h9ZjjeBc?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1PUt2v8T6XIkwYteRB7Pt9IaNB3QvVI9m&usp=drive_copy",
+              "https://drive.google.com/open?id=1KfVri1Uobz2hf8Bp9WlAsu1ENLCPdLOD&usp=drive_copy",
+              "https://drive.google.com/open?id=1ACjWtFnV_pA2L8BDl-smQA746qr6B62l&usp=drive_copy",
+              "https://drive.google.com/open?id=1xhabO_IPgSWS6DCO7bktPHIIWS7Em5Gn&usp=drive_copy",
+              "https://drive.google.com/open?id=1etdUnbla7AFQ7O0J6R9x8NxViWDnbV_S&usp=drive_copy",
+              "https://drive.google.com/open?id=1h2Pa6cx7eQJyYHxHzlQW7LV80sbMnKyI&usp=drive_copy",
+              "https://drive.google.com/open?id=1iOXAL-jZ5gtZZo1JNXV-PZvDeuLj1Vu6&usp=drive_copy",
+              "https://drive.google.com/open?id=1IjrdeHSoz4hICS4oenQ-Lzhpe73_wSME&usp=drive_copy",
+              "https://drive.google.com/open?id=1QRzAZezBGrECOG6Fbr02EKslvqpSbNl2&usp=drive_copy",
+              "https://drive.google.com/open?id=1R0SfYWejFH3jYfwgktYtmL8J4ErLaoa9&usp=drive_copy",
+              "https://drive.google.com/open?id=1RrRI69z-1jZahxdvJbXF-z7KFw69jCR3&usp=drive_copy",
+              "https://drive.google.com/open?id=1tEX3thd3DdgQhbWX-lDo-yF7dMKtWgG2&usp=drive_copy",
+              "https://drive.google.com/open?id=1OiQvZfX2G3D_SI6EAinIf2a0uFRZWPXr&usp=drive_copy",
+              "https://drive.google.com/open?id=19FLosrcf6Ka6uEgtcdJkROAAKCynnF0Y&usp=drive_copy",
+              "https://drive.google.com/open?id=1fYMV07VPNCOOb7ZGV3Q20RpjRWKmy3WI&usp=drive_copy",
+              "https://drive.google.com/open?id=1eVB0SgN0YmUm5zaUn9HlTSPbCrk6FfTB&usp=drive_copy"
+            ],
+            "texts": [
+              "Electronic Theodolite DT400",
+              "ENGINEERING TEACHING & RESEARCH EQUIPMENT F1-12",
+              "Engineering Teaching & Research Equipment F1-16",
+              "ENGINEERING TEACHING & RESEARCH EQUIPMENT F1-18",
+              "ENGINEERING TEACHING & RESEARCH EQUIPMENT F1-21",
+              "ENGINEERING TEACHING & RESEARCH EQUIPMENT F1-25",
+              "ENGINEERING TEACHING & RESEARCH EQUIPMENT F1-26",
+              "Engineering Teaching & Research Equipment F1-27",
+              "Hydrologic Cycle Demonstration Apparatus Operation and Maintenance",
+              "LABORATORY MANUAL CONSTRUCTION MATERIALS AND TESTING ",
+              "LABORATORY MANUAL CONSTRUCTION MATERIALS AND TESTING ",
+              "LABORATORY MANUAL FLUID MECHANICS AND HYDRAULICS",
+              "Laboratory Manual Groundwater Flow Analysis",
+              "LABORATORY MANUAL IMPROVISED SEEPAGE VISUALIZATION APPARATUS",
+              "LABORATORY MANUAL LOCALLY FABRICATED PIPE FRICTION APPARATUS",
+              "LABORATORY MANUAL LOCALLY FABRICATED PIPE FRICTION APPARATUS"
+            ]
           },
           {
-            "label": "A.5. First-aid Kit and Antidote Charts displayed conspicuously.",
-            "href": "https://drive.google.com/drive/folders/15RrdOoxULeDPY88QVN0ud_jN60NsPvkr?usp=drive_link"
+            "label": "A.5. Firs-aid Kit and Antidote Charts displayed conspicuously.",
+            "hrefs": ["https://drive.google.com/open?id=11v2JX3MVxllll0yBHAeiHl3KtgDVSffs&usp=drive_copy"]
           },
           {
             "label": "A.6. List of safety and precautionary measures being implemented.",
-            "href": "https://drive.google.com/drive/folders/1x23BBjRY6cqKCZNiayNfVk-o0PYHFsu9?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1Tfp7Usvayu08ufVZtb0kKHv-AgKzKpRA&usp=drive_copy",
+              "https://drive.google.com/open?id=1O-5sVAxdHfgy0Gh3fSAU80uaKNhsx7rz&usp=drive_copy",
+              "https://drive.google.com/open?id=1TS4W3cpd2Tmu24-wWZ1FPXK7tmXgJ-qZ&usp=drive_copy",
+              "https://drive.google.com/open?id=1hKrW0Zs-JdJFikeKMXr16FgXNQsHNe6J&usp=drive_copy"
+            ],
+            "texts": ["Computer Lab", "Environmental Lab", "Hydraulics Lab", ""]
           },
           {
             "label": "A.7. Evidence of training conducted on the proper use of laboratories.",
-            "href": "https://drive.google.com/drive/folders/1Ww-4axPBuGnuLbCbsA1Gfrdho-pwlMgq?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=13LhTwlP4cCyAezhzzaBDqnoS7dU2FlRG&usp=drive_copy",
+              "https://drive.google.com/open?id=19GKbZYZx7UWZRSugoEUt0AubTcG_nzdi&usp=drive_copy"
+            ],
+            "texts": ["Certificate of Attendance to Trainings", "Narrative Report - Training on Technical And Scientific Equipments of the Physics Laboratory"]
           },
           {
             "label": "A.8. Inventory of usable computer units and other equipment.",
-            "href": "https://drive.google.com/drive/folders/11i-Oq2P1s_orL4-ISNdiQKaJvnDXC440?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1ps9kY0y0PYoshAMkxVLdJtgfu3eQuq2b&usp=drive_copy",
+              "https://drive.google.com/open?id=15gJHB4G9evMI538FoXRzci7eOOA9CbKN&usp=drive_copy",
+              "https://drive.google.com/open?id=1jGf0hyC1Mgrv8YkR35HzQ8-_08bGKXE1&usp=drive_copy",
+              "https://drive.google.com/open?id=1IzwsCs5swdxBptP6r42_-xNZovJOzPz6&usp=drive_copy"
+            ],
+            "texts": ["Action Photos", "COMPUTER INVENTORY", "Record of use of computer by the student and faculty", "Room Schedule First Semester AY 26-27 "]
           },
           {
             "label": "A.9. Guidelines in the use of computer laboratories.",
-            "href": "https://drive.google.com/drive/folders/1SCVKzYJ9CFBwCeZ6in3LVd88GC2sFT5x?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1Tfp7Usvayu08ufVZtb0kKHv-AgKzKpRA&usp=drive_copy",
+              "https://drive.google.com/open?id=1WwbJm2GPEZHrYQbbpRPiIMcC6DvB6l6V&usp=drive_copy"
+            ],
+            "texts": ["Computer Lab", "List of safety and precautionary measures being implemented"]
           },
           {
             "label": "A.10. PDF of the designated computer technician/s.",
-            "href": "https://drive.google.com/drive/folders/1cbV_IkTGdDrBs8HqloGkxgAHwKITI38X?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1gkLyfN7KYvzLsAwAsfil2j-kyTG8VmJ0&usp=drive_copy",
+              "https://drive.google.com/open?id=1C6vlDgiYArs3WUJt9lukaagiL_6Nk4Wb&usp=drive_copy"
+            ],
+            "texts": ["Contract of Laboratory Technician 1.pdf", "Contract of Laboratory Technician 2.pdf"]
           },
           {
             "label": "A.11. Inventory of equipment, fixtures, apparatuses, supplies and materials.",
-            "href": "https://drive.google.com/drive/folders/1kdRQfb_B6R7HP4EokuKm7ebLRfFSW4R6?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1Ibqu0oEXzK8wvwG9ljTJsbwQup15Oosz&usp=drive_copy",
+              "https://drive.google.com/open?id=1VHsPBW5wCu7PZQshm30ciiRxAxhTnnIA&usp=drive_copy",
+              "https://drive.google.com/open?id=1ysa2ABDxHlGHF6ID1NWv-V4dBTtif_yn&usp=drive_copy",
+              "https://drive.google.com/open?id=1d3q47mE-o7a3AUEMDgovP2eSCar4WNQt&usp=drive_copy",
+              "https://drive.google.com/open?id=1NndtRfq_TxxxO5xrub-fFSplI9FVK9La&usp=drive_copy",
+              "https://drive.google.com/open?id=1ui9ViZFrvBUXbT059CPslg-6s4GOHnKB&usp=drive_copy",
+              "https://drive.google.com/open?id=1Ea4k1GsWEs6jv-D0aqkpkXVWMeyR55HT&usp=drive_copy",
+              "https://drive.google.com/open?id=1Qe-aJKku2jU0ggg5ADd4k_JTNv7nOrbK&usp=drive_copy",
+              "https://drive.google.com/open?id=1RgZaCDro6ATNQ1kJN4OmoHIVCBRhQwjk&usp=drive_copy",
+              "https://drive.google.com/open?id=1n3JlpcvvKzOBpFYhEbnXXtnxMI1emB0z&usp=drive_copy"
+            ],
+            "texts": [
+              "Inventory Report as of August 2026",
+              "Inventory Report as of December 2026",
+              "Inventory Report as of February 2026",
+              "Inventory Report as of January 2026",
+              "Inventory Report as of July 2026",
+              "Inventory Report as of June, 2026",
+              "Inventory Report as of March 2026",
+              "Inventory Report as of May 2026",
+              "Inventory Report as of September 2026",
+              "Photos of laboratory equipment, gadgets, and fixtures in every laboratory with labels"
+            ]
           },
           {
             "label": "A.12. Availability of a stockroom.",
-            "href": "https://drive.google.com/drive/folders/1MY6RATgSzDATxeUGV8fyHm6YOnPFSnr8?usp=drive_link"
+            "hrefs": ["https://drive.google.com/open?id=1CM3rBkAn_AX8_Z4A4rKgps6MpAWVzZFf&usp=drive_copy"]
           },
           {
             "label": "A.13. Evidence on the availability of gas, water and electricity for practicum purposes.",
-            "href": "https://drive.google.com/drive/folders/1gWMbj-v4ZYeB5fJXfOXMBK6sTVLsGf99?usp=drive_link"
+            "hrefs": ["https://drive.google.com/open?id=16UuxZDa81vuOTMg2UPGZ8G86Y58dfE2V&usp=drive_copy"]
           },
           {
             "label": "A.14. Guidelines in the use of equipment and apparatuses.",
-            "href": "https://drive.google.com/drive/folders/1Kv6DjE6Zu8zE9WkZLUV23XmhO5dSMG42?usp=drive_link"
+            "hrefs": ["https://drive.google.com/open?id=18KEmFD9pj_yD_w5pkfGLFddEPunlSVwT&usp=drive_copy"]
           }
         ]
       },
@@ -2341,20 +2438,26 @@ export const areas = [  {
         "title": "Equipment and Supplies",
         "items": [
           {
-            "label": "B.1. Inventory of available equipment, apparatuses, supplies and materials."
+            "label": "B.1. Inventory of available equipment, apparatuses, supplies and materials.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1CM3rBkAn_AX8_Z4A4rKgps6MpAWVzZFf&usp=drive_copy",
+              "https://drive.google.com/open?id=1gHtYJV15esoBdPDtkaHMfixbOeBa63SK&usp=drive_copy",
+              "https://drive.google.com/open?id=1n3JlpcvvKzOBpFYhEbnXXtnxMI1emB0z&usp=drive_copy"
+            ],
+            "texts": ["Availability of a stockroom.", "Copy of the inventory of equipment, apparatuses, supplies and materials", "Photos of laboratory equipment, gadgets, and fixtures in every laboratory with labels"]
           },
           {
             "label": "B.2. List of fabricated tools and apparatuses, including relevant information.",
             "hrefs": [
-              "https://drive.google.com/file/d/18XE9L3ILrwqgsBAyc22qXGb_IjuhZk12/preview",
-              "https://drive.google.com/file/d/1-e8E2_W4Vfe0IcvlWNVbzXnexqj01duX/preview",
-              "https://drive.google.com/file/d/1U3hUzxz8s-LizdUF47KySLu3NCoKAq5R/preview",
-              "https://drive.google.com/file/d/1WfbKnxZ5-SueMA89_oWBXXuW3I-UaEXo/preview",
-              "https://drive.google.com/file/d/182p5t5Z9-hYxks4fmjuQeSck0xNlhwLi/preview",
-              "https://drive.google.com/file/d/1SYe7BWPE0MSKlqh-9wVkr5zyEHFiPiV6/preview",
-              "https://drive.google.com/file/d/1gac7SvvDF2nBDstBUGafzjIF-Y09T1bf/preview",
-              "https://drive.google.com/file/d/11JivnpVlxPIRPtbK3TxKd6kbVON9oPtW/preview",
-              "https://drive.google.com/file/d/11JivnpVlxPIRPtbK3TxKd6kbVON9oPtW/preview"
+              "https://drive.google.com/file/d/1Ibqu0oEXzK8wvwG9ljTJsbwQup15Oosz/preview",
+              "https://drive.google.com/file/d/1VHsPBW5wCu7PZQshm30ciiRxAxhTnnIA/preview",
+              "https://drive.google.com/file/d/1ysa2ABDxHlGHF6ID1NWv-V4dBTtif_yn/preview",
+              "https://drive.google.com/file/d/1d3q47mE-o7a3AUEMDgovP2eSCar4WNQt/preview",
+              "https://drive.google.com/file/d/1NndtRfq_TxxxO5xrub-fFSplI9FVK9La/preview",
+              "https://drive.google.com/file/d/1ui9ViZFrvBUXbT059CPslg-6s4GOHnKB/preview",
+              "https://drive.google.com/file/d/1Ea4k1GsWEs6jv-D0aqkpkXVWMeyR55HT/preview",
+              "https://drive.google.com/file/d/1Qe-aJKku2jU0ggg5ADd4k_JTNv7nOrbK/preview",
+              "https://drive.google.com/open?id=1RgZaCDro6ATNQ1kJN4OmoHIVCBRhQwjk&usp=drive_copy"
             ],
             "texts": [
               "Inventory Report as of August 2026",
@@ -2362,8 +2465,8 @@ export const areas = [  {
               "Inventory Report as of February 2026",
               "Inventory Report as of January 2026",
               "Inventory Report as of July 2026",
-              "Inventory Report as of June 2026",
-              "Inventory Report as of May 2026",
+              "Inventory Report as of June, 2026",
+              "Inventory Report as of March 2026",
               "Inventory Report as of May 2026",
               "Inventory Report as of September 2026"
             ]
@@ -2378,7 +2481,23 @@ export const areas = [  {
         "title": "Maintenance",
         "items": [
           {
-            "label": "C.1. Description of a system on:"
+            "label": "C.1. Description of a system on:",
+            "hrefs": [
+              "https://drive.google.com/open?id=1subl821T85FWZvl3OeJLs6xhNIN_gABt&usp=drive_copy",
+              "https://drive.google.com/open?id=134PSJe2HRvhSvkOj0G4lIw3Jx6lkhieq&usp=drive_copy",
+              "https://drive.google.com/open?id=1twqVkeryuig3afCl6cBXFDMe8r9Z0CWV&usp=drive_copy",
+              "https://drive.google.com/open?id=10DE9Bpgu0olV49aM1osX4kjRrAttnQ68&usp=drive_copy",
+              "https://drive.google.com/open?id=1X5tO94ycku8dWJR9TlnJdV-Pj7OVoLts&usp=drive_copy",
+              "https://drive.google.com/open?id=1tw2S7AaBMuwrA_TDEto_u7WnB0sWmdjf&usp=drive_copy"
+            ],
+            "texts": [
+              "C.1.1 Maintenance of cleanliness and orderliness in the laboratories",
+              "C.1.2 Replenishment of perishable material",
+              "C.1.2 Replenishment of perishable material",
+              "C.1.3 Coding and inventory ",
+              "C.1.4 Repairs and Calibration",
+              ""
+            ]
           },
           {
             "label": "C.2. Composition of the Maintenance and Repair Unit.",
@@ -2410,17 +2529,18 @@ export const areas = [  {
               "https://drive.google.com/file/d/1X7Zo1n4eBzHBbkkMVfGFj2Yxx0hptdkT/preview",
               "https://drive.google.com/file/d/1gQRcRsx5p64_4zSicQVgBV9hI7cvl8si/preview",
               "https://drive.google.com/file/d/1cuFXO23qyutpB5f8TxE3epkA7UNLf7N9/preview",
-              "https://drive.google.com/file/d/1gGqiiaa-qTLzCO8WitP42DONnf6bqYy_/preview",
+              "https://drive.google.com/open?id=1gGqiiaa-qTLzCO8WitP42DONnf6bqYy_&usp=drive_copy",
               "https://drive.google.com/file/d/1FHqe_fBjTCIp_gOi2arFd0ik3b1xDxZJ/preview"
             ]
           },
           {
             "label": "C.3. PDF of the maintenance personnel.",
             "hrefs": [
-              "https://drive.google.com/file/d/1t0bnIcseb_ZjJgCm8EZFGPI340FKvdSB/preview",
-              "https://drive.google.com/file/d/1c2ojcJdsuiOe689MOux1nH2VFcuHM6By/preview",
-              "https://drive.google.com/file/d/1HlNgkx4SajdGiqMixUqCCPElHH4HJgDZ/preview"
-            ]
+              "https://drive.google.com/open?id=1t0bnIcseb_ZjJgCm8EZFGPI340FKvdSB&usp=drive_copy",
+              "https://drive.google.com/open?id=1c2ojcJdsuiOe689MOux1nH2VFcuHM6By&usp=drive_copy",
+              "https://drive.google.com/open?id=1HlNgkx4SajdGiqMixUqCCPElHH4HJgDZ&usp=drive_copy"
+            ],
+            "texts": ["Samuel Paul P. Caiga", "Charles Sam Macalalad", "PFMO STAFF"]
           }
         ]
       },
@@ -2431,17 +2551,13 @@ export const areas = [  {
           {
             "label": "D.1. Evidence of compliance on the requirements and operation of laboratories, if applicable.",
             "hrefs": [
-              "https://drive.google.com/file/d/1_0K5B3NAh1oK1NcCVoFsiVkIg8U4cXiQ/preview",
-              "https://drive.google.com/file/d/1ZN61WdtuotpDAfrT2rd98fcN5LdXIxNz/preview",
-              "https://drive.google.com/file/d/1BKQsAKAUHbiHDBGpUhxQJezx_Dwh4Ept/preview",
-              "https://drive.google.com/file/d/1VBzABHCmMUcVksRO8N0aqZzY426OtYHN/preview"
+              "https://drive.google.com/file/d/1PSPNm7KdfN823SgpKCJCMHcvWOjmWsn-&usp=drive_copy",
+              "https://drive.google.com/file/d/17PF6xsM4n1W26iwyNJGb_FuZA6Wn8VAk&usp=drive_copy",
+              "https://drive.google.com/file/d/1RQfqroW7wY_ARjHmrlcQYGtGkEUA-QP4&usp=drive_copy",
+              "https://drive.google.com/file/d/1ECDacp32YqUumd7megzRQ7z6Wpx9jha3&usp=drive_copy",
+              "https://drive.google.com/file/d/1GVnjUdfenmidMBgmeDeUupEpW-seZh0n&usp=drive_copy"
             ],
-            "texts": [
-              "New Curriculum",
-              "Technical Paper",
-              "Technical Paper",
-              "GE 421 - Technical Paper Guidelines"
-            ]
+            "texts": ["New Curriculum", "Technical Paper", "Technical Paper", "GE 421 - Technical Paper Guidelines", ""]
           }
         ]
       }
