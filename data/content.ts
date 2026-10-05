@@ -1020,137 +1020,127 @@ export const areas = [
             "label": "C.1. Profile of the Guidance and Counseling Head",
             "children": [
               {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/14WHVsSx9nw1x9IYHPTu80xhob-89fYZD?usp=drive_link",
-                "text": "Google Drive folder"
+                "label": "1. Cornejo, Rowena Q.",
+                "hrefs": [
+                  "https://drive.google.com/file/d/15xS2Th7dRsZYEqA-32ZnC_hY99-Qqce3/view?usp=sharing",
+                  "https://drive.google.com/file/d/1Gd3urcgmx3YYzjBuOzUYupw7679Oyw0H/view?usp=sharing",
+                  "https://drive.google.com/file/d/1BwijwGOYoJPZ_HnnIieFwVN7fmQhHSbq/view?usp=sharing",
+                  "https://drive.google.com/file/d/1gx2lr1EhZbLCxwhNFVvpoxzoy8NLm5P2/view?usp=sharing",
+                  "https://drive.google.com/file/d/1RzpysQTqegDSeY7tfJ8h82xHxVsIHotU/view?usp=sharing",
+                  "https://drive.google.com/open?id=1ILe4F1N54-Md2hG0SgLVqPbpqOToQK96&usp=drive_copy",
+                  "https://drive.google.com/open?id=1d_Gy_EgZxeWbRUdfmC16eaOfXUE4JRNL&usp=drive_copy",
+                  "https://drive.google.com/open?id=1yoadhf167k6TT2Cgx5fNmCzZpS3wHMui&usp=drive_copy",
+                  "https://drive.google.com/open?id=1Tk1GDCl-aYrN8gb5ZuZ1vbeOZmONUALO&usp=drive_copy",
+                  "https://drive.google.com/open?id=1TI1UAtfH6J1wALc9iYJre3glP6RwQoBI&usp=drive_copy",
+                  "https://drive.google.com/open?id=1YGxScspVJ6l8dWP2lTIT2ESog_aRXX8o&usp=drive_copy",
+                  "https://drive.google.com/open?id=11IS7Wf-5evf8Q1vpIe7ZP2_cVy5uUY0W&usp=drive_copy",
+                  "https://drive.google.com/open?id=1opxO7jMTXxLaOtcSSJLdINRkjIvpVjiO&usp=drive_copy",
+                  "https://drive.google.com/open?id=1aIxSdEr4pYEZO24-Df1BySL2re1GgmRR&usp=drive_copy",
+                  "https://drive.google.com/open?id=1L8eysit8hW2IvE-vrYEac7UVBVRIRVDK&usp=drive_copy",
+                  "https://drive.google.com/open?id=1IKOrtsqCbmzp3ogtXuFJtC5kCuII9LnL&usp=drive_copy",
+                  "https://drive.google.com/open?id=1FPNEgfR2dy9TYncWc7cFvlGisJYwd1dT&usp=drive_copy",
+                  "https://drive.google.com/open?id=1fOAM1j9BFKS4TpKZN2ru8ZuCNJaO7Gd5&usp=drive_copy",
+                  "https://drive.google.com/open?id=1qYx2ZbapGWCiSloNq81PcJeyHWc3Bqlg&usp=drive_copy",
+                  "https://drive.google.com/open?id=1aM3aq1RXfncFoAhJlKf34S4KWjgMzOay&usp=drive_copy",
+                  "https://drive.google.com/open?id=1djnJ7FUepxS_-atqxeHsalhJ1Cu-DDqG&usp=drive_copy",
+                  "https://drive.google.com/open?id=1tq7qL7eA-McIbaPJSX3urFulh2shqot4&usp=drive_copy",
+                  "https://drive.google.com/open?id=1D3wjZoHb6rWI0Jay-wv25JkWfUw4f9fM&usp=drive_copy",
+                  "https://drive.google.com/open?id=1CKhMZLDXvvUYfT-Nnu3onS9idWq9DsRv&usp=drive_copy",
+                  "https://drive.google.com/open?id=1VS6bGgzUiOdseq5P8xPKRLbcej1ZcseT&usp=drive_copy"
+                ],
+                "texts": [
+                  "Diploma - Rowena Cornejo",
+                  "PRC ID (Back)",
+                  "PRC ID (Front)",
+                  "PRC ID",
+                  "TOR - Rowena Cornejo",
+                  "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""
+                ]
+              },
+              {
+                "label": "2. Dimapilis, Julius E.",
+                "hrefs": [
+                  "https://drive.google.com/file/d/1MToURWGc_Cs4WDpXwiQJ3whkkEQDA7sI/view?usp=sharing",
+                  "https://drive.google.com/open?id=1UVkeN3WOwuRcvl980MxL3ShByM1cVZiQ&usp=drive_copy",
+                  "https://drive.google.com/open?id=1PnYfktE9_UUGDmKnRKY2vqkc1lO6rCK3&usp=drive_copy",
+                  "https://drive.google.com/open?id=1n9HaCW1h7Jd40icUbwLLInTER9Husfsv&usp=drive_copy",
+                  "https://drive.google.com/open?id=1ANnsIW_bS8BQ5fa4J5RVNbtK_5Xl1WLW&usp=drive_copy",
+                  "https://drive.google.com/open?id=1_u0cYsS8bftdkn8zG2hnmkaiOrScjpS-&usp=drive_copy"
+                ]
               }
-            ],
-            "href": "https://drive.google.com/drive/folders/14WHVsSx9nw1x9IYHPTu80xhob-89fYZD?usp=drive_link"
+            ]
           },
           {
-            "label": "C.2. Updated Student Profiles",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1LXz9-EVxBqyy3t-ieOGBEzVuSdaWWyg8?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1LXz9-EVxBqyy3t-ieOGBEzVuSdaWWyg8?usp=drive_link"
+            "label": "C.2. Updated Student Profiles"
           },
           {
             "label": "C.3. Policies on the confidentiality of student records",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1xSDoxRW9uJA-RsF0lzavp11UNg2HltsW?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1xSDoxRW9uJA-RsF0lzavp11UNg2HltsW?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1EvRnd51-vTat_thio6XaOM7YoiEI3CK7&usp=drive_copy",
+            "text": "Policies on the confidentiality of student records"
           },
           {
             "label": "C.4. A copy of the Testing program.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1ukDe714mfl4UTD6k2GmlujCTUBUlwhI7?usp=drive_link",
-                "text": "Google Drive folder"
-              }
+            "hrefs": [
+              "https://drive.google.com/open?id=1xE_55_QesUXdrXyYOHgz_8oklJ5KzIw_&usp=drive_copy",
+              "https://drive.google.com/open?id=1sb61plGZIBT3SNZxsWajvol1cPjRRb41&usp=drive_copy"
             ],
-            "href": "https://drive.google.com/drive/folders/1ukDe714mfl4UTD6k2GmlujCTUBUlwhI7?usp=drive_link"
+            "texts": [
+              "Email from Testing and Admission Office",
+              "Testing Program Documents"
+            ]
           },
           {
             "label": "C.5. List of tests and evaluative tools used in Guidance and Counseling services.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1hqFWd65HAbGGTlMQwXSK4vI0VZUYMnrr?usp=drive_link",
-                "text": "Google Drive folder"
-              }
+            "hrefs": [
+              "https://drive.google.com/open?id=1113c9d9bKJ83q9sWbID_IIIMJwqM_DvA&usp=drive_copy",
+              "https://drive.google.com/open?id=1BzQGu-nc0wch5ybEgGWmuepbQ7tzGqXY&usp=drive_copy"
             ],
-            "href": "https://drive.google.com/drive/folders/1hqFWd65HAbGGTlMQwXSK4vI0VZUYMnrr?usp=drive_link"
+            "texts": [
+              "Career Guidance Program",
+              "List of tests and evaluative tools used in Guidance and Counseling services"
+            ]
           },
           {
-            "label": "C.6. List of students who availed of the counseling service.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1ZBmJATJX72L9ltyUnf95kghqlghwyovY?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1ZBmJATJX72L9ltyUnf95kghqlghwyovY?usp=drive_link"
+            "label": "C.6. List of students who availed of the counseling service."
           },
           {
-            "label": "C.7. Sample counseling referral form.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1_78PwxOA8O6rGfqH3tWN17ze3SRAw4PB?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1_78PwxOA8O6rGfqH3tWN17ze3SRAw4PB?usp=drive_link"
+            "label": "C.7. Sample counseling referral form",
+            "href": "https://drive.google.com/open?id=16JHSEgvzX4lDFM__KxGVecnbp53o7vAV&usp=drive_copy",
+            "text": "Sample counseling referral form"
           },
           {
-            "label": "C.8. List of prospective employers of graduates of a particular program.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1Zm-yQ6_aZEW7sp5wT1YA2I1Zo58CBoZp?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1Zm-yQ6_aZEW7sp5wT1YA2I1Zo58CBoZp?usp=drive_link"
+            "label": "C.8. List of prospective employers of graduates of a particular program."
           },
           {
-            "label": "C.9. Sample letters of employers inviting graduates of a particular program to apply.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/18P621GlvtuGEv5DO0eGFt48ga2aCUgaO?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/18P621GlvtuGEv5DO0eGFt48ga2aCUgaO?usp=drive_link"
+            "label": "C.9. Sample letters of employers inviting graduates of a particular program to apply."
           },
           {
-            "label": "C.10. Alumni Directory and officers of the Alumni Association.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/11uYa-aMRuVEgAhwKeURP1cnNyChBRbOa?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/11uYa-aMRuVEgAhwKeURP1cnNyChBRbOa?usp=drive_link"
+            "label": "C.10. Alumni Directory and officers of the Alumni Association."
           },
           {
-            "label": "C.11. Linkages established with industries and prospective employers.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1SulFzAW0pQm-8e5JpJsnMu4q0qoJsDKB?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1SulFzAW0pQm-8e5JpJsnMu4q0qoJsDKB?usp=drive_link"
+            "label": "C.11. Linkages established with industries and prospective employers."
           },
           {
             "label": "C.12. Copy of the instrument to evaluate the guidance program.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/19nHpZLRry7CSJmJzSkwBL0OsLQ6f7B-t?usp=drive_link",
-                "text": "Google Drive folder"
-              }
+            "hrefs": [
+              "https://drive.google.com/open?id=1Jm1Pt0JC379Hen0xO_Nl_MjeEtZYsZxN&usp=drive_copy",
+              "https://drive.google.com/open?id=1SpaH8SRF9iHTMG228NKfQERItgedvebr&usp=drive_copy",
+              "https://drive.google.com/open?id=1JZQpOKzfzLWN3jpk11dwXL76tfF8a3Mb&usp=drive_copy",
+              "https://drive.google.com/open?id=13pCJ1uNVkdjOPuK4q58m_iNtrWZ_Q9js&usp=drive_copy",
+              "https://drive.google.com/open?id=1AYqmMlvt5-Cdh7Ql7IwSHvOp_LH3D2fy&usp=drive_copy",
+              "https://drive.google.com/open?id=119pE2njTH9MZbdvsfVatUYbOtFgmJTxl&usp=drive_copy"
             ],
-            "href": "https://drive.google.com/drive/folders/19nHpZLRry7CSJmJzSkwBL0OsLQ6f7B-t?usp=drive_link"
+            "texts": [
+              "ONLINE KAMUSTAHAN WITH THE STUDENTS",
+              "GUIDANCE AND COUNSELING PROGRAM 2025-2026",
+              "OGC PROGRAM",
+              "OGC PROGRAM F2F",
+              "OGC PROGRAM GUIDANCE ON THE GO",
+              "OGC PROGRAM MONDAY MOJO"
+            ]
           }
         ]
       },
-      {
         "letter": "D",
         "title": "Other Student Services",
         "items": [
