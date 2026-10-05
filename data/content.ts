@@ -206,27 +206,66 @@ export const areas = [  {
         "items": [
           {
             "label": "C.1 Evidences of congruence between educational practices-activities and the VMGO.",
-            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/congruence-and-implementation/c-1-evidences-of-congruence-between-educational-practices-activities?authuser=0",
-            "text": "Evidences of congruence between educational practices-activities and the VMGO."
+            "children": [
+              {
+                "label": "C.1a University President, Officials, Heads, Faculty, Staffs, Students Conversations Activities Strengthening its Core Values and Identity PDF",
+                "href": "https://drive.google.com/file/d/1ai2o23_L6JSQe_fW4eT2rYKstPNCEutY/view?usp=sharing"
+              },
+              {
+                "label": "C.1b Integration_Recitation of the University VGMO during Flag Ceremony PDF",
+                "href": "https://drive.google.com/file/d/1fZ5ZWa4lvRrVZ5bK6283ThsgGbd1324D/view?usp=sharing"
+              },
+              {
+                "label": "C.1c Orientation of Students Every Semester.png",
+                "href": "https://drive.google.com/file/d/1W8VEgjS4BD0j8ofgit6KK0M2rNQ0t3rh/view?usp=sharing"
+              },
+              {
+                "label": "C.1d Cascading of Strategic Plan to University Stakeholders 2.png",
+                "href": "https://drive.google.com/file/d/136mGDh8nQrFGd50MdiTsEff9afXnJeKa/view?usp=sharing"
+              }
+            ]
           },
           {
             "label": "C.2 Awards-citations received by the program under survey",
-            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/congruence-and-implementation/c-2-awards-citations-received-by-the-program-under-survey?authuser=0",
-            "text": "Awards-citations received by the program under survey"
+            "hrefs": [
+              "https://drive.google.com/open?id=1IZX7YDUauuAv52qHDwdRYTWSjO4ro1q7&usp=drive_copy",
+              "https://drive.google.com/open?id=1LayxFBK6JHRu2hiC3Q_hYdpOTQm7e_vm&usp=drive_copy"
+            ]
           },
           {
             "label": "C.3 List of linkages, consortia and networking",
-            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/congruence-and-implementation/c-3-list-of-linkages-consortia-and-networking?authuser=0",
-            "text": "List of linkages, consortia and networking"
+            "children": [
+              {
+                "label": "C.3a List of Partner Industries Internship of BS Geodetic Engineering",
+                "href": "https://drive.google.com/file/d/1T5yXf6BwhTzkWG9iWqmM5Fq9mik8d2sj/view?usp=sharing"
+              },
+              {
+                "label": "C.3b Library List-of Linkages",
+                "href": "https://drive.google.com/file/d/1JdOWttqPw0LGtGEad4tHKTxvj2T9B_PZ/view?usp=sharing"
+              },
+              {
+                "label": "C.3c 2025 Research Linkages",
+                "href": "https://drive.google.com/file/d/1RFES5dVMyUn6A2OhtEqhuO_onkhbStMr/view?usp=sharing"
+              },
+              {
+                "label": "C.3d 2024 Linkages",
+                "href": "https://drive.google.com/file/d/1hVYEF5Q4xiVlaaW1tpEYTebBYM3DRseF/view?usp=sharing"
+              },
+              {
+                "label": "C.3e 2023 Linkages detailed list",
+                "href": "https://drive.google.com/file/d/1WtkVKHtVJ7buB6_ChPOZpVr9bF3xyWNU/view?usp=sharing"
+              },
+              {
+                "label": "C.3f 2021 Linkages",
+                "href": "https://drive.google.com/file/d/1kq5Fr7TeyA5NHZ3UP3j4D6GYLFoHbi7N/view?usp=sharing"
+              }
+            ]
           },
           {
-            "label": "C.4 Data on employability of graduates",
-            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/congruence-and-implementation/c-4-data-on-employability-of-graduates?authuser=0",
-            "text": "Data on employability of graduates"
+            "label": "C.4 Data on employability of graduates"
           }
         ]
-      }
-    ]
+      }    ]
   },
   {
     "id": 2,
