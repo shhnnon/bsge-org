@@ -2551,7 +2551,7 @@ export const areas = [  {
               },
               {
                 "label": "Jemuel G Malaluan - Dormitory Manager",
-                "href": "https://drive.google.com/open?id=1rTJHg8cAnKJ4wVc8xCSdIUsu3SB_FP&usp=drive_copy",
+                "href": "https://drive.google.com/open?id=1rTJHg8czoAnKJ4wVc8xCSdIUsu3SB_FP&usp=drive_copy",
                 "text": "Jemuel G Malaluan - Dormitory Manager"
               }
             ]
