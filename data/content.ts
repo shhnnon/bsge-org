@@ -1537,7 +1537,9 @@ export const areas = [  {
         "items": []
       }
     ]
-"id": 6,
+  },
+  {
+    "id": 6,
     "title": "Extension",
     "summary": "Institutional outreach and off-campus networks providing academic access, community development programs, and technical expertise to regional stakeholders.",
     "body": "Institutional outreach and off-campus networks providing academic access, community development programs, and technical expertise to regional stakeholders.",
