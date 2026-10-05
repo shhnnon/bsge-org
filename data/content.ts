@@ -2895,7 +2895,7 @@ export const areas = [  {
           {
             "label": "G.4 Description of inter-office sharing of resources (facilities and equipment)",
             "hrefs": [
-              "https://drive.google.com/open?id=1vvw5h-66Sn3HJWkqVvanBEBk_w2TSYFb&usp=drive_copy",
+              "https://drive.google.com/file/d/1vvw5h-66Sn3HJwKqVvanBEBk_w2TSYFb/preview",
               "https://drive.google.com/file/d/1Y2wuHPaARW2glhh7ySAJPCUNu3UvjhBO/preview",
               "https://drive.google.com/file/d/1G2RNN2jCWkNzaPK30RbVyTTFn7-CjOj6/preview",
               "https://drive.google.com/file/d/1sWrKw53yAgmdXyHE_FSfjUPeBFdmOwwo/preview"
