@@ -91,7 +91,7 @@ export default async function DeepNestedAreaResource({
       <header className="area-page-header">
         <Link href="/" className="area-brand">
           <img src="/batstateu.svg" alt="Batangas State University logo" className="area-brand-logo" />
-          <span><strong>Geodetic Engineering</strong><small>COE - Alangilan Campus</small></span>
+          <span><strong>Geodetic Engineering</strong><small>Department of Civil Engineering - Alangilan Campus</small></span>
         </Link>
       </header>
 
