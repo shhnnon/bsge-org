@@ -48,113 +48,49 @@ export const areas = [
         "title": "Statement of Vision, Mission and Objectives",
         "items": [
           {
-            "label": "A.1. Vision Statement",
-            "hrefs": [
-              "https://drive.google.com/file/d/1wyQ6w-yW8sJlZa6642JFvXx9LCG049PT/view?usp=sharing",
-              "https://drive.google.com/file/d/1oH55ObbUVK2X34XKPtyMetj7IoZP1cmS/view?usp=sharing",
-              "https://drive.google.com/file/d/1tFGx7380TXW-32bnL944_JrZZxsH96ze/view?usp=sharing",
-              "https://drive.google.com/file/d/1Y0T9CUxN54VvLJfoEcv6-ACD45HPvxip/view?usp=sharing",
-              "https://drive.google.com/file/d/19Qi8BYp0jush8TOtxCf5G2fw7pfhthzM/view?usp=sharing"
-            ],
-            "text": "A premier national university that develops leaders in global knowledge economy."
+            "label": "A.1 Vision Statement",
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/statement-of-vision-mission-and-objectives/a-1-vision-statement?authuser=0",
+            "text": "Vision Statement"
           },
           {
-            "label": "A.2. Mission Statement",
-            "hrefs": [
-              "https://drive.google.com/file/d/1ARoyggiCJgLo7YCzCHqEXJ-2NAx_Wu2t/view?usp=sharing",
-              "https://drive.google.com/file/d/15zrFHoR2ZDlaM9Yxuq-O2w1yA7R5rgV1/view?usp=sharing",
-              "https://drive.google.com/file/d/1LO8sm_mG-zMM5I_tmHcx7IoFqV17pj-Q/view?usp=sharing",
-              "https://drive.google.com/file/d/16_a425kZcmOEzf-udyj-cv1A83KfV4Hw/view?usp=sharing",
-              "https://drive.google.com/file/d/1HXkirUga885XoQz8SoO9VRp80cfZgOCz/view?usp=sharing"
-            ],
-            "text": "A university committed to producing leaders by providing a 21st century learning environment through innovations in education, multidisciplinary research, and community and industry partnerships in order to nurture the spirit of nationhood, propel the national economy, and engage the world for sustainable development"
+            "label": "A.2 Mission Statement",
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/statement-of-vision-mission-and-objectives/a-2-mission-statement?authuser=0",
+            "text": "Mission Statement"
           },
           {
             "label": "A.3 Statement of the Goals of the Academic Unit",
-            "href": "https://drive.google.com/file/d/18jRlPMvkE8O9tdxhR0yoDyEcQ0hI_3WO/view?usp=sharing",
-            "text": "A.3 Statement of the Goals of the Academic Unit"
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/statement-of-vision-mission-and-objectives/a-3-statement-of-the-goals-of-the-academic-unit?authuser=0",
+            "text": "Statement of the Goals of the Academic Unit"
           },
           {
             "label": "A.4 Statement of the Program Objectives",
-            "hrefs": [
-              "https://drive.google.com/file/d/11WbmjaT41uFHRmZClfO5_xenlNyEGCj1/view?usp=sharing",
-              "https://drive.google.com/file/d/1m7z7RHltghkJQ9BBlKZvnv4c5QVPEiEm/view?usp=sharing",
-              "https://drive.google.com/file/d/1_9JE1O7R8XT0C5Kj-NhM8VycIexmEmKJ/view?usp=sharing",
-              "https://drive.google.com/file/d/1LkE8N2wSt5WhaL8OBg3UL8V3bbd1L5rp/view?usp=sharing"
-            ]
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/statement-of-vision-mission-and-objectives/a-4-statement-of-the-program-objectives?authuser=0",
+            "text": "Statement of the Program Objectives"
           },
           {
             "label": "A.5 Copy of the Charter of the Institution",
-            "href": "https://drive.google.com/file/d/16TkADEr8AOycoWA8rIzeVpXMKRNqQRIF/view?usp=sharing",
-            "text": "A.5 Copy of the Charter of the Institution"
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/statement-of-vision-mission-and-objectives/a-5-copy-of-the-charter-of-the-institution?authuser=0",
+            "text": "Copy of the Charter of the Institution"
           },
           {
             "label": "A.6 Minutes of Meetings on the formulation, review and revision of the VMGO",
-            "children": [
-              {
-                "label": "A.6a New VMGO - PO Memo No. 447 s. 2019",
-                "href": "https://drive.google.com/file/d/1u45OjNB-BlPcKU8FK-wxy03UhBSwsv-w/view?usp=sharing",
-                "text": "A.6a New VMGO - PO Memo No. 447 s. 2019"
-              },
-              {
-                "label": "A.6b BOR Res 087 s 2019 (From Strat Plan 2019-2029)",
-                "href": "https://drive.google.com/file/d/1u45OjNB-BlPcKU8FK-wxy03UhBSwsv-w/view?usp=sharing",
-                "text": "A.6b BOR Res 087 s 2019 (From Strat Plan 2019-2029)"
-              },
-              {
-                "label": "A.6c Certificate of Approved VMGO 2014- 2018 (1).pdf",
-                "href": "https://drive.google.com/file/d/1UmM-jP_seWl8legWRtp1fHwOtHch9b31/view?usp=sharing",
-                "text": "A.6c Certificate of Approved VMGO 2014- 2018 (1).pdf"
-              },
-              {
-                "label": "A.6c Certificate of Approved VMGO 2014- 2018.pdf",
-                "href": "https://drive.google.com/file/d/1CW4qL-j_Vq_7V8Qm7c_7dlPQucf7yJNQ/view?usp=sharing",
-                "text": "A.6c Certificate of Approved VMGO 2014- 2018.pdf"
-              },
-              {
-                "label": "A.6d BOR Approving the Adoption of the Filipino Translation VMGO (for old VMGO)",
-                "href": "https://drive.google.com/file/d/115sG5csYCcPCnr4ByMoZDV7USSjdU2yy/view?usp=sharing",
-                "text": "A.6d BOR Approving the Adoption of the Filipino Translation VMGO (for old VMGO)"
-              },
-              {
-                "label": "A.6e MEMO Adoption of VMGO (For old VMGO)",
-                "href": "https://drive.google.com/file/d/1csbY9RYfDdHwChKObGEo0UwHAHIsbQY6/view?usp=sharing",
-                "text": "A.6e MEMO Adoption of VMGO (For old VMGO)"
-              },
-              {
-                "label": "A.6f Documents VMGO Filipino Translation (for OLD VMGO)",
-                "href": "https://drive.google.com/file/d/1s5XZd5MvSk9E58nklIKaknFVcATvUPzB/view?usp=sharing",
-                "text": "A.6f Documents VMGO Filipino Translation (for OLD VMGO)"
-              }
-            ],
-            "hrefs": [
-              "https://drive.google.com/file/d/1u45OjNB-BlPcKU8FK-wxy03UhBSwsv-w/view?usp=sharing",
-              "https://drive.google.com/file/d/1u45OjNB-BlPcKU8FK-wxy03UhBSwsv-w/view?usp=sharing",
-              "https://drive.google.com/file/d/1UmM-jP_seWl8legWRtp1fHwOtHch9b31/view?usp=sharing",
-              "https://drive.google.com/file/d/1CW4qL-j_Vq_7V8Qm7c_7dlPQucf7yJNQ/view?usp=sharing",
-              "https://drive.google.com/file/d/115sG5csYCcPCnr4ByMoZDV7USSjdU2yy/view?usp=sharing",
-              "https://drive.google.com/file/d/1csbY9RYfDdHwChKObGEo0UwHAHIsbQY6/view?usp=sharing",
-              "https://drive.google.com/file/d/1s5XZd5MvSk9E58nklIKaknFVcATvUPzB/view?usp=sharing"
-            ]
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/statement-of-vision-mission-and-objectives/a-6-minutes-of-meetings-on-the-formulation-review-and-revision-of-the-vmgo?authuser=0",
+            "text": "Minutes of Meetings on the formulation, review and revision of the VMGO"
           },
           {
             "label": "A.7 File Copies of Letters of Invitation to Participants",
-            "href": "https://drive.google.com/file/d/11Ni9clvpqMFn-UzYnNT9vZnH6hM0hwHM/view?usp=sharing",
-            "text": "A.7 File Copies of Letters of Invitation to Participants"
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/statement-of-vision-mission-and-objectives/a-7-file-copies-of-letters-of-invitation-to-participants?authuser=0",
+            "text": "File Copies of Letters of Invitation to Participants"
           },
           {
             "label": "A.8 Attendance Record of Stakeholder-Participants",
-            "hrefs": [
-              "https://drive.google.com/file/d/1_A5LNvp1nKWaSIohGVOfKSa0ZTqgxQbd/view?usp=sharing",
-              "https://drive.google.com/file/d/1C8vT_xV54Roxc0-HQXP8YVDI8Ag9dlQU/view?usp=sharing",
-              "https://drive.google.com/file/d/1maAVIdyPF8t_JDctHFg-vsXa3oFMo2Os/view?usp=sharing",
-              "https://drive.google.com/file/d/1z4jg6Y7lYSfGeosuHq_9_VcWykNg9puh/view?usp=sharing"
-            ]
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/statement-of-vision-mission-and-objectives/a-8-attendance-record-of-stakeholder-participants?authuser=0",
+            "text": "Attendance Record of Stakeholder-Participants"
           },
           {
-            "label": "A.9 Copies of CMOs relevant to VMGO formulation, if any.",
-            "href": "https://drive.google.com/file/d/104mIErJaz9kJM3CCi8pV1nYg9jgoQc_0/view",
-            "text": "A.9 Copies of CMOs relevant to VMGO formulation, if any."
+            "label": "A.9 Copies of CMOs relevant to VMGO formulation, if any",
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/statement-of-vision-mission-and-objectives/a-9-copies-of-cmos-relevant-to-vmgo-formulation-if-any?authuser=0",
+            "text": "Copies of CMOs relevant to VMGO formulation, if any"
           }
         ]
       },
@@ -164,39 +100,44 @@ export const areas = [
         "items": [
           {
             "label": "B.1 Display boards on which the VMGO are posted",
-            "hrefs": [
-              "https://drive.google.com/file/d/1ZdBJ6ULJj5TwHr3YqQSaqSi__GYDAyY0/view?usp=drive_link",
-              "https://drive.google.com/file/d/1_2FQqFuK2gxn-v0ugxmfTL8ulIW1_poW/view?usp=sharing"
-            ]
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/dissemination-and-acceptability/b-1-display-boards-on-which-the-vmgo-are-posted?authuser=0",
+            "text": "Display boards on which the VMGO are posted"
           },
           {
             "label": "B.2 Samples of dissemination materials (brochures, leaflets, flyers, etc)",
-            "hrefs": [
-              "https://drive.google.com/file/d/13tNCXGVuE3N281HXvDfmV_hyTwsk4ka-/view?usp=sharing",
-              "https://drive.google.com/file/d/10vJf0qMSdj7NCWRNKiKB9cdUDDK9VpJm/view?usp=sharing",
-              "https://drive.google.com/file/d/1CCufur5cHgtAgv7FkCflA80FyU4pgzbE/view?usp=sharing",
-              "https://drive.google.com/file/d/1788TxZx898XiUm0-nk2KuipMoMMrBMc8/view?usp=sharing"
-            ]
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/dissemination-and-acceptability/b-2-samples-of-dissemination-materials-brochures-leaflets-flyers-etc?authuser=0",
+            "text": "Samples of dissemination materials (brochures, leaflets, flyers, etc)"
           },
           {
-            "label": "B.3. Evidence-s of awareness and acceptability of the VMGO",
-            "href": "https://drive.google.com/file/d/1uX9356mp7aYBwUdX0DOcSb25ZfkFSmru/view?usp=sharing"
-          },          {
-            "label": "C.2 Awards-citations received by the program under survey"
+            "label": "B.3 Evidence of awareness and acceptability of the VMGO",
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/dissemination-and-acceptability/b-3-evidence-s-of-awareness-and-acceptability-of-the-vmgo?authuser=0",
+            "text": "Evidence of awareness and acceptability of the VMGO"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "title": "Congruence and Implementation",
+        "items": [
+          {
+            "label": "C.1 Evidences of congruence between educational practices-activities and the VMGO.",
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/congruence-and-implementation/c-1-evidences-of-congruence-between-educational-practices-activities?authuser=0",
+            "text": "Evidences of congruence between educational practices-activities and the VMGO."
+          },
+          {
+            "label": "C.2 Awards-citations received by the program under survey",
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/congruence-and-implementation/c-2-awards-citations-received-by-the-program-under-survey?authuser=0",
+            "text": "Awards-citations received by the program under survey"
           },
           {
             "label": "C.3 List of linkages, consortia and networking",
-            "hrefs": [
-              "https://drive.google.com/file/d/1T5yXf6BwhTzkWG9iWqmM5Fq9mik8d2sj/view?usp=sharing",
-              "https://drive.google.com/file/d/1JdOWttqPw0LGtGEad4tHKTxvj2T9B_PZ/view?usp=sharing",
-              "https://drive.google.com/file/d/1RFES5dVMyUn6A2OhtEqhuO_onkhbStMr/view?usp=sharing",
-              "https://drive.google.com/file/d/1hVYEF5Q4xiVlaaW1tpEYTebBYM3DRseF/view?usp=sharing",
-              "https://drive.google.com/file/d/1WtkVKHtVJ7buB6_ChPOZpVr9bF3xyWNU/view?usp=sharing",
-              "https://drive.google.com/file/d/1kq5Fr7TeyA5NHZ3UP3j4D6GYLFoHbi7N/view?usp=sharing"
-            ]
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/congruence-and-implementation/c-3-list-of-linkages-consortia-and-networking?authuser=0",
+            "text": "List of linkages, consortia and networking"
           },
           {
-            "label": "C.4 Data on employability of graduates"
+            "label": "C.4 Data on employability of graduates",
+            "href": "https://sites.google.com/g.batstate-u.edu.ph/bsautomotiveengineering/area-i/congruence-and-implementation/c-4-data-on-employability-of-graduates?authuser=0",
+            "text": "Data on employability of graduates"
           }
         ]
       }
