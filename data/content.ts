@@ -626,10 +626,28 @@ export const areas = [
             "text": "A.2 CHED Policies and Standards, CMOs, where applicable."
           },
           {
-            "label": "A.3. Copies of MOA or MOU with agencies/institutions regarding immersion, OJT, RLE, Practice Teaching and other related activities."
+            "label": "A.3. Copies of MOA or MOU with agencies/institutions regarding immersion, OJT, RLE, Practice Teaching and other related activities.",
+            "hrefs": [
+              "https://drive.google.com/file/d/1xi1PoOcuu5Bq90lR5o1C6MFgE8oqb-5t/view?usp=sharing",
+              "https://drive.google.com/file/d/1DCGuvzR4S_9DZdsfron9OceIwcQZoisp/view?usp=drivesdk",
+              "https://drive.google.com/file/d/1tZhSAjTNrl6yj3RTi6tKB3Ar-Q5rZ58L/view?usp=drivesdk"
+            ],
+            "texts": [
+              "Suitability Analysis for Urban Bicycle Tourism of Iloilo City Using GIS",
+              "Notarized Copy of MOA - City Govt. of Batangas - CEO",
+              "Notarized Copy of MOA - City Assessor's Office"
+            ]
           },
           {
-            "label": "A.4. Minutes of the Academic Council meetings."
+            "label": "A.4. Minutes of the Academic Council meetings.",
+            "hrefs": [
+              "https://drive.google.com/file/d/1kQ4PIi8_iRawk0Aq67YUTKg-kTLwucrc/view?usp=sharing",
+              "https://drive.google.com/file/d/1DwwhXcir9qG6f7R9xNRJmJZcn4984Iaq/view?usp=sharing"
+            ],
+            "texts": [
+              "BS Geodetic Engineering",
+              "Resolution No. 0404-01 S 2025"
+            ]
           },
           {
             "label": "A.5. Policies on curriculum development/review.",
@@ -637,7 +655,19 @@ export const areas = [
             "text": "A.5. Policies on curriculum development/review."
           },
           {
-            "label": "A.6. Policies on validation of subjects taken by transferees, and accommodation of students with special needs."
+            "label": "A.6. Policies on validation of subjects taken by transferees, and accommodation of students with special needs.",
+            "hrefs": [
+              "https://drive.google.com/file/d/1gLx14v-z1yEU0udr6Ug7a-_xS3NLW8l8/view?usp=sharing",
+              "https://drive.google.com/file/d/1sPvuDjU8IXpjQQF18PItCf-zN7yL3ymC/view?usp=sharing",
+              "https://drive.google.com/file/d/1pf3TFMMw75F0fIUWVKcoW8qt2ZfTFxpY/view?usp=sharing",
+              "https://drive.google.com/file/d/1X-vTUAwf4h6puo61EYUEfu7dNKjyTyCZ/view?usp=sharing"
+            ],
+            "texts": [
+              "Memorandum No.32 Policies on Shifters and Transferees",
+              "BatStateU-FO-REG-12 Application Form for Shifter, Transferee",
+              "Policies for Students with Special Needs",
+              "BatStateU-WI-REG-03 Rev 01 (Evaluation of Student Transferees, Shifters and Returnees)"
+            ]
           }
         ]
       },
