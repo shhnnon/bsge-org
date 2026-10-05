@@ -492,7 +492,57 @@ export const areas = [  {
         "title": "Professional Performance and Scholarly Works",
         "items": [
           {
-            "label": "F.1. Updated course syllabi of individual faculty."
+            "label": "F.1. Updated course syllabi of individual faculty.",
+            "children": [
+              {
+                "label": "[ENGG 101] Introduction to Engineering",
+                "href": "https://drive.google.com/file/d/1JtkHSH94SeD33ptpg9ooReo8q5bAd1yu/preview"
+              },
+              {
+                "label": "[ENGG 103] Computer-Aided Design",
+                "href": "https://drive.google.com/file/d/1gKccUPvnmeYBYyTv92tE-DA8cUabJQgQ/preview"
+              },
+              {
+                "label": "[ENGG 109] Engineering Mechanics",
+                "href": "https://drive.google.com/file/d/1BmDv8AxrLWBUmEiVD-biqFsXXYsXYeZr/preview"
+              },
+              {
+                "label": "[ENGG 404] Engineering Economics",
+                "href": "https://drive.google.com/file/d/13ZPiQ2mYSU2mYVq7Z8IJIP_J-4h_X2PW/preview"
+              },
+              {
+                "label": "[ENGG 416] Research Methods",
+                "href": "https://drive.google.com/file/d/1vi6fHu8c7Y9tl9tcIkb-qMWOFlxyNLqs/preview"
+              },
+              {
+                "label": "[GE 202] General Surveying 1",
+                "href": "https://drive.google.com/file/d/1cnV6yxXtw37ETvl-2nZo4x1uNMNdS1hw/preview"
+              },
+              {
+                "label": "[GE 411] Geodetic Engineering Laws, Obligations and Contracts, Ethics",
+                "href": "https://drive.google.com/file/d/1UbiGKDLJKNSkudy8b96es8ApERJB0sTW/preview"
+              },
+              {
+                "label": "[GE 413] Satellite Geodesy",
+                "href": "https://drive.google.com/file/d/1ptay6ECT3C1Pp9WTtYy-1gGiGmSK_ZIl/preview"
+              },
+              {
+                "label": "[GE 414] Geodetic Surveying",
+                "href": "https://drive.google.com/file/d/16hi4hQc1gw4b3IDauWGXFFOpx4YUWeIK/preview"
+              },
+              {
+                "label": "[GeoE 206] Principles of Geology",
+                "href": "https://drive.google.com/file/d/194V4uGc4mmlotob5-dIARf0FyGV4A4_/preview"
+              },
+              {
+                "label": "[MATH 101] Differential Calculus",
+                "href": "https://drive.google.com/file/d/194V4uGc4mmlotob5-dIARf0FyGV4A4_/preview"
+              },
+              {
+                "label": "[SCI 405] Geology",
+                "href": "https://drive.google.com/file/d/1zOPQx6TWvkjU7PqaCK0v2jfVdl5x7esy/preview"
+              }
+            ]
           },
           {
             "label": "F.2. Samples of instructional materials developed and produced by the faculty (workbook, manual, module, ICT materials etc.)",
@@ -512,7 +562,21 @@ export const areas = [  {
             ]
           },
           {
-            "label": "F.4. Faculty who served as lecturer, resource person, consultant in his/her field of specialization as well as in allied disciplines."
+            "label": "F.4. Faculty who served as lecturer, resource person, consultant in his/her field of specialization as well as in allied disciplines.",
+            "children": [
+              {
+                "label": "Engr. Molly - Project DALOY - Invitation Letter.pdf",
+                "href": "https://drive.google.com/file/d/1QZHLlhgXtZW2D6KEnUB5hWjWC0OqDPN4/preview"
+              },
+              {
+                "label": "Engr. Molly Invitation Letter",
+                "href": "https://drive.google.com/file/d/1M4cMDacqzvcR4Bye8Jz6_J1JdlWbqA1n/preview"
+              },
+              {
+                "label": "Project DALOY Certificate",
+                "href": "https://drive.google.com/file/d/1vX6TkUUMBVzWdgpKyafSsLjchp6Cp9w_/preview"
+              }
+            ]
           },
           {
             "label": "F.5. List of publications where faculty outputs are published."
