@@ -1153,249 +1153,175 @@ export const areas = [
         "items": [
           {
             "label": "D.1. Copies of the Health Services Program.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1iWRK60QLWFB34-5gaNp2hWrV6zsiAGO6?usp=drive_link",
-                "text": "Google Drive folder"
-              }
+            "hrefs": [
+              "https://drive.google.com/file/d/1vMAgF6FzUytqbYVWRL0byUGtxT5zGSnT/view?usp=sharing",
+              "https://drive.google.com/file/d/1Thqp1ADZZLJRn_qnNVRk30sDUwIeTUIm/view?usp=sharing",
+              "https://drive.google.com/file/d/1tiQMOT2AfeCSfmR5zOnRhELExthtzJti/view?usp=sharing",
+              "https://drive.google.com/file/d/151XNHKEi6gAjwH8xsOeU-iiN9D27cnIt/view?usp=sharing"
             ],
-            "href": "https://drive.google.com/drive/folders/1iWRK60QLWFB34-5gaNp2hWrV6zsiAGO6?usp=drive_link"
+            "texts": [
+              "2023 Health and Wellness Program",
+              "2024 Health and Wellness Program",
+              "Health and Safety Report 2025",
+              "2026 Health and Wellness Program"
+            ]
           },
           {
             "label": "D.2. Profile of the Medical/Dental Staff.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1nRMEFuJX54ibvNfWA-wRJ1fIWxPdXqjx?usp=drive_link",
-                "text": "Google Drive folder"
-              }
+            "hrefs": [
+              "https://drive.google.com/file/d/18naC047I-giaZivStXULtDasF9GXJHyz/view?usp=sharing",
+              "https://drive.google.com/file/d/1JPM_ahyHdES1Q38YVWUQ_aqtBlxkipP4/view?usp=sharing",
+              "https://drive.google.com/file/d/1jTS_5QFqR3NXf07MB9Mj3gC6dpLyqZDB/view?usp=sharing"
             ],
-            "href": "https://drive.google.com/drive/folders/1nRMEFuJX54ibvNfWA-wRJ1fIWxPdXqjx?usp=drive_link"
+            "texts": [
+              "Organizational Chart 2026 - 2027",
+              "PRC License",
+              "Inventory of Employee"
+            ]
           },
           {
             "label": "D.3. Records of students who availed of Medical/Dental services.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1etpoGmODR3gXwoeQgUKwCh208N8BL8T_?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1etpoGmODR3gXwoeQgUKwCh208N8BL8T_?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1Ep0Qw5N9C0zlukcydwzR4mkvRLF3S2Tu/view?usp=sharing",
+            "text": "Records of students who availed of Medical/Dental services."
           },
-          "Food Services",
           {
             "label": "D.4. Copy of sanitary permit for canteen operation.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1hbdcmmG68PMnHVwk4litwyrILqYxmG4A?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1hbdcmmG68PMnHVwk4litwyrILqYxmG4A?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1DuwTLElGOsTHfUg_LL5bb0uuzoKFukfp/view?usp=sharing",
+            "text": "Copy of sanitary permit for canteen operation."
           },
           {
             "label": "D.5. Health certificates of the canteen staff and food handlers.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1d5lUiDgO1B5z1Sl9uo1butYAoleTp9-m?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1d5lUiDgO1B5z1Sl9uo1butYAoleTp9-m?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1wyF2D4I2cBySVDF0Igi8yT-InnSzOfeo/view?usp=sharing",
+            "text": "Health certificates of the canteen staff and food handlers."
           },
-          "Sports Development Program",
           {
             "label": "D.6. Policies on the selection of athletes.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1ilJpMW1w4jHqelMsci_EhQhHJ755LyXD?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1ilJpMW1w4jHqelMsci_EhQhHJ755LyXD?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1Rgg0iF9aKtlXuDMA3TOG-DLHeeXhhZcp/view?usp=sharing",
+            "text": "Policies on the selection of athletes..pdf"
           },
           {
             "label": "D.7. Budget allocation for sports development.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1eDt9vhYLc4OrMVNTvLhnrezsCln1zW_9?usp=drive_link",
-                "text": "Google Drive folder"
-              }
+            "hrefs": [
+              "https://drive.google.com/file/d/1YQBv67P1Fv49mXEHKDdLA-INkrxXxRcY/view?usp=sharing",
+              "https://drive.google.com/file/d/1Ch-qsio66vNVzGMEAmgOPstEzIjepWH6/view?usp=sharing",
+              "https://drive.google.com/file/d/1T0pO47PJE6KxcAgjwcHBtAGJtImr1CxN/view?usp=sharing",
+              "https://drive.google.com/file/d/17G7QgX8_8SOcMMUOGjx_exb2K30BOm-u/view?usp=sharing",
+              "https://drive.google.com/file/d/1P40ZlvD7OQiE-Vw61K7EGIWZUm-6r5Bv/view?usp=sharing",
+              "https://drive.google.com/file/d/1_CNNMykg818KGQiAo-s0luc-hya3BIGA/view?usp=sharing",
+              "https://drive.google.com/file/d/1UYbn0OjLalMZAyvSiNB0inleyV9hfAws/view?usp=sharing",
+              "https://drive.google.com/file/d/1rOWbsHE4b8Yq8ss1N31QhbmUHuI-4TZg/view?usp=sharing"
             ],
-            "href": "https://drive.google.com/drive/folders/1eDt9vhYLc4OrMVNTvLhnrezsCln1zW_9?usp=drive_link"
+            "texts": [
+              "PRE FY 2022.pdf",
+              "PRE FY 2023",
+              "PRE FY 2024",
+              "PRE FY 2025",
+              "PRE FY 2026",
+              "Approve-BUSCAA26",
+              "Approve-Req-UCCL 20th",
+              "Uwide2026"
+            ]
           },
           {
             "label": "D.8. Inventory of facilities, equipment, supplies and materials provided to the Sports Services Unit.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1ZMPLnM-EJV7or7zBSY5zo0w1y6FQaY7s?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1ZMPLnM-EJV7or7zBSY5zo0w1y6FQaY7s?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1PmxJ75jF1x5N7na36OsiiEn3o6xuGL9p/view?usp=sharing"
           },
           {
             "label": "D.9. Evidence of monitoring and evaluation of sports activities.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/11xSI7UEaBNCZ1A6w3FMNruXKBVprnARx?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/11xSI7UEaBNCZ1A6w3FMNruXKBVprnARx?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1gyZN6uHSCFyu4TYd-RWZBh67m6XfOw1z/view?usp=sharing"
           },
           {
             "label": "D.10. Policies governing student publication.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1iR3CTUyIz_SRZds9aCAQMKEOi5e_z99H?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1iR3CTUyIz_SRZds9aCAQMKEOi5e_z99H?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1n2pEjDmdsdjViyWLbiM2KxrUrM4I2p7r/view?usp=sharing"
           },
           {
             "label": "D.11. Composition of the Editorial Board, including advisers.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1QvC29Jhby5K2USLsBfTey4iQmmP0rnC6?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1QvC29Jhby5K2USLsBfTey4iQmmP0rnC6?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1i9Qbup9Q-XPalBVDyC3o8W2XsX076b10/view?usp=sharing"
           },
           {
             "label": "D.12. Copies of the school paper published.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1DSAaUV8I8Gt28fHQ5DD52pwZJxN1RG6I?usp=drive_link",
-                "text": "Google Drive folder"
-              }
+            "hrefs": [
+              "https://drive.google.com/file/d/12eOvHKAQdH6OYl7KwETrZ-sA5z2RsseX/view?usp=sharing",
+              "https://drive.google.com/file/d/1sKCFp5kOszZC6aIYSL4ix_FhIS57Mp6e/view?usp=sharing",
+              "https://drive.google.com/file/d/1HZeQc_mAyYQHyKw6AWGVE_7z_GZXhmOi/view?usp=sharing"
             ],
-            "href": "https://drive.google.com/drive/folders/1DSAaUV8I8Gt28fHQ5DD52pwZJxN1RG6I?usp=drive_link"
+            "texts": [
+              "Copy of The Axis Magazine AY 2023-2024",
+              "Copy of The Axis Publication August 2024 - March 2025",
+              "Copy of The Axis Tabloid August 2022 - December 2022"
+            ]
           },
           {
             "label": "D.13. Profile of the school paper's advisers.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1XHvbioAqIEILTWb1CJGSODlnkJU9c0qu?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1XHvbioAqIEILTWb1CJGSODlnkJU9c0qu?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1VLFv0Nsl2uGehLEl07k9veUik3hGmoKl&usp=drive_copy",
+            "text": "Profile of the school paper's adviser"
           },
           {
             "label": "D.14. Inventory of facilities, equipment, supplies and materials for the Student Publication Unit.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1zUjgliHcL7TRQn_oBmgmJ5hFvUDNfhLy?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1zUjgliHcL7TRQn_oBmgmJ5hFvUDNfhLy?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1KFocGZP_EAkom6d1C5rQ8qta9g2hWqJ-&usp=drive_copy",
+            "text": "Inventory of facilities, equipment, supplies and materials for the Student Publication Unit.pdf"
           },
-          "Socio-Cultural Development Program",
           {
             "label": "D.15. A copy of the Socio-Cultural Development Program.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1CUL6s_IeSs_VIaBp-087kmYIY_IOO7uM?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1CUL6s_IeSs_VIaBp-087kmYIY_IOO7uM?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1znmqOpL4evRZsNkf3kdmm8a7hssRlnl4&usp=drive_copy",
+            "text": "A copy of the Socio-Cultural Development Program"
           },
           {
             "label": "D.16. Schedule of socio-cultural activities regularly conducted.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1-Flvi1bmNJ1IGUa0_mt8wn69yvcpQZrD?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1-Flvi1bmNJ1IGUa0_mt8wn69yvcpQZrD?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1NkjSUaFmNIgnSJUioNp9WJ0kEbbvfTBW&usp=drive_copy",
+            "text": "Schedule of socio-cultural activities regularly conducted"
           },
           {
             "label": "D.17. Copy of the financial assistance program (scholarship, grant-in-aid, student loans, attendance to seminars, etc.)",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1_ZmoZ3bZ0z8MjiEsZP5xqZe4Vh0Va6iH?usp=drive_link",
-                "text": "Google Drive folder"
-              }
+            "hrefs": [
+              "https://drive.google.com/open?id=1LLNIoASmNzN3XK3AfcQAxrMI2GSoq1D0&usp=drive_copy",
+              "https://drive.google.com/open?id=1CUr5d6_G-cckim5MOyb7ky1m2R8kU-pc&usp=drive_copy",
+              "https://drive.google.com/open?id=1fzKYeVMw_Pw-wzYvgZBX_E_MvS1HopCj&usp=drive_copy"
             ],
-            "href": "https://drive.google.com/drive/folders/1_ZmoZ3bZ0z8MjiEsZP5xqZe4Vh0Va6iH?usp=drive_link"
+            "texts": [
+              "GUIDELINES FOR SCHOLARSHIP AND FINANCIAL ASSISTANCE OF BATANGAS STATE UNIVERSITY",
+              "Guidelines for Scholarship and Financial Assistance of Batangas State University",
+              "DOST INTERNAL AUDIT"
+            ]
           },
           {
             "label": "D.18. List of incentives and privileges to varsity athletes and members of cultural groups.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1_ZmoZ3bZ0z8MjiEsZP5xqZe4Vh0Va6iH?usp=drive_link",
-                "text": "Google Drive folder"
-              }
+            "hrefs": [
+              "https://drive.google.com/open?id=17ShZKnwIRI1sYMD480k4Et8RTbT8k3V0&usp=drive_copy",
+              "https://drive.google.com/open?id=1Zd-dtv9yAf5Tt0oUOjqvAf8RZHff08Ih&usp=drive_copy",
+              "https://drive.google.com/open?id=14xn5-0YP6-iwouwsmCR9-iuiN75H4gNi&usp=drive_copy"
             ],
-            "href": "https://drive.google.com/drive/folders/1pd-_pFh71ikdwEhJ6Zy7Facove5Y2eb3?usp=drive_link"
+            "texts": [
+              "Bantog Endorsement Alangilan",
+              "Pathfit & Stipend incentive 2025",
+              "Pathfit & Stipend incentive 2026"
+            ]
           },
-          "Housing Services (Optional)",
           {
             "label": "D.19. Policies on the operation of Student Dormitories.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1bvzok9B3_W49bs5C0DzFb2OZkE9hiK2a?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1bvzok9B3_W49bs5C0DzFb2OZkE9hiK2a?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1Eih5uU4C21_h9mUMlOfa5hIlZbyFFyYT&usp=drive_copy",
+            "text": "Policies on the operation of Student Dormitories"
           },
           {
             "label": "D.20. Profile of the Dormitory Head and Staff.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/13yi4AJlMi1eoVYxbHrHjqEQ6X4fRtDp8?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/13yi4AJlMi1eoVYxbHrHjqEQ6X4fRtDp8?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1sRfD1kgYNU_g0ukUjyXZ_JPmWv5sqg0I&usp=drive_copy",
+            "text": "Profile of the Dormitory Head and Staff"
           },
           {
             "label": "D.21. Copy of Dormitory rules and regulations.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1xukukgJL3qzRoflwPDol_cJ3_JsEu_4H?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1xukukgJL3qzRoflwPDol_cJ3_JsEu_4H?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1jfB9IIf6m2jsD4Ge7aNTEcgYDf60ZBnH&usp=drive_copy",
+            "text": "Copy of Dormitory Rules and Regulations"
           },
           {
             "label": "D.22. Report on the monitoring and evaluation of private boarding houses.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1fTAhV_zypeUlrLe8SBWkn3KqRHmibcOi?usp=drive_link",
-                "text": "Google Drive folder"
-              }
+            "hrefs": [
+              "https://drive.google.com/open?id=1ROhUdR3lTSH97Qq_YwvSzHRCrBkniAW1&usp=drive_copy",
+              "https://drive.google.com/open?id=1HpH3A78cz-wfJoJXCLu-32jCXamcqZEm&usp=drive_copy"
             ],
-            "href": "https://drive.google.com/drive/folders/1fTAhV_zypeUlrLe8SBWkn3KqRHmibcOi?usp=drive_link"
+            "texts": [
+              "Report on the monitoring and evaluation of private boarding houses",
+              "Survey Questionnaire for the monitoring and evaluation of Private Boarding Houses"
+            ]
           }
         ]
       },
