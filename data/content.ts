@@ -2596,7 +2596,7 @@ export const areas = [  {
             "label": "B.1 Educational profile and functions of the academic administration",
             "hrefs": [
               "https://drive.google.com/file/d/1mtAl72HZYb-NNBZpvMpn0nr6tYMaehMO/preview",
-              "https://drive.google.com/file/d/1R6tyZVxMASGK6Yi4dYX_ZGVye9Nmva2E/preview",
+              "https://drive.google.com/file/d/1R6tyZVxMASGK6Yi4dYX_ZGVye9Nmva2V/preview",
               "https://drive.google.com/file/d/1LShCvJd5Xcx1GkgbyVVtlu0Wz8q-lwZW/preview",
               "https://drive.google.com/file/d/1-6_65PzloFeCwHKQ-wlJxhcKf4MvMGIi/preview",
               "https://drive.google.com/file/d/1Q2BRKyaoOC9Zi_7jO62n3Tk6n3pajtkd/preview"
