@@ -365,7 +365,13 @@ export const areas = [
               "Faculty Loadings CoE-UG Second Semester AY 2023 - 2024",
               "Faculty Loadings CoE-UG First Semester AY 2025 - 2026"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "letter": "D",
+        "title": "Rank and Tenure",
+        "items": [
           {
             "label": "D.1. Policies on rank and tenure, including pertinent Board resolutions.",
             "href": "https://drive.google.com/file/d/1qbLWfOGyy7jf5RQdXy7Fomrt7NuXpDwG/view?usp=sharing"
@@ -401,7 +407,13 @@ export const areas = [
                 "text": "Faculty Matrix AY 2026 - 2027"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "letter": "E",
+        "title": "Faculty Development",
+        "items": [
           {
             "label": "E.1. Copy of the Faculty Development Program.",
             "href": "https://drive.google.com/file/d/1T_8THzg-ElR57p1HMBryRQpuDXvkIj7K/view?usp=sharing"
