@@ -1971,15 +1971,23 @@ export const areas = [  {
         "items": [
           {
             "label": "A.1. Site Development Plan/Physical Plant Map displayed prominently in the campus.",
-            "href": "https://drive.google.com/drive/folders/1C7UiA9u_DEWfjVFbsp3Ub0K7zPZFksDv?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=122NZRwc3yWwqqTqMnhKRwWwK-vjEyetC&usp=drive_copy"
+            ]
           },
           {
             "label": "A.2. Evidence of land ownership.",
-            "href": "https://drive.google.com/drive/folders/143q2dj0v-mWaouVA8mLMYGBnhYYzfI2Q?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1T7Cxb7-_k8TSf4fl7w8RMkCMcbVWRc2K&usp=drive_copy",
+              "https://drive.google.com/open?id=1bSE7W8wDrBaA6hpzw8U0Nmr8mOwZr8LH&usp=drive_copy",
+              "https://drive.google.com/open?id=1cmbpPOHZu8rdM7bGEtcjXvdGSj7h5s3R&usp=drive_copy"
+            ]
           },
           {
             "label": "A.3. Vicinity Map",
-            "href": "https://drive.google.com/drive/folders/1A0cqjy0533J2w5349RA3sXOPaKVZ3AkP?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1w0s9s6T0Wij39ldXuusz-qg064YGABRA&usp=drive_copy"
+            ]
           }
         ]
       },
@@ -1989,31 +1997,101 @@ export const areas = [  {
         "items": [
           {
             "label": "B.1. A copy of the Campus Development Plan",
-            "href": "https://drive.google.com/drive/folders/1G6UAaRq8NxUjwrJEtYaslXmAXS3M8Neg?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=14tYroHow1NT2LTVTcQgYqPon4u4SWlqX&usp=drive_copy"
+            ]
           },
           {
-            "label": "B.2. Description of a mechanism to ensure the following:",
-            "href": "https://drive.google.com/drive/folders/1HA5ZOhKnnnYi7fiTus7jka2lrl_SN19u?usp=drive_link"
+            "label": "B.2.1. Description of a mechanism to ensure the traffic safety in and out of the campus",
+            "hrefs": [
+              "https://drive.google.com/open?id=1l8bnNrXZmZDVXdvhnylGMUT6am1OmIz9&usp=drive_copy"
+            ]
           },
           {
-            "label": "B.2. 1.** Traffic safety in and out of the campus;",
-            "href": "https://drive.google.com/drive/folders/1HA5ZOhKnnnYi7fiTus7jka2lrl_SN19u?usp=drive_link"
+            "label": "B.2.2. Description of a mechanism to ensure the waste management",
+            "children": [
+              {
+                "label": "EMU & SDO Advisory No. 2 - GUIDELINES FOR WASTE MANAGEMENT",
+                "href": "https://drive.google.com/open?id=1Re9i1mn46KhPdBZRLs-DdyrefUeW_EiL&usp=drive_copy",
+                "text": "EMU & SDO Advisory No. 2 - GUIDELINES FOR WASTE MANAGEMENT"
+              }
+            ],
+            "hrefs": [
+              "https://drive.google.com/open?id=1oOAsUFWNZMHO4-1685oT4lsvPpmm6ONJ&usp=drive_copy",
+              "https://drive.google.com/open?id=1c5ZdFOMy3_w3erB5WMjSNdgKInHPQRez&usp=drive_copy",
+              "https://drive.google.com/open?id=1Cjdogvl0JTIVxrHfGOv-v5GyeKnNFc8L&usp=drive_copy"
+            ]
           },
           {
-            "label": "B.2. 2.** Waste management;",
-            "href": "https://drive.google.com/drive/folders/1Hysax3fN7vPfYK6JT_11Wj5E9om2MaSx?usp=drive_link"
+            "label": "B.2.3. Description of a mechanism to ensure the maintenance, repair and upkeep of property",
+            "children": [
+              {
+                "label": "Preventive Maintenance Checklist",
+                "href": "https://drive.google.com/open?id=10xbpD6pTH_scn0UyRhO0v9DR8SVkymwO&usp=drive_copy",
+                "text": "Preventive Maintenance Checklist"
+              },
+              {
+                "label": "Work Request for Corrective Maintenance and Repair",
+                "href": "https://drive.google.com/open?id=1NrwHMzuB7Vvn_EuLtsEyFLd_vFT2jast&usp=drive_copy",
+                "text": "Work Request for Corrective Maintenance and Repair"
+              },
+              {
+                "label": "PFMO ORG CHART UPDATED 2026",
+                "href": "https://drive.google.com/open?id=1vtKv_o51vI7bVtIqTlLONt8lDERhPH04&usp=drive_copy",
+                "text": "PFMO ORG CHART UPDATED 2026"
+              },
+              {
+                "label": "Signatories for Preventive Maintenance Plan",
+                "href": "https://drive.google.com/open?id=1oHuxxZga8yppRpzFcD0RRjy2KT0FL4SP&usp=drive_copy",
+                "text": "Signatories for Preventive Maintenance Plan"
+              }
+            ],
+            "hrefs": [
+              "https://drive.google.com/open?id=1m5jWY5KkjAxzHh07SDr3xOKnqIBHjV_O&usp=drive_copy"
+            ]
           },
           {
-            "label": "B.2. 3.** Maintenance, repair and upkeep of property;",
-            "href": "https://drive.google.com/drive/folders/1ND-MDkJvsw8LiCbuMpHg5R5N66E7aCbJ?usp=drive_link"
+            "label": "B.2.4. Description of a mechanism to ensure the cleanliness and orderliness in the campus",
+            "children": [
+              {
+                "label": "Cleaning Task",
+                "href": "https://drive.google.com/open?id=16mu_A-obDOgK8cGOuQumiv2cwWshmVB5&usp=drive_copy",
+                "text": "Cleaning Task"
+              },
+              {
+                "label": "CLEANLINESS AND ORDERLINESS ASSESSMENT FORM",
+                "href": "https://drive.google.com/open?id=1TZX0R59YqVaJQsjOd26AxuB_8BkR8yVH&usp=drive_copy",
+                "text": "CLEANLINESS AND ORDERLINESS ASSESSMENT FORM"
+              },
+              {
+                "label": "CLEANLINESS ORDERLINESS EVALUATION RESULT",
+                "href": "https://drive.google.com/open?id=1ynIyg_01UWLp1Bz5eDn1WqUILunsaJkD&usp=drive_copy",
+                "text": "CLEANLINESS ORDERLINESS EVALUATION RESULT"
+              },
+              {
+                "label": "DUTIES ADMIN-AIDE-I",
+                "href": "https://drive.google.com/open?id=1rhwnsHBDbaPdhTcjpi9nmq-SH7DzIKS1&usp=drive_copy",
+                "text": "DUTIES ADMIN-AIDE-I"
+              },
+              {
+                "label": "DUTIES ADMIN-AIDE-II",
+                "href": "https://drive.google.com/open?id=1xjU_YfgkZkm_fYyKNKO55273icPEBvTD&usp=drive_copy",
+                "text": "DUTIES ADMIN-AIDE-II"
+              },
+              {
+                "label": "GSO FUNCTIONAL CHART 2026",
+                "href": "https://drive.google.com/open?id=1-0q5STEHAnA2dp3Dklr_aDlI3dmw-_Oe&usp=drive_copy",
+                "text": "GSO FUNCTIONAL CHART 2026"
+              },
+              {
+                "label": "TEMPORARY SCHED SEPTEMBER 16-30, 2026",
+                "href": "https://drive.google.com/open?id=1AAj54VchhRd7XcT_oqWVaQX9HhwqYE_1&usp=drive_copy",
+                "text": "TEMPORARY SCHED SEPTEMBER 16-30, 2026"
+              }
+            ]
           },
           {
-            "label": "B.2. 4.** Cleanliness and orderliness in the campus; and",
-            "href": "https://drive.google.com/drive/folders/1UuSjc8cBk1N7gDNg5sjxqQPocTeSveNd?usp=drive_link"
-          },
-          {
-            "label": "B.2. 5.** Security of the academic community inside the campus.",
-            "href": "https://drive.google.com/drive/folders/1hEnQpTsfO6kyB0dAhpoFuhLxDyFImAzy?usp=drive_link"
+            "label": "B.2.5. Description of a mechanism to ensure the security of the academic community inside the campus"
           }
         ]
       },
@@ -2022,20 +2100,139 @@ export const areas = [  {
         "title": "Buildings",
         "items": [
           {
-            "label": "C.1. Approved building plan, showing the location of the different buildings in the campus.",
-            "href": "https://drive.google.com/drive/folders/1oTb5LjXMfkMlklMC6S1NvX6aZOil7lFB?usp=drive_link"
+            "label": "C.1. Approved building plan, showing the location of the different buildings in the campus",
+            "children": [
+              {
+                "label": "FITNESS DEVELOPMENT CENTER",
+                "href": "https://drive.google.com/open?id=126wOiMxyFVzjDWjr6tiNUqTnPhIkpXkY&usp=drive_copy",
+                "text": "FITNESS DEVELOPMENT CENTER"
+              },
+              {
+                "label": "STEERHUB",
+                "href": "https://drive.google.com/open?id=1d-HLAedE_5jiMn-3_e_44EtPXmNqcXeV&usp=drive_copy",
+                "text": "STEERHUB"
+              },
+              {
+                "label": "CEAFA Building Plan",
+                "href": "https://drive.google.com/open?id=1np7BdqCKhozKZpTFQzVF1WRUrLKYI1JQ&usp=drive_copy",
+                "text": "CEAFA Building Plan"
+              },
+              {
+                "label": "CICS Building Plan",
+                "href": "https://drive.google.com/open?id=1XGB6WYJgs2KFQTwRFP8E50wR8AOybIuC&usp=drive_copy",
+                "text": "CICS Building Plan"
+              },
+              {
+                "label": "CIT Building Plan",
+                "href": "https://drive.google.com/open?id=1dQJ8_nuwoldJ3ra6bKAH0lfWQULU_CfK&usp=drive_copy",
+                "text": "CIT Building Plan"
+              },
+              {
+                "label": "Site Development Plan",
+                "href": "https://drive.google.com/open?id=168BqL2MIyKEa1XmTH9tFkcOeX8a3Oz-3&usp=drive_copy",
+                "text": "Site Development Plan"
+              }
+            ]
           },
           {
-            "label": "C.2. Evidence that electrical lines are safely installed and periodically checked.",
-            "href": "https://drive.google.com/drive/folders/1qd0Z0PuyIc2MZlLuXgwBq9gJK-NmpmMd?usp=drive_link"
+            "label": "C.2. Evidence that electrical lines are safely installed and periodically checked",
+            "children": [
+              {
+                "label": "CEAFA",
+                "href": "https://drive.google.com/open?id=1dfvGTxBKNcBIbgInB3RjEfpJYZq1faKG&usp=drive_copy",
+                "text": "CEAFA"
+              },
+              {
+                "label": "CET",
+                "href": "https://drive.google.com/open?id=1D2_4X1ZSixOxAqv28hqe35qjxIv4OpW6&usp=drive_copy",
+                "text": "CET"
+              },
+              {
+                "label": "CICS",
+                "href": "https://drive.google.com/open?id=1H-RzDpfc1NUyvBhF00I-3iMBhaPnHSCg&usp=drive_copy",
+                "text": "CICS"
+              },
+              {
+                "label": "Electrical Inspection",
+                "href": "https://drive.google.com/open?id=1cQJKNHWzHyUhBHAQaDJEycM5fLURYZZ7&usp=drive_copy",
+                "text": "Electrical Inspection"
+              },
+              {
+                "label": "FIC",
+                "href": "https://drive.google.com/open?id=10CbjGWwCm83PS4vb6oeh9_kAs-AqcnCX&usp=drive_copy",
+                "text": "FIC"
+              },
+              {
+                "label": "Fire Safety Compliance",
+                "href": "https://drive.google.com/open?id=1GhUQRAdW2awc93rVAzgBPdf8NR5s0LGc&usp=drive_copy",
+                "text": "Fire Safety Compliance"
+              },
+              {
+                "label": "RGO",
+                "href": "https://drive.google.com/open?id=10CShcHjjtsHg8THgdiFWzxEM4K9yS2DV&usp=drive_copy",
+                "text": "RGO"
+              },
+              {
+                "label": "RGR",
+                "href": "https://drive.google.com/open?id=1AMmicvf2D9TC3pcvH8FVbAlkaXq0wzig&usp=drive_copy",
+                "text": "RGR"
+              },
+              {
+                "label": "SSC",
+                "href": "https://drive.google.com/open?id=1knFG-UBUE2_66CM1HzAjd6WyXCSZcsZp&usp=drive_copy",
+                "text": "SSC"
+              },
+              {
+                "label": "STEER HUB",
+                "href": "https://drive.google.com/open?id=1S63HaGI_KGbmy1Eyy_Jt87ESba1gHTZp&usp=drive_copy",
+                "text": "STEER HUB"
+              }
+            ]
           },
           {
-            "label": "C.3. Schedule of water potability testing and pest control inspection.",
-            "href": "https://drive.google.com/drive/folders/159EvTxuuCo9__1EMB1JMPy46DG6gnX7M?usp=drive_link"
+            "label": "C.3. Schedule of water potability testing and pest control inspection",
+            "children": [
+              {
+                "label": "CEAFA",
+                "href": "https://drive.google.com/open?id=1Yxn1ihgPtZiv_8OQkh2h22Ol9XaHH6OP&usp=drive_copy",
+                "text": "CEAFA"
+              },
+              {
+                "label": "CICS",
+                "href": "https://drive.google.com/open?id=1UpFE2ln7OrUFEjRp8jRoWQd6xLvhhUI7&usp=drive_copy",
+                "text": "CICS"
+              },
+              {
+                "label": "CIT",
+                "href": "https://drive.google.com/open?id=1KXaYxq77gaQKIIIyiBG_2Ou3fMOu-0Yx&usp=drive_copy",
+                "text": "CIT"
+              },
+              {
+                "label": "RGR",
+                "href": "https://drive.google.com/open?id=1szfDbtT206xILH-S3rWKCY6xZ7X0sDkW&usp=drive_copy",
+                "text": "RGR"
+              },
+              {
+                "label": "Water Testing Result",
+                "href": "https://drive.google.com/open?id=1SH229IRLQG5H78-IJlKm8-OYeNEyJiGj&usp=drive_copy",
+                "text": "Water Testing Result"
+              }
+            ]
           },
           {
-            "label": "C.4. PDF of the janitorial staff, including work schedule.",
-            "href": "https://drive.google.com/drive/folders/19iHYUs0ynErTpg-cwyjdbD46N3k2U-5v?usp=drive_link"
+            "label": "C.4. PDF of the janitorial staff, including work schedule",
+            "children": [
+              {
+                "label": "Janitorial General Services",
+                "href": "https://drive.google.com/open?id=1PnD7z4PLUirAfle6uGrxvkjQVsM0m5qU&usp=drive_copy",
+                "text": "Janitorial General Services"
+              },
+              {
+                "label": "Work Accomplishment",
+                "href": "https://drive.google.com/open?id=190T-aD9aT2YHZDjF_BBeZ29QdNkNLM70&usp=drive_copy",
+                "text": "Work Accomplishment"
+              }
+            ]
           }
         ]
       },
@@ -2044,12 +2241,48 @@ export const areas = [  {
         "title": "Classrooms",
         "items": [
           {
-            "label": "D.1. Number of classrooms utilized by the program under survey.",
-            "href": "https://drive.google.com/drive/folders/1FuM_CwBUkNrYpQcJvhb1L7iCHGqiEpQh?usp=drive_link"
+            "label": "D.1. Number of classrooms utilized by the program under survey",
+            "children": [
+              {
+                "label": "Availability of a stockroom",
+                "href": "https://drive.google.com/open?id=1y8lUAHnY7RnTBNkZSZ87FCOuQkiYnqkk&usp=drive_copy",
+                "text": "Availability of a stockroom"
+              },
+              {
+                "label": "Building Plans of RGR Building",
+                "href": "https://drive.google.com/open?id=1vTbNkfWMmrBm5lDGjXjTv5A6bXXvlEER&usp=drive_copy",
+                "text": "Building Plans of RGR Building"
+              },
+              {
+                "label": "Photos of Laboratory Rooms",
+                "href": "https://drive.google.com/open?id=1wRP1dBHYBHvY0Rt-FMDDd-QogXXFLVij&usp=drive_copy",
+                "text": "Photos of Laboratory Rooms"
+              },
+              {
+                "label": "Copy of the inventory of equipment, apparatuses, supplies and materials",
+                "href": "https://drive.google.com/open?id=1IAhCY2WTgb8ZIdzWUDVSQoxVYgDop6X3&usp=drive_copy",
+                "text": "Copy of the inventory of equipment, apparatuses, supplies and materials"
+              },
+              {
+                "label": "Inventory of Classrooms in Alangilan Campus",
+                "href": "https://drive.google.com/open?id=1jIeeSn7evLDEBrAwdjDjTfWnBsqGsBbt&usp=drive_copy",
+                "text": "Inventory of Classrooms in Alangilan Campus"
+              },
+              {
+                "label": "Photos of the of Laboratory equipment, gadgets, fixtures in every laboratory with labels",
+                "href": "https://drive.google.com/open?id=1BFNcDlCVfHKwG4v8J9OVlnVtnQYxGXvh&usp=drive_copy",
+                "text": "Photos of the of Laboratory equipment, gadgets, fixtures in every laboratory with labels"
+              }
+            ]
           },
           {
-            "label": "D.2. Sample of photographs of material resources inside the classrooms.",
-            "href": "https://drive.google.com/drive/folders/1GlJcR0Jg-sohmkgcQL4CEIh_8Nf1fnMQ?usp=drive_link"
+            "label": "D.2. Sample of Photographs of material resources inside the classrooms",
+            "hrefs": [
+              "https://drive.google.com/open?id=1CA-GSC8yVXRjS7KlWFOdeagknxlPMBni&usp=drive_copy",
+              "https://drive.google.com/open?id=18aNCt46xulEH_8dU15Ur4jmq5LniFWk4&usp=drive_copy",
+              "https://drive.google.com/open?id=1b814madzfC8icnHcJt5YG09II_7PB9VJ&usp=drive_copy",
+              "https://drive.google.com/open?id=1vDeMt6CWvcMHW2F6Rszr8NZWVOxqYQ8q&usp=drive_copy"
+            ]
           }
         ]
       },
@@ -2058,16 +2291,72 @@ export const areas = [  {
         "title": "Offices, Function Rooms, and Staff Rooms",
         "items": [
           {
-            "label": "E.1. Photographs of offices and function rooms."
+            "label": "E.1. Photographs of offices and function rooms.",
+            "children": [
+              {
+                "label": "Function Rooms",
+                "href": "https://drive.google.com/open?id=1MvUY7iYb8qKLC8Vk1dzs2VSLKz7sqddG&usp=drive_copy",
+                "text": "Function Rooms"
+              },
+              {
+                "label": "Offices functions rooms",
+                "href": "https://drive.google.com/open?id=127gT6PF5v3L5rqaSAzWzUznXJ74qc7Z0&usp=drive_copy",
+                "text": "Offices functions rooms"
+              }
+            ]
           },
           {
-            "label": "E.2. Inventory of equipment, amenities and supplies in function rooms and offices."
+            "label": "E.2. Inventory of equipment, amenities and supplies in function rooms and offices.",
+            "children": [
+              {
+                "label": "Function Rooms",
+                "href": "https://drive.google.com/open?id=1MvUY7iYb8qKLC8Vk1dzs2VSLKz7sqddG&usp=drive_copy",
+                "text": "Function Rooms"
+              },
+              {
+                "label": "Inventory of Function Rooms",
+                "href": "https://drive.google.com/open?id=1p8vYIaIiEUyLWpdZ72Vv4FksxWj5TGQW&usp=drive_copy",
+                "text": "Inventory of Function Rooms"
+              }
+            ]
           },
           {
-            "label": "E.3. Availability of toilets and storeroom, where needed."
+            "label": "E.3. Availability of toilets and storeroom, where needed.",
+            "children": [
+              {
+                "label": "CEAFA 1st Floor",
+                "href": "https://drive.google.com/open?id=1xa5oigr9kRaywxXLjIfMKYeSRdWNjDa9&usp=drive_copy",
+                "text": "CEAFA 1st Floor"
+              },
+              {
+                "label": "CEAFA 2nd Floor",
+                "href": "https://drive.google.com/open?id=1FgDhrF6KYhx-97PUJVupOmCJS86afwZE&usp=drive_copy",
+                "text": "CEAFA 2nd Floor"
+              },
+              {
+                "label": "CEAFA 3rd Floor",
+                "href": "https://drive.google.com/open?id=1EBrJa-J_vPaZG1_7pZWA3P9U6BWjnPbf&usp=drive_copy",
+                "text": "CEAFA 3rd Floor"
+              },
+              {
+                "label": "CEAFA 4th Floor",
+                "href": "https://drive.google.com/open?id=1p9nVAnEMy7UfgFljMZOMZF1EY9h-JDdJ&usp=drive_copy",
+                "text": "CEAFA 4th Floor"
+              },
+              {
+                "label": "CEAFA 5th Floor",
+                "href": "https://drive.google.com/open?id=18diCvWHSoaI3WraPbTZBuEeRimT07SsR&usp=drive_copy",
+                "text": "CEAFA 5th Floor"
+              },
+              {
+                "label": "Toilets per Building",
+                "href": "https://drive.google.com/open?id=1xULDDgNW9A3OqmlT5D0Op12y30eXDeO9&usp=drive_copy",
+                "text": "Toilets per Building"
+              }
+            ]
           },
           {
-            "label": "E.4. List and description of function rooms (administrative office, faculty room, faculty lounge, music room, conference hall, multi-media room, etc.)"
+            "label": "E.4. List and description of function rooms (administrative office, faculty room, faculty lounge, music room, conference hall, multimedia room, etc.)"
           },
           {
             "label": "E.5. File copies of approved requests for the use of the function rooms."
@@ -2079,16 +2368,25 @@ export const areas = [  {
         "title": "Assembly and Athletic Facilities",
         "items": [
           {
-            "label": "F.1. Lay-out of the Sports Center."
+            "label": "F.1. Lay-out of the Sports Center",
+            "hrefs": [
+              "https://drive.google.com/open?id=18HczAVXUkhMGhWq0noD3-NaJoHhGo4VQ&usp=drive_copy"
+            ]
           },
           {
-            "label": "F.2. Inventory of sports facilities."
+            "label": "F.2. Inventory of sports facilities.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1pf9nhAwbFZAonfV4aallezfN4StQh-rv&usp=drive_copy"
+            ]
           },
           {
-            "label": "F.3. List of Assembly Halls."
+            "label": "F.3. List of Assembly Halls"
           },
           {
-            "label": "F.4. Copy of rules and regulations in the use of assembly halls and sports/athletic facilities."
+            "label": "F.4. Rules and regulations in the use of assembly halls and sports/athletic facilities.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1fvoe5MKmyhchmB9M7LfeRuxdTVHU7Jzq&usp=drive_copy"
+            ]
           }
         ]
       },
@@ -2097,13 +2395,50 @@ export const areas = [  {
         "title": "Medical and Dental Clinic",
         "items": [
           {
-            "label": "G.1. Floor plan of the Medical and Dental Clinic."
+            "label": "G.1. Floor plan of the Medical and Dental Clinic",
+            "hrefs": [
+              "https://drive.google.com/open?id=1NWZfYr8lEh7SRVwfVr9fJMKHDDgcGdpO&usp=drive_copy"
+            ]
           },
           {
-            "label": "G.2. Qualification of the medical and dental staff."
+            "label": "G.2. Qualification of the medical and dental staff",
+            "children": [
+              {
+                "label": "Organizational Chart 2026-2027",
+                "href": "https://drive.google.com/open?id=1MPwff8FUoxc0PrgiSWKimNDTxxOZtXKK&usp=drive_copy",
+                "text": "Organizational Chart 2026-2027"
+              },
+              {
+                "label": "PRC License",
+                "href": "https://drive.google.com/open?id=1U04q_g64cemVGnehNjvg6DSTXBgDNRIq&usp=drive_copy",
+                "text": "PRC License"
+              },
+              {
+                "label": "Inventory of Employee",
+                "href": "https://drive.google.com/open?id=1YV1oCScSdM57Vymr5vAir-nD29i37wt0&usp=drive_copy",
+                "text": "Inventory of Employee"
+              },
+              {
+                "label": "Czarina Andrea V. Marasigan, MD - Designation",
+                "href": "https://drive.google.com/open?id=1NQHcK8wV6KIzejByo44OaSLvbiT3ZKYw&usp=drive_copy",
+                "text": "Czarina Andrea V. Marasigan, MD - Designation"
+              }
+            ]
           },
           {
-            "label": "G.3. Inventory of equipment, supplies and other material resources."
+            "label": "G.3. Inventory of equipment, supplies and other material resources",
+            "children": [
+              {
+                "label": "Dental Chairs",
+                "href": "https://drive.google.com/open?id=1B7jrpSYbAHhhGdiRSWcP0PqAhNNP6DrN&usp=drive_copy",
+                "text": "Dental Chairs"
+              },
+              {
+                "label": "Medical Equipment",
+                "href": "https://drive.google.com/open?id=1If4SdYgRhqoI0PgEv9rkGxnaFumpDP1F&usp=drive_copy",
+                "text": "Medical Equipment"
+              }
+            ]
           }
         ]
       },
@@ -2112,10 +2447,16 @@ export const areas = [  {
         "title": "Students Center",
         "items": [
           {
-            "label": "H.1. Floor Plan of the Student Center showing the location of different offices."
+            "label": "H.1. Floor Plan of the Student Center showing the location of different offices",
+            "hrefs": [
+              "https://drive.google.com/open?id=1Atq5O6q7lxQ9z23e3jysUCrFviytpa8g&usp=drive_copy"
+            ]
           },
           {
-            "label": "H.2. Inventory of equipment, furniture and amenities at the SC."
+            "label": "H.2. Inventory of equipment, furniture and amenities at the SC.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1LQ3cA_-wGdgcB9atpDGkykZKG-HysQ-L&usp=drive_copy"
+            ]
           }
         ]
       },
@@ -2124,16 +2465,28 @@ export const areas = [  {
         "title": "Food Services/Canteen",
         "items": [
           {
-            "label": "I.1. Copy of the Permit to Operate conspicuously displayed."
+            "label": "I.1. Copy of the Permit to Operate conspicuously displayed.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1_pyONqIAiK5Pj8_ZNdmOml5SVVpuRinH&usp=drive_copy"
+            ]
           },
           {
-            "label": "I.2. Display board where the food/menu for the day, including prices, is posted."
+            "label": "I.2. Display board where food/menu for the day, including prices are posted.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1-TmciSptkazmlzWFoK8v6rNsvrP5K4wT&usp=drive_copy"
+            ]
           },
           {
-            "label": "I.3. Health Certificates of Canteen Staff and food handlers."
+            "label": "I.3. Health Certificates of Canteen Staff and food handlers.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1_vKdaBBbP-j6iMpV79CAClMwHHtec1T4&usp=drive_copy"
+            ]
           },
           {
-            "label": "I.4. Inventory of equipment and furniture."
+            "label": "I.4. Inventory of equipment and furniture.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1edMb51_et8LqnDRvu1yUF-vlhAmOmpc-&usp=drive_copy"
+            ]
           }
         ]
       },
@@ -2142,7 +2495,69 @@ export const areas = [  {
         "title": "Accreditation Center",
         "items": [
           {
-            "label": "J.1. Inventory of equipment, furniture and amenities."
+            "label": "J.1. Inventory of equipment, furniture and amenities",
+            "children": [
+              {
+                "label": "Accrediation Location",
+                "href": "https://drive.google.com/open?id=1jwBbU3vbFHxA2LcQSMOGN-QPq15j4XOf&usp=drive_copy",
+                "text": "Accrediation Location"
+              },
+              {
+                "label": "Accreditation Room",
+                "href": "https://drive.google.com/open?id=1JkMtGUqvAPmKdCRtn1Eh_wKNd3eCVpbe&usp=drive_copy",
+                "text": "Accreditation Room"
+              },
+              {
+                "label": "Materials Equipment Accreditation Room",
+                "href": "https://drive.google.com/open?id=1fkAADsH6l3wNFNCNsXIpF7pzYbjPfjJt&usp=drive_copy",
+                "text": "Materials Equipment Accreditation Room"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "letter": "K",
+        "title": "Dormitories",
+        "items": [
+          {
+            "label": "K.1. Floor plan of Dormitories, showing entrance and exit points, conference hall, mess hall, Dorm Head’s office, etc."
+          },
+          {
+            "label": "K.2. Certificate of Occupancy"
+          },
+          {
+            "label": "K.3. Evidence that a maintenance system exists"
+          },
+          {
+            "label": "K.4. Requirements on admission of student, faculty and staff boarders.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1VV0iU0r9Ra4k4CTBPhEapQqV_InEzpzI&usp=drive_copy"
+            ]
+          },
+          {
+            "label": "K.5. Copy of house rules and regulations including strategies for dissemination.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1ISuusECCZDWovqS9qexfZUUQ2ntBUS-1&usp=drive_copy"
+            ]
+          },
+          {
+            "label": "K.6. List of dormitory staff and their PD",
+            "children": [
+              {
+                "label": "RGO FY 2026",
+                "href": "https://drive.google.com/open?id=1PhC60wCYzUMRWmDCy9GqMgqzurzkkjB5&usp=drive_copy",
+                "text": "RGO FY 2026"
+              },
+              {
+                "label": "Jemuel G Malaluan - Dormitory Manager",
+                "href": "https://drive.google.com/open?id=1rTJHg8cAnKJ4wVc8xCSdIUsu3SB_FP&usp=drive_copy",
+                "text": "Jemuel G Malaluan - Dormitory Manager"
+              }
+            ]
+          },
+          {
+            "label": "K.7. List of occupants, including vital information about them."
           }
         ]
       }
