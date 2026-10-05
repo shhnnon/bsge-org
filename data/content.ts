@@ -1567,89 +1567,208 @@ export const areas = [  {
       },
       {
         "letter": "B",
-        "title": "Implementation, Monitoring, Evaluation and Utilization",
+        "title": "Planning, Implementation, Monitoring, and Evaluation",
         "items": [
           {
             "label": "B.1 Evidence of extension planning sessions.",
-            "href": "https://drive.google.com/drive/folders/1XKHuxrVTmi-STcU0inHnBx4it6wP5lyn?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1hdwo76HckaWG9m5wMzX-8sMrIspcEOke&usp=drive_copy",
+              "https://drive.google.com/open?id=1R_s91WsAnmLDcLhm6lxbLlSxLYBr7GT1&usp=drive_copy",
+              "https://drive.google.com/open?id=1R_s91WsAnmLDcLhm6lxbLlSxLYBr7GT1&usp=drive_copy",
+              "https://drive.google.com/open?id=1YQ6GESiWNo2Jak5wqqlNFohrTi0kZC_n&usp=drive_copy",
+              "https://drive.google.com/open?id=1lZkW5oKxJv2iEG-55UuRO46d6JMow-d6&usp=drive_copy",
+              "https://drive.google.com/open?id=1pN4zP-WJ-bgYECE3XK8mt9h3qwlZrpcr&usp=drive_copy",
+              "https://drive.google.com/open?id=1CtblOs3bfYjrZi-QXSE5Fs3zjbH3Msux&usp=drive_copy"
+            ],
+            "texts": [
+              "Minutes of Meeting - May 15, 2024",
+              "Minutes of the Meeting - July 21, 2025",
+              "Minutes of Meeting - May 21, 2025",
+              "BatStateU INSPIRE.pdf",
+              "Fuel Gel Extension Complete Brgy. Malitam",
+              "Project Dugtong Buhay - February 12, 2026",
+              "Project IMMERSION"
+            ]
           },
           {
             "label": "B.2 Copy of the extension program, including relevant information.",
-            "href": "https://drive.google.com/drive/folders/1BcJI451VM6vkoo5OAXjfBtTl0ngAhlhg?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1YQ6GESiWNo2Jak5wqqlNFohrTi0kZC_n&usp=drive_copy",
+              "https://drive.google.com/open?id=1lZkW5oKxJv2iEG-55UuRO46d6JMow-d6&usp=drive_copy",
+              "https://drive.google.com/open?id=1pN4zP-WJ-bgYECE3XK8mt9h3qwlZrpcr&usp=drive_copy",
+              "https://drive.google.com/open?id=13kLg8vf_ysqKVxIoRPPAB3CfBscoleAW&usp=drive_copy",
+              "https://drive.google.com/open?id=1CtblOs3bfYjrZi-QXSE5Fs3zjbH3Msux&usp=drive_copy",
+              "https://drive.google.com/open?id=1w2-6NAtz-opEatGosfAtMjfuhlvKQgKf&usp=drive_copy"
+            ],
+            "texts": [
+              "BatStateU INSPIRE.pdf",
+              "Fuel Gel Extension Complete Brgy. Malitam",
+              "Project Dugtong Buhay - February 12, 2026",
+              "Project Dugtong Buhay - Evaluation Report",
+              "Project IMMERSION",
+              "Project IMMERSION Evaluation Report"
+            ]
           },
           {
             "label": "B.3 Organizational Structure of the Extension Unit.",
-            "href": "https://drive.google.com/drive/folders/1QV2t8NjGa8TJj24yGRcXnl6bJ8jxIlZZ?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1fp6WhXHXzJHHxDXrCRmQRlK4C1nJJt4Y&usp=drive_copy",
+            "text": "Organizational Chart - Extension Services Office"
           },
           {
             "label": "B.4 Profile of the Unit Head and his/her Staff.",
-            "href": "https://drive.google.com/drive/folders/1Dnnu1NcKu1PmpZoYztUqrYryAevu_-j6?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1Oq7hasKPrRZqCkE4Pb2IB8AuAlkV48fe&usp=drive_copy"
           },
           {
             "label": "B.5 Operational Plan of the Extension Program, with focus on implementation strategies.",
-            "href": "https://drive.google.com/drive/folders/1NSBanCE87l7qUivrTPsSiVaeOod1E4rw?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1TS2MG_DjJJ_9yQfQf7X7QdrMffZF1Yp5&usp=drive_copy",
+            "text": "Extension Services Operational Plan 2024"
           },
           {
             "label": "B.6 Roster/Experts for extension projects, if necessary.",
-            "href": "https://drive.google.com/drive/folders/19P3ya2RajIu_RWMe0q4ofkQiouXCrEZt?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1zjAs5zgEol2NTK6YVLYNHxX7yKd5n2Z1&usp=drive_copy",
+            "text": "LIST OF ACTIVE FACULTY EXTENSIONISTS"
           },
           {
             "label": "B.7 Evidence of transfer of appropriate technology to the target clientele.",
-            "href": "https://drive.google.com/drive/folders/1xyMQvkob2-T8d5Z-srOXQkEUvmemU8cM?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1WoOXlE2M36Iv0-Jb9QGQg3UM_LNcZxAY&usp=drive_copy",
+              "https://drive.google.com/open?id=1PRvnIRTOVUQ8rEyuVmt8dWTjdr0GLip2&usp=drive_copy"
+            ],
+            "texts": [
+              "BRIDGE PROGRAM",
+              "CoE Extension - BRIDGE"
+            ]
           },
           {
-            "label": "B.8 Samples of packaged technologies/news/information disseminated to the clientele.",
-            "href": "https://drive.google.com/drive/folders/1-vcj1W1IxoZeAuu_rtiL5x_99przMW_E?usp=drive_link"
+            "label": "B.8 Samples of packaged technologies/news/ information disseminated to the clientele.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1WoOXlE2M36Iv0-Jb9QGQg3UM_LNcZxAY&usp=drive_copy",
+              "https://drive.google.com/open?id=1PRvnIRTOVUQ8rEyuVmt8dWTjdr0GLip2&usp=drive_copy"
+            ],
+            "texts": [
+              "BRIDGE PROGRAM",
+              "CoE Extension - BRIDGE"
+            ]
           },
           {
             "label": "B.9 Copy of the Extension Manual.",
-            "href": "https://drive.google.com/drive/folders/1wU5dlyOOdUEg1aWzsMIX1wwYHv4H3KEI?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1-h0M5_Uj8WQI5fYzI55JWDO9UoBhIpeu&usp=drive_copy"
           },
           {
             "label": "B.10 Copy of the monitoring and evaluation instrument/s.",
-            "href": "https://drive.google.com/drive/folders/1kWNBdqvNTjST0YdFjBxxTID7DWQCdicP?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1gO6MrCRROyZpaQp1KtGD9BdXYYCVpT9N&usp=drive_copy",
+              "https://drive.google.com/open?id=1mSHdcZzd44p8YWWYoQ_obPLj-qoB6qpT&usp=drive_copy"
+            ],
+            "texts": [
+              "Monitoring and Evaluation Instruments",
+              "Terminal Report"
+            ]
           },
           {
             "label": "B.11 Sample accomplishment and terminal reports.",
-            "href": "https://drive.google.com/drive/folders/1QJEwOLEb3QZ7G78xynU6WS40Jrl3loVR?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=13kLg8vf_ysqKVxIoRPPAB3CfBscoleAW&usp=drive_copy",
+              "https://drive.google.com/open?id=1w2-6NAtz-opEatGosfAtMjfuhlvKQgKf&usp=drive_copy"
+            ],
+            "texts": [
+              "Project Dugtong Buhay - Evaluation Report",
+              "Project IMMERSION Evaluation Report"
+            ]
           },
           {
             "label": "B.12 Copy of the budgetary allocation for the extension program.",
-            "href": "https://drive.google.com/drive/folders/15wDEJ2F86-mr1gF5c7xFOqYM6DlLSCYf?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1aTHt0rIIiDHki4IVKoB_jP_WohSKOOM4&usp=drive_copy",
+              "https://drive.google.com/open?id=1MTXHj_NA-U3sLxNdqBGwW220Qjzm-Dv7&usp=drive_copy",
+              "https://drive.google.com/open?id=1CG-7FnbcgCJLKVYpjZMf8yQU5vLhdlbU&usp=drive_copy",
+              "https://drive.google.com/open?id=16Wp-hvchh7mI2Ct3wVe31mW5tpT05Ldb&usp=drive_copy"
+            ],
+            "texts": [
+              "2023 - Extension Services - Budget Ceiling",
+              "2024 - Extension Services - Budget Ceiling",
+              "2025 - Extension Services - Budget Ceiling",
+              "2026 - Extension Services - Budget Ceiling"
+            ]
           },
           {
             "label": "B.13 Evidences of outsourcing for fund augmentation.",
-            "href": "https://drive.google.com/drive/folders/14n1yDRWxh9gld2LmKYFVCqAGmVzvIRDV?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1aTHt0rIIiDHki4IVKoB_jP_WohSKOOM4&usp=drive_copy",
+              "https://drive.google.com/open?id=1MTXHj_NA-U3sLxNdqBGwW220Qjzm-Dv7&usp=drive_copy",
+              "https://drive.google.com/open?id=1CG-7FnbcgCJLKVYpjZMf8yQU5vLhdlbU&usp=drive_copy",
+              "https://drive.google.com/open?id=16Wp-hvchh7mI2Ct3wVe31mW5tpT05Ldb&usp=drive_copy"
+            ],
+            "texts": [
+              "2023 - Extension Services - Budget Ceiling",
+              "2024 - Extension Services - Budget Ceiling",
+              "2025 - Extension Services - Budget Ceiling",
+              "2026 - Extension Services - Budget Ceiling"
+            ]
           },
           {
             "label": "B.14 Evidences of outsourcing for technical assistance and service inputs from other agencies.",
-            "href": "https://drive.google.com/drive/folders/1MyLkrJVq4UZzT24KX5QpgVPZ3EbB0wuP?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/open?id=1WoOXlE2M36Iv0-Jb9QGQg3UM_LNcZxAY&usp=drive_copy",
+              "https://drive.google.com/open?id=1PRvnIRTOVUQ8rEyuVmt8dWTjdr0GLip2&usp=drive_copy"
+            ],
+            "texts": [
+              "BRIDGE PROGRAM",
+              "CoE Extension - BRIDGE"
+            ]
           }
         ]
       },
       {
         "letter": "C",
-        "title": "Community Participation and Collaboration",
+        "title": "Community Involvement and Participation in the Extension Activities",
         "items": [
           {
-            "label": "C.1 Evidence of community participation in the planning and implementation of extension projects/activities.",
-            "href": "https://drive.google.com/drive/folders/19ljyvXCodFu8jZW_CEN8D0yqBs9S1HnI?usp=drive_link"
+            "label": "C.1 Documentation showing community involvement in designing and executing extension activities and projects.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1WoOXlE2M36Iv0-Jb9QGQg3UM_LNcZxAY&usp=drive_copy",
+              "https://drive.google.com/open?id=1PRvnIRTOVUQ8rEyuVmt8dWTjdr0GLip2&usp=drive_copy",
+              "https://drive.google.com/open?id=1hdwo76HckaWG9m5wMzX-8sMrIspcEOke&usp=drive_copy",
+              "https://drive.google.com/open?id=1R_s91WsAnmLDcLhm6lxbLlSxLYBr7GT1&usp=drive_copy",
+              "https://drive.google.com/open?id=1R_s91WsAnmLDcLhm6lxbLlSxLYBr7GT1&usp=drive_copy"
+            ],
+            "texts": [
+              "BRIDGE PROGRAM",
+              "CoE Extension - BRIDGE",
+              "Minutes of Meeting - May 15, 2024",
+              "Minutes of the Meeting - July 21, 2025",
+              "Minutes of Meeting - May 21, 2025"
+            ]
           },
           {
-            "label": "C.2 Evidence of technology adoption, utilization and commercialization.",
-            "href": "https://drive.google.com/drive/folders/1ZFu8wsj6090T-N2FXMUTiIiiSYASKCxY?usp=drive_link"
+            "label": "C.2 Proof of how technology is adopted, used, or commercialized.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1WoOXlE2M36Iv0-Jb9QGQg3UM_LNcZxAY&usp=drive_copy",
+              "https://drive.google.com/open?id=1PRvnIRTOVUQ8rEyuVmt8dWTjdr0GLip2&usp=drive_copy"
+            ],
+            "texts": [
+              "BRIDGE PROGRAM",
+              "CoE Extension - BRIDGE"
+            ]
           },
           {
-            "label": "C.3 Copy of a long-term sustainable extension program, e.g. community",
-            "href": "https://drive.google.com/drive/folders/1e_OH5IdgeAGPEHqzDxhB4UJ8lWWLemtv?usp=drive_link"
+            "label": "C.3 Documentation of a long-term, sustainable extension program (such as a community-based initiative).",
+            "href": "https://drive.google.com/open?id=1PRvnIRTOVUQ8rEyuVmt8dWTjdr0GLip2&usp=drive_copy",
+            "text": "CoE Extension - BRIDGE"
           },
           {
-            "label": "C.5 List of collaborating agencies, including the nature of collaboration.",
-            "href": "https://drive.google.com/drive/folders/1C7UiA9u_DEWfjVFbsp3Ub0K7zPZFksDv?usp=drive_link"
+            "label": "C.4 A directory of partner organizations detailing the specific nature of each partnership.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1e8axXMlYAG_tpVr310c_mnpqxjKwOrzH&usp=drive_copy",
+              "https://drive.google.com/open?id=1LF_v8DZJgGPG5udQXXQoWiBqHi0CRo4O&usp=drive_copy"
+            ],
+            "texts": [
+              "List of Partners",
+              "List of Partner Industries Internship of BS Geodetic Engineering"
+            ]
           }
         ]
-      }
-    ]
+      }    ]
   },
   {
     "id": 7,
