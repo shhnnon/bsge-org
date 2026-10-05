@@ -343,7 +343,14 @@ export const areas = [  {
           },
           {
             "label": "B.4. Evidence/s of the selection process showing the names of applicants.",
-            "href": "https://docs.google.com/spreadsheets/d/1s6yNZ4Hbtyxh_qEknYdLL6XqZi3OyZfRsImxpV9XgNE/preview"
+            "hrefs": [
+              "https://docs.google.com/spreadsheets/d/1s6yNZ4Hbtyxh_qEknYdLL6XqZi3OyZfRsImxpV9XgNE/preview",
+              "https://drive.google.com/file/d/1y49Kr-nh-x88n4ReEPzibZh1Ul4DjqBEoB2cI1jHrpo/preview"
+            ],
+            "texts": [
+              "Faculty Matrix (w/ number of students)",
+              "Faculty Matrix AY 2026 - 2027"
+            ]
           },
           {
             "label": "B.5. Evidence/s of the Orientation Program for newly-hired faculty.",
