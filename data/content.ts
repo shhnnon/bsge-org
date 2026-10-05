@@ -363,7 +363,17 @@ export const areas = [
             ]
           },
           {
-            "label": "D.3. Profile of the faculty according to:"
+            "label": "D.3. Profile of the faculty according to:",
+            "hrefs": [
+              "https://docs.google.com/spreadsheets/d/13LBc6EljPOylMxdtVxc_JlBCZMjYznaK/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true",
+              "https://docs.google.com/spreadsheets/d/1h15RTFPbHR9to9nsI-ULwPuzxcmCLuKA/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true",
+              "https://docs.google.com/spreadsheets/d/14OijE-DKV-qLSb0Py1qBZ07YVWYKsuuz/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true"
+            ],
+            "texts": [
+              "Engr. Thristan Wesley M. Aldovino",
+              "Engr. Zaldy F. Dimaculangan Jr.",
+              "Engr. Molly D. Endaya"
+            ]
           }
         ]
       },
