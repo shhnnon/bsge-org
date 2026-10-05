@@ -179,7 +179,8 @@ export const areas = [
             ]
           },
           {
-            "label": "B.3. Data on student admission (enrollment trends, drop-out rate, transferees, course shifters, etc.)"
+            "label": "B.3. Evidence-s of awareness and acceptability of the VMGO",
+            "href": "https://drive.google.com/file/d/1uX9356mp7aYBwUdX0DOcSb25ZfkFSmru/view?usp=sharing"
           },          {
             "label": "C.2 Awards-citations received by the program under survey"
           },
