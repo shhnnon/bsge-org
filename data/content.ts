@@ -1507,13 +1507,31 @@ export const areas = [
             "text": "Research Facilities.pdf"
           },
           {
-            "label": "B.4. Profile of the research personnel/staff"
+            "label": "B.4. Profile of the research personnel/staff",
+            "hrefs": [
+              "https://drive.google.com/file/d/19uWrs8ielH6--V3Jt-f-_JHpxb0ud-Rm/view?usp=sharing",
+              "https://drive.google.com/file/d/1k0-dsiEumvk_7YRRRjep3uNOJygTxM9V/view?usp=sharing"
+            ],
+            "texts": [
+              "Dinglasan, Joyce Ann",
+              "Pana, Thyrone Jhon"
+            ]
           },
           {
-            "label": "B.5. List of patents, licenses, copyrights and other research outputs, including ones generated from each of them, if any"
+            "label": "B.5. List of patents, licenses, copyrights and other research outputs, including ones generated from each of them, if any",
+            "href": "https://drive.google.com/file/d/1YxRejf7E7HuIkwIQaz14BUqqYga2Mco9/view?usp=sharing",
+            "text": "List of Intellectual Property 2022 - 2026"
           },
           {
-            "label": "B.6. Copy of the research staff development program"
+            "label": "B.6. Copy of the research staff development program",
+            "hrefs": [
+              "https://drive.google.com/file/d/1H8LBAWVa67BxjiM3wXJgqdrIpW90Wy7J/view?usp=sharing",
+              "https://drive.google.com/file/d/1gUNX00iY1ZIZX0JizsspI0Le3NUy09mz/view?usp=sharing"
+            ],
+            "texts": [
+              "Research Head - CATNA & Training Plan Matrix",
+              "Research Staff - CATNA & Training Plan Matrix"
+            ]
           },
           {
             "label": "B.7. List of team/collaborative researches conducted"
