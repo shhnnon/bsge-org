@@ -239,13 +239,22 @@ export const areas = [
             "hrefs": [
               "https://docs.google.com/spreadsheets/d/15PYYfQyd2xkdIJGX_lCFS1BG8YDgAeb0/edit?usp=sharing",
               "https://docs.google.com/spreadsheets/d/1iI7v5KIjVb01bvskf_R8vOAoovmtmDea/edit?usp=sharing",
-              "https://docs.google.com/spreadsheets/d/1g8yQfHvdEHMo8PoDmeAGpqKnY6qGY5Lu/edit?usp=sharing"
+              "https://docs.google.com/spreadsheets/d/1g8yQfHvdEHMo8PoDmeAGpqKnY6qGY5Lu/edit?usp=sharing",
+              "https://docs.google.com/spreadsheets/d/13LBc6EljPOylMxdtVxc_JlBCZMjYznaK/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true",
+              "https://docs.google.com/spreadsheets/d/1h15RTFPbHR9to9nsI-ULwPuzxcmCLuKA/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true",
+              "https://docs.google.com/spreadsheets/d/14OijE-DKV-qLSb0Py1qBZ07YVWYKsuuz/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true"
+            ],
+            "texts": [
+              "Existing Faculty Profiles",
+              "Existing Faculty Profiles",
+              "Existing Faculty Profiles",
+              "Engr. Thristan Wesley M. Aldovino",
+              "Engr. Zaldy F. Dimaculangan Jr.",
+              "Engr. Molly D. Endaya"
             ]
           },
           {
-            "label": "A.3. Profile of the faculty according to:",
-            "href": "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing",
-            "text": "A.3. Profile of the faculty according to:"
+            "label": "A.3. Profile of the faculty according to:"
           },
           {
             "label": "A.4. List of Faculty who have received academic awards/recognitions."
@@ -363,17 +372,7 @@ export const areas = [
             ]
           },
           {
-            "label": "D.3. Profile of the faculty according to:",
-            "hrefs": [
-              "https://docs.google.com/spreadsheets/d/13LBc6EljPOylMxdtVxc_JlBCZMjYznaK/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true",
-              "https://docs.google.com/spreadsheets/d/1h15RTFPbHR9to9nsI-ULwPuzxcmCLuKA/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true",
-              "https://docs.google.com/spreadsheets/d/14OijE-DKV-qLSb0Py1qBZ07YVWYKsuuz/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true"
-            ],
-            "texts": [
-              "Engr. Thristan Wesley M. Aldovino",
-              "Engr. Zaldy F. Dimaculangan Jr.",
-              "Engr. Molly D. Endaya"
-            ]
+            "label": "D.3. Profile of the faculty according to:"
           }
         ]
       },
