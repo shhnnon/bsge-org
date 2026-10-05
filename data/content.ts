@@ -1408,23 +1408,64 @@ export const areas = [
         "items": [
           {
             "label": "A.1. Copy of the Institutional Research Agenda",
-            "href": "https://drive.google.com/drive/folders/1OpWxantasjgXux9HxqthLqHp3z9LqBHW?usp=drive_link"
+            "href": "https://drive.google.com/file/d/17g1yJ3VlC6lkCwryfk1gGEHOKjhZxEwC/view?usp=sharing",
+            "text": "Research Agenda"
           },
           {
             "label": "A.2. Structure of the Research and Development Unit, including the profile of the Research Head",
-            "href": "https://drive.google.com/drive/folders/1ApnrOmP7GoUTmunw1UH5plHnEdAfcffI?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/file/d/1lIkCzu2mrvGggTtpFqUEWvi_yTwvXokU/view?usp=sharing",
+              "https://drive.google.com/file/d/1Aw4r_fjI7gBpNrgy2x_EPN2BfSAjAcWd/view?usp=sharing",
+              "https://drive.google.com/file/d/1BTwHVEVGbX3vtVVXbh48Mt_hywwYjx3V/view?usp=sharing",
+              "https://drive.google.com/file/d/1OoFOKbq-40-9pPxvcFn6qUaZrM5RtUP7/view?usp=sharing"
+            ],
+            "texts": [
+              "Dr. Jen Aldwayne B. Delmo",
+              "OVCRDES Updated Organizational Structure 2026",
+              "Research Functional Chart",
+              "Research-Updated Organizational Structure 2026"
+            ]
           },
           {
             "label": "A.3. A copy of the research program of the program under survey",
-            "href": "https://drive.google.com/drive/folders/1TK35CL3Ie70b_ZtoCuDcMuP3nt_0tmlg?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/file/d/1ol4h5RJTtbasEcAY5aT9G1cAlq9MViJc/view?usp=sharing",
+              "https://docs.google.com/spreadsheets/d/170dNlPf09hfv9kV_O2hhR-v3zBaAljmO/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true"
+            ],
+            "texts": [
+              "Approved Proposal for the Implementation of the Spark Program",
+              "Research Clusters - CEAFA"
+            ]
           },
           {
             "label": "A.4. Evidence of participation of different stakeholders in the formulation of the research agenda",
-            "href": "https://drive.google.com/drive/folders/10De5XoBKOdLWAHiy8nGwCBhEjIHdZz8M?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/file/d/1H2OPiyHbsn7cA6AXb0dMZatBIgaZpKVz/view?usp=sharing",
+              "https://drive.google.com/file/d/1JOPsvhJnOjfI4NAY2OK2LWEtsOKPh5uX/view?usp=sharing",
+              "https://drive.google.com/file/d/1R88gIPx4I-JniBbyo5sM6C_b3TORJjeH/view?usp=sharing",
+              "https://drive.google.com/file/d/1nXKfBGy0YySyeiADqCHi7-TuMD3r8-TT/view?usp=sharing"
+            ],
+            "texts": [
+              "Agenda Setting Narrative Report 2017",
+              "BatStateU Strategic Plan 2019 - 2029 (with ISSN)",
+              "Program - Agenda Setting 2017",
+              "Research Agenda 2018"
+            ]
           },
           {
             "label": "A.5. Abstracts of researches conducted",
-            "href": "https://drive.google.com/drive/folders/1dU9ZHH91nm15FinU9xnHdvkuzliLwFOr?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/file/d/1VwhDMTNyyC-jAEHHAw5y0DmKykgpnV8Z/view?usp=sharing",
+              "https://drive.google.com/file/d/1DY9jsaE2PuRTO33d87xHa7qiuIW2fWjq/view?usp=sharing",
+              "https://drive.google.com/file/d/1Mq9yKibuSqGcEaK8bUZebLeMO_MyH3zS/view?usp=sharing",
+              "https://drive.google.com/file/d/1p7gUTFi-iioKHUmW241q3rtgWZjcVJ6w/view?usp=sharing"
+            ],
+            "texts": [
+              "BSGE Captone Projects Copy of Titles",
+              "BS Geological Engineering - List of Theses",
+              "BS Transportation Systems Engineering Copies of Abstracts 2024 - 2025",
+              "BS Transportation Systems Engineering Copies of Abstracts 2025 - 2026"
+            ]
           }
         ]
       },
@@ -1434,15 +1475,36 @@ export const areas = [
         "items": [
           {
             "label": "B.1. Copy of the budget allocation for research",
-            "href": "https://drive.google.com/drive/folders/1LrIN9_Uh4heURfqkZBD9TyP-W93mNHwL?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/file/d/1M6BZw8ypchS-NXXNZbSvdtanRBgVKHd6/view?usp=sharing",
+              "https://drive.google.com/file/d/1ftneL6EVh3wAaR5aRwNEE6tEhGe1-uEa/view?usp=sharing"
+            ],
+            "texts": [
+              "RESEARCH Budget PRE for FY 2025",
+              "RESEARCH Budget PRE for FY 2026"
+            ]
           },
           {
             "label": "B.2. List of linkages/networking with research funding agencies",
-            "href": "https://drive.google.com/drive/folders/1kx_UHyqEtjD8d1eQ34xnaTwASo7YVQKy?usp=drive_link"
+            "hrefs": [
+              "https://drive.google.com/file/d/1gyAMVGupnJZRjW_kvCHDiYNtqlLD35Y_/view?usp=sharing",
+              "https://drive.google.com/file/d/1ACvQLShzKcf8R7nKMx_B5JzMKFAUqMQG/view?usp=sharing",
+              "https://drive.google.com/file/d/1j_qy8dST1uucpX-LPFKIh3444quShlcO/view?usp=sharing",
+              "https://drive.google.com/file/d/1yTbftsP8iP6IMfPoIHJqDNeCxDVGrOCK/view?usp=sharing",
+              "https://drive.google.com/file/d/17bEAtytzYL8e3yK-lTLqRNkVzbbc5xpV/view?usp=sharing"
+            ],
+            "texts": [
+              "BIOMS - MOA",
+              "MOA BARAKO",
+              "MT_V1_Copy of MOA SIGAW Ternate Cavite",
+              "MT_V1_MOA SIGAW QZN",
+              "NotarizedMOA_ATLANTIS"
+            ]
           },
           {
             "label": "B.3. Inventory of research facilities, equipment and amenities",
-            "href": "https://drive.google.com/drive/folders/1tX3iPa8OH1X1hyhWCBtQNpTWyhUvLiKs?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1lE6dkHl6nKjwH492zXyftzTbVec3DKjt/view?usp=sharing",
+            "text": "Research Facilities.pdf"
           },
           {
             "label": "B.4. Profile of the research personnel/staff"
