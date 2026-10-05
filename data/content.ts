@@ -483,8 +483,16 @@ export const areas = [  {
             "text": "List of Faculty Scholars"
           },
           {
-            "label": "E.4. Summary of in-service training conducted in-campus by the program under survey, including list of faculty-participants."
-          },
+            "label": "E.4. Summary of in-service training conducted in-campus by the program under survey, including list of faculty-participants.",
+            "hrefs": [
+              "https://drive.google.com/open?id=14reWmTb2zd5Km1bxhuuTOjqvlre5XIJ3&usp=drive_copy",
+              "https://drive.google.com/open?id=1M0M99fLmqmWjrkKCeQqAAqEJsfcwul65&usp=drive_copy"
+            ],
+            "texts": [
+              "Sample Bidding Documents.pdf",
+              "List of Attachments to the Disbursement voucher"
+            ]
+          },,
           {
             "label": "E.5. Budgetary allocation for faculty development.",
             "href": "https://drive.google.com/file/d/10yfc9FfVATY1d4foleYIEFOIUjzAlTCt/view?usp=sharing"
