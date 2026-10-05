@@ -2811,14 +2811,13 @@ export const areas = [  {
           },
           {
             "label": "E.4 Evidence of Compliance to RA 9184 (Procurement of equipment, supplies and materials)",
-            "children": [
-              {
-                "label": "List of Attachments to the Disbursement Voucher",
-                "href": "https://drive.google.com/file/d/1M0M99fLmqmWjrkKCeQqAAqEJsfcwul65/preview"
-              },
-              {
-                "label": "Sample Bidding Documents.pdf"
-              }
+            "hrefs": [
+              "https://drive.google.com/file/d/14reWmTb2zd5Km1bxhuuTOjqvlre5XIJ3/preview",
+              "https://drive.google.com/file/d/1M0M99fLmqmWjrkKCeQqAAqEJsfcwul65/preview"
+            ],
+            "texts": [
+              "Sample Bidding Documents.pdf",
+              "List of Attachments to the Disbursement voucher"
             ]
           },
           {
