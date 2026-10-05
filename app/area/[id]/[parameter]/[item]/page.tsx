@@ -77,7 +77,9 @@ export default async function AreaResource({
   const text = typeof item === "string" ? undefined : (item.text ?? directChild?.text);
   const texts = typeof item === "string" ? undefined : (item.texts ?? directChild?.texts);
   const next = areas.find((a) => a.id === area.id + 1);
-  const previews = (hrefs?.length ? hrefs : href ? [href] : []).map(previewUrl);
+  const sourceLinks = hrefs?.length ? hrefs : href ? [href] : [];
+  const previews = sourceLinks.map(previewUrl);
+  const isFolder = (url: string) => url.includes("drive.google.com/drive/folders/");
 
   return (
     <main className="area-page area-resource-page">
@@ -122,20 +124,33 @@ export default async function AreaResource({
                     <p>{texts?.[index] ?? text}</p>
                   </div>
                 ) : null}
-                <iframe
-                  src={preview}
-                  title={label + " " + (index + 1)}
-                  loading={index === 0 ? "eager" : "lazy"}
-                  allow="autoplay"
-                />
-                <a
-                  href={hrefs?.[index] ?? href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="resource-detail-open"
-                >
-                  Open document in Google Drive
-                </a>
+                {isFolder(preview) ? (
+                  <a
+                    href={sourceLinks[index]}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="resource-detail-open"
+                  >
+                    Open folder in Google Drive
+                  </a>
+                ) : (
+                  <>
+                    <iframe
+                      src={preview}
+                      title={label + " " + (index + 1)}
+                      loading={index === 0 ? "eager" : "lazy"}
+                      allow="autoplay"
+                    />
+                    <a
+                      href={sourceLinks[index]}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="resource-detail-open"
+                    >
+                      Open document in Google Drive
+                    </a>
+                  </>
+                )}
               </div>
             ))}
           </div>
