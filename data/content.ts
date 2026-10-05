@@ -234,7 +234,6 @@ export const areas = [
             "href": "https://drive.google.com/file/d/1DsZ2L5Ks6Mi0Y9tDVnOtJsDBNtp1coc4/view?usp=sharing"
           },
           {
-          {
             "label": "A.2. The Faculty's Personal Data Sheet",
             "hrefs": [
               "https://docs.google.com/spreadsheets/d/13LBc6EljPOylMxdtVxc_JlBCZMjYznaK/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true",
@@ -246,9 +245,6 @@ export const areas = [
               "Engr. Zaldy F. Dimaculangan Jr.",
               "Engr. Molly D. Endaya"
             ]
-          }
-          {
-            "label": "A.3. Profile of the faculty according to:"
           },
           {
             "label": "A.4. List of Faculty who have received academic awards/recognitions."
