@@ -26,7 +26,7 @@ export const referenceFiles = [
   },
   {
     label: "CMO 89 s2017. Policies, Standards, and Guidelines for BSGE",
-    href: "https://drive.google.com/file/d/1Rfb4pU66pdkHTuA-iDAap6tG46dthJ8_/view?usp=drive_link",
+    href: "https://drive.google.com/file/d/1Rfb4pU66pdkHTuA-iDAap6tG46dthJ8_/preview",
   },
   {
     label: "AACCUP Technical Review Board Action (PSV)",
@@ -326,7 +326,7 @@ export const areas = [  {
             "label": "B.2. Criteria used in the selection process.",
             "hrefs": [
               "https://drive.google.com/file/d/1kBXmQ1UgAvBoakdygs5d7vc1C4ybYJ7q/view?usp=drive_link",
-              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing",
+              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/preview",
               "https://drive.google.com/file/d/15NWw7iSG_87EXaRlSZ4VAVdWC8Ivqi07/view?usp=sharing",
               "https://drive.google.com/file/d/1S72BWiqRRrK7YoQssmLc-vjDgGFM_cMu/view?usp=drive_link"
             ],
@@ -344,8 +344,8 @@ export const areas = [  {
           {
             "label": "B.4. Evidence/s of the selection process showing the names of applicants.",
             "hrefs": [
-              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing",
-              "https://docs.google.com/spreadsheets/d/1G1a3TK22YlZBxCU5S4ZlJP3OQPKMfm0qYZAv6sVtwqA/edit?usp=sharing"
+              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/preview",
+              "https://docs.google.com/spreadsheets/d/1G1a3TK22YlZBxCU5S4ZlJP3OQPKMfm0qYZAv6sVtwqA/preview"
             ]
           },
           {
@@ -387,20 +387,20 @@ export const areas = [  {
           {
             "label": "C.3. Copy of the loading system.",
             "hrefs": [
-              "https://drive.google.com/file/d/19jTFmO0mQy7CHytIru5eA7ZZDLxTNtFX/view?usp=drive_link",
-              "https://drive.google.com/file/d/1DfPHn5r3lOdyMTGjzqLsvoj1U9Ai0cK1/view?usp=drive_link",
-              "https://drive.google.com/file/d/1_pvfad6VmKhAsIeAHdzwi0IUA5guhZ6C/view?usp=drive_link",
-              "https://drive.google.com/file/d/1bqlKTGsNGjdMfVrWmb3Tm_8T9ED4NsAH/view?usp=drive_link",
-              "https://drive.google.com/file/d/1bzcl2Y7oJg3yj_2UPVJbL49bviQpxaUX/view?usp=drive_link",
-              "https://drive.google.com/file/d/1lfqa6uBihASb8_WSkZfqOkHo3ObWnoZp/view?usp=drive_link"
+              "https://drive.google.com/file/d/19jTFmO0mQy7CHytIru5eA7ZZDLxTNtFX/preview",
+              "https://drive.google.com/file/d/1DfPHn5r3lOdyMTGjzqLsvoj1U9Ai0cK1/preview",
+              "https://drive.google.com/file/d/1_pvfad6VmKhAsIeAHdzwi0IUA5guhZ6C/preview",
+              "https://drive.google.com/file/d/1bqlKTGsNGjdMfVrWmb3Tm_8T9ED4NsAH/preview",
+              "https://drive.google.com/file/d/1bzcl2Y7oJg3yj_2UPVJbL49bviQpxaUX/preview",
+              "https://drive.google.com/file/d/1lfqa6uBihASb8_WSkZfqOkHo3ObWnoZp/preview"
             ]
           },
           {
             "label": "C.4. Report on faculty-student ratio.",
             "hrefs": [
-              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/edit?usp=sharing",
-              "https://docs.google.com/spreadsheets/d/1G1a3TK22YlZBxCU5S4ZlJP3OQPKMfm0qYZAv6sVtwqA/edit?usp=sharing",
-              "https://docs.google.com/spreadsheets/d/1IdGUVauCXeozGtjjZbVqiE4WdbjCLvp9ZQvBG0UFgjY/edit?usp=sharing"
+              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/preview",
+              "https://docs.google.com/spreadsheets/d/1G1a3TK22YlZBxCU5S4ZlJP3OQPKMfm0qYZAv6sVtwqA/preview",
+              "https://docs.google.com/spreadsheets/d/1IdGUVauCXeozGtjjZbVqiE4WdbjCLvp9ZQvBG0UFgjY/preview"
             ]
           },
           {
@@ -715,7 +715,7 @@ export const areas = [  {
           },
           {
             "label": "A.2 CHED Policies and Standards, CMOs, where applicable.",
-            "href": "https://drive.google.com/file/d/1Rfb4pU66pdkHTuA-iDAap6tG46dthJ8_/view?usp=drive_link",
+            "href": "https://drive.google.com/file/d/1Rfb4pU66pdkHTuA-iDAap6tG46dthJ8_/preview",
             "text": "A.2 CHED Policies and Standards, CMOs, where applicable."
           },
           {
@@ -750,10 +750,10 @@ export const areas = [  {
           {
             "label": "A.6. Policies on validation of subjects taken by transferees, and accommodation of students with special needs.",
             "hrefs": [
-              "https://drive.google.com/file/d/1gLx14v-z1yEU0udr6Ug7a-_xS3NLW8l8/view?usp=sharing",
-              "https://drive.google.com/file/d/1sPvuDjU8IXpjQQF18PItCf-zN7yL3ymC/view?usp=sharing",
-              "https://drive.google.com/file/d/1pf3TFMMw75F0fIUWVKcoW8qt2ZfTFxpY/view?usp=sharing",
-              "https://drive.google.com/file/d/1X-vTUAwf4h6puo61EYUEfu7dNKjyTyCZ/view?usp=sharing"
+              "https://drive.google.com/file/d/1gLx14v-z1yEU0udr6Ug7a-_xS3NLW8l8/preview",
+              "https://drive.google.com/file/d/1sPvuDjU8IXpjQQF18PItCf-zN7yL3ymC/preview",
+              "https://drive.google.com/file/d/1pf3TFMMw75F0fIUWVKcoW8qt2ZfTFxpY/preview",
+              "https://drive.google.com/file/d/1X-vTUAwf4h6puo61EYUEfu7dNKjyTyCZ/preview"
             ],
             "texts": [
               "Memorandum No.32 Policies on Shifters and Transferees",
