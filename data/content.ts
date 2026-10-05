@@ -179,25 +179,8 @@ export const areas = [
             ]
           },
           {
-            "label": "B.3. Evidence-s of awareness and acceptability of the VMGO",
-            "href": "https://drive.google.com/file/d/1uX9356mp7aYBwUdX0DOcSb25ZfkFSmru/view?usp=sharing"
-          }
-        ]
-      },
-      {
-        "letter": "C",
-        "title": "Congruence and Implementation",
-        "items": [
-          {
-            "label": "C.1 Evidences of congruence between educational practices-activities and the VMGO.",
-            "hrefs": [
-              "https://drive.google.com/file/d/1ai2o23_L6JSQe_fW4eT2rYKstPNCEutY/view?usp=sharing",
-              "https://drive.google.com/file/d/1fZ5ZWa4lvRrVZ5bK6283ThsgGbd1324D/view?usp=sharing",
-              "https://drive.google.com/file/d/1W8VEgjS4BD0j8ofgit6KK0M2rNQ0t3rh/view?usp=sharing",
-              "https://drive.google.com/file/d/136mGDh8nQrFGd50MdiTsEff9afXnJeKa/view?usp=sharing"
-            ]
-          },
-          {
+            "label": "B.3. Data on student admission (enrollment trends, drop-out rate, transferees, course shifters, etc.)"
+          },          {
             "label": "C.2 Awards-citations received by the program under survey"
           },
           {
