@@ -343,10 +343,7 @@ export const areas = [  {
           },
           {
             "label": "B.4. Evidence/s of the selection process showing the names of applicants.",
-            "hrefs": [
-              "https://docs.google.com/spreadsheets/d/1cCZMAnpgjobmGvR0XH1uhahZteFeZh1J/preview",
-              "https://docs.google.com/spreadsheets/d/1G1a3TK22YlZBxCU5S4ZlJP3OQPKMfm0qYZAv6sVtwqA/preview"
-            ]
+            "href": "https://docs.google.com/spreadsheets/d/1s6yNZ4Hbtyxh_qEknYdLL6XqZi3OyZfRsImxpV9XgNE/preview"
           },
           {
             "label": "B.5. Evidence/s of the Orientation Program for newly-hired faculty.",
