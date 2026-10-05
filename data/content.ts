@@ -247,6 +247,9 @@ export const areas = [
             ]
           },
           {
+            "label": "A.3. Profile of the faculty according to:"
+          },
+          {
             "label": "A.4. List of Faculty who have received academic awards/recognitions."
           }
         ]
