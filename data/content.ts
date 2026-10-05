@@ -406,7 +406,13 @@ export const areas = [
             ]
           },
           {
-            "label": "F.3. Composition and Profile of the Instructional Materials Development Committee."
+            "label": "F.3. Composition and Profile of the Instructional Materials Development Committee.",
+            "children": [
+              {
+                "label": "F.3.1 University Memorandum on the Composition of Instructional Materials Development Committee",
+                "href": "https://drive.google.com/file/d/1W7hRP7FzuZPA7ZetU34IpGKg3zOJif5l/view?usp=sharing"
+              }
+            ]
           },
           {
             "label": "F.4. Faculty who served as lecturer, resource person, consultant in his/her field of specialization as well as in allied disciplines."
@@ -421,19 +427,81 @@ export const areas = [
         "title": "Salaries, Fringe Benefits and Incentives",
         "items": [
           {
-            "label": "G.1. Policies and guidelines on salaries, benefits and privileges, including the system of awarding."
+            "label": "G.1. Policies and guidelines on salaries, benefits and privileges, including the system of awarding.",
+            "children": [
+              {
+                "label": "G.1.1. Policies on Salaries/Benefits and other Privileges",
+                "children": [
+                  {
+                    "label": "G.1.1.1. Policies on Salaries/Benefits and other Privileges",
+                    "href": "https://drive.google.com/file/d/1WV4riAXKah8oam6XgNczZ6SI80uO5DGD/view?usp=sharing"
+                  },
+                  {
+                    "label": "G.1.1.2. Policies on Salaries/Benefits and other Privileges",
+                    "href": "https://drive.google.com/file/d/1FjE5mSUIlZq_Vc535bD4tAZJDtdEn880/view?usp=sharing"
+                  }
+                ],
+                "href": "https://drive.google.com/file/d/1Z-l5ddsV9e54gzw0HBo9XEJLJZRFUUCP/view?usp=sharing"
+              },
+              {
+                "label": "G.1.2. Notice of Dissemination Received by Faculty",
+                "href": "https://drive.google.com/file/d/1e6JE_HMMHAGkGr5S7FupXpQIr6G7FtlN/view?usp=sharing"
+              }
+            ]
           },
           {
-            "label": "G.2. List of privileges, fringe benefits as well as incentives."
+            "label": "G.2. List of privileges, fringe benefits as well as incentives.",
+            "children": [
+              {
+                "label": "G.2.1. Policies on Salaries/Benefits and other Privileges",
+                "children": [
+                  {
+                    "label": "G.2.1.1 Policies on Salaries/Benefits and other Privileges",
+                    "href": "https://drive.google.com/file/d/1etBO9HDG9fx8mQqctWBf3aNGdzkxhn2v/view?usp=sharing"
+                  },
+                  {
+                    "label": "G.2.1.2. Policies on Salaries/Benefits and other Privileges",
+                    "href": "https://drive.google.com/file/d/1OsFdwBjNe9QldHtta9LC861X1Ms_Ljkv/view?usp=sharing"
+                  }
+                ],
+                "href": "https://drive.google.com/file/d/1aqDqBjtghIocNns-3NOmhel1KGu2mMfz/view?usp=sharing"
+              },
+              {
+                "label": "G.2.2. Notice of Dissemination Received by Faculty",
+                "href": "https://drive.google.com/file/d/13rI6ZgJuRu2hSxffitj9PLyXoERzVNaH/view?usp=sharing"
+              }
+            ]
           },
           {
-            "label": "G.3. Copy of the Plantilla."
+            "label": "G.3. Copy of the Plantilla.",
+            "href": "https://drive.google.com/file/d/1Hjhx2j1oA9ft7LMOFTLSZMPu2eStQUh_/view?usp=sharing"
           },
           {
-            "label": "G.4. Evidence/s that fringe benefits and incentives are provided to the faculty."
+            "label": "G.4. Evidence/s that fringe benefits and incentives are provided to the faculty.",
+            "children": [
+              {
+                "label": "G.4.1. Policies on Salaries/Benefits and other Privileges",
+                "children": [
+                  {
+                    "label": "G.4.1.1 Policies on Salaries/Benefits and other Privileges",
+                    "href": "https://drive.google.com/file/d/1N6peedtgclW8UHiN9lLIYgq_GSSpgU0a/view?usp=sharing"
+                  },
+                  {
+                    "label": "G.4.1.2 Policies on Salaries/Benefits and other Privileges",
+                    "href": "https://drive.google.com/file/d/1M6GuQOPvm7xUkwjFLmvWfzJT7pK2zD66/view?usp=sharing"
+                  }
+                ],
+                "href": "https://drive.google.com/file/d/1EKUs9vjvAPf-TiPQN4QUme4sV4RSQSdC/view?usp=sharing"
+              },
+              {
+                "label": "G.4.2. Notice of Dissemination Received by Faculty",
+                "href": "https://drive.google.com/file/d/1FIx9JgGJ3fo2kJDTYd9QSCQZD18FQuI6/view?usp=sharing"
+              }
+            ]
           },
           {
-            "label": "G.5. Description of the Faculty Performance Evaluation System, including the instrument/s used."
+            "label": "G.5. Description of the Faculty Performance Evaluation System, including the instrument/s used.",
+            "href": "https://drive.google.com/file/d/12DTWX0Mwoz4EXde0xfDfuml08_PTOz9Z/view?usp=sharing"
           },
           {
             "label": "G.6. List of faculty given recognition/award/credits for outstanding performance and production of scholarly works."
