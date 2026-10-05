@@ -756,7 +756,7 @@ export const areas = [  {
             "hrefs": [
               "https://drive.google.com/file/d/1gLx14v-z1yEU0udr6Ug7a-_xS3NLW8l8/preview",
               "https://drive.google.com/file/d/1sPvuDjU8IXpjQQF18PItCf-zN7yL3ymC/preview",
-              "https://drive.google.com/file/d/1pf3TFMMw75F0fIUWVKcoW8qt2ZfTFxpY/preview",
+              "https://drive.google.com/file/d/1HKGEfosWvVwmtDzo4G_QE-auGMproS86/preview",
               "https://drive.google.com/file/d/1X-vTUAwf4h6puo61EYUEfu7dNKjyTyCZ/preview"
             ],
             "texts": [
