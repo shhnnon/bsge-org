@@ -553,18 +553,7 @@ export const areas = [
         "items": [
           {
             "label": "A.1. Copy of the Curriculum (with prerequisite courses, where applicable).",
-            "children": [
-              {
-                "label": "A.1a Old Curriculum",
-                "href": "https://drive.google.com/file/d/1n3dD5lolFBuofGqzA038JYkjPSp2Uped/view?usp=drive_link",
-                "text": "A.1a Old Curriculum"
-              },
-              {
-                "label": "A.1b New Curriculum",
-                "href": "https://drive.google.com/file/d/1acFKPUKn3IfuKTrsrn7_KSB8xb589uy3/view?usp=drive_link",
-                "text": "A.1b New Curriculum"
-              }
-            ]
+            "href": "https://drive.google.com/drive/folders/1p-B6fo9PAeszkQinla6H07I6-isMuk4F?usp=sharing"
           },
           {
             "label": "A.2 CHED Policies and Standards, CMOs, where applicable.",
