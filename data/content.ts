@@ -1403,16 +1403,67 @@ export const areas = [
         "letter": "E",
         "title": "Scholarship/Grants",
         "items": [
-          {
+                    {
             "label": "E.1. Copy of the Institutional Scholarship Program containing:",
             "children": [
               {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1fmTXe2wym2EFfJ71UIMmZbPu-VUctuD1?usp=drive_link",
-                "text": "Google Drive folder"
+                "label": "E.1.1 list of scholarships available",
+                "hrefs": [
+                  "https://drive.google.com/open?id=1Sf5NMPGzLbeUFWsLopYi117DqCCEySJj&usp=drive_copy",
+                  "https://drive.google.com/open?id=1COAFlaqFHBOWN6Z5WU5sEUKYNC6d2r2o&usp=drive_copy",
+                  "https://drive.google.com/open?id=1wK35XG4ShWQRxyZlFzUnxkj71GkyZokU&usp=drive_copy",
+                  "https://drive.google.com/open?id=1Sh2_UdqV7waWogZYgegWL_6biMD_p3Rt&usp=drive_copy"
+                ],
+                "texts": [
+                  "List of scholarships available",
+                  "Guidelines for Scholarship and Financial Assistance of Batangas State University",
+                  "BOR Reso No. 45 S. 2024- Institutional Guidelines on the Implementation of RA 10931",
+                  "BOR Reso No. 50 S. 2024- Financial Assistance Program for Disadvantaged and Special Group of Student"
+                ]
+              },
+              {
+                "label": "E.1.2 list of school privileges of scholars (stipend, free or discounted tuition fees, food allowance, etc.)",
+                "href": "https://drive.google.com/open?id=1z9_GwJEjEIvV6NZXhpIiC6ELLh7IUcfh&usp=drive_copy",
+                "text": "List of school privileges of scholars"
+              },
+              {
+                "label": "E.1.3 policies on the selection and retention of scholars/grantees in different categories",
+                "hrefs": [
+                  "https://drive.google.com/open?id=1i-dJcpxG3MYz8_ftjZQnrFC52-AydD9-&usp=drive_copy",
+                  "https://drive.google.com/open?id=1u0qpeZSxtckkpaP2BeDqOfLDGjNKcHLD&usp=drive_copy"
+                ],
+                "texts": [
+                  "Policies on the Selection and Retention of Scholars or Grantees in Different Categories",
+                  "SCHOLARSHIP OFFICE POLICIES AND GUIDELINES"
+                ]
+              },
+              {
+                "label": "E.1.4 a mechanism for fund generation from sponsors, benevolent individuals, agencies, institutions and organizations",
+                "hrefs": [
+                  "https://drive.google.com/open?id=1u0qpeZSxtckkpaP2BeDqOfLDGjNKcHLD&usp=drive_copy",
+                  "https://drive.google.com/open?id=1B3HJFwmjDuq9pl7A3DhLqplE5p0U7TgW&usp=drive_copy",
+                  "https://drive.google.com/open?id=1Nbf0y1MgPP6-orDKCNjwyyoxbBYC_3D8&usp=drive_copy",
+                  "https://drive.google.com/open?id=1faktjSJX9bYrYA97P0mjcrQF0kzHxla-&usp=drive_copy"
+                ],
+                "texts": [
+                  "SEM-CALACA POWER CORPORATION",
+                  "UAM PHILIPPINES, INC",
+                  "FASTECH",
+                  "MALAMPAYA FOUNDATION INC"
+                ]
+              },
+              {
+                "label": "E.1.5 system of monitoring a grantee/scholar's academic status",
+                "hrefs": [
+                  "https://drive.google.com/open?id=1JqF3mYU7N55kN943hoRkSUdA8KGockFx&usp=drive_copy",
+                  "https://drive.google.com/open?id=1pRu6uCY0opJ64c9YblzXYR0ac0Vo_YTk&usp=drive_copy"
+                ],
+                "texts": [
+                  "Malampaya 2nd Semester 2024 - 2025",
+                  "Status Report 2nd Semester FY 2025"
+                ]
               }
-            ],
-            "href": "https://drive.google.com/drive/folders/1fmTXe2wym2EFfJ71UIMmZbPu-VUctuD1?usp=drive_link"
+            ]
           },
           {
             "label": "E.2. Copy of the orientation program for scholars and grantees.",
