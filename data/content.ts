@@ -1523,196 +1523,21 @@ export const areas = [  {
     "parameters": [
       {
         "letter": "A",
-        "title": "Priorities and Relevance",
-        "items": [
-          {
-            "label": "A.1. Copy of the Institutional Research Agenda",
-            "href": "https://drive.google.com/file/d/17g1yJ3VlC6lkCwryfk1gGEHOKjhZxEwC/view?usp=sharing",
-            "text": "Research Agenda"
-          },
-          {
-            "label": "A.2. Structure of the Research and Development Unit, including the profile of the Research Head",
-            "hrefs": [
-              "https://drive.google.com/file/d/1lIkCzu2mrvGggTtpFqUEWvi_yTwvXokU/view?usp=sharing",
-              "https://drive.google.com/file/d/1Aw4r_fjI7gBpNrgy2x_EPN2BfSAjAcWd/view?usp=sharing",
-              "https://drive.google.com/file/d/1BTwHVEVGbX3vtVVXbh48Mt_hywwYjx3V/view?usp=sharing",
-              "https://drive.google.com/file/d/1OoFOKbq-40-9pPxvcFn6qUaZrM5RtUP7/view?usp=sharing"
-            ],
-            "texts": [
-              "Dr. Jen Aldwayne B. Delmo",
-              "OVCRDES Updated Organizational Structure 2026",
-              "Research Functional Chart",
-              "Research-Updated Organizational Structure 2026"
-            ]
-          },
-          {
-            "label": "A.3. A copy of the research program of the program under survey",
-            "hrefs": [
-              "https://drive.google.com/file/d/1ol4h5RJTtbasEcAY5aT9G1cAlq9MViJc/view?usp=sharing",
-              "https://docs.google.com/spreadsheets/d/170dNlPf09hfv9kV_O2hhR-v3zBaAljmO/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true"
-            ],
-            "texts": [
-              "Approved Proposal for the Implementation of the Spark Program",
-              "Research Clusters - CEAFA"
-            ]
-          },
-          {
-            "label": "A.4. Evidence of participation of different stakeholders in the formulation of the research agenda",
-            "hrefs": [
-              "https://drive.google.com/file/d/1H2OPiyHbsn7cA6AXb0dMZatBIgaZpKVz/view?usp=sharing",
-              "https://drive.google.com/file/d/1JOPsvhJnOjfI4NAY2OK2LWEtsOKPh5uX/view?usp=sharing",
-              "https://drive.google.com/file/d/1R88gIPx4I-JniBbyo5sM6C_b3TORJjeH/view?usp=sharing",
-              "https://drive.google.com/file/d/1nXKfBGy0YySyeiADqCHi7-TuMD3r8-TT/view?usp=sharing"
-            ],
-            "texts": [
-              "Agenda Setting Narrative Report 2017",
-              "BatStateU Strategic Plan 2019 - 2029 (with ISSN)",
-              "Program - Agenda Setting 2017",
-              "Research Agenda 2018"
-            ]
-          },
-          {
-            "label": "A.5. Abstracts of researches conducted",
-            "hrefs": [
-              "https://drive.google.com/file/d/1VwhDMTNyyC-jAEHHAw5y0DmKykgpnV8Z/view?usp=sharing",
-              "https://drive.google.com/file/d/1DY9jsaE2PuRTO33d87xHa7qiuIW2fWjq/view?usp=sharing",
-              "https://drive.google.com/file/d/1Mq9yKibuSqGcEaK8bUZebLeMO_MyH3zS/view?usp=sharing",
-              "https://drive.google.com/file/d/1p7gUTFi-iioKHUmW241q3rtgWZjcVJ6w/view?usp=sharing"
-            ],
-            "texts": [
-              "BSGE Captone Projects Copy of Titles",
-              "BS Geological Engineering - List of Theses",
-              "BS Transportation Systems Engineering Copies of Abstracts 2024 - 2025",
-              "BS Transportation Systems Engineering Copies of Abstracts 2025 - 2026"
-            ]
-          }
-        ]
+        "title": "Academic Support Services",
+        "items": []
       },
       {
         "letter": "B",
-        "title": "Funding and other Resources",
-        "items": [
-          {
-            "label": "B.1. Copy of the budget allocation for research",
-            "hrefs": [
-              "https://drive.google.com/file/d/1M6BZw8ypchS-NXXNZbSvdtanRBgVKHd6/view?usp=sharing",
-              "https://drive.google.com/file/d/1ftneL6EVh3wAaR5aRwNEE6tEhGe1-uEa/view?usp=sharing"
-            ],
-            "texts": [
-              "RESEARCH Budget PRE for FY 2025",
-              "RESEARCH Budget PRE for FY 2026"
-            ]
-          },
-          {
-            "label": "B.2. List of linkages/networking with research funding agencies",
-            "hrefs": [
-              "https://drive.google.com/file/d/1gyAMVGupnJZRjW_kvCHDiYNtqlLD35Y_/view?usp=sharing",
-              "https://drive.google.com/file/d/1ACvQLShzKcf8R7nKMx_B5JzMKFAUqMQG/view?usp=sharing",
-              "https://drive.google.com/file/d/1j_qy8dST1uucpX-LPFKIh3444quShlcO/view?usp=sharing",
-              "https://drive.google.com/file/d/1yTbftsP8iP6IMfPoIHJqDNeCxDVGrOCK/view?usp=sharing",
-              "https://drive.google.com/file/d/17bEAtytzYL8e3yK-lTLqRNkVzbbc5xpV/view?usp=sharing"
-            ],
-            "texts": [
-              "BIOMS - MOA",
-              "MOA BARAKO",
-              "MT_V1_Copy of MOA SIGAW Ternate Cavite",
-              "MT_V1_MOA SIGAW QZN",
-              "NotarizedMOA_ATLANTIS"
-            ]
-          },
-          {
-            "label": "B.3. Inventory of research facilities, equipment and amenities",
-            "href": "https://drive.google.com/file/d/1lE6dkHl6nKjwH492zXyftzTbVec3DKjt/view?usp=sharing",
-            "text": "Research Facilities.pdf"
-          },
-          {
-            "label": "B.4. Profile of the research personnel/staff",
-            "hrefs": [
-              "https://drive.google.com/file/d/19uWrs8ielH6--V3Jt-f-_JHpxb0ud-Rm/view?usp=sharing",
-              "https://drive.google.com/file/d/1k0-dsiEumvk_7YRRRjep3uNOJygTxM9V/view?usp=sharing"
-            ],
-            "texts": [
-              "Joyce Ann D. Dinlasan",
-              "Thyrone Jhon U. Paña"
-            ]
-          },
-          {
-            "label": "B.5. List of patents, licenses, copyrights and other research outputs, including ones generated from each of them, if any",
-            "href": "https://drive.google.com/file/d/1YxRejf7E7HuIkwIQaz14BUqqYga2Mco9/view?usp=sharing",
-            "text": "List of Intellectual Property 2022 - 2026"
-          },
-          {
-            "label": "B.6. Copy of the research staff development program",
-            "hrefs": [
-              "https://drive.google.com/file/d/1H8LBAWVa67BxjiM3wXJgqdrIpW90Wy7J/view?usp=sharing",
-              "https://drive.google.com/file/d/1gUNX00iY1ZIZX0JizsspI0Le3NUy09mz/view?usp=sharing"
-            ],
-            "texts": [
-              "Research Head - CATNA & Training Plan Matrix",
-              "Research Staff - CATNA & Training Plan Matrix"
-            ]
-          },
-          {
-            "label": "B.7. List of team/collaborative researches conducted"
-          }
-        ]
+        "title": "Student Development and Welfare",
+        "items": []
       },
       {
         "letter": "C",
-        "title": "Implementation, Monitoring, Evaluation and Utilization of Research Results/Outputs",
-        "items": [
-          {
-            "label": "C.1. Copy of the Research Manual",
-            "href": "https://drive.google.com/drive/folders/1o4ClnbG0e7O7_n4OqDO-g2L-4aNgi9OF?usp=drive_link"
-          },
-          {
-            "label": "C.2. Summary of faculty researches conducted",
-            "href": "https://drive.google.com/drive/folders/1G4sr1r4d68KDJMb7KPVcIDheGpKwqig2?usp=drive_link"
-          },
-          {
-            "label": "C.3. List of in-service training conducted to enhance faculty research capabilities",
-            "href": "https://drive.google.com/drive/folders/17g2RPuA3Bo9uKe-xiyqlM8A1Sd07pKGQ?usp=drive_link"
-          },
-          {
-            "label": "C.4. Report on in-house reviews conducted",
-            "href": "https://drive.google.com/drive/folders/1AqOZAp9xcN0KuMI9Ntf1TfVoJorx9AkM?usp=drive_link"
-          },
-          {
-            "label": "C.5. Evidence/s that research results have been utilized"
-          },
-          {
-            "label": "C.6. Policies pertaining to Intellectual Property Rights (IPR)"
-          }
-        ]
-      },
-      {
-        "letter": "D",
-        "title": "Publication and Dissemination",
-        "items": [
-          {
-            "label": "D.1. Evidence of publication and dissemination of research results"
-          },
-          {
-            "label": "D.2. List of dissemination activities conducted (forum, conferences, seminars, etc.)"
-          },
-          {
-            "label": "D.3. Copies of published articles"
-          },
-          {
-            "label": "D.4. Linkage/s established for exchange of research publications"
-          },
-          {
-            "label": "D.5. Composition of a Technical Committee to edit research manuscripts and technical reports"
-          },
-          {
-            "label": "D.6. List Of Faculty Who Served As Paper Presenters, Lecturer, External Evaluator, Dissertation/Thesis Adviser, Critic, Etc., Including Relevant Information"
-          }
-        ]
+        "title": "Student Activities and Organizations",
+        "items": []
       }
     ]
-  },
-  {
-    "id": 6,
+"id": 6,
     "title": "Extension",
     "summary": "Institutional outreach and off-campus networks providing academic access, community development programs, and technical expertise to regional stakeholders.",
     "body": "Institutional outreach and off-campus networks providing academic access, community development programs, and technical expertise to regional stakeholders.",
