@@ -1523,8 +1523,8 @@ export const areas = [
               "https://drive.google.com/file/d/1k0-dsiEumvk_7YRRRjep3uNOJygTxM9V/view?usp=sharing"
             ],
             "texts": [
-              "Dinglasan, Joyce Ann",
-              "Pana, Thyrone Jhon"
+              "Joyce Ann D. Dinlasan",
+              "Thyrone Jhon U. Paña"
             ]
           },
           {
