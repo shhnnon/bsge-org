@@ -1094,15 +1094,10 @@ export const areas = [  {
             ]
           },
           {
+            {
             "label": "B.3. Data on student admission (enrollment trends, drop-out rate, transferees, course shifters, etc.)",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/19kOsCA698kEhq4uC5cbme2tGnub8wsUW?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/19kOsCA698kEhq4uC5cbme2tGnub8wsUW?usp=drive_link"
+            "href": "https://drive.google.com/file/d/1xohREQWnrjuocXAS4IrK0XQiPmj3hdT-/preview",
+            "text": "List of Students BS Geodetic Engineering"
           }
         ]
       },
@@ -1164,11 +1159,10 @@ export const areas = [  {
               }
             ]
           },
-          { "label": "C.2. Updated Student Profiles" },
-          {
-            "label": "C.3. Policies on the confidentiality of student records",
-            "href": "https://drive.google.com/open?id=1EvRnd51-vTat_thio6XaOM7YoiEI3CK7&usp=drive_copy",
-            "text": "Policies on the confidentiality of student records"
+            {
+            "label": "C.2. Updated Student Profiles",
+            "href": "https://drive.google.com/file/d/1xohREQWnrjuocXAS4IrK0XQiPmj3hdT-/preview",
+            "text": "List of Students BS Geodetic Engineering"
           },
           {
             "label": "C.4. A copy of the Testing program.",
