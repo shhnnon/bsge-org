@@ -407,11 +407,11 @@ export const areas = [
           },
           {
             "label": "F.3. Composition and Profile of the Instructional Materials Development Committee.",
-            "children": [
-              {
-                "label": "F.3.1 University Memorandum on the Composition of Instructional Materials Development Committee",
-                "href": "https://drive.google.com/file/d/1W7hRP7FzuZPA7ZetU34IpGKg3zOJif5l/view?usp=sharing"
-              }
+            "hrefs": [
+              "https://drive.google.com/file/d/1W7hRP7FzuZPA7ZetU34IpGKg3zOJif5l/view?usp=sharing"
+            ],
+            "texts": [
+              "F.3.1 University Memorandum on the Composition of Instructional Materials Development Committee"
             ]
           },
           {
