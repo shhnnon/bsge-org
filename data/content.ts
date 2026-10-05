@@ -1107,6 +1107,7 @@ export const areas = [
           }
         ]
       },
+      {
         "letter": "D",
         "title": "Other Student Services",
         "items": [
