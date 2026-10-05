@@ -1094,7 +1094,6 @@ export const areas = [  {
             ]
           },
           {
-            {
             "label": "B.3. Data on student admission (enrollment trends, drop-out rate, transferees, course shifters, etc.)",
             "href": "https://drive.google.com/file/d/1xohREQWnrjuocXAS4IrK0XQiPmj3hdT-/preview",
             "text": "List of Students BS Geodetic Engineering"
