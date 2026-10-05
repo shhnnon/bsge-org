@@ -576,10 +576,30 @@ export const areas = [
             "label": "H.6. Evidence/s of professional growth (advanced studies and attendance to seminars and other in-service training)."
           },
           {
-            "label": "H.7. Code of Professional Ethics/RA 6713 and other pertinent CSC issuances."
+            "label": "H.7. Code of Professional Ethics/RA 6713 and other pertinent CSC issuances.",
+            "children": [
+              {
+                "label": "H.7.1. RA 6713",
+                "href": "https://drive.google.com/file/d/1Qy6YdXwi5RZyD_o6ik0-suDVjziSpyXT/view?usp=sharing"
+              }
+            ]
           },
           {
-            "label": "H.8. Evidences/s of dissemination and observance of RA 6713, the Citizen's Charter and other pertinent legal issuances."
+            "label": "H.8. Evidences/s of dissemination and observance of RA 6713, the Citizen's Charter and other pertinent legal issuances.",
+            "children": [
+              {
+                "label": "H.8.1. RA 6713",
+                "href": "https://drive.google.com/file/d/1IhKZoMoZslmaAF9N5DsOPDkkDZYk9nWG/view?usp=sharing"
+              },
+              {
+                "label": "H.8.3. BatStateU Citizen's Charter 2025-01",
+                "href": "https://drive.google.com/file/d/12sn8iHo13zEFA0LRJuHAPgmZAKEi7pE4/view?usp=sharing"
+              },
+              {
+                "label": "H.8.4. Photos of the Bulletin Board with posted RA 6713 and Citizen's Charter",
+                "href": "https://drive.google.com/file/d/1TGKq2RCaT_zC-wS7HLHXk85yiLL3PMqI/view?usp=sharing"
+              }
+            ]
           }
         ]
       }
