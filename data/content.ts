@@ -1070,9 +1070,7 @@ export const areas = [
               }
             ]
           },
-          {
-            "label": "C.2. Updated Student Profiles"
-          },
+          { "label": "C.2. Updated Student Profiles" },
           {
             "label": "C.3. Policies on the confidentiality of student records",
             "href": "https://drive.google.com/open?id=1EvRnd51-vTat_thio6XaOM7YoiEI3CK7&usp=drive_copy",
@@ -1084,10 +1082,7 @@ export const areas = [
               "https://drive.google.com/open?id=1xE_55_QesUXdrXyYOHgz_8oklJ5KzIw_&usp=drive_copy",
               "https://drive.google.com/open?id=1sb61plGZIBT3SNZxsWajvol1cPjRRb41&usp=drive_copy"
             ],
-            "texts": [
-              "Email from Testing and Admission Office",
-              "Testing Program Documents"
-            ]
+            "texts": ["Email from Testing and Admission Office", "Testing Program Documents"]
           },
           {
             "label": "C.5. List of tests and evaluative tools used in Guidance and Counseling services.",
@@ -1095,31 +1090,18 @@ export const areas = [
               "https://drive.google.com/open?id=1113c9d9bKJ83q9sWbID_IIIMJwqM_DvA&usp=drive_copy",
               "https://drive.google.com/open?id=1BzQGu-nc0wch5ybEgGWmuepbQ7tzGqXY&usp=drive_copy"
             ],
-            "texts": [
-              "Career Guidance Program",
-              "List of tests and evaluative tools used in Guidance and Counseling services"
-            ]
+            "texts": ["Career Guidance Program", "List of tests and evaluative tools used in Guidance and Counseling services"]
           },
-          {
-            "label": "C.6. List of students who availed of the counseling service."
-          },
+          { "label": "C.6. List of students who availed of the counseling service." },
           {
             "label": "C.7. Sample counseling referral form",
             "href": "https://drive.google.com/open?id=16JHSEgvzX4lDFM__KxGVecnbp53o7vAV&usp=drive_copy",
             "text": "Sample counseling referral form"
           },
-          {
-            "label": "C.8. List of prospective employers of graduates of a particular program."
-          },
-          {
-            "label": "C.9. Sample letters of employers inviting graduates of a particular program to apply."
-          },
-          {
-            "label": "C.10. Alumni Directory and officers of the Alumni Association."
-          },
-          {
-            "label": "C.11. Linkages established with industries and prospective employers."
-          },
+          { "label": "C.8. List of prospective employers of graduates of a particular program." },
+          { "label": "C.9. Sample letters of employers inviting graduates of a particular program to apply." },
+          { "label": "C.10. Alumni Directory and officers of the Alumni Association." },
+          { "label": "C.11. Linkages established with industries and prospective employers." },
           {
             "label": "C.12. Copy of the instrument to evaluate the guidance program.",
             "hrefs": [
