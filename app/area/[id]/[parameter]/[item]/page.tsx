@@ -88,7 +88,7 @@ export default async function AreaResource({
           <img src="/batstateu.svg" alt="Batangas State University logo" className="area-brand-logo" />
           <span>
             <strong>Geodetic Engineering</strong>
-            <small>COE - Alangilan Campus</small>
+            <small>Department of Civil Engineering - Alangilan Campus</small>
           </span>
         </Link>
       </header>
