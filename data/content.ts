@@ -1433,58 +1433,42 @@ export const areas = [
         "items": [
           {
             "label": "F.1. List of recognized student organizations, including their advisers.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1r0OvDWA2AvqdVOFnnpWPgygh0uz-BE0r?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1r0OvDWA2AvqdVOFnnpWPgygh0uz-BE0r?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1PhyfPST-5CNmR6fWQ0Sqta3yyE7BGYX7&usp=drive_copy",
+            "text": "Student Organization and Activities Manual"
           },
           {
             "label": "F.2. Sample Constitution and By-Laws of student organizations.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1IbdMvgtmvmkFqMSpK6oOPOwjBd6WdbpG?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1IbdMvgtmvmkFqMSpK6oOPOwjBd6WdbpG?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1eWWoD07935Is0JPsK9PwhOv5pKTvnwYV&usp=drive_copy",
+            "text": "Constitution and By-Laws 2025 - 2026 [GEP BatStateU-SC]"
           },
           {
             "label": "F.3. List of co-curricular and extra-curricular activities including relevant information.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1DIpdeep3KjpJgJHobFORGZWYkJf_ogW6?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1DIpdeep3KjpJgJHobFORGZWYkJf_ogW6?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1mJ44LiDRvXcp2KFHKuxfi2xL_Z5c-LpL&usp=drive_copy",
+            "text": "Plan of Activities 2026 - 2027 [GEP BatStateU-SC]"
           },
           {
             "label": "F.4. A system of incentives, awards/recognition for outstanding achievement in co-curricular and extra-curricular activities.",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1jqgRHuss-7aBatdFxbmPUWiETX-jq4eR?usp=drive_link",
-                "text": "Google Drive folder"
-              }
-            ],
-            "href": "https://drive.google.com/drive/folders/1jqgRHuss-7aBatdFxbmPUWiETX-jq4eR?usp=drive_link"
+            "href": "https://drive.google.com/open?id=1AoFPERBU4NBcHxYieLKS40C40ENK_6-P&usp=drive_copy",
+            "text": "Incentives, Awards, and Recognitions [GEPBatStateU-SC]"
           },
           {
             "label": "F.5. Sample Accomplishment Reports of recognized student organization",
-            "children": [
-              {
-                "label": "Google Drive folder",
-                "href": "https://drive.google.com/drive/folders/1dt-UR63Xhrje34w_R9H2_jWC7REb8FUC?usp=drive_link",
-                "text": "Google Drive folder"
-              }
+            "hrefs": [
+              "https://drive.google.com/open?id=1W-qpArG0Q3ivwTw5QukJZ4Na0DRlIMja&usp=drive_copy",
+              "https://drive.google.com/open?id=1nsKmSyCX7VtMxczJTdi17w4PeEtj0rea&usp=drive_copy",
+              "https://drive.google.com/open?id=1fCWorU6iPzEmF0nMr0egaTe1XHQr8VP_&usp=drive_copy",
+              "https://drive.google.com/open?id=10Fa3RCVw8fnslH22h9YvMCzZnJ5aBBE7&usp=drive_copy",
+              "https://drive.google.com/open?id=1QrYtVBw6Oj49OhsYtrXLAlDUAzwDi0WW&usp=drive_copy",
+              "https://drive.google.com/open?id=1V4tMn3gFzkEgBsjdaJFQ3Il5ouGL7t_V&usp=drive_copy"
             ],
-            "href": "https://drive.google.com/drive/folders/1dt-UR63Xhrje34w_R9H2_jWC7REb8FUC?usp=drive_link"
+            "texts": [
+              "Accomplishment Report 2022-2023 Second Semester [GEP BatStateU-SC]",
+              "Accomplishment Report 2023-2024 First Semester [GEP BatStateU-SC]",
+              "Accomplishment Report 2023-2024 Second Semester [GEP BatStateU-SC]",
+              "Accomplishment Report 2024-2025 First Semester [GEP BatStateU-SC]",
+              "Accomplishment Report 2025-2026 First Semester [GEP BatStateU-SC]",
+              "Accomplishment Report 2025-2026 Second Semester [GEP BatStateU-SC]"
+            ]
           }
         ]
       }
