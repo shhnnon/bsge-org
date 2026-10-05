@@ -297,7 +297,21 @@ export const areas = [
             ]
           },
           {
-            "label": "B.5. Evidence/s of the Orientation Program for newly-hired faculty."
+            "label": "B.5. Evidence/s of the Orientation Program for newly-hired faculty.",
+            "hrefs": [
+              "https://docs.google.com/presentation/d/1OBuNpHXSafujsFS4Sc2ojrmQrHxzT7EO/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true",
+              "https://docs.google.com/presentation/d/1zA-MJ7vX_tGJvwRX2ZhwQ-xD5EB2RQND/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true",
+              "https://docs.google.com/presentation/d/1nhIgFQx__lUMkxc3-YGRp21YoDyrTFdN/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true",
+              "https://docs.google.com/presentation/d/1QOvCaWFpBGWRRDEmhknM3g1lg7bPtos2/edit?usp=sharing&ouid=112802423293680305558&rtpof=true&sd=true",
+              "https://drive.google.com/file/d/1TTQx1hV5vC2iUyWDixLvZk4SqQIptOhp/view?usp=sharing"
+            ],
+            "texts": [
+              "Code of Ethics",
+              "Employee Discipline",
+              "GAD Orientation and Mainstreaming Faculty Orientation",
+              "Integration of GAD in the Curriculum Faculty Orientation",
+              "Narrative Report on Orientation for Newly-Hired Faculty Members, 1st Semester 2020 - 2021"
+            ]
           },
           {
             "label": "B.6. Policies on inbreeding.",
@@ -338,14 +352,20 @@ export const areas = [
             ]
           },
           {
-            "label": "C.5. Files of Individual Faculty Load."
-          }
-        ]
-      },
-      {
-        "letter": "D",
-        "title": "Rank and Tenure",
-        "items": [
+            "label": "C.5. Files of Individual Faculty Load.",
+            "hrefs": [
+              "https://drive.google.com/file/d/1YeMJJsi5zNCJlpsEVlNPa0_kQ_2aGxQy/view?usp=sharing",
+              "https://drive.google.com/file/d/1_diLASakECGSCg3WkqrxQmXMJuKPYUEK/view?usp=sharing",
+              "https://drive.google.com/file/d/12E24mkSLASVSmjhwGiWgyCkX-An4greI/view?usp=sharing",
+              "https://drive.google.com/file/d/1yRXYuNQYvULfISEqTKjhu1oBoXAoY8bR/view?usp=sharing"
+            ],
+            "texts": [
+              "BoR Reso 249 s2015 Faculty Loading Scheme",
+              "Faculty Loadings CoE-UG, First Semester AY 2024-2025",
+              "Faculty Loadings CoE-UG Second Semester AY 2023 - 2024",
+              "Faculty Loadings CoE-UG First Semester AY 2025 - 2026"
+            ]
+          },
           {
             "label": "D.1. Policies on rank and tenure, including pertinent Board resolutions.",
             "href": "https://drive.google.com/file/d/1qbLWfOGyy7jf5RQdXy7Fomrt7NuXpDwG/view?usp=sharing"
@@ -362,14 +382,26 @@ export const areas = [
             ]
           },
           {
-            "label": "D.3. Profile of the faculty according to:"
-          }
-        ]
-      },
-      {
-        "letter": "E",
-        "title": "Faculty Development",
-        "items": [
+            "label": "D.3. Profile of the faculty according to:",
+            "children": [
+              {
+                "label": "D.3.1. Appointment status",
+                "hrefs": [
+                  "https://docs.google.com/spreadsheets/d/1s6yNZ4Hbtyxh_qEknYdLL6XqZi3OyZfRsImxpV9XgNE/edit?usp=sharing",
+                  "https://docs.google.com/spreadsheets/d/1y49Kr-nh-x88n4ReEPzibZh1Ul4DjqBEoB2cI1jHrpo/edit?usp=sharing"
+                ],
+                "texts": [
+                  "Faculty Matrix (w/ number of students)",
+                  "Faculty Matrix AY 2026-2027"
+                ]
+              },
+              {
+                "label": "D.3.2. Academic Rank",
+                "href": "https://docs.google.com/spreadsheets/d/1y49Kr-nh-x88n4ReEPzibZh1Ul4DjqBEoB2cI1jHrpo/edit?usp=sharing",
+                "text": "Faculty Matrix AY 2026 - 2027"
+              }
+            ]
+          },
           {
             "label": "E.1. Copy of the Faculty Development Program.",
             "href": "https://drive.google.com/file/d/1T_8THzg-ElR57p1HMBryRQpuDXvkIj7K/view?usp=sharing"
@@ -378,7 +410,9 @@ export const areas = [
             "label": "E.2. Summary of faculty who were granted scholarship, fellowship, etc."
           },
           {
-            "label": "E.3. File copies of Scholarship/Fellowship/Training Contract."
+            "label": "E.3. File copies of Scholarship/Fellowship/Training Contract.",
+            "href": "https://drive.google.com/file/d/1luVOtbQv91X0Xul4TYjSIf0cVLjX0AL6/view?usp=sharing",
+            "text": "List of Faculty Scholars"
           },
           {
             "label": "E.4. Summary of in-service training conducted in-campus by the program under survey, including list of faculty-participants."
