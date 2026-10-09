@@ -663,12 +663,180 @@ export const areas = [  {
             "texts": ["GE 407"]
           },
           {
-            "label": "H.2. Minutes of Meetings Conducted.",
-            "hrefs": [
-              "https://drive.google.com/open?id=1mEvYolT0O_J6m2F7Kc451e7qFbJMICeR&usp=drive_copy",
-              "https://drive.google.com/open?id=1PP456k-8ZkXK4qZ7NICWVo6e9pbOQMKv&usp=drive_copy"
-            ],
-            "texts": ["DCE Faculty Meeting", "Memo No.18 S2026 DCE Meeting with the Dean"]
+            "label": "H.2. Evidence on Submission of Required Reports by the faculty.",
+            "children": [
+              {
+                "label": "Course Portfolio",
+                "children": [
+                  {
+                    "label": "GE 409",
+                    "children": [
+                      {
+                        "label": "Lecture Materials",
+                        "hrefs": [
+                          "https://drive.google.com/open?id=1lBxF0uPXAITvCvPvLOqxXU2G3tTaSTZg&usp=drive_copy",
+                          "https://drive.google.com/open?id=1zDvsQj4M-pSQgUaCG10yhQuZiXxTzTme&usp=drive_copy",
+                          "https://drive.google.com/open?id=1AYFicnm-vmjSbgaLs9Ye9YlAVjM_mEIZ&usp=drive_copy"
+                        ]
+                      },
+                      {
+                        "label": "Exams",
+                        "hrefs": [
+                          "https://drive.google.com/open?id=1RiSmQ-ivab0awMsYozPTAFC6FoD9aURc&usp=drive_copy",
+                          "https://drive.google.com/open?id=1K_knTjDif32ouGnvWiUhUkRz0KktxPKp&usp=drive_copy"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "GE 418",
+                    "children": [
+                      {
+                        "label": "Lecture Materials",
+                        "hrefs": [
+                          "https://drive.google.com/open?id=1nOKt6oSTHkxsuAFe_cGvv2majCzS-GF5&usp=drive_copy",
+                          "https://drive.google.com/open?id=1jOZpUMWCMVpWXCvFay7aWcWbNVmNM2l7&usp=drive_copy",
+                          "https://drive.google.com/open?id=1hrP-7bLk-k1exm85IrtK3_NlENsYSyQn&usp=drive_copy",
+                          "https://drive.google.com/open?id=1uYYxdbSEaP4AtCDIWF5tKYv-U5fmoOI9&usp=drive_copy",
+                          "https://drive.google.com/open?id=1U_dQ_B_drO9NmzlwaFdxtfCFTaotC4_m&usp=drive_copy",
+                          "https://drive.google.com/open?id=1e2JeyAZSeaQrxq9kYfbmXT3baJWxzvaz&usp=drive_copy"
+                        ]
+                      },
+                      {
+                        "label": "Laboratory Exercise",
+                        "href": "https://drive.google.com/open?id=1OpCF2ZMM6mUC7sBB2vx7IexBmBxHwZkr&usp=drive_copy"
+                      },
+                      {
+                        "label": "Course Syllabus",
+                        "href": "https://drive.google.com/open?id=1ye6XZJBYsSvvbjV7JSH4D1KDo-eQJL3v&usp=drive_copy"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "GE407",
+                    "children": [
+                      {
+                        "label": "Lecture Materials",
+                        "hrefs": [
+                          "https://drive.google.com/open?id=14jdohEXe4ZQ-viFcxEqCWJEl_cR70bYy&usp=drive_copy",
+                          "https://drive.google.com/open?id=1FE_rPHWCDdyXfu04lrtUaJaNwcYJVOF_&usp=drive_copy",
+                          "https://drive.google.com/open?id=1_47YZzlDtMKswBTQSvkr9KhmfQ9G2Cvb&usp=drive_copy",
+                          "https://drive.google.com/open?id=1Wc7cwm0F8MPBiAa0hKD5hEuWVkuHgz56&usp=drive_copy",
+                          "https://drive.google.com/open?id=1PuDg2F-I6PFcBxxeNtla9hrIMiIzAjDd&usp=drive_copy",
+                          "https://drive.google.com/open?id=1zeAcOUYxTg5WYqJE1R-16kJ0QUsj1aeH&usp=drive_copy"
+                        ]
+                      },
+                      {
+                        "label": "Problem Sets",
+                        "hrefs": [
+                          "https://drive.google.com/open?id=187jaSv-bwlVKlVMTmRKiXmdQIsHJiBk9&usp=drive_copy",
+                          "https://drive.google.com/open?id=1LS-f8g1lVoSktGmevlwXuirIWvt_ZV54&usp=drive_copy"
+                        ]
+                      },
+                      {
+                        "label": "Exams",
+                        "hrefs": [
+                          "https://drive.google.com/open?id=1O08m9gEPPBNsZGg3RUoint4z4UQQT75B&usp=drive_copy",
+                          "https://drive.google.com/open?id=14xUlhJ1UJBFguPDM2mVol-bYRdN-oa7g&usp=drive_copy"
+                        ]
+                      },
+                      {
+                        "label": "Course Syllabus",
+                        "href": "https://drive.google.com/open?id=179gS9Jz-ZkTvXmkDdlXVBk_feQ-FLJxo&usp=drive_copy"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "GE 423",
+                    "children": [
+                      {
+                        "label": "Lecture Materials",
+                        "hrefs": [
+                          "https://drive.google.com/open?id=1SaTBWJempdfljcimEUCmxEM2ae2iz2il&usp=drive_copy",
+                          "https://drive.google.com/open?id=1KyWKfTLqWMEu2WdIxF-pGS-w0B1nIEjf&usp=drive_copy",
+                          "https://drive.google.com/open?id=1OxBBQx9Nb4rroBHghMYJTpdHMf3_v7Oa&usp=drive_copy"
+                        ]
+                      },
+                      {
+                        "label": "Laboratory Exercise",
+                        "hrefs": [
+                          "https://drive.google.com/open?id=1AwlZtm4s6lr8Z6X0egVHOZjBWywZabrF&usp=drive_copy",
+                          "https://drive.google.com/open?id=1Qkg0C9jF5tWN-2zRgP0GUWrLVvP_Znre&usp=drive_copy"
+                        ]
+                      },
+                      {
+                        "label": "Course Syllabus",
+                        "href": "https://drive.google.com/open?id=1Da_y1BeKaYMMxf50L8lz7BrEwE6D-IG8&usp=drive_copy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "Faculty Portfolio",
+                "children": [
+                  {
+                    "label": "Certificates",
+                    "hrefs": [
+                      "https://drive.google.com/open?id=1CvWVKuPKeg17rQ-hhnF6vgUM81zZBQep&usp=drive_copy",
+                      "https://drive.google.com/open?id=12KiQQzgkB5H2Z-HbtQk1UheTCd-_Wakb&usp=drive_copy"
+                    ]
+                  },
+                  {
+                    "label": "PRC",
+                    "hrefs": [
+                      "https://drive.google.com/open?id=10ffC6PDM0dzyJzH5-JUZz5fxZesUl0HS&usp=drive_copy",
+                      "https://drive.google.com/open?id=1z9nLtVKKjtndbw46bdDcoqnf0yeNSrEH&usp=drive_copy"
+                    ]
+                  },
+                  {
+                    "label": "Diploma",
+                    "href": "https://drive.google.com/open?id=11yHsjzadyp8CXnz9U8v1ZMe1lC4vloRj&usp=drive_copy"
+                  },
+                  {
+                    "label": "Personal Data Sheet",
+                    "href": "https://drive.google.com/open?id=1hHS_wCyk5sU61A9DfHElhnPhTGa6Jf0B&usp=drive_copy"
+                  },
+                  {
+                    "label": "Curriculum Vitae",
+                    "href": "https://drive.google.com/open?id=1HDKAgRr1Xd6rbjaGw_MtS-vDq6rZZH7O&usp=drive_copy"
+                  }
+                ]
+              },
+              {
+                "label": "IPCR",
+                "href": "https://drive.google.com/open?id=1X3KWpjPsWb-JzCnSAYjRLsBOuqNYzpsL&usp=drive_copy"
+              },
+              {
+                "label": "Submissions",
+                "children": [
+                  {
+                    "label": "Seminars Attended",
+                    "hrefs": [
+                      "https://drive.google.com/open?id=1ou3DGpnKpiFdCGP8kpHoBr1rjP-7Inen&usp=drive_copy",
+                      "https://drive.google.com/open?id=1wy2xRA2frMnOelDCLxVDx_yYMWEEz2Ok&usp=drive_copy",
+                      "https://drive.google.com/open?id=1sNr8IhwIMSb7sn3CdeHYJgWa_Lw4UJf9&usp=drive_copy",
+                      "https://drive.google.com/open?id=1p4UrrcVQGedwIAcxpi2dABOKZVAdH3Rq&usp=drive_copy"
+                    ]
+                  },
+                  {
+                    "label": "Diploma",
+                    "href": "https://drive.google.com/open?id=13iweGjUEiFMd5AL_w00VNaUCbzcD2-aE&usp=drive_copy"
+                  },
+                  {
+                    "label": "Transcript of Records",
+                    "href": "https://drive.google.com/open?id=1Jm4_xvjadoRzBDDpDKRsOAANTBsp7yDS&usp=drive_copy"
+                  },
+                  {
+                    "label": "PRC",
+                    "hrefs": [
+                      "https://drive.google.com/open?id=1RyzJV9nqON7W_9RpK1cpiXF_eLJNVrSW&usp=drive_copy",
+                      "https://drive.google.com/open?id=1RyzJV9nqON7W_9RpK1cpiXF_eLJNVrSW&usp=drive_copy"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "label": "H.3. Evidence on Submission of Required Reports by the faculty.",
