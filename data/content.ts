@@ -898,182 +898,316 @@ export const areas = [  {
       }
     ]
   },
-  {
-    "id": 3,
-    "title": "Curriculum",
-    "summary": "An outcome-based academic framework uniting core theoretical principles with industry-aligned practical applications. Thoughtful design ensures seamless alignment with rigorous professional and accreditation standards.",
-    "body": "An outcome-based academic framework uniting core theoretical principles with industry-aligned practical applications. Thoughtful design ensures seamless alignment with rigorous professional and accreditation standards.",
-    "driveUrl": "https://drive.google.com/drive/folders/1r4BJz9kO4tsyfXX-mlfz_Hxq1OgYUSGJ?usp=drive_link",
-    "parameters": [
-      {
-        "letter": "A",
-        "title": "Curriculum",
-        "items": [
-          {
-            "label": "A.1. Copy of the Curriculum (with prerequisite courses, where applicable).",
-            "href": "https://drive.google.com/drive/folders/1p-B6fo9PAeszkQinla6H07I6-isMuk4F?usp=sharing"
-          },
-          {
-            "label": "A.2 CHED Policies and Standards, CMOs, where applicable.",
-            "href": "https://drive.google.com/file/d/1Rfb4pU66pdkHTuA-iDAap6tG46dthJ8_/preview",
-            "text": "A.2 CHED Policies and Standards, CMOs, where applicable."
-          },
-          {
-            "label": "A.3. Copies of MOA or MOU with agencies/institutions regarding immersion, OJT, RLE, Practice Teaching and other related activities.",
-            "hrefs": [
-              "https://drive.google.com/file/d/1xi1PoOcuu5Bq90lR5o1C6MFgE8oqb-5t/view?usp=sharing",
-              "https://drive.google.com/file/d/1DCGuvzR4S_9DZdsfron9OceIwcQZoisp/view?usp=drivesdk",
-              "https://drive.google.com/file/d/1tZhSAjTNrl6yj3RTi6tKB3Ar-Q5rZ58L/view?usp=drivesdk"
-            ],
-            "texts": [
-              "Suitability Analysis for Urban Bicycle Tourism of Iloilo City Using GIS",
-              "Notarized Copy of MOA - City Govt. of Batangas - CEO",
-              "Notarized Copy of MOA - City Assessor's Office"
-            ]
-          },
-          {
-            "label": "A.4. Minutes of the Academic Council meetings.",
-            "hrefs": [
-              "https://drive.google.com/file/d/1kQ4PIi8_iRawk0Aq67YUTKg-kTLwucrc/view?usp=sharing",
-              "https://drive.google.com/file/d/1DwwhXcir9qG6f7R9xNRJmJZcn4984Iaq/view?usp=sharing"
-            ],
-            "texts": [
-              "BS Geodetic Engineering",
-              "Resolution No. 0404-01 S 2025"
-            ]
-          },
-          {
-            "label": "A.5. Policies on curriculum development/review.",
-            "href": "https://drive.google.com/file/d/1Wr_xMRNWaCes2ptBnM0fHisous1pmXn5/view?usp=drive_link",
-            "text": "A.5. Policies on curriculum development/review."
-          },
-          {
-            "label": "A.6. Policies on validation of subjects taken by transferees, and accommodation of students with special needs.",
-            "hrefs": [
-              "https://drive.google.com/file/d/1gLx14v-z1yEU0udr6Ug7a-_xS3NLW8l8/preview",
-              "https://drive.google.com/file/d/1sPvuDjU8IXpjQQF18PItCf-zN7yL3ymC/preview",
-              "https://drive.google.com/file/d/1HKGEfosWvVwmtDzo4G_QE-auGMproS86/preview",
-              "https://drive.google.com/file/d/1X-vTUAwf4h6puo61EYUEfu7dNKjyTyCZ/preview"
-            ],
-            "texts": [
-              "Memorandum No.32 Policies on Shifters and Transferees",
-              "BatStateU-FO-REG-12 Application Form for Shifter, Transferee",
-              "Policies for Students with Special Needs",
-              "BatStateU-WI-REG-03 Rev 01 (Evaluation of Student Transferees, Shifters and Returnees)"
-            ]
-          }
-        ]
-      },
-      {
-        "letter": "B",
-        "title": "Instructional Process, Methodologies, and Learning Opportunities",
-        "items": [
-          {
-            "label": "B.1. Compilation of updated course syllabi in all subjects."
-          },
-          {
-            "label": "B.2. Evidence/s on remedial programs conducted."
-          },
-          {
-            "label": "B.3. List of teaching strategies used in the different subject areas."
-          },
-          {
-            "label": "B.4. Sample course requirements submitted by students."
-          },
-          {
-            "label": "B.5. Record of class observations."
-          },
-          {
-            "label": "B.6. List of academic linkages or consortia."
-          }
-        ]
-      },
-      {
-        "letter": "C",
-        "title": "Assessment of Academic Performance",
-        "items": [
-          {
-            "label": "C.1. Sample copies of summative examination (mid-term and final) with Table of Specifications."
-          },
-          {
-            "label": "C.2. Samples of non-traditional assessment tools, e.g. rubric, portfolio, etc."
-          },
-          {
-            "label": "C.3. Samples of assessment tools for individual differences and multiple intelligences."
-          },
-          {
-            "label": "C.4. Sample class records."
-          },
-          {
-            "label": "C.5. Copy of the grading system, including evidence that it has been approved."
-          },
-          {
-            "label": "C.6. Evidence that course requirements are returned to students after they were evaluated and recorded."
-          }
-        ]
-      },
-      {
-        "letter": "D",
-        "title": "Classroom Management",
-        "items": [
-          {
-            "label": "D.1. Policies on attendance and discipline."
-          },
-          {
-            "label": "D.2. Evidence that independent work/performance is encouraged and monitored, such as student outputs."
-          }
-        ]
-      },
-      {
-        "letter": "E",
-        "title": "Graduation Requirements",
-        "items": [
-          {
-            "label": "E.1. Policies that apply to student returnees, transferees and students with academic deficiencies including residency."
-          },
-          {
-            "label": "E.2. Sample copy of a Students' Clearance before graduation."
-          },
-          {
-            "label": "E.3. Samples of researches conducted by students."
-          },
-          {
-            "label": "E.4. Policies on OJT, (Practice Teaching, RLE, Apprenticeship, Practicum, etc.), if applicable."
-          }
-        ]
-      },
-      {
-        "letter": "F",
-        "title": "Administrative Support for Effective Instruction",
-        "items": [
-          {
-            "label": "F.1. Administrative Manual."
-          },
-          {
-            "label": "F.2. Evidence/s of dialogues conducted among the administration, faculty and students."
-          },
-          {
-            "label": "F.3. Schedule of regular faculty consultation hours."
-          },
-          {
-            "label": "F.4. A system of awards/recognition for graduating students with outstanding achievements."
-          },
-          {
-            "label": "F.5. Results of a study on the licensure performance of graduates, if applicable."
-          },
-          {
-            "label": "F.6. Evidence of administrative support to improve licensure performance of graduates, if applicable."
-          },
-          {
-            "label": "F.7. Conduct of a tracer study on the employability of graduates."
-          },
-          {
-            "label": "F.8. Feedback from employers regarding performance of graduates."
-          }
-        ]
-      }
-    ]
-  },
+{
+  "id": 3,
+  "title": "Curriculum",
+  "summary": "An outcome-based academic framework uniting core theoretical principles with industry-aligned practical applications. Thoughtful design ensures seamless alignment with rigorous professional and accreditation standards.",
+  "body": "An outcome-based academic framework uniting core theoretical principles with industry-aligned practical applications. Thoughtful design ensures seamless alignment with rigorous professional and accreditation standards.",
+  "driveUrl": "https://drive.google.com/drive/folders/1r4BJz9kO4tsyfXX-mlfz_Hxq1OgYUSGJ?usp=drive_link",
+  "parameters": [
+    {
+      "letter": "B",
+      "title": "Instructional Process, Methodologies, and Learning Opportunities",
+      "items": [
+        {
+          "label": "B.1. Compilation of updated course syllabi in all subjects.",
+          "texts": [
+            "[ENGG 101] Introduction to Engineering",
+            "[ENGG 103] Computer-Aided Design",
+            "[ENGG 109] Engineering Mechanics",
+            "[ENGG 404] Engineering Economics",
+            "[ENGG 416] Research Methods",
+            "[GE 202] General Surveying 1",
+            "[GE 411] Geodetic Engineering Laws, Obligations and Contracts, Ethics",
+            "GE 413] Satellite Geodesy",
+            "[GE 414] Geodetic Surveying",
+            "[GeoE 206] Principles of Geology",
+            "[MATH 101] Differential Calculus\\",
+            "[SCI 405] Geology"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=1uj_lichufvgs4V5yS00WstLL7jkahd4_&usp=drive_copy",
+            "https://drive.google.com/open?id=1nAoxzwCfOD3Iwo5aD0ymVL7zGAykM4S6&usp=drive_copy",
+            "https://drive.google.com/open?id=12q1mlBKXiYLt61Xv65RF7abz4flZVXzC&usp=drive_copy",
+            "https://drive.google.com/open?id=1Q6Efoz0IjpwIyPRizqQi4eiPVBD_7tFS&usp=drive_copy",
+            "https://drive.google.com/open?id=1hvO9-rE3-4O2dBcVNfx_Xywth3xjFmVO&usp=drive_copy",
+            "https://drive.google.com/open?id=1JqrxsmQ96fDLS1_lDvLyNFSwLOZi9dYs&usp=drive_copy",
+            "https://drive.google.com/open?id=15fSFTa-cV1bTr3VTEjYLA_F3pf32rjOb&usp=drive_copy",
+            "https://drive.google.com/open?id=1KYmUUQ1Clv2BXb05ZG6oM_c00-7vaT0A&usp=drive_copy",
+            "https://drive.google.com/open?id=1bnYBCTVA9Kg7eBQRUKBoEPq7cNdS7rW6&usp=drive_copy",
+            "https://drive.google.com/open?id=19XYXcqKAX1NzKwOoxra7kmVxnX4_wxGp&usp=drive_copy",
+            "https://drive.google.com/open?id=11WV-myfF9-aU3GufeTfk1j4qZn0J86fs&usp=drive_copy",
+            "https://drive.google.com/open?id=1jvn3MnurrPtiKD8vHEq-ZEJFokU_faI0&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "B.2. Evidence/s on remedial programs conducted.",
+          "texts": [
+            "Make-up, Advance Class Request Form"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=1KnDVwM3WMRjCFQ7vY6X6HzDfzwahEpDX&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "B.3. List of teaching strategies used in the different subject areas."
+        },
+        {
+          "label": "B.4. Sample course requirements submitted by students.",
+          "texts": [
+            "LabEx1_MENDOZA_Template",
+            "LabEx1_MENDOZA"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=1V2sdt4GgM7Ov3Hnm8M7aAKpgX9KLKnY7&usp=drive_copy",
+            "https://drive.google.com/open?id=1zBph2_cAaz4b4JVvvbm7GkGfyq4ImUFW&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "B.5. Record of class observations.",
+          "texts": [
+            "Classroom-Observation-Form_03.13.2026 - MALANUM",
+            "Classroom-Observation-Form_03.13.2026"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=1LlxzRAvOn8KRhe8cki7AiAZkCFSq1Ubu&usp=drive_copy",
+            "https://drive.google.com/open?id=1jKTyBBUBuNBWgDEodhZIVDoKOHbl09RA&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "B.6. List of academic linkages or consortia.",
+          "texts": [
+            "List of academic linkages",
+            "MOA of academic linkages"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=1k0UW9dAGDx-Noel6y7Ly6FLgXEGcukYX&usp=drive_copy",
+            "https://drive.google.com/open?id=1avq0fY9v9ecU9vQKMAT_fQsZAbeSACxS&usp=drive_copy"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "title": "Assessment of Academic Performance",
+      "items": [
+        {
+          "label": "C.1. Sample copies of summative examination (mid-term and final) with Table of Specifications.",
+          "texts": [
+            "GE 407 - TOS",
+            "407 Final High",
+            "407 Final Mid",
+            "407 Finals Low",
+            "407 Midterm High",
+            "407 Midterm Mid",
+            "Prelim Exam - High",
+            "Prelim Exam - Mid",
+            "Prelim Exam - Low",
+            "CE 404 - Finals Exam",
+            "GE 403 - Midterm Exam",
+            "General Surveying - Midterm Exam",
+            "TOS - Cartography",
+            "TOS - CE 404",
+            "TOS - General Surveying"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=1h78dbGNKl5ImcnNEMGWALkdXm23gF4j-&usp=drive_copy",
+            "https://drive.google.com/open?id=1Qb7R0Wi4kYueKGFLHCOdXd7dHMPa_iPj&usp=drive_copy",
+            "https://drive.google.com/open?id=1Ly5Wj2gE-ud0HFjCdxBspVd7t-uSi9CC&usp=drive_copy",
+            "https://drive.google.com/open?id=1d7v8WURehz7r3RCTPhmhJYugPzb6e5PC&usp=drive_copy",
+            "https://drive.google.com/open?id=1PLxAffEe7dEkGrSwXWWm1Qb9bR_SxBAP&usp=drive_copy",
+            "https://drive.google.com/open?id=1RnCBqpB6PAOzkmpTWcbYxGM0h8JQ-L1f&usp=drive_copy",
+            "https://drive.google.com/open?id=1cjhpLJv3aw6QQ-wfKK2jB1fOeDxbgmbn&usp=drive_copy",
+            "https://drive.google.com/open?id=1YDITWn0ZRbwgeThkGjieTCu4w19S50Bg&usp=drive_copy",
+            "https://drive.google.com/open?id=1iri2xMNk46cZrc2f-sMY4bCaVI_nm24Q&usp=drive_copy",
+            "https://drive.google.com/open?id=1mfY8R9MDMyNylyilOTJlSMLWkH8dbt0_&usp=drive_copy",
+            "https://drive.google.com/open?id=1iAZ_j6EokrSlI6J7yNlkxRkyG5nQVlQu&usp=drive_copy",
+            "https://drive.google.com/open?id=1yVr5yPg7OabFRIKcpPWioleIiL_9AumS&usp=drive_copy",
+            "https://drive.google.com/open?id=1HWi6vb0OChuXlP7wAdCV2VLjrvr96UZD&usp=drive_copy",
+            "https://drive.google.com/open?id=1Ym3NmplYkp0gXcuaD64sTC8SjY2V476L&usp=drive_copy",
+            "https://drive.google.com/open?id=1EWwVfZyP5eXqH6uyW92V1udUAjER2eKj&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "C.2. Samples of non-traditional assessment tools, e.g. rubric, portfolio, etc.",
+          "texts": [
+            "IDEATION",
+            "REMOTE SENSING-PROPOSAL G5",
+            "Remote Sensing Project Proposal Rubric"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=11plc89dtVeOLE9tPlMbniBZCxHc3-N8p&usp=drive_copy",
+            "https://drive.google.com/open?id=1vsyC3UJ3DfZ9qsaGlxBZwIVHi2b-3UCx&usp=drive_copy",
+            "https://drive.google.com/open?id=1me256V1LEJc5__NF5i4FHG2AFN_bil67&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "C.3. Samples of assessment tools for individual differences and multiple intelligences.",
+          "hrefs": [
+            "https://drive.google.com/open?id=1N78wHKjb9-4YmCYc93TF32uXTgC3Mx2_&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "C.4. Sample class records.",
+          "hrefs": [
+            "https://drive.google.com/open?id=1Syo729hx871lUZvzO6_s63y0JdtKIdLA&usp=drive_copy",
+            "https://drive.google.com/open?id=1GWBlEBxA7Axe-Q_l-fmYSMvduaI3qQ1J&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "C.5. Copy of the grading system, including evidence that it has been approved.",
+          "hrefs": [
+            "https://drive.google.com/open?id=1Tga7S0a1k_bT-7-2T8dm77uoAX7iyPzR&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "C.6. Evidence that course requirements are returned to students after they were evaluated and recorded.",
+          "texts": [
+            "Acknowledgement Form 2201",
+            "Acknowledgement Form 2202",
+            "Acknowledgement Form 3201",
+            "Acknowledgement Form 3202"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=1nmeFJN4lQ8Az3F_UJxbUVjhFW1DlJCFG&usp=drive_copy",
+            "https://drive.google.com/open?id=1FTt5FAvyZMDbLw4buXpXTCnS8AY9hGoi&usp=drive_copy",
+            "https://drive.google.com/open?id=1bKOpKwdSXMA69sQLiMR8xaVb071a0Bsr&usp=drive_copy",
+            "https://drive.google.com/open?id=19MyV0v0S9V6GQZA_HeSWxdIJQdTlpbG7&usp=drive_copy"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "title": "Classroom Management",
+      "items": [
+        {
+          "label": "D.1. Policies on attendance and discipline.",
+          "texts": [
+            "Policy on Management of Learning",
+            "IRR-FLEXIBLE-LEARNING"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=1eTukttOQ2RNeIvKSNk0PKkSbVx5DWCgg&usp=drive_copy",
+            "https://drive.google.com/open?id=1LYmSUxfCkP-rCbtXCTH_VI1P2bU5D5CA&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "D.2. Evidence that independent work/performance is encouraged and monitored, such as student outputs.",
+          "hrefs": [
+            "https://drive.google.com/open?id=14kejFo-92k1qooh2vvdN3IIynSF6uqiD&usp=drive_copy",
+            "https://drive.google.com/open?id=17pKJIEfXvvKa8UI63KhD4Sc4rPt6gg_2&usp=drive_copy",
+            "https://drive.google.com/open?id=1UDL_JEgrRXj8PhPcOrIu5gKIAzzJlHJE&usp=drive_copy"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "E",
+      "title": "Graduation Requirements",
+      "items": [
+        {
+          "label": "E.1. Policies that apply to student returnees, transferees and students with academic deficiencies including residency.",
+          "hrefs": [
+            "https://drive.google.com/open?id=1boeMTJngiUQwKIwuUiwQ83MTyIXoED0d&usp=drive_copy",
+            "https://drive.google.com/open?id=1Imafs4A7ze06_fddo8p7nvggRgg3O1Cu&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "E.2. Sample copy of a Students' Clearance before graduation.",
+          "hrefs": [
+            "https://drive.google.com/open?id=1ae5EiSZ4jVRC55juSyFKZJMJpUZlEVa1&usp=drive_copy",
+            "https://drive.google.com/open?id=1JwLPmWnraNWs-NXhFpYvo1zd9tnYbmTb&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "E.3. Samples of researches conducted by students.",
+          "hrefs": [
+            "https://drive.google.com/open?id=1ltuSWHAW-9KKKp5ft4ukkqrzK74Ch0Q9&usp=drive_copy",
+            "https://drive.google.com/open?id=1K2mnsP8V6uzbqmMqrSewNVAz1ZXUHYf-&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "E.4. Policies on OJT, (Practice Teaching, RLE, Apprenticeship, Practicum, etc.), if applicable.",
+          "texts": [
+            "E.4.1. Internship Manual",
+            "E.4.2. Post-OJT Requirements",
+            "E.4.3. Pre-OJT Requirements",
+            "E.4.4. Copies of MOU/MOA"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=1hev7INLOb7il-9VwfnkM3bZrBzkwYnQe&usp=drive_copy",
+            "https://drive.google.com/open?id=18oNjPl6AdZIZcwi7JUVonl2MPGJhHWE-&usp=drive_copy",
+            "https://drive.google.com/open?id=1vlLLfx-H3Tk1INMNFPi45wdxSI5a34k0&usp=drive_copy",
+            "https://drive.google.com/open?id=1GclyAWLTwT_gRlKQn9g0mtJlj93QKZqh&usp=drive_copy"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "F",
+      "title": "Administrative Support for Effective Instruction",
+      "items": [
+        {
+          "label": "F.1. Administrative Manual.",
+          "hrefs": [
+            "https://drive.google.com/open?id=1EtRdTvTbl2zHEj3AKyUD3c2-jCUT5gAr&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "F.2. Evidence/s of dialogues conducted among the administration, faculty and students.",
+          "texts": [
+            "OUP Memorandum Order No. 399 s.2026 - KAPIHAN WITH THE PRESIDENT",
+            "KAPIHAN WITH THE PRESIDENT"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=1zDPmgzC0ZtlKo5NGGDMIl2mLJMvUJPtM&usp=drive_copy",
+            "https://drive.google.com/open?id=1hfYRDtb3EVVe84u1nz74Zhn8JphC-ge3&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "F.3. Schedule of regular faculty consultation hours."
+        },
+        {
+          "label": "F.4. A system of awards/recognition for graduating students with outstanding achievements.",
+          "texts": [
+            "HAC GUIDELINES",
+            "Student Awards"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=10etTsJ0bCsmMJ01fwPdBMquOcP4O8Lul&usp=drive_copy",
+            "https://drive.google.com/open?id=14xapwHrgeELvSfjppenYxVf4Z8ai131-&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "F.5. Results of a study on the licensure performance of graduates, if applicable.",
+          "texts": [
+            "2026 GELE Board Exam Top 1",
+            "BSGE Topnotchers",
+            "Performance on Licensure Examination"
+          ],
+          "hrefs": [
+            "https://drive.google.com/open?id=1tL4OqwbavxbhQV1rHvfqJhnuid6tQkJO&usp=drive_copy",
+            "https://drive.google.com/open?id=1r6LaAwaJCmFtw8zF8jqkpZDzRelbyp2k&usp=drive_copy",
+            "https://drive.google.com/open?id=1ETCPVs8PvDhHrUt1oA_Y-PYbCv8VkHtM&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "F.6. Evidence of administrative support to improve licensure performance of graduates, if applicable.",
+          "hrefs": [
+            "https://drive.google.com/open?id=1dWQYV4X4EQF94jJNHkBKxsI4mAtqGMwb&usp=drive_copy"
+          ]
+        },
+        {
+          "label": "F.7. Conduct of a tracer study on the employability of graduates."
+        },
+        {
+          "label": "F.8. Feedback from employers regarding performance of graduates."
+        }
+      ]
+    }
+  ]
+},
   {
     "id": 4,
     "title": "Students",
