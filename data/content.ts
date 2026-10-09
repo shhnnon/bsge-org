@@ -1509,16 +1509,38 @@ export const areas = [  {
             ],
             "texts": ["Career Guidance Program", "List of tests and evaluative tools used in Guidance and Counseling services"]
           },
-          { "label": "C.6. List of students who availed of the counseling service." },
+          {
+            "label": "C.6. List of students who availed of the counseling service.",
+            "href": "https://drive.google.com/file/d/1-4eg7AT2uHQmp2Xq9s0Jre-dZLOwoEcg/preview",
+            "text": "GUIDANCE AND COUNSELING PROGRAM 2025-2026"
+          },
           {
             "label": "C.7. Sample counseling referral form",
             "href": "https://drive.google.com/open?id=16JHSEgvzX4lDFM__KxGVecnbp53o7vAV&usp=drive_copy",
             "text": "Sample counseling referral form"
           },
-          { "label": "C.8. List of prospective employers of graduates of a particular program." },
-          { "label": "C.9. Sample letters of employers inviting graduates of a particular program to apply." },
+          {
+            "label": "C.8. List of prospective employers of graduates of a particular program.",
+            "href": "https://drive.google.com/file/d/1hESeHyD_qqcBzavhsPe5gQ_lXJ98cRTN/preview",
+            "text": "List of Partner Industries for the Internship of BS Geodetic Engineering"
+          },
+          {
+            "label": "C.9. Sample letters of employers inviting graduates of a particular program to apply.",
+            "hrefs": [
+              "https://drive.google.com/file/d/1RD8xZPT05oCPeR0INtSFYPBUxM-hzk69/preview",
+              "https://drive.google.com/file/d/1KO4TXKgJXW493X0Dql-cYofeRoo3-jEw/preview"
+            ],
+            "texts": [
+              "https://drive.google.com/open?id=1RD8xZPT05oCPeR0INtSFYPBUxM-hzk69&usp=drive_copy",
+              "https://drive.google.com/open?id=1KO4TXKgJXW493X0Dql-cYofeRoo3-jEw&usp=drive_copy"
+            ]
+          },
           { "label": "C.10. Alumni Directory and officers of the Alumni Association." },
-          { "label": "C.11. Linkages established with industries and prospective employers." },
+          {
+            "label": "C.11. Linkages established with industries and prospective employers.",
+            "href": "https://drive.google.com/file/d/1JhQHrWACHGf0HQ_pjCLt2Q4rFhGgAhoq/preview",
+            "text": "https://drive.google.com/open?id=1JhQHrWACHGf0HQ_pjCLt2Q4rFhGgAhoq&usp=drive_copy"
+          },
           {
             "label": "C.12. Copy of the instrument to evaluate the guidance program.",
             "hrefs": [
