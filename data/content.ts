@@ -663,7 +663,15 @@ export const areas = [  {
             "texts": ["GE 407"]
           },
           {
-            "label": "H.2. Evidence on Submission of Required Reports by the faculty.",
+            "label": "H.2. Minutes of Meetings Conducted.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1mEvYolT0O_J6m2F7Kc451e7qFbJMICeR&usp=drive_copy",
+              "https://drive.google.com/open?id=1PP456k-8ZkXK4qZ7NICWVo6e9pbOQMKv&usp=drive_copy"
+            ],
+            "texts": ["DCE Faculty Meeting", "Memo No.18 S2026 DCE Meeting with the Dean"]
+          },
+          {
+            "label": "H.3. Evidence on Submission of Required Reports by the faculty.",
             "children": [
               {
                 "label": "Course Portfolio",
@@ -837,11 +845,6 @@ export const areas = [  {
                 ]
               }
             ]
-          },
-          {
-            "label": "H.3. Evidence on Submission of Required Reports by the faculty.",
-            "hrefs": ["https://drive.google.com/open?id=14wF2ClT4qqYl2Gw4xRSU31jeGczLRPrL&usp=drive_copy"],
-            "texts": ["Required Reports to be Submitted by Faculty"]
           },
           {
             "label": "H.4. Personnel Records on Administrative/Disciplinary Cases, if any.",
