@@ -1531,18 +1531,305 @@ export const areas = [  {
     "parameters": [
       {
         "letter": "A",
-        "title": "Academic Support Services",
-        "items": []
+        "title": "Priorities and Relevance",
+        "items": [
+          {
+            "label": "A.1. Copy of the Institutional Research Agenda",
+            "hrefs": [
+              "https://drive.google.com/open?id=17g1yJ3VlC6lkCwryfk1gGEHOKjhZxEwC&usp=drive_copy"
+            ],
+            "texts": [
+              "Research Agenda"
+            ]
+          },
+          {
+            "label": "A.2. Structure of the Research and Development Unit, including the profile of the Research Head",
+            "hrefs": [
+              "https://drive.google.com/open?id=1lIkCzu2mrvGggTtpFqUEWvi_yTwvXokU&usp=drive_copy",
+              "https://drive.google.com/open?id=1Aw4r_fjI7gBpNrgy2x_EPN2BfSAjAcWd&usp=drive_copy",
+              "https://drive.google.com/open?id=1BTwHVEVGbX3vtVVXbh48Mt_hywwYjx3V&usp=drive_copy",
+              "https://drive.google.com/open?id=1OoFOKbq-40-9pPxvcFn6qUaZrM5RtUP7&usp=drive_copy"
+            ],
+            "texts": [
+              "Dr. JEN ALDWAYNE B. DELMO",
+              "OVCRDES Updated 2026 Organizational Structure",
+              "RESEARCH FUNCTIONAL CHART",
+              "RESEARCH Updated 2026 Organizational Structure"
+            ]
+          },
+          {
+            "label": "A.3. A copy of the research program of the program under survey",
+            "hrefs": [
+              "https://drive.google.com/open?id=1ol4h5RJTtbasEcAY5aT9G1cAlq9MViJc&usp=drive_copy",
+              "https://drive.google.com/open?id=170dNlPf09hfv9kV_O2hhR-v3zBaAljmO&usp=drive_copy"
+            ],
+            "texts": [
+              "APPROVED PROPOSAL FOR THE IMPLEMENTATION OF THE SPARK PROGRAM",
+              "Research Clusters - CEAFA"
+            ]
+          },
+          {
+            "label": "A.4. Evidence of participation of different stakeholders in the formulation of the research agenda",
+            "hrefs": [
+              "https://drive.google.com/open?id=1H2OPiyHbsn7cA6AXb0dMZatBIgaZpKVz&usp=drive_copy",
+              "https://drive.google.com/open?id=1JOPsvhJnOjfI4NAY2OK2LWEtsOKPh5uX&usp=drive_copy",
+              "https://drive.google.com/open?id=1R88gIPx4I-JniBbyo5sM6C_b3TORJjeH&usp=drive_copy",
+              "https://drive.google.com/open?id=1nXKfBGy0YySyeiADqCHi7-TuMD3r8-TT&usp=drive_copy"
+            ],
+            "texts": [
+              "Agenda Setting Narrative Report 2017",
+              "BatStateU Strategic Plan 2019-2029 (with ISSN)",
+              "Program - Agenda Setting 2017",
+              "Research Agenda 2018"
+            ]
+          },
+          {
+            "label": "A.5. Abstracts of researches conducted",
+            "hrefs": [
+              "https://drive.google.com/open?id=1ZPBj0ie1nkQ01NJMM1kWnu66Yt7E9jzb&usp=drive_copy"
+            ],
+            "texts": [
+              "Capstone Projects Copy of Titles"
+            ]
+          }
+        ]
       },
       {
         "letter": "B",
-        "title": "Student Development and Welfare",
-        "items": []
+        "title": "Funding and other Resources",
+        "items": [
+          {
+            "label": "B.1. Copy of the budget allocation for research",
+            "hrefs": [
+              "https://drive.google.com/open?id=1M6BZw8ypchS-NXXNZbSvdtanRBgVKHd6&usp=drive_copy",
+              "https://drive.google.com/open?id=1ftneL6EVh3wAaR5aRwNEE6tEhGe1-uEa&usp=drive_copy"
+            ],
+            "texts": [
+              "RESEARCH Budget PRE for FY 2025",
+              "RESEARCH Budget PRE for FY 2026"
+            ]
+          },
+          {
+            "label": "B.2. List of linkages/networking with research funding agencies",
+            "hrefs": [
+              "https://drive.google.com/open?id=1gyAMVGupnJZRjW_kvCHDiYNtqlLD35Y_&usp=drive_copy",
+              "https://drive.google.com/open?id=1ACvQLShzKcf8R7nKMx_B5JzMKFAUqMQG&usp=drive_copy",
+              "https://drive.google.com/open?id=1j_qy8dST1uucpX-LPFKIh3444quShlcO&usp=drive_copy",
+              "https://drive.google.com/open?id=1yTbftsP8iP6IMfPoIHJqDNeCxDVGrOCK&usp=drive_copy",
+              "https://drive.google.com/open?id=17bEAtytzYL8e3yK-lTLqRNkVzbbc5xpV&usp=drive_copy"
+            ],
+            "texts": [
+              "BIOMS - MOA",
+              "MOA BARAKO",
+              "MT_V1_Copy of MOA SIGAW Ternate Cavite",
+              "MT V1 MOA SIGAW QZN",
+              "Notarized MOA ATLANTIS"
+            ]
+          },
+          {
+            "label": "B.3. Inventory of research facilities, equipment and amenities",
+            "hrefs": [
+              "https://drive.google.com/open?id=1lE6dkHl6nKjwH492zXyftzTbVec3DKjt&usp=drive_copy"
+            ],
+            "texts": [
+              "Research Facilities"
+            ]
+          },
+          {
+            "label": "B.4. Profile of the research personnel/staff",
+            "hrefs": [
+              "https://drive.google.com/open?id=19uWrs8ielH6--V3Jt-f-_JHpxb0ud-Rm&usp=drive_copy",
+              "https://drive.google.com/open?id=1k0-dsiEumvk_7YRRRjep3uNOJygTxM9V&usp=drive_copy"
+            ],
+            "texts": [
+              "DINLASAN, JOYCE ANN",
+              "PANA, THYRONE JHON"
+            ]
+          },
+          {
+            "label": "B.5. List of patents, licenses, copyrights and other research outputs, including ones generated from each of them, if any",
+            "hrefs": [
+              "https://drive.google.com/open?id=1YxRejf7E7HuIkwIQaz14BUqqYga2Mco9&usp=drive_copy"
+            ],
+            "texts": [
+              "List of Intellectual Property 2022-2026"
+            ]
+          },
+          {
+            "label": "B.6. Copy of the research staff development program",
+            "hrefs": [
+              "https://drive.google.com/open?id=1H8LBAWVa67BxjiM3wXJgqdrIpW90Wy7J&usp=drive_copy",
+              "https://drive.google.com/open?id=1gUNX00iY1ZIZX0JizsspI0Le3NUy09mz&usp=drive_copy"
+            ],
+            "texts": [
+              "RESEARCH HEAD - CATNA & TRAINING PLAN MATRIX",
+              "RESEARCH STAFF-CATNA & TRAINING PLAN MATRIX"
+            ]
+          },
+          {
+            "label": "B.7. List of team/collaborative researches conducted"
+          }
+        ]
       },
       {
         "letter": "C",
-        "title": "Student Activities and Organizations",
-        "items": []
+        "title": "Implementation, Monitoring, Evaluation and Utilization of Research Results/Outputs",
+        "items": [
+          {
+            "label": "C.1. Copy of the Research Manual",
+            "hrefs": [
+              "https://drive.google.com/open?id=19urBIxyfUFB7hgmvzwi4HViBQIKpkcRD&usp=drive_copy",
+              "https://drive.google.com/open?id=1vYIz2vlEmS45t3O3DxvvWydI8qcOeQC9&usp=drive_copy",
+              "https://drive.google.com/open?id=1aFyrKKUgykhAGjgU4pwjKdwmkrupZFi0&usp=drive_copy"
+            ],
+            "texts": [
+              "Approved Research Manual",
+              "BOR Research Manual Approved",
+              "RDES Memo No. 37 s.2023 BOR-APPROVED BATSTATEU THE NEU RESEARCH MANUAL"
+            ]
+          },
+          {
+            "label": "C.2. Summary of faculty researches conducted"
+          },
+          {
+            "label": "C.3. List of in-service training conducted to enhance faculty research capabilities",
+            "hrefs": [
+              "https://drive.google.com/open?id=1WQR89dJSLpzYY3xfj3iKKZxybOs4_V2S&usp=drive_copy",
+              "https://drive.google.com/open?id=1LefNIeOjqWTV-sLY2B4rlT36EL1yZG9o&usp=drive_copy",
+              "https://drive.google.com/open?id=10hTbMM3lMrT1ICA8feHlXhazqgCrwoWq&usp=drive_copy",
+              "https://drive.google.com/open?id=1Js0rbSV8Xb15IA6Ul8NdkERRuYuYloqB&usp=drive_copy",
+              "https://drive.google.com/open?id=1I_BOCR5upJNmjEXOeSwl8qMXNwKvM-Om&usp=drive_copy",
+              "https://drive.google.com/open?id=1XSYjGOKu4DBiXvkAf_txNidvDHebCxyl&usp=drive_copy",
+              "https://drive.google.com/open?id=1_hmae4pXHm6-dc0r3lL1R7wiQlcrmX9M&usp=drive_copy",
+              "https://drive.google.com/open?id=1TxvD-uUqXpNNfSPyslPdACYt5Oj-wHZ4&usp=drive_copy",
+              "https://drive.google.com/open?id=1KYK3Zo8InwM4IPkkAR7lbW5FafIOp_-R&usp=drive_copy",
+              "https://drive.google.com/open?id=1JoFcxcsyM_p9vZ9Vm6w0raTSgr_je1ez&usp=drive_copy"
+            ],
+            "texts": [
+              "RMS Writeshop Collaboration Narrative Report 2025",
+              "3-Day DRPW Narrative Report",
+              "3RD LREC MEETING NARRATIVE REPORT",
+              "LaTex Tutorial Narrative",
+              "Narrative Report of 2-day Workshop",
+              "Narrative Report Detailed Workshop April 2 & 3",
+              "NARRATIVE REPORT GS FACULTY WORKSHOP",
+              "Online Research WriteShop Narrative",
+              "Research Bootcamp - Narrative Report (Sept. 8, 2023)",
+              "RMS CARAVAN Narrative 2024"
+            ]
+          },
+          {
+            "label": "C.4. Report on in-house reviews conducted",
+            "hrefs": [
+              "https://drive.google.com/open?id=11n-wuGLfMNcC-tclCHclTwj7XUqXlJDl&usp=drive_copy",
+              "https://drive.google.com/open?id=1nzZbZdCylYJedqgFtIqPPHWU6J92Wtm3&usp=drive_copy",
+              "https://drive.google.com/open?id=1zQRecwOznEkJiJOaiUZuA88PrGWsLi3r&usp=drive_copy",
+              "https://drive.google.com/open?id=1kdosRMFC933r9R4uc8mwZLZUQRJPTZvm&usp=drive_copy",
+              "https://drive.google.com/open?id=1Lef_JNLecjPPUUl9UA31ptRqOfhwWtNh&usp=drive_copy"
+            ],
+            "texts": [
+              "Narrative Report - AIHR 2022",
+              "Narrative Report - AIHR 2023",
+              "Narrative Report - AIHR 2024",
+              "Narrative Report - AIHR 2025",
+              "Narrative Report - AIHR 2026"
+            ]
+          },
+          {
+            "label": "C.5. Evidence/s that research results have been utilized",
+            "hrefs": [
+              "https://drive.google.com/open?id=1tG8x1y5RAk9gWud4DN_WD327XaKx4r05&usp=drive_copy",
+              "https://drive.google.com/open?id=19BHf3XAHwpqQwNJoU9L4xrv7QUpf5gKD&usp=drive_copy",
+              "https://drive.google.com/open?id=1BKlnPSih86bEotzua6wLHblVq33187xe&usp=drive_copy",
+              "https://drive.google.com/open?id=1y0ZaUOcy9p-K0g6M0jGapqiwSbC6y2iI&usp=drive_copy"
+            ],
+            "texts": [
+              "Certificate of Utilization BSU Vision Drive",
+              "S Certificate of Utilization RUTA",
+              "S Certificate of Utilization TAAL",
+              "Project GIS Certificate of Utilization"
+            ]
+          },
+          {
+            "label": "C.6. Policies pertaining to Intellectual Property Rights (IPR)",
+            "hrefs": [
+              "https://drive.google.com/open?id=1Q_c2oYj377DXFXhqhQGrC_G3xE0lw973&usp=drive_copy",
+              "https://drive.google.com/open?id=1oQwxHRZgJpGP5ixmpyWXMPP-H4WpSl9E&usp=drive_copy"
+            ],
+            "texts": [
+              "BOR BatStateU Technology Transfer Protocol",
+              "Policies on Intellectual Property Rights Research Manual"
+            ]
+          }
+        ]
+      },
+      {
+        "letter": "D",
+        "title": "Publication and Dissemination",
+        "items": [
+          {
+            "label": "D.1. Evidence of publication and dissemination of research results"
+          },
+          {
+            "label": "D.2. List of dissemination activities conducted (forum, conferences, seminars, etc.)",
+            "hrefs": [
+              "https://drive.google.com/open?id=11n-wuGLfMNcC-tclCHclTwj7XUqXlJDl&usp=drive_copy",
+              "https://drive.google.com/open?id=1nzZbZdCylYJedqgFtIqPPHWU6J92Wtm3&usp=drive_copy",
+              "https://drive.google.com/open?id=1zQRecwOznEkJiJOaiUZuA88PrGWsLi3r&usp=drive_copy",
+              "https://drive.google.com/open?id=1kdosRMFC933r9R4uc8mwZLZUQRJPTZvm&usp=drive_copy",
+              "https://drive.google.com/open?id=1Lef_JNLecjPPUUl9UA31ptRqOfhwWtNh&usp=drive_copy"
+            ],
+            "texts": [
+              "Narrative Report - AIHR 2022",
+              "Narrative Report - AIHR 2023",
+              "Narrative Report - AIHR 2024",
+              "Narrative Report - AIHR 2025",
+              "Narrative Report - AIHR 2026"
+            ]
+          },
+          {
+            "label": "D.3. Copies of published articles",
+            "hrefs": [
+              "https://drive.google.com/open?id=1-gLpiKMTIMpVPCClpUH59GPYbYiFw0Yb&usp=drive_copy"
+            ],
+            "texts": [
+              "SUITABILITY ANALYSIS FOR URBAN BICYCLE TOURISM OF ILOILO CITY USING GIS"
+            ]
+          },
+          {
+            "label": "D.4. Linkage/s established for exchange of research publications",
+            "hrefs": [
+              "https://drive.google.com/open?id=1zOzDIw0qCFUQss6LWa3nc69ReShEpSGS&usp=drive_copy",
+              "https://drive.google.com/open?id=1GW5LGlo6pi3hZS7P4x1S6WMnd_FKGR1B&usp=drive_copy",
+              "https://drive.google.com/open?id=13t-sTuPDzVeKvuWZtu6TV-jXF7p3tpRw&usp=drive_copy"
+            ],
+            "texts": [
+              "Research Linkages 2023",
+              "Research Linkages 2024",
+              "Research Linkages 2025"
+            ]
+          },
+          {
+            "label": "D.5. Composition of a Technical Committee to edit research manuscripts and technical reports",
+            "hrefs": [
+              "https://drive.google.com/open?id=1MHrYG_5SNzUffNXJJ_iEKCr-xzgiBx1B&usp=drive_copy",
+              "https://drive.google.com/open?id=1QpZdQVAKSPtVQxFFypPddSz9wl-37N9r&usp=drive_copy"
+            ],
+            "texts": [
+              "SPARK PROGRAM DETAILS",
+              "SPARK PUBMAT"
+            ]
+          },
+          {
+            "label": "D.6. List Of Faculty Who Served As Paper Presenters, Lecturer, External Evaluator, Dissertation/Thesis Adviser, Critic, Etc., Including Relevant Information",
+            "hrefs": [
+              "https://drive.google.com/open?id=1ZPBj0ie1nkQ01NJMM1kWnu66Yt7E9jzb&usp=drive_copy"
+            ],
+            "texts": [
+              "Capstone Projects Copy of Titles"
+            ]
+          }
+        ]
       }
     ]
   },
