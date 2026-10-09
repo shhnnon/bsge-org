@@ -282,10 +282,14 @@ export const areas = [  {
             ]
           },
           {
-            "label": "A.3. Profile of the faculty according to:"
+            "label": "A.3. Profile of the faculty according to:",
+            "hrefs": ["https://drive.google.com/open?id=1g3V12SnHlLdGSexPpwi2PFanYPlQNgcJbqlxTZ2zims&usp=drive_copy"],
+            "texts": ["FACULTY MATRIX AY 2026-2027"]
           },
           {
-            "label": "A.4. List of Faculty who have received academic awards/recognitions."
+            "label": "A.4. List of Faculty who have received academic awards/recognitions.",
+            "hrefs": ["https://drive.google.com/open?id=1TGEe34oyDFB7Li8QvPlmDnDBAQpODqpX&usp=drive_copy"],
+            "texts": ["Engr. Thristan Aldovino - Academic Award"]
           }
         ]
       },
@@ -454,7 +458,15 @@ export const areas = [  {
             "href": "https://drive.google.com/file/d/1T_8THzg-ElR57p1HMBryRQpuDXvkIj7K/view?usp=sharing"
           },
           {
-            "label": "E.2. Summary of faculty who were granted scholarship, fellowship, etc."
+            "label": "E.2. Summary of faculty who were granted scholarship, fellowship, etc.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1qYhXp8FGjMeTENK2T2CfperazvroBzxO&usp=drive_copy",
+              "https://drive.google.com/open?id=1xFt0E3b_H6Ycv02Uzg-D6lXYVxDhnujz&usp=drive_copy"
+            ],
+            "texts": [
+              "List of Faculty Scholars AY 2026 - 2027",
+              "List of Faculty who Attended Fellowship Programs"
+            ]
           },
           {
             "label": "E.3. File copies of Scholarship/Fellowship/Training Contract.",
@@ -547,7 +559,9 @@ export const areas = [  {
             ]
           },
           {
-            "label": "F.5. List of publications where faculty outputs are published."
+            "label": "F.5. List of publications where faculty outputs are published.",
+            "hrefs": ["https://drive.google.com/open?id=1fqJMmOxEv_pu2xa2sYi8hLGmiPAqvCormqDy_oqOFzY&usp=drive_copy"],
+            "texts": ["List of Geodetic Engineering Faculty Research"]
           }
         ]
       },
@@ -633,7 +647,9 @@ export const areas = [  {
             "href": "https://drive.google.com/file/d/12DTWX0Mwoz4EXde0xfDfuml08_PTOz9Z/view?usp=sharing"
           },
           {
-            "label": "G.6. List of faculty given recognition/award/credits for outstanding performance and production of scholarly works."
+            "label": "G.6. List of faculty given recognition/award/credits for outstanding performance and production of scholarly works.",
+            "hrefs": ["https://drive.google.com/open?id=1fqJMmOxEv_pu2xa2sYi8hLGmiPAqvCormqDy_oqOFzY&usp=drive_copy"],
+            "texts": ["List of Geodetic Engineering Faculty Research"]
           }
         ]
       },
@@ -642,22 +658,44 @@ export const areas = [  {
         "title": "Professionalism",
         "items": [
           {
-            "label": "H.1. Evidence/s on faculty attendance in class and other institutional activities."
+            "label": "H.1. Evidence/s on faculty attendance in class and other institutional activities.",
+            "hrefs": ["https://drive.google.com/open?id=1dyJ05-jP86LXpeucTB967lwtXGUgnaV_&usp=drive_copy"],
+            "texts": ["GE 407"]
           },
           {
-            "label": "H.2. Minutes of Meetings Conducted."
+            "label": "H.2. Minutes of Meetings Conducted.",
+            "hrefs": [
+              "https://drive.google.com/open?id=1mEvYolT0O_J6m2F7Kc451e7qFbJMICeR&usp=drive_copy",
+              "https://drive.google.com/open?id=1PP456k-8ZkXK4qZ7NICWVo6e9pbOQMKv&usp=drive_copy"
+            ],
+            "texts": ["DCE Faculty Meeting", "Memo No.18 S2026 DCE Meeting with the Dean"]
           },
           {
-            "label": "H.3. Evidence on Submission of Required Reports by the faculty."
+            "label": "H.3. Evidence on Submission of Required Reports by the faculty.",
+            "hrefs": ["https://drive.google.com/open?id=14wF2ClT4qqYl2Gw4xRSU31jeGczLRPrL&usp=drive_copy"],
+            "texts": ["Required Reports to be Submitted by Faculty"]
           },
           {
-            "label": "H.4. Personnel Records on Administrative/Disciplinary Cases, if any."
+            "label": "H.4. Personnel Records on Administrative/Disciplinary Cases, if any.",
+            "hrefs": ["https://drive.google.com/open?id=1x8mPHj-iJsVH1JfrwV-zt5s4hPNEP42V&usp=drive_copy"],
+            "texts": ["Personnel Record on Administrative or Disciplinary Case"]
           },
           {
-            "label": "H.5. Records of termination cases, if any."
+            "label": "H.5. Records of termination cases, if any.",
+            "hrefs": ["https://drive.google.com/open?id=1JFkjXL9eQtI1gt_-GvCFbl03a3IAvwlx&usp=drive_copy"]
           },
           {
-            "label": "H.6. Evidence/s of professional growth (advanced studies and attendance to seminars and other in-service training)."
+            "label": "H.6. Evidence/s of professional growth (advanced studies and attendance to seminars and other in-service training).",
+            "hrefs": [
+              "https://drive.google.com/open?id=1g3V12SnHlLdGSexPpwi2PFanYPlQNgcJbqlxTZ2zims&usp=drive_copy",
+              "https://drive.google.com/open?id=1Z-AjAk2YmZfN25AG73coTDBH7IkJwBk2&usp=drive_copy",
+              "https://drive.google.com/open?id=14ZqPCDdmfiLXHBSd7Rf9QmiptVctQmmU&usp=drive_copy"
+            ],
+            "texts": [
+              "FACULTY MATRIX AY 2026 - 2027",
+              "CERTIFICATES",
+              "CERTIFICATES"
+            ]
           },
           {
             "label": "H.7. Code of Professional Ethics/RA 6713 and other pertinent CSC issuances.",
