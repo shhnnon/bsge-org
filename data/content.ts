@@ -180,22 +180,6 @@ export const areas = [  {
           {
             "label": "B.3. Evidence-s of awareness and acceptability of the VMGO",
             "href": "https://drive.google.com/file/d/1uX9356mp7aYBwUdX0DOcSb25ZfkFSmru/view?usp=sharing"
-          },          {
-            "label": "C.2 Awards-citations received by the program under survey"
-          },
-          {
-            "label": "C.3 List of linkages, consortia and networking",
-            "hrefs": [
-              "https://drive.google.com/file/d/1T5yXf6BwhTzkWG9iWqmM5Fq9mik8d2sj/view?usp=sharing",
-              "https://drive.google.com/file/d/1JdOWttqPw0LGtGEad4tHKTxvj2T9B_PZ/view?usp=sharing",
-              "https://drive.google.com/file/d/1RFES5dVMyUn6A2OhtEqhuO_onkhbStMr/view?usp=sharing",
-              "https://drive.google.com/file/d/1hVYEF5Q4xiVlaaW1tpEYTebBYM3DRseF/view?usp=sharing",
-              "https://drive.google.com/file/d/1WtkVKHtVJ7buB6_ChPOZpVr9bF3xyWNU/view?usp=sharing",
-              "https://drive.google.com/file/d/1kq5Fr7TeyA5NHZ3UP3j4D6GYLFoHbi7N/view?usp=sharing"
-            ]
-          },
-          {
-            "label": "C.4 Data on employability of graduates"
           }
         ]
       }
