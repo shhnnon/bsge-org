@@ -2754,10 +2754,13 @@ export const areas = [  {
                 "texts": ["CEAFA 1st Floor", "CEAFA 2nd Floor", "CEAFA 3rd Floor", "CEAFA 4th Floor", "CEAFA 5th Floor", "Toilets per Building"]
           },
           {
-            "label": "E.4. List and description of function rooms (administrative office, faculty room, faculty lounge, music room, conference hall, multimedia room, etc.)"
+            "label": "E.4. List and description of function rooms (administrative office, faculty room, faculty lounge, music room, conference hall, multimedia room, etc.)",
+            "hrefs": ["https://drive.google.com/open?id=1Sk4nJm40S-ZKSuoA7HL-GRwEFB1V17Lx&usp=drive_copy"]
           },
           {
-            "label": "E.5. File copies of approved requests for the use of the function rooms."
+            "label": "E.5. File copies of approved requests for the use of the function rooms.",
+            "hrefs": ["https://drive.google.com/open?id=1oWeS48IORxy1JElsPBVmIOFx90i5IGkV&usp=drive_copy", "https://drive.google.com/open?id=1qpwCsICwB2Sl9HTILPI2Yh3F2FHFFj0j&usp=drive_copy", "https://drive.google.com/open?id=1bj14Ik3mXFINRZs2051LZD40PYbIiv_w&usp=drive_copy"],
+            "texts": ["GSO FUNCTIONAL CHART 2026", "Processing Request for the Use of University Facility", "REQUEST FOR FACILITIES"]
           }
         ]
       },
