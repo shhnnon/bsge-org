@@ -2781,7 +2781,9 @@ export const areas = [  {
             ]
           },
           {
-            "label": "F.3. List of Assembly Halls"
+            "label": "F.3. List of Assembly Halls",
+            "hrefs": ["https://drive.google.com/open?id=1BHRcy79jXxHmrex6pvvwdV8uMVkzqbK2&usp=drive_copy", "https://drive.google.com/open?id=12h_JFYRAxRkGIvJmMjYJEC-H5Ol0EyGc&usp=drive_copy", "https://drive.google.com/open?id=1QfVYXXh1IbFlAFpbwawH6n2-TXDpNXsK&usp=drive_copy", "https://drive.google.com/open?id=1b8t_wNBYMldp-NVO2IF7fGd1iG9qmPls&usp=drive_copy", "https://drive.google.com/open?id=1EfYXkJ30PgRMTZzmVM8jmW7fREpl1wgz&usp=drive_copy", "https://drive.google.com/open?id=1RNVZ2Sf7HqPlOtn8-L5BCeXP8LvpyK6f&usp=drive_copy", "https://drive.google.com/open?id=1mix7PPlQMi1GnmFHnHSygOQuQFvIkH6s&usp=drive_copy", "https://drive.google.com/open?id=1FKJuUUcyEnI3Y7sZ7z0NNdqzZ_TkJpR4&usp=drive_copy", "https://drive.google.com/open?id=1CF6izhic4aJlREc4_unwI0jPCekENhvl&usp=drive_copy"],
+            "texts": ["Assembly Halls", "Request for the use Facility - ROTC Graduation", "Request for the use Facility - Turnover", "Request for the use of Facility 2nd Semester - 2025 - 2026 NSTP", "Request for the Use of Gymnasium - Final Exam", "Request for the Use of University Facility - ROTC", "Request for the Use of University Facility", "Request for the Use of University Facility Multipurpose OSP", "REQUEST FOR THE USE OF FACILITY PASUC"]
           },
           {
             "label": "F.4. Rules and regulations in the use of assembly halls and sports/athletic facilities.",
@@ -2877,13 +2879,17 @@ export const areas = [  {
         "title": "Dormitories",
         "items": [
           {
-            "label": "K.1. Floor plan of Dormitories, showing entrance and exit points, conference hall, mess hall, Dorm Head’s office, etc."
+            "label": "K.1. Floor plan of Dormitories, showing entrance and exit points, conference hall, mess hall, Dorm Head’s office, etc.",
+            "hrefs": ["https://drive.google.com/open?id=1l-KWXt2nLLATVkGt85qArMiKcUS215bT&usp=drive_copy"],
+            "texts": ["Floor Plan of Dormitory (5th Floor, Albert Einstein Bldg.)"]
           },
           {
             "label": "K.2. Certificate of Occupancy"
           },
           {
-            "label": "K.3. Evidence that a maintenance system exists"
+            "label": "K.3. Evidence that a maintenance system exists",
+            "hrefs": ["https://drive.google.com/open?id=1HlpiV4fH6NK_te1uX4yF-n4nrnwmikvk&usp=drive_copy", "https://drive.google.com/open?id=1z0PU9ISZjpnPZh4o4oAV--OZq3lKowIM&usp=drive_copy"],
+            "texts": ["MOV - Repair of Dormitory Lot 1 - Flooring and Repainting of Walls", "MOV - Repair of Dormitory Lot 2 - Fixtures, Cabinets, and Kitchen"]
           },
           {
             "label": "K.4. Requirements on admission of student, faculty and staff boarders.",
