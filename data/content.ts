@@ -2033,7 +2033,8 @@ export const areas = [  {
             ]
           },
           {
-            "label": "C.2. Summary of faculty researches conducted"
+            "label": "C.2. Summary of faculty researches conducted",
+            "hrefs": ["https://drive.google.com/file/d/1z4dzf7S_rV0Y8U5zHdU6XI-w9qD0a_QS/preview"]
           },
           {
             "label": "C.3. List of in-service training conducted to enhance faculty research capabilities",
@@ -2112,7 +2113,8 @@ export const areas = [  {
         "title": "Publication and Dissemination",
         "items": [
           {
-            "label": "D.1. Evidence of publication and dissemination of research results"
+            "label": "D.1. Evidence of publication and dissemination of research results",
+            "hrefs": ["https://drive.google.com/file/d/1uNYzvYlb-Fow5i0c6NrOsW2C495JBO8K/preview"]
           },
           {
             "label": "D.2. List of dissemination activities conducted (forum, conferences, seminars, etc.)",
@@ -2684,7 +2686,21 @@ export const areas = [  {
                 "texts": ["Cleaning Task", "CLEANLINESS AND ORDERLINESS ASSESSMENT FORM", "CLEANLINESS ORDERLINESS EVALUATION RESULT", "DUTIES ADMIN-AIDE-I", "DUTIES ADMIN-AIDE-II", "GSO FUNCTIONAL CHART 2026", "TEMPORARY SCHED SEPTEMBER 16-30, 2026"]
           },
           {
-            "label": "B.2.5. Description of a mechanism to ensure the security of the academic community inside the campus"
+            "label": "B.2.5. Description of a mechanism to ensure the security of the academic community inside the campus",
+            "hrefs": [
+              "https://drive.google.com/file/d/1f3dZKB-HML-_yo3kn01aIY-dTsCjFSKs/preview",
+              "https://drive.google.com/file/d/1nDj8xwvF5MN4htIa2GWMaqAOfsWf2len/preview",
+              "https://drive.google.com/file/d/17VXYfVbVODldeaXfLUfgYmj-nEZ9U2JY/preview",
+              "https://drive.google.com/file/d/1rv-jo63Ptd-AU9YBTIVkiD2VYj-ItoVM/preview",
+              "https://drive.google.com/file/d/1KGF0kmhvEVH_3Y6WFQ1-sJmAaeJtOw8T/preview"
+            ],
+            "texts": [
+              "Incidents Report - April 20, 2026",
+              "Incidents Report - January 23, 2026",
+              "MONITORING LOG SECURITY POST",
+              "PDS_PASIA E",
+              "Security inside the Campus"
+            ]
           }
         ]
       },
@@ -3120,7 +3136,8 @@ export const areas = [  {
             ]
           },
           {
-            "label": "B.3. List of fabricated equipment with patent (state patent number), if any."
+            "label": "B.3. List of fabricated equipment with patent (state patent number), if any.",
+            "hrefs": ["https://drive.google.com/file/d/1aCm_wXSNqeZTzZPDpc3izGdLtUfCGQAP/preview"]
           }
         ]
       },
